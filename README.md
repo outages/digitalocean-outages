@@ -4,7 +4,7 @@ This is an *unofficial* repository that provides a Git history of outages at [Di
 
 ## How to use
 
-- Visit the [history for the `digitalocean_outages.json`](https://github.com/marcolussetti/aws-outages/commits/master/digitalocean_outages.json) file.
+- Visit the [history for the `digitalocean_outages.json`](https://github.com/outages/digitalocean-outages/commits/master/digitalocean_outages.json) file.
 
 ## Credits
 
