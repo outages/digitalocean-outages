@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-10T12:09:49.401Z"
+    "updated_at": "2020-11-10T12:24:43.127Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -375,6 +375,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
+      "status": "under_maintenance",
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2020-11-10T12:15:34.991Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -385,21 +400,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2020-11-05T10:00:52.341Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -512,9 +512,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2020-11-05T10:00:52.520Z",
+      "updated_at": "2020-11-10T12:15:35.036Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -575,9 +575,9 @@
     {
       "id": "91bm8jcnj07h",
       "name": "SFO2 Networking Maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2020-11-10T12:09:48.870Z",
-      "updated_at": "2020-11-10T12:09:49.394Z",
+      "updated_at": "2020-11-10T12:15:35.637Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -585,6 +585,32 @@
       "started_at": "2020-11-10T12:09:48.860Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "4crjhysl24tv",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "91bm8jcnj07h",
+          "created_at": "2020-11-10T12:15:35.082Z",
+          "updated_at": "2020-11-10T12:15:35.634Z",
+          "display_at": "2020-11-10T12:15:35.082Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1326136419622903800
+        },
         {
           "id": "z46qzvgsbnms",
           "status": "scheduled",
@@ -616,9 +642,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2020-11-05T10:00:52.520Z",
+          "updated_at": "2020-11-10T12:15:35.036Z",
           "position": 16,
           "description": null,
           "showcase": false,
@@ -631,9 +657,9 @@
         {
           "id": "8kndbnbgddpr",
           "name": "SFO2",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2020-11-05T10:00:52.341Z",
+          "updated_at": "2020-11-10T12:15:34.991Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -649,7 +675,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
