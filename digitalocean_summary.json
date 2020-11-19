@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-19T14:54:05.211Z"
+    "updated_at": "2020-11-19T15:26:33.295Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -467,9 +467,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2020-11-19T09:53:33.919Z",
+      "updated_at": "2020-11-19T15:26:32.588Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -570,136 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "bq000wdjplq5",
-      "name": "Issues with adding/updating trusted sources on Database clusters",
-      "status": "monitoring",
-      "created_at": "2020-11-19T09:53:33.888Z",
-      "updated_at": "2020-11-19T14:54:05.203Z",
-      "monitoring_at": "2020-11-19T14:54:04.753Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/zwgtng5cczdc",
-      "started_at": "2020-11-19T09:53:33.879Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "vmpydchzght0",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue with adding/updating trusted sources on Managed Database clusters and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "bq000wdjplq5",
-          "created_at": "2020-11-19T14:54:04.753Z",
-          "updated_at": "2020-11-19T14:54:05.200Z",
-          "display_at": "2020-11-19T14:54:04.753Z",
-          "affected_components": [
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1329437795967004700
-        },
-        {
-          "id": "2bph19m11ssm",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with Database clusters and is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "bq000wdjplq5",
-          "created_at": "2020-11-19T12:48:23.892Z",
-          "updated_at": "2020-11-19T12:48:24.240Z",
-          "display_at": "2020-11-19T12:48:23.892Z",
-          "affected_components": [
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1329406167274070000
-        },
-        {
-          "id": "fqbp2j0wntz5",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Database clusters. During this time, you may experience issues with editing/updating trusted sources on the Database clusters. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "bq000wdjplq5",
-          "created_at": "2020-11-19T09:53:33.954Z",
-          "updated_at": "2020-11-19T09:53:34.321Z",
-          "display_at": "2020-11-19T09:53:33.954Z",
-          "affected_components": [
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1329362169440268300
-        }
-      ],
-      "components": [
-        {
-          "id": "lklbmflv3jcl",
-          "name": "Managed Databases",
-          "status": "degraded_performance",
-          "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2020-11-19T09:53:33.919Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2020-10-21T04:36:56.361Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
