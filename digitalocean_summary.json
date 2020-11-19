@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-19T10:25:17.635Z"
+    "updated_at": "2020-11-19T12:48:24.249Z"
   },
   "components": [
     {
@@ -574,9 +574,9 @@
     {
       "id": "bq000wdjplq5",
       "name": "Issues with adding/updating trusted sources on Database clusters",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2020-11-19T09:53:33.888Z",
-      "updated_at": "2020-11-19T09:53:34.323Z",
+      "updated_at": "2020-11-19T12:48:24.243Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -584,6 +584,32 @@
       "started_at": "2020-11-19T09:53:33.879Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "2bph19m11ssm",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with Database clusters and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "incident_id": "bq000wdjplq5",
+          "created_at": "2020-11-19T12:48:23.892Z",
+          "updated_at": "2020-11-19T12:48:24.240Z",
+          "display_at": "2020-11-19T12:48:23.892Z",
+          "affected_components": [
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1329406167274070000
+        },
         {
           "id": "fqbp2j0wntz5",
           "status": "investigating",
