@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-23T08:21:10.594Z"
+    "updated_at": "2020-11-23T19:37:39.662Z"
   },
   "components": [
     {
@@ -571,7 +571,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "nl6zpgsg39cb",
+      "name": "Networking/Storage in NYC3",
+      "status": "scheduled",
+      "created_at": "2020-11-23T19:37:39.106Z",
+      "updated_at": "2020-11-23T19:37:39.643Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/7s3zfx88clsy",
+      "started_at": "2020-11-23T19:37:39.094Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "571nvz7vcbkw",
+          "status": "scheduled",
+          "body": "During the above window, our Network and Storage Engineering teams will be performing maintenance on multiple storage products in our NYC3 region in order to improve performance and reliability.\n\nThe maintenance will occur during the hour noted above, but expected impact will last for approximately three to five minutes within the hour window.\n\nExpected Impact:\n\nFor users utilizing the Spaces service in NYC3, there will be a dip in availability while working with objects. Clients will be directed to retry after the maintenance automatically using a standard HTTP mechanism (503 SlowDown, Retry-After).\n\nFor users utilizing the App Platform service, builds in NYC may fail during this period, and static sites in NYC may experience intermittent errors.\n\nFor users utilizing the Container Registry service, failures may be experienced in the NYC region during the maintenance, and manual retries may be required.\n\nFor all of the above, we will endeavour to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
+          "incident_id": "nl6zpgsg39cb",
+          "created_at": "2020-11-23T19:37:39.168Z",
+          "updated_at": "2020-11-23T19:37:39.640Z",
+          "display_at": "2020-11-23T19:37:39.168Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1330958711603355600
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "operational",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2020-11-16T22:10:29.804Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3hq55lyvq3rl",
+          "name": "NYC3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:37.049Z",
+          "updated_at": "2020-11-04T21:37:56.146Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2020-11-23T21:00:00.000Z",
+      "scheduled_until": "2020-11-23T22:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
