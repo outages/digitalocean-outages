@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-23T21:00:59.256Z"
+    "updated_at": "2020-11-23T22:00:31.787Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -317,9 +317,9 @@
     {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2020-11-23T21:00:58.271Z",
+      "updated_at": "2020-11-23T22:00:31.191Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2020-11-23T21:00:58.309Z",
+      "updated_at": "2020-11-23T22:00:31.214Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -571,124 +571,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "nl6zpgsg39cb",
-      "name": "Networking/Storage in NYC3",
-      "status": "in_progress",
-      "created_at": "2020-11-23T19:37:39.106Z",
-      "updated_at": "2020-11-23T21:00:59.246Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/7s3zfx88clsy",
-      "started_at": "2020-11-23T19:37:39.094Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "y5822w2p89zd",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "nl6zpgsg39cb",
-          "created_at": "2020-11-23T21:00:58.361Z",
-          "updated_at": "2020-11-23T21:00:59.241Z",
-          "display_at": "2020-11-23T21:00:58.361Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1330979681433124900
-        },
-        {
-          "id": "m3xkry9jpl68",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "nl6zpgsg39cb",
-          "created_at": "2020-11-23T19:59:32.690Z",
-          "updated_at": "2020-11-23T19:59:33.227Z",
-          "display_at": "2020-11-23T19:59:32.690Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1330964221111140400
-        },
-        {
-          "id": "571nvz7vcbkw",
-          "status": "scheduled",
-          "body": "During the above window, our Network and Storage Engineering teams will be performing maintenance on multiple storage products in our NYC3 region in order to improve performance and reliability.\n\nThe maintenance will occur during the hour noted above, but expected impact will last for approximately three to five minutes within the hour window.\n\nExpected Impact:\n\nFor users utilizing the Spaces service in NYC3, there will be a dip in availability while working with objects. Clients will be directed to retry after the maintenance automatically using a standard HTTP mechanism (503 SlowDown, Retry-After).\n\nFor users utilizing the App Platform service, builds in NYC may fail during this period, and static sites in NYC may experience intermittent errors.\n\nFor users utilizing the Container Registry service, failures may be experienced in the NYC region during the maintenance, and manual retries may be required.\n\nFor all of the above, we will endeavour to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
-          "incident_id": "nl6zpgsg39cb",
-          "created_at": "2020-11-23T19:37:39.168Z",
-          "updated_at": "2020-11-23T19:37:39.640Z",
-          "display_at": "2020-11-23T19:37:39.168Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1330958711603355600
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "under_maintenance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2020-11-23T21:00:58.309Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2020-11-23T21:00:58.271Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2020-11-23T21:00:00.000Z",
-      "scheduled_until": "2020-11-23T22:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
