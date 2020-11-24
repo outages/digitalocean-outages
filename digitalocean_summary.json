@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-24T19:04:49.987Z"
+    "updated_at": "2020-11-24T19:32:37.462Z"
   },
   "components": [
     {
@@ -572,32 +572,32 @@
   ],
   "incidents": [
     {
-      "id": "nhxrpk87xprq",
-      "name": "Cloud Control Panel Login",
-      "status": "investigating",
-      "created_at": "2020-11-24T19:04:49.315Z",
-      "updated_at": "2020-11-24T19:04:49.983Z",
-      "monitoring_at": null,
+      "id": "zk0lnnv2j333",
+      "name": "Issue with App Platform Custom Domains",
+      "status": "monitoring",
+      "created_at": "2020-11-24T17:02:13.068Z",
+      "updated_at": "2020-11-24T19:32:37.455Z",
+      "monitoring_at": "2020-11-24T19:32:36.902Z",
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/0v3jc1dwc47j",
-      "started_at": "2020-11-24T19:04:49.303Z",
+      "shortlink": "https://stspg.io/4hn2js50ry54",
+      "started_at": "2020-11-24T17:02:13.047Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
-          "id": "570z5pxvl9hn",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating issues with login attempts to our Cloud Control Panel (cloud.digitalocean.com) via email/password. During this time, users may experience failures when logging in with their email and password. Users utilizing Google Oauth/Github do not appear to be impacted. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "nhxrpk87xprq",
-          "created_at": "2020-11-24T19:04:49.408Z",
-          "updated_at": "2020-11-24T19:04:49.980Z",
-          "display_at": "2020-11-24T19:04:49.408Z",
+          "id": "yhgs8lhjg28d",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix for the issue impacting App Platform custom apex domains and is monitoring the situation closely. We will post an update once the issue is fully resolved.",
+          "incident_id": "zk0lnnv2j333",
+          "created_at": "2020-11-24T19:32:36.902Z",
+          "updated_at": "2020-11-24T19:32:37.452Z",
+          "display_at": "2020-11-24T19:32:36.902Z",
           "affected_components": [
             {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "partial_outage"
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
             },
             {
               "code": "7t9s4fqwl4pm",
@@ -608,55 +608,8 @@
           ],
           "deliver_notifications": true,
           "custom_tweet": null,
-          "tweet_id": 1331312838095224800
-        }
-      ],
-      "components": [
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "partial_outage",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2020-11-24T19:04:49.357Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
+          "tweet_id": 1331319831707099100
         },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2020-10-21T04:36:56.361Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "zk0lnnv2j333",
-      "name": "Issue with App Platform Custom Domains",
-      "status": "identified",
-      "created_at": "2020-11-24T17:02:13.068Z",
-      "updated_at": "2020-11-24T17:29:59.095Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/4hn2js50ry54",
-      "started_at": "2020-11-24T17:02:13.047Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
         {
           "id": "fzrrhpplj970",
           "status": "identified",
@@ -721,6 +674,105 @@
           "description": null,
           "showcase": false,
           "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2020-10-21T04:36:56.361Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
+      "id": "nhxrpk87xprq",
+      "name": "Cloud Control Panel Login",
+      "status": "monitoring",
+      "created_at": "2020-11-24T19:04:49.315Z",
+      "updated_at": "2020-11-24T19:29:35.018Z",
+      "monitoring_at": "2020-11-24T19:29:34.052Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0v3jc1dwc47j",
+      "started_at": "2020-11-24T19:04:49.303Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "495ft9zwydn0",
+          "status": "monitoring",
+          "body": "Our Engineering team has identified the issue and has implemented a fix to resolve the issue with login attempts. We are currently monitoring the situation and we will post an update as soon as the issue is fully resolved.",
+          "incident_id": "nhxrpk87xprq",
+          "created_at": "2020-11-24T19:29:34.052Z",
+          "updated_at": "2020-11-24T19:29:35.014Z",
+          "display_at": "2020-11-24T19:29:34.052Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1331319066494025700
+        },
+        {
+          "id": "570z5pxvl9hn",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating issues with login attempts to our Cloud Control Panel (cloud.digitalocean.com) via email/password. During this time, users may experience failures when logging in with their email and password. Users utilizing Google Oauth/Github do not appear to be impacted. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "nhxrpk87xprq",
+          "created_at": "2020-11-24T19:04:49.408Z",
+          "updated_at": "2020-11-24T19:04:49.980Z",
+          "display_at": "2020-11-24T19:04:49.408Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1331312838095224800
+        }
+      ],
+      "components": [
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2020-11-24T19:04:49.357Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
           "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
