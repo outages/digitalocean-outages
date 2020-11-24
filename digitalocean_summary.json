@@ -4,20 +4,20 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-24T17:29:59.102Z"
+    "updated_at": "2020-11-24T19:04:49.987Z"
   },
   "components": [
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
+      "id": "1082j139b5bg",
+      "name": "API",
       "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2020-10-21T04:36:56.361Z",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2020-11-12T22:25:36.958Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -54,31 +54,16 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2020-11-12T22:25:36.958Z",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2020-10-21T04:36:56.361Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "degraded_performance",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2020-11-24T17:02:13.107Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -99,9 +84,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "degraded_performance",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2020-11-24T17:02:13.107Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -135,21 +135,6 @@
       ]
     },
     {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2020-11-13T02:00:45.332Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "19n6t4685zrn",
       "name": "Billing",
       "status": "operational",
@@ -165,12 +150,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-07-21T17:25:30.012Z",
-      "position": 4,
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2020-11-13T02:00:45.332Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -195,16 +180,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2020-11-12T22:25:36.976Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-07-21T17:25:30.012Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -225,12 +210,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2020-09-18T04:04:32.252Z",
-      "position": 6,
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "partial_outage",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2020-11-24T19:04:49.357Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -250,6 +235,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2020-09-18T04:04:32.252Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -572,6 +572,79 @@
   ],
   "incidents": [
     {
+      "id": "nhxrpk87xprq",
+      "name": "Cloud Control Panel Login",
+      "status": "investigating",
+      "created_at": "2020-11-24T19:04:49.315Z",
+      "updated_at": "2020-11-24T19:04:49.983Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0v3jc1dwc47j",
+      "started_at": "2020-11-24T19:04:49.303Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "570z5pxvl9hn",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating issues with login attempts to our Cloud Control Panel (cloud.digitalocean.com) via email/password. During this time, users may experience failures when logging in with their email and password. Users utilizing Google Oauth/Github do not appear to be impacted. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "nhxrpk87xprq",
+          "created_at": "2020-11-24T19:04:49.408Z",
+          "updated_at": "2020-11-24T19:04:49.980Z",
+          "display_at": "2020-11-24T19:04:49.408Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1331312838095224800
+        }
+      ],
+      "components": [
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2020-11-24T19:04:49.357Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2020-10-21T04:36:56.361Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "zk0lnnv2j333",
       "name": "Issue with App Platform Custom Domains",
       "status": "identified",
@@ -674,6 +747,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
