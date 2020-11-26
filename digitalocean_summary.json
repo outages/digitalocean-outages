@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-26T06:23:33.888Z"
+    "updated_at": "2020-11-26T07:26:56.037Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -512,9 +512,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2020-11-26T05:39:55.337Z",
+      "updated_at": "2020-11-26T07:26:55.590Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -574,9 +574,9 @@
     {
       "id": "z75zqm5tvj0m",
       "name": "Issues with Private Networking in AMS2",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2020-11-26T05:39:55.280Z",
-      "updated_at": "2020-11-26T05:39:55.952Z",
+      "updated_at": "2020-11-26T07:26:56.032Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -584,6 +584,32 @@
       "started_at": "2020-11-26T05:39:55.271Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "bchszxv0f3l7",
+          "status": "identified",
+          "body": "Our engineers have identified an issue impacting Private network connectivity in AMS2 region, and are actively working on a fix. Once we have more information we will share another update.",
+          "incident_id": "z75zqm5tvj0m",
+          "created_at": "2020-11-26T07:26:55.633Z",
+          "updated_at": "2020-11-26T07:26:56.029Z",
+          "display_at": "2020-11-26T07:26:55.633Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1331861981700079600
+        },
         {
           "id": "fvby7cfvbq6v",
           "status": "investigating",
@@ -615,9 +641,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2020-11-26T05:39:55.337Z",
+          "updated_at": "2020-11-26T07:26:55.590Z",
           "position": 16,
           "description": null,
           "showcase": false,
