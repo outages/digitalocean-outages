@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-11-30T08:08:58.905Z"
+    "updated_at": "2020-11-30T14:00:31.932Z"
   },
   "components": [
     {
@@ -571,7 +571,96 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "n2qd9wlsm7r1",
+      "name": "Spaces Maintenance in SFO2 region",
+      "status": "scheduled",
+      "created_at": "2020-11-30T13:47:44.603Z",
+      "updated_at": "2020-11-30T14:00:31.925Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/m91s90cw8wh4",
+      "started_at": "2020-11-30T13:47:44.593Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "fpkcssn5sftt",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "n2qd9wlsm7r1",
+          "created_at": "2020-11-30T14:00:31.353Z",
+          "updated_at": "2020-11-30T14:00:31.923Z",
+          "display_at": "2020-11-30T14:00:31.353Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1333410585480818700
+        },
+        {
+          "id": "tw5r818fj4sl",
+          "status": "scheduled",
+          "body": "During the above window, our Storage Engineering team will be performing maintenance in our SFO2 region for our Spaces service, in order to improve performance and reliability.\n\nExpected Impact:\n\nUsers may experience an increase in HTTP 503 errors, or periods of these errors, as well as increased latency in response times while working with objects in Spaces in SFO2, throughout the course of the maintenance. We will endeavor to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
+          "incident_id": "n2qd9wlsm7r1",
+          "created_at": "2020-11-30T13:47:44.650Z",
+          "updated_at": "2020-11-30T13:47:45.100Z",
+          "display_at": "2020-11-30T13:47:44.650Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1333407369183674400
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "operational",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2020-11-26T12:22:42.419Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "8kndbnbgddpr",
+          "name": "SFO2",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:57.020Z",
+          "updated_at": "2020-11-10T13:49:51.029Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2020-11-30T15:00:00.000Z",
+      "scheduled_until": "2020-12-02T22:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
