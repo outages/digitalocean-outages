@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-01T18:23:41.740Z"
+    "updated_at": "2020-12-01T19:13:36.364Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2020-12-01T17:55:54.148Z",
+      "updated_at": "2020-12-01T19:13:35.533Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -570,81 +570,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "krw7lc38672d",
-      "name": "Spaces Issue in AMS3 Region",
-      "status": "monitoring",
-      "created_at": "2020-12-01T17:55:54.107Z",
-      "updated_at": "2020-12-01T17:55:54.775Z",
-      "monitoring_at": "2020-12-01T17:55:54.198Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dlkc5zt3fry5",
-      "started_at": "2020-12-01T17:55:54.094Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "dnpvf6hpf97c",
-          "status": "monitoring",
-          "body": "Our engineering team is monitoring an issue which impacted Spaces availability in AMS3 between 17:26 and 17:46 UTC. During this time window, users may have experienced errors when interacting with Spaces in AMS3, or when creating new Spaces in the region. Our engineering team have already applied a fix, and we are monitoring the situation closely at this time. Thank you for your patience and understanding throughout this process. We will post another update once we're confident that the issue is fully resolved.",
-          "incident_id": "krw7lc38672d",
-          "created_at": "2020-12-01T17:55:54.198Z",
-          "updated_at": "2020-12-01T17:55:54.773Z",
-          "display_at": "2020-12-01T17:55:54.198Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "under_maintenance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1333832208860123100
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2020-12-01T17:55:54.148Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2020-11-13T02:00:45.332Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "n2qd9wlsm7r1",
@@ -729,9 +655,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2020-12-01T17:55:54.148Z",
+          "updated_at": "2020-12-01T19:13:35.533Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -762,7 +688,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
