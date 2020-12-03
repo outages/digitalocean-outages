@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-03T19:23:37.023Z"
+    "updated_at": "2020-12-03T20:00:36.719Z"
   },
   "components": [
     {
@@ -577,7 +577,7 @@
       "name": "Networking Maintenance in AMS3 Region",
       "status": "scheduled",
       "created_at": "2020-12-03T19:21:02.958Z",
-      "updated_at": "2020-12-03T19:21:03.953Z",
+      "updated_at": "2020-12-03T20:00:36.654Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -585,6 +585,19 @@
       "started_at": "2020-12-03T19:21:02.945Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "4t0lxgq85w7x",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "z0x1yvzfyhgz",
+          "created_at": "2020-12-03T20:00:34.631Z",
+          "updated_at": "2020-12-03T20:00:35.961Z",
+          "display_at": "2020-12-03T20:00:34.631Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1334588362745815000
+        },
         {
           "id": "n71w7mgbtshj",
           "status": "scheduled",
