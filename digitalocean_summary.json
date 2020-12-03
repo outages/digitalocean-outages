@@ -4,40 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-03T20:00:36.719Z"
+    "updated_at": "2020-12-03T21:00:46.764Z"
   },
   "components": [
-    {
-      "id": "6ycn9yslydsq",
-      "name": "Regions",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.379Z",
-      "updated_at": "2017-02-17T21:49:27.923Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "s2k7tnzlhrpw",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "7t9s4fqwl4pm",
-        "t3ygwyk0bymr",
-        "3s5rmcxl95h0",
-        "y7k7nwwgy36z",
-        "0kys855yj2y1",
-        "1hx8143ly544",
-        "cl06j64ltm9s",
-        "6v0yhwt7977x",
-        "3hq55lyvq3rl",
-        "mypfybvgyhrk",
-        "8kndbnbgddpr",
-        "99gtwvvfhtyz",
-        "nf94kg7630pr",
-        "c65109y4h6vk"
-      ]
-    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -69,6 +38,37 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "6ycn9yslydsq",
+      "name": "Regions",
+      "status": "under_maintenance",
+      "created_at": "2017-02-17T21:44:07.379Z",
+      "updated_at": "2017-02-17T21:49:27.923Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "s2k7tnzlhrpw",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "7t9s4fqwl4pm",
+        "t3ygwyk0bymr",
+        "3s5rmcxl95h0",
+        "y7k7nwwgy36z",
+        "0kys855yj2y1",
+        "1hx8143ly544",
+        "cl06j64ltm9s",
+        "6v0yhwt7977x",
+        "3hq55lyvq3rl",
+        "mypfybvgyhrk",
+        "8kndbnbgddpr",
+        "99gtwvvfhtyz",
+        "nf94kg7630pr",
+        "c65109y4h6vk"
+      ]
+    },
+    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -137,9 +137,9 @@
     {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2020-11-13T02:00:45.332Z",
+      "updated_at": "2020-12-03T21:00:46.030Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -165,21 +165,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-07-21T17:25:30.012Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -190,6 +175,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-07-21T17:25:30.012Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -225,21 +225,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2020-09-18T04:04:32.252Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1hx8143ly544",
       "name": "LON1",
       "status": "operational",
@@ -250,6 +235,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2020-09-18T04:04:32.252Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -315,21 +315,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2020-11-02T19:42:00.742Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -345,16 +330,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
+      "id": "yzksrkss544p",
+      "name": "DNS",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2020-11-05T10:00:52.294Z",
-      "position": 10,
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2020-11-02T19:42:00.742Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -375,12 +360,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2020-12-02T22:00:34.208Z",
-      "position": 11,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2020-11-05T10:00:52.294Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -405,16 +390,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
       "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2020-11-02T19:42:00.765Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2020-12-02T22:00:34.208Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -430,6 +415,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2020-11-02T19:42:00.765Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -465,21 +465,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2020-07-14T04:01:24.844Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
       "status": "operational",
@@ -490,6 +475,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2020-07-14T04:01:24.844Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -512,9 +512,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2020-11-26T07:26:55.590Z",
+      "updated_at": "2020-12-03T21:00:46.054Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -575,9 +575,9 @@
     {
       "id": "z0x1yvzfyhgz",
       "name": "Networking Maintenance in AMS3 Region",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2020-12-03T19:21:02.958Z",
-      "updated_at": "2020-12-03T20:00:36.654Z",
+      "updated_at": "2020-12-03T21:00:46.745Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -585,6 +585,32 @@
       "started_at": "2020-12-03T19:21:02.945Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "x5nynz4sqcrz",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "z0x1yvzfyhgz",
+          "created_at": "2020-12-03T21:00:46.091Z",
+          "updated_at": "2020-12-03T21:00:46.742Z",
+          "display_at": "2020-12-03T21:00:46.091Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1334603507173769200
+        },
         {
           "id": "4t0lxgq85w7x",
           "status": "scheduled",
@@ -629,9 +655,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2020-11-26T07:26:55.590Z",
+          "updated_at": "2020-12-03T21:00:46.054Z",
           "position": 16,
           "description": null,
           "showcase": false,
@@ -644,9 +670,9 @@
         {
           "id": "3s5rmcxl95h0",
           "name": "AMS3",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2020-11-13T02:00:45.332Z",
+          "updated_at": "2020-12-03T21:00:46.030Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -662,7 +688,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
