@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-05T11:45:37.054Z"
+    "updated_at": "2020-12-06T04:23:34.224Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -84,24 +84,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2020-11-24T19:59:09.102Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -135,6 +120,21 @@
       ]
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2020-11-24T19:59:09.102Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "19n6t4685zrn",
       "name": "Billing",
       "status": "operational",
@@ -152,10 +152,25 @@
     {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2020-12-04T01:00:33.650Z",
+      "updated_at": "2020-12-06T04:15:47.945Z",
       "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-07-21T17:25:30.012Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -180,16 +195,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-07-21T17:25:30.012Z",
-      "position": 4,
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2020-12-05T11:45:36.466Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -205,21 +220,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2020-12-05T11:45:36.466Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -255,21 +255,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2020-06-29T06:48:24.245Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -285,12 +270,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2020-05-12T19:06:28.784Z",
-      "position": 8,
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2020-06-29T06:48:24.245Z",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -315,16 +300,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2020-11-02T19:42:00.742Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2020-05-12T19:06:28.784Z",
+      "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -340,6 +325,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2020-11-02T19:42:00.742Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -435,21 +435,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2020-11-26T12:22:42.401Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
       "status": "operational",
@@ -465,16 +450,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2020-11-19T15:26:32.588Z",
-      "position": 14,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2020-11-26T12:22:42.401Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -490,6 +475,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2020-11-19T15:26:32.588Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2020-12-03T18:43:38.525Z",
+      "updated_at": "2020-12-06T04:15:47.968Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -570,10 +570,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "jtjf6c4gl0hb",
+      "name": "Issues with Spaces Availability in AMS3",
+      "status": "investigating",
+      "created_at": "2020-12-06T04:15:47.902Z",
+      "updated_at": "2020-12-06T04:15:48.784Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/660rwly9l25b",
+      "started_at": "2020-12-06T04:15:47.889Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "crq6986w3b5d",
+          "status": "investigating",
+          "body": "Our engineering team is investigating an issue with  Spaces in our AMS3 region. During this time you may experience errors and connectivity issues with any spaces operations. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "jtjf6c4gl0hb",
+          "created_at": "2020-12-06T04:15:48.015Z",
+          "updated_at": "2020-12-06T04:15:48.778Z",
+          "display_at": "2020-12-06T04:15:48.015Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1335437763252895700
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "partial_outage",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2020-12-06T04:15:47.968Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3s5rmcxl95h0",
+          "name": "AMS3",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:46:05.294Z",
+          "updated_at": "2020-12-06T04:15:47.945Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
