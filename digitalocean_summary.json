@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-11T04:31:31.633Z"
+    "updated_at": "2020-12-11T05:00:44.633Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -137,9 +137,9 @@
     {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2020-12-11T04:31:30.491Z",
+      "updated_at": "2020-12-11T05:00:43.803Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2020-12-11T04:31:30.531Z",
+      "updated_at": "2020-12-11T05:00:43.834Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -571,111 +571,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "0tdhp0gw8jhq",
-      "name": "Spaces Maintenance in AMS3 Region",
-      "status": "in_progress",
-      "created_at": "2020-12-11T03:51:53.818Z",
-      "updated_at": "2020-12-11T04:31:31.622Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/q8c9x3psn3y1",
-      "started_at": "2020-12-11T03:51:53.807Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "wkfmzyq0t6q5",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "0tdhp0gw8jhq",
-          "created_at": "2020-12-11T04:31:30.593Z",
-          "updated_at": "2020-12-11T04:31:31.608Z",
-          "display_at": "2020-12-11T04:31:30.593Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1337253656920395800
-        },
-        {
-          "id": "blzryvyjn7ch",
-          "status": "scheduled",
-          "body": "Start: 2020-12-11 04:30 UTC\nEnd: 2020-12-11 05:00 UTC\n\nDuring the above window, our Storage Engineering team will be performing maintenance in our AMS3 region for our Spaces service, in order to improve performance and reliability.\n\nExpected Impact:\n\nUsers may experience an increase in HTTP 503 errors, or periods of these errors, as well as increased latency in response times while working with objects in Spaces in AMS3, throughout the course of the maintenance. We will endeavor to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
-          "incident_id": "0tdhp0gw8jhq",
-          "created_at": "2020-12-11T03:51:53.872Z",
-          "updated_at": "2020-12-11T03:51:54.318Z",
-          "display_at": "2020-12-11T03:51:53.872Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1337243686044725200
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "under_maintenance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2020-12-11T04:31:30.531Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2020-12-11T04:31:30.491Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2020-12-11T04:30:00.000Z",
-      "scheduled_until": "2020-12-11T05:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
