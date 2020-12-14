@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-14T12:37:33.383Z"
+    "updated_at": "2020-12-14T13:29:24.369Z"
   },
   "components": [
     {
@@ -570,60 +570,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jqy04j5zy3sm",
-      "name": "Issues with SSO",
-      "status": "identified",
-      "created_at": "2020-12-14T12:37:32.731Z",
-      "updated_at": "2020-12-14T12:37:33.365Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/nvsdjxph04rc",
-      "started_at": "2020-12-14T12:37:32.721Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "3bqg3rwsn3xd",
-          "status": "identified",
-          "body": "Our Engineering team has identified an issue with certain SSO login providers. Our partner is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "jqy04j5zy3sm",
-          "created_at": "2020-12-14T12:37:32.790Z",
-          "updated_at": "2020-12-14T12:37:33.361Z",
-          "display_at": "2020-12-14T12:37:32.790Z",
-          "affected_components": [
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1338463133829132300
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2020-12-05T10:57:27.250Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
