@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-18T17:09:15.245Z"
+    "updated_at": "2020-12-18T18:00:22.150Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -557,9 +557,9 @@
     {
       "id": "w7dvwpvd248r",
       "name": "Spaces CDN",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-04-27T17:53:14.657Z",
-      "updated_at": "2020-12-18T16:22:39.278Z",
+      "updated_at": "2020-12-18T18:00:21.531Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -570,110 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rz1qcx2fjrhg",
-      "name": "Issues with Spaces CDN",
-      "status": "monitoring",
-      "created_at": "2020-12-18T16:22:39.241Z",
-      "updated_at": "2020-12-18T17:09:15.238Z",
-      "monitoring_at": "2020-12-18T17:09:14.789Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/f4tdmt6pk4p8",
-      "started_at": "2020-12-18T16:22:39.227Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "qs1ch75b3q5f",
-          "status": "monitoring",
-          "body": "Our engineering team has applied a fix for the issue impacting Spaces CDN, and they are monitoring the situation closely. We will share another update once the matter is fully resolved.",
-          "incident_id": "rz1qcx2fjrhg",
-          "created_at": "2020-12-18T17:09:14.789Z",
-          "updated_at": "2020-12-18T17:09:15.234Z",
-          "display_at": "2020-12-18T17:09:14.789Z",
-          "affected_components": [
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1339981060298293200
-        },
-        {
-          "id": "1qznz8n6vn68",
-          "status": "identified",
-          "body": "Our engineering team has identified an issue impacting Spaces CDN functionality, and they are actively working on a fix. During this time, users will experience errors when trying to create, delete, or purge a CDN. Existing CDNs should continue to function normally throughout this period. We apologize for any inconvenience, and we'll share more information as soon as it's available.",
-          "incident_id": "rz1qcx2fjrhg",
-          "created_at": "2020-12-18T16:22:39.323Z",
-          "updated_at": "2020-12-18T16:22:39.719Z",
-          "display_at": "2020-12-18T16:22:39.323Z",
-          "affected_components": [
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1339969335251488800
-        }
-      ],
-      "components": [
-        {
-          "id": "w7dvwpvd248r",
-          "name": "Spaces CDN",
-          "status": "degraded_performance",
-          "created_at": "2020-04-27T17:53:14.657Z",
-          "updated_at": "2020-12-18T16:22:39.278Z",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2020-12-05T10:57:27.250Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
