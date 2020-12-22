@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-22T08:18:08.905Z"
+    "updated_at": "2020-12-22T08:45:56.190Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -452,9 +452,9 @@
     {
       "id": "nf94kg7630pr",
       "name": "SGP1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2020-12-22T03:34:16.549Z",
+      "updated_at": "2020-12-22T08:45:55.592Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -570,103 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "xp04k7ycrxc5",
-      "name": "Issues with Spaces Availability in SGP1",
-      "status": "monitoring",
-      "created_at": "2020-12-22T03:34:16.520Z",
-      "updated_at": "2020-12-22T05:17:17.561Z",
-      "monitoring_at": "2020-12-22T05:17:17.234Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/h6scs4rp3kfy",
-      "started_at": "2020-12-22T03:34:16.515Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "6d0gf24z2x12",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue with Spaces availability in our SGP1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "xp04k7ycrxc5",
-          "created_at": "2020-12-22T05:17:17.234Z",
-          "updated_at": "2020-12-22T05:17:17.557Z",
-          "display_at": "2020-12-22T05:17:17.234Z",
-          "affected_components": [
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1341251440929476600
-        },
-        {
-          "id": "vvvgtxwg3y5m",
-          "status": "identified",
-          "body": "Our engineering team has identified the cause of the issue with Spaces availability in our SGP1 region and is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "xp04k7ycrxc5",
-          "created_at": "2020-12-22T03:52:29.032Z",
-          "updated_at": "2020-12-22T03:52:29.571Z",
-          "display_at": "2020-12-22T03:52:29.032Z",
-          "affected_components": [
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1341230100386234400
-        },
-        {
-          "id": "3q1mhymhjph8",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with Spaces availability in our SGP1 region. During this time you may experience an increased error rate and slow connections to your Spaces buckets. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "xp04k7ycrxc5",
-          "created_at": "2020-12-22T03:34:16.579Z",
-          "updated_at": "2020-12-22T03:34:16.982Z",
-          "display_at": "2020-12-22T03:34:16.579Z",
-          "affected_components": [
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1341225517769400300
-        }
-      ],
-      "components": [
-        {
-          "id": "nf94kg7630pr",
-          "name": "SGP1",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2020-12-22T03:34:16.549Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
