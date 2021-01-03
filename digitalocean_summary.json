@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-03T03:00:36.524Z"
+    "updated_at": "2021-01-03T03:28:49.264Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -435,21 +435,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2020-12-22T08:45:55.592Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
       "status": "operational",
@@ -460,6 +445,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
+      "status": "degraded_performance",
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-01-03T03:28:48.802Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -542,9 +542,9 @@
     {
       "id": "90kv6kp38str",
       "name": "Support Center",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-07-18T19:26:32.158Z",
-      "updated_at": "2021-01-03T03:00:34.935Z",
+      "updated_at": "2021-01-03T03:20:29.554Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -570,98 +570,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
-  "scheduled_maintenances": [
+  "incidents": [
     {
-      "id": "bkxtbgct4fhz",
-      "name": "Support Ticketing System Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-01-02T23:22:03.230Z",
-      "updated_at": "2021-01-03T03:00:36.509Z",
+      "id": "yl5qgdj4g0y9",
+      "name": "Spaces Availability Issues in SGP1",
+      "status": "investigating",
+      "created_at": "2021-01-03T03:28:48.774Z",
+      "updated_at": "2021-01-03T03:28:49.260Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/97s1yvt5p3v9",
-      "started_at": "2021-01-02T23:22:03.222Z",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kdv9m1fwpbpl",
+      "started_at": "2021-01-03T03:28:48.767Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
-          "id": "q7r09pzb9vyg",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "bkxtbgct4fhz",
-          "created_at": "2021-01-03T03:00:34.984Z",
-          "updated_at": "2021-01-03T03:00:36.433Z",
-          "display_at": "2021-01-03T03:00:34.984Z",
+          "id": "qtd7m3cysmrz",
+          "status": "investigating",
+          "body": "Our engineering team is investigating an issue with Spaces availability in our SGP1 region. During this time you may experience an increased error rate when accessing your Spaces. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "yl5qgdj4g0y9",
+          "created_at": "2021-01-03T03:28:48.846Z",
+          "updated_at": "2021-01-03T03:28:49.257Z",
+          "display_at": "2021-01-03T03:28:48.846Z",
           "affected_components": [
             {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
               "old_status": "operational",
-              "new_status": "under_maintenance"
+              "new_status": "degraded_performance"
             }
           ],
-          "deliver_notifications": true,
+          "deliver_notifications": false,
           "custom_tweet": null,
-          "tweet_id": 1345565695510081500
-        },
-        {
-          "id": "vsvz98rffjqn",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "bkxtbgct4fhz",
-          "created_at": "2021-01-03T02:00:30.322Z",
-          "updated_at": "2021-01-03T02:00:30.706Z",
-          "display_at": "2021-01-03T02:00:30.322Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1345550573857226800
-        },
-        {
-          "id": "2kzhxlrghyk9",
-          "status": "scheduled",
-          "body": "Start: 2021-01-03 03:00 UTC\nEnd: 2021-01-03 03:20 UTC\n\nDuring the above maintenance window, there will be maintenance performed on our ticketing system.\n\nExpected Impact:\n\nDuring the course of the maintenance, users will be unable to submit support tickets as well as be unable to receive replies to existing tickets. Users will also be unable to log into cloudsupport.digitalocean.com or open the Support Portal from within the Cloud Control Panel.\n\nAny tickets submitted during the maintenance via alternate methods (such as replying to an email chain or via our webform) will be saved and enter into our ticketing system at the completion of the maintenance.\n\nOur Support Team will also be impacted by this maintenance and will be unable to enter the ticketing system to receive any tickets or reply to existing tickets. As soon as the vendor maintenance has completed, our team will address all support queries as quickly as possible.\n\nThank you for your patience during this time! We will post updates as needed.",
-          "incident_id": "bkxtbgct4fhz",
-          "created_at": "2021-01-02T23:22:03.296Z",
-          "updated_at": "2021-01-02T23:22:03.686Z",
-          "display_at": "2021-01-02T23:22:03.296Z",
-          "affected_components": [
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1345510698525159400
+          "tweet_id": 1345572797599256600
         }
       ],
       "components": [
         {
-          "id": "90kv6kp38str",
-          "name": "Support Center",
-          "status": "under_maintenance",
-          "created_at": "2017-07-18T19:26:32.158Z",
-          "updated_at": "2021-01-03T03:00:34.935Z",
-          "position": 18,
+          "id": "nf94kg7630pr",
+          "name": "SGP1",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:49:07.673Z",
+          "updated_at": "2021-01-03T03:28:48.802Z",
+          "position": 13,
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "9xmhrchbp51t",
+          "group_id": "6ycn9yslydsq",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
           "only_show_if_degraded": false
         }
-      ],
-      "scheduled_for": "2021-01-03T03:00:00.000Z",
-      "scheduled_until": "2021-01-03T03:20:00.000Z"
+      ]
     }
   ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
