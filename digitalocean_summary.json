@@ -4,40 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-05T09:32:33.126Z"
+    "updated_at": "2021-01-05T11:45:23.842Z"
   },
   "components": [
-    {
-      "id": "6ycn9yslydsq",
-      "name": "Regions",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.379Z",
-      "updated_at": "2017-02-17T21:49:27.923Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "s2k7tnzlhrpw",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "7t9s4fqwl4pm",
-        "t3ygwyk0bymr",
-        "3s5rmcxl95h0",
-        "y7k7nwwgy36z",
-        "0kys855yj2y1",
-        "1hx8143ly544",
-        "cl06j64ltm9s",
-        "6v0yhwt7977x",
-        "3hq55lyvq3rl",
-        "mypfybvgyhrk",
-        "8kndbnbgddpr",
-        "99gtwvvfhtyz",
-        "nf94kg7630pr",
-        "c65109y4h6vk"
-      ]
-    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -69,6 +38,37 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "6ycn9yslydsq",
+      "name": "Regions",
+      "status": "degraded_performance",
+      "created_at": "2017-02-17T21:44:07.379Z",
+      "updated_at": "2017-02-17T21:49:27.923Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "s2k7tnzlhrpw",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "7t9s4fqwl4pm",
+        "t3ygwyk0bymr",
+        "3s5rmcxl95h0",
+        "y7k7nwwgy36z",
+        "0kys855yj2y1",
+        "1hx8143ly544",
+        "cl06j64ltm9s",
+        "6v0yhwt7977x",
+        "3hq55lyvq3rl",
+        "mypfybvgyhrk",
+        "8kndbnbgddpr",
+        "99gtwvvfhtyz",
+        "nf94kg7630pr",
+        "c65109y4h6vk"
+      ]
+    },
+    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -122,10 +122,25 @@
     {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2020-11-26T07:43:24.766Z",
+      "updated_at": "2021-01-05T11:27:38.988Z",
       "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2020-12-11T05:00:43.803Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -145,21 +160,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2020-12-11T05:00:43.803Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -285,21 +285,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2020-05-12T19:06:28.784Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
       "status": "operational",
@@ -315,16 +300,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2020-11-02T19:42:00.742Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2020-05-12T19:06:28.784Z",
+      "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -340,6 +325,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2020-11-02T19:42:00.742Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -362,25 +362,10 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2020-12-26T22:27:04.040Z",
+      "updated_at": "2021-01-05T11:27:39.004Z",
       "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "m7nv9rsmrssk",
-      "name": "Event Processing",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2020-11-10T20:49:10.491Z",
-      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -400,6 +385,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "m7nv9rsmrssk",
+      "name": "Event Processing",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:14.164Z",
+      "updated_at": "2020-11-10T20:49:10.491Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -465,21 +465,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2020-07-14T04:01:24.844Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
       "status": "operational",
@@ -490,6 +475,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2020-07-14T04:01:24.844Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -570,10 +570,110 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "ff9492yshnm9",
+      "name": "Networking issues in AMS2 region.",
+      "status": "identified",
+      "created_at": "2021-01-05T11:27:38.955Z",
+      "updated_at": "2021-01-05T11:45:23.834Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xyt7m7y5qkrl",
+      "started_at": "2021-01-05T11:27:38.947Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "5x5gmhvtjdhm",
+          "status": "identified",
+          "body": "Our engineers have identified an issue impacting network connectivity in AMS2 region, and are actively working on a fix. Once we have more information we will share another update.",
+          "incident_id": "ff9492yshnm9",
+          "created_at": "2021-01-05T11:45:23.333Z",
+          "updated_at": "2021-01-05T11:45:23.831Z",
+          "display_at": "2021-01-05T11:45:23.333Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1346422540760019000
+        },
+        {
+          "id": "zzjfrv4nnb7h",
+          "status": "investigating",
+          "body": "Our engineering team observed networking issues in our AMS2 region.  During this time, you may experience connectivity issues. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "ff9492yshnm9",
+          "created_at": "2021-01-05T11:27:39.035Z",
+          "updated_at": "2021-01-05T11:27:39.515Z",
+          "display_at": "2021-01-05T11:27:39.035Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1346418076795846700
+        }
+      ],
+      "components": [
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-01-05T11:27:39.004Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "t3ygwyk0bymr",
+          "name": "AMS2",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:45:55.031Z",
+          "updated_at": "2021-01-05T11:27:38.988Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
