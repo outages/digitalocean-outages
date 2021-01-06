@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-06T16:24:54.913Z"
+    "updated_at": "2021-01-06T17:04:15.167Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -197,9 +197,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-01-06T15:42:16.492Z",
+      "updated_at": "2021-01-06T17:04:14.681Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -570,110 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "t30tqrt5q142",
-      "name": "Issues Impacting Cloud Control Panel",
-      "status": "monitoring",
-      "created_at": "2021-01-06T15:42:16.456Z",
-      "updated_at": "2021-01-06T16:24:54.908Z",
-      "monitoring_at": "2021-01-06T16:24:54.433Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/mt7mkn430rkn",
-      "started_at": "2021-01-06T15:42:16.445Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "j5bcbjw966gf",
-          "status": "monitoring",
-          "body": "Our engineers have implemented a fix for the issue impacting internal DNS resolution and Cloud Control Panel functionality, and are monitoring the situation closely. We will share another update once we're confident that this is fully resolved.",
-          "incident_id": "t30tqrt5q142",
-          "created_at": "2021-01-06T16:24:54.433Z",
-          "updated_at": "2021-01-06T16:24:54.906Z",
-          "display_at": "2021-01-06T16:24:54.433Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1346855271591657500
-        },
-        {
-          "id": "jp6rphkjjlnw",
-          "status": "identified",
-          "body": "Our engineering team is currently investigating an issue impacting internal DNS resolution and Cloud Control Panel functionality. During this period, users may experience intermittent errors when using certain features of our Cloud Control Panel. These features may include the Volumes and Spaces tabs within Cloud, as well as Droplet graphs. We apologize for the inconvenience, and we'll share an update once more information is available.",
-          "incident_id": "t30tqrt5q142",
-          "created_at": "2021-01-06T15:42:16.535Z",
-          "updated_at": "2021-01-06T15:42:17.090Z",
-          "display_at": "2021-01-06T15:42:16.535Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1346844543409295400
-        }
-      ],
-      "components": [
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2021-01-06T15:42:16.492Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2020-12-05T10:57:27.250Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
