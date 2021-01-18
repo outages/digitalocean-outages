@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-18T09:02:34.320Z"
+    "updated_at": "2021-01-18T20:31:18.566Z"
   },
   "components": [
     {
@@ -571,7 +571,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "1jy8f0prdyqq",
+      "name": "NYC3 Network Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-01-18T20:31:18.127Z",
+      "updated_at": "2021-01-18T20:31:18.562Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/s5czt0dbgrh7",
+      "started_at": "2021-01-18T20:31:18.115Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "6c3p19vzfj5f",
+          "status": "scheduled",
+          "body": "During the above window, our networking team will be performing some proactive work in NYC3 for further expansion.\n\nExpected Impact:\n\nAll resource management events in NYC3 will be temporarily disabled for several short periods during this maintenance. We do not anticipate an impact to connectivity for existing Droplets on either public or private networks, however you will not be able to perform management events such as a power cycle, snapshot, or destroy for the duration of events being disabled.\n\nIf you have any questions or concerns, please reach out to us by opening up a ticket on your account.",
+          "incident_id": "1jy8f0prdyqq",
+          "created_at": "2021-01-18T20:31:18.187Z",
+          "updated_at": "2021-01-18T20:31:18.557Z",
+          "display_at": "2021-01-18T20:31:18.187Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1351265933151506400
+        }
+      ],
+      "components": [
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "operational",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2020-12-14T11:02:55.906Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3hq55lyvq3rl",
+          "name": "NYC3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:37.049Z",
+          "updated_at": "2020-11-24T01:13:38.029Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-01-18T22:00:00.000Z",
+      "scheduled_until": "2021-01-18T23:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
