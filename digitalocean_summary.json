@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-02T21:52:49.434Z"
+    "updated_at": "2021-02-02T20:30:32.090Z"
   },
   "components": [
     {
@@ -84,9 +84,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-01-28T14:19:58.320Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -118,21 +133,6 @@
         "90kv6kp38str",
         "w7dvwpvd248r"
       ]
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-01-28T14:19:58.320Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "19n6t4685zrn",
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-02-02T21:52:48.431Z",
+      "updated_at": "2021-01-27T08:29:30.595Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -570,84 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "3g0w2t0t8j6q",
-      "name": "Intermittent Connectivity for Spaces in NYC3",
-      "status": "investigating",
-      "created_at": "2021-02-02T21:52:48.288Z",
-      "updated_at": "2021-02-02T21:52:49.410Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/2x4rcxbr312q",
-      "started_at": "2021-02-02T21:52:48.248Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "gklc3cqfnd92",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating intermittent connectivity issues for Spaces in NYC3. During this time, users may experience timeouts while working with Spaces. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "3g0w2t0t8j6q",
-          "created_at": "2021-02-02T21:52:48.570Z",
-          "updated_at": "2021-02-02T21:52:49.400Z",
-          "display_at": "2021-02-02T21:52:48.570Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1356722264826253300
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-02-02T21:52:48.431Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-01-21T01:37:20.844Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
