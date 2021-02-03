@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-02T23:02:41.295Z"
+    "updated_at": "2021-02-03T01:24:15.989Z"
   },
   "components": [
     {
@@ -39,21 +39,6 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-01-28T13:56:12.092Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1082j139b5bg",
       "name": "API",
       "status": "operational",
@@ -64,6 +49,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-01-28T13:56:12.092Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -315,21 +315,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-01-21T01:37:20.844Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yzksrkss544p",
       "name": "DNS",
       "status": "operational",
@@ -340,6 +325,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-01-21T01:37:20.844Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -405,21 +405,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-01-06T00:04:59.042Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
       "status": "operational",
@@ -430,6 +415,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "degraded_performance",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-02-03T01:17:56.038Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -465,21 +465,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
-      "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-01-06T00:04:59.083Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c65109y4h6vk",
       "name": "TOR1",
       "status": "operational",
@@ -490,6 +475,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-01-06T00:04:59.083Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-02-02T21:52:48.431Z",
+      "updated_at": "2021-02-03T00:57:54.707Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -572,79 +572,53 @@
   ],
   "incidents": [
     {
-      "id": "3g0w2t0t8j6q",
-      "name": "Intermittent Connectivity for Spaces in NYC3",
-      "status": "monitoring",
-      "created_at": "2021-02-02T21:52:48.288Z",
-      "updated_at": "2021-02-02T23:02:41.011Z",
-      "monitoring_at": "2021-02-02T23:02:39.517Z",
+      "id": "19x5b38q9fdt",
+      "name": "Managed Kubernetes Provisioning Errors",
+      "status": "investigating",
+      "created_at": "2021-02-03T01:17:55.996Z",
+      "updated_at": "2021-02-03T01:17:56.619Z",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/2x4rcxbr312q",
-      "started_at": "2021-02-02T21:52:48.248Z",
+      "shortlink": "https://stspg.io/mpl6f2mh5017",
+      "started_at": "2021-02-03T01:17:55.984Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
-          "id": "ykjgxgtxbtcp",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented changes to improve the connectivity issues for Spaces in NYC3 and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "3g0w2t0t8j6q",
-          "created_at": "2021-02-02T23:02:39.517Z",
-          "updated_at": "2021-02-02T23:02:41.006Z",
-          "display_at": "2021-02-02T23:02:39.517Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1356739845587046400
-        },
-        {
-          "id": "gklc3cqfnd92",
+          "id": "lymm4qtjghqb",
           "status": "investigating",
-          "body": "Our Engineering team is investigating intermittent connectivity issues for Spaces in NYC3. During this time, users may experience timeouts while working with Spaces. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "3g0w2t0t8j6q",
-          "created_at": "2021-02-02T21:52:48.570Z",
-          "updated_at": "2021-02-02T21:52:49.400Z",
-          "display_at": "2021-02-02T21:52:48.570Z",
+          "body": "Our Engineering team is investigating an issue impacting Managed Kubernetes cluster creation. During this time, users may experience issues provisioning new Kubernetes clusters when using the control panel. Managed Kubernetes cluster creations using the API are not impacted at this time. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "19x5b38q9fdt",
+          "created_at": "2021-02-03T01:17:56.086Z",
+          "updated_at": "2021-02-03T01:17:56.616Z",
+          "display_at": "2021-02-03T01:17:56.086Z",
           "affected_components": [
             {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
               "old_status": "operational",
               "new_status": "degraded_performance"
             },
             {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
               "old_status": "operational",
               "new_status": "operational"
             }
           ],
           "deliver_notifications": true,
           "custom_tweet": null,
-          "tweet_id": 1356722264826253300
+          "tweet_id": 1356773885086101500
         }
       ],
       "components": [
         {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
           "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-02-02T21:52:48.431Z",
-          "position": 17,
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2021-02-03T01:17:56.038Z",
+          "position": 12,
           "description": null,
           "showcase": false,
           "start_date": null,
@@ -654,12 +628,12 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
           "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-01-21T01:37:20.844Z",
-          "position": 9,
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-01-28T13:56:12.092Z",
+          "position": 1,
           "description": null,
           "showcase": false,
           "start_date": null,
