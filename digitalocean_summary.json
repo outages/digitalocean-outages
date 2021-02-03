@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-03T23:23:37.373Z"
+    "updated_at": "2021-02-03T23:46:28.934Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -377,9 +377,9 @@
     {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-02-03T22:59:07.215Z",
+      "updated_at": "2021-02-03T23:46:28.395Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-02-03T22:59:07.241Z",
+      "updated_at": "2021-02-03T23:46:28.408Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -570,110 +570,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "xh8xlx7q13vk",
-      "name": "Issues with Spaces Availability in SFO2",
-      "status": "monitoring",
-      "created_at": "2021-02-03T22:59:07.169Z",
-      "updated_at": "2021-02-03T23:18:42.980Z",
-      "monitoring_at": "2021-02-03T23:18:41.798Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/z4tp86qqzyyh",
-      "started_at": "2021-02-03T22:59:07.155Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "lc6mvzplhd7v",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue impacting Spaces availability for a portion of buckets in our SFO2 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "xh8xlx7q13vk",
-          "created_at": "2021-02-03T23:18:41.798Z",
-          "updated_at": "2021-02-03T23:18:42.977Z",
-          "display_at": "2021-02-03T23:18:41.798Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1357106267525771300
-        },
-        {
-          "id": "9bhhzxy6wnjl",
-          "status": "investigating",
-          "body": "Our engineering team is currently investigating an issue impacting Spaces availability for a portion of buckets in our SFO2 region. During this time, some users may experience 500 errors when trying to access impacted buckets in the region. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "xh8xlx7q13vk",
-          "created_at": "2021-02-03T22:59:07.293Z",
-          "updated_at": "2021-02-03T22:59:07.793Z",
-          "display_at": "2021-02-03T22:59:07.293Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1357101339319234600
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-02-03T22:59:07.241Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8kndbnbgddpr",
-          "name": "SFO2",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2021-02-03T22:59:07.215Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
