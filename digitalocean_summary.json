@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-04T07:29:23.426Z"
+    "updated_at": "2021-02-04T18:31:06.320Z"
   },
   "components": [
     {
@@ -570,7 +570,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "bz1wt780cwwv",
+      "name": "Intermittent 404 Errors with App Platform Static Sites",
+      "status": "investigating",
+      "created_at": "2021-02-04T18:30:22.033Z",
+      "updated_at": "2021-02-04T18:31:06.314Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/rchmrjj4cw5r",
+      "started_at": "2021-02-04T18:30:21.964Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "37bpgkgjxfsj",
+          "status": "investigating",
+          "body": "Our engineering team is currently investigating an issue impacting App Platform static sites. During this period, static sites with error_documents or catchall_documents may serve a 404 document instead of the expected content. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "bz1wt780cwwv",
+          "created_at": "2021-02-04T18:30:22.085Z",
+          "updated_at": "2021-02-04T18:31:06.311Z",
+          "display_at": "2021-02-04T18:30:22.000Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1357396093382787000
+        }
+      ],
+      "components": [
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "operational",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2021-01-28T14:19:58.320Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-01-28T13:56:12.092Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
