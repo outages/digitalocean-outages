@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-04T06:23:32.125Z"
+    "updated_at": "2021-02-04T07:00:54.800Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -362,9 +362,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-02-04T06:21:41.075Z",
+      "updated_at": "2021-02-04T07:00:54.356Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -574,16 +574,42 @@
     {
       "id": "gfykgdh27mgx",
       "name": "Issue with resetting Droplet password",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-02-04T06:21:41.047Z",
-      "updated_at": "2021-02-04T06:21:41.704Z",
-      "monitoring_at": null,
+      "updated_at": "2021-02-04T07:00:54.789Z",
+      "monitoring_at": "2021-02-04T07:00:54.381Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/5jncg6bmlwqb",
       "started_at": "2021-02-04T06:21:41.038Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "xxwc9mkyzfjn",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue with Droplet root user Reset Password utility and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "gfykgdh27mgx",
+          "created_at": "2021-02-04T07:00:54.381Z",
+          "updated_at": "2021-02-04T07:00:54.786Z",
+          "display_at": "2021-02-04T07:00:54.381Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1357222583947513900
+        },
         {
           "id": "vkl793r0skh7",
           "status": "investigating",
@@ -615,9 +641,9 @@
         {
           "id": "xc1fvcqsqp80",
           "name": "Droplets",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2021-02-04T06:21:41.075Z",
+          "updated_at": "2021-02-04T07:00:54.356Z",
           "position": 10,
           "description": null,
           "showcase": false,
@@ -647,7 +673,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
