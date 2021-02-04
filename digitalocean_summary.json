@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-03T23:46:28.934Z"
+    "updated_at": "2021-02-04T06:23:32.125Z"
   },
   "components": [
     {
@@ -18,21 +18,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-01-28T13:56:12.092Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -69,12 +54,12 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-01-06T00:04:59.001Z",
-      "position": 2,
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-01-28T13:56:12.092Z",
+      "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -84,9 +69,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-01-28T14:19:58.320Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -120,16 +120,16 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-01-28T14:19:58.320Z",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-01-06T00:04:59.001Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -165,21 +165,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j9wj5sbm3jp3",
-      "name": "Block Storage",
-      "status": "operational",
-      "created_at": "2016-08-30T22:37:40.813Z",
-      "updated_at": "2020-10-05T08:04:59.855Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y7k7nwwgy36z",
       "name": "BLR1",
       "status": "operational",
@@ -190,6 +175,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j9wj5sbm3jp3",
+      "name": "Block Storage",
+      "status": "operational",
+      "created_at": "2016-08-30T22:37:40.813Z",
+      "updated_at": "2020-10-05T08:04:59.855Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -315,21 +315,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2020-11-02T19:42:00.742Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -345,12 +330,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xc1fvcqsqp80",
-      "name": "Droplets",
+      "id": "yzksrkss544p",
+      "name": "DNS",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-01-25T11:01:38.243Z",
-      "position": 10,
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2020-11-02T19:42:00.742Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -370,6 +355,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xc1fvcqsqp80",
+      "name": "Droplets",
+      "status": "degraded_performance",
+      "created_at": "2017-02-17T21:40:23.067Z",
+      "updated_at": "2021-02-04T06:21:41.075Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -570,10 +570,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gfykgdh27mgx",
+      "name": "Issue with resetting Droplet password",
+      "status": "investigating",
+      "created_at": "2021-02-04T06:21:41.047Z",
+      "updated_at": "2021-02-04T06:21:41.704Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5jncg6bmlwqb",
+      "started_at": "2021-02-04T06:21:41.038Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "vkl793r0skh7",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with the Droplet root user Reset Password utility in the Cloud Control Panel. During this time, some users may experience issue when resetting the Droplet root password. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "gfykgdh27mgx",
+          "created_at": "2021-02-04T06:21:41.119Z",
+          "updated_at": "2021-02-04T06:21:41.702Z",
+          "display_at": "2021-02-04T06:21:41.119Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1357212714506985500
+        }
+      ],
+      "components": [
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-02-04T06:21:41.075Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-01-28T13:56:12.092Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
