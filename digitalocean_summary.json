@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-08T20:14:21.598Z"
+    "updated_at": "2021-02-09T00:23:43.040Z"
   },
   "components": [
     {
@@ -23,9 +23,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-01-28T13:56:12.092Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -54,21 +69,6 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-01-28T13:56:12.092Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -165,21 +165,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-12-10T01:37:12.120Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -195,12 +180,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2020-09-22T22:24:56.116Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-12-10T01:37:12.120Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -225,12 +210,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
       "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2020-11-10T20:49:10.474Z",
-      "position": 6,
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2020-09-22T22:24:56.116Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -250,6 +235,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1hx8143ly544",
+      "name": "LON1",
+      "status": "under_maintenance",
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-02-09T00:01:21.091Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -345,21 +345,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2020-11-05T10:00:52.294Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
       "status": "operational",
@@ -375,12 +360,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-02-03T23:46:28.395Z",
-      "position": 11,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2020-11-05T10:00:52.294Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -400,6 +385,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-02-03T23:46:28.395Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -512,9 +512,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-02-02T20:30:31.036Z",
+      "updated_at": "2021-02-09T00:01:21.221Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -571,9 +571,111 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "s2v34ltwsmml",
+      "name": "Networking Maintenance in LON1",
+      "status": "in_progress",
+      "created_at": "2021-02-08T23:57:01.972Z",
+      "updated_at": "2021-02-09T00:01:24.819Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/xdwm6cnm1p4b",
+      "started_at": "2021-02-08T23:57:01.961Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "wk6ltkysff2s",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "s2v34ltwsmml",
+          "created_at": "2021-02-09T00:01:21.528Z",
+          "updated_at": "2021-02-09T00:01:24.816Z",
+          "display_at": "2021-02-09T00:01:21.528Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1358928952685809700
+        },
+        {
+          "id": "pt27s0fx8mtz",
+          "status": "scheduled",
+          "body": "During the above window, our networking team will be upgrading core networking infrastructure in our LON1 location to improve performance and reliability for customers in our LON1 location.\n\nExpected Impact:\n\nWhile we expect no impact to customer networking during this change window, there is a minimal risk of intermittent packet loss and increased latency. We will endeavor to keep this to a minimum for the duration of the change. If we experience further issues, we’ll roll back the changes.\n\nIf you have any questions or concerns, please reach out to us by opening up a ticket on your account.",
+          "incident_id": "s2v34ltwsmml",
+          "created_at": "2021-02-08T23:57:02.030Z",
+          "updated_at": "2021-02-08T23:57:02.608Z",
+          "display_at": "2021-02-08T23:57:02.030Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1358927853023187000
+        }
+      ],
+      "components": [
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "under_maintenance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2021-02-09T00:01:21.221Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1hx8143ly544",
+          "name": "LON1",
+          "status": "under_maintenance",
+          "created_at": "2017-02-17T21:47:29.563Z",
+          "updated_at": "2021-02-09T00:01:21.091Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-09T00:00:00.000Z",
+      "scheduled_until": "2021-02-09T04:00:00.000Z"
+    }
+  ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
