@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T05:08:49.541Z"
+    "updated_at": "2021-02-10T22:23:41.119Z"
   },
   "components": [
     {
@@ -571,7 +571,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "1cqzyby0jcsz",
+      "name": "LON1 Network Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-02-10T22:23:04.444Z",
+      "updated_at": "2021-02-10T22:23:06.514Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/16bjf00cdhvd",
+      "started_at": "2021-02-10T22:23:04.434Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "ydxxpsndwr85",
+          "status": "scheduled",
+          "body": "Start: 2021-02-11 00:00 UTC\nEnd: 2021-02-11 04:00 UTC\n\nDuring the above window, the networking team will be making changes to our core networking equipment to improve performance and support future functionality in the LON1 region. This is the 2nd part of the earlier scheduled maintenance (2021-02-09 00:00 UTC). \n\nExpected Impact:\nWe do not expect any impact to customer traffic during this maintenance but there will be a risk of increased latency and packet loss while upgrades are being performed. We will endeavor to keep this to a minimum for the duration of the change.\n\nIf you have any questions or concerns, please reach out to us by opening up a ticket on your account.",
+          "incident_id": "1cqzyby0jcsz",
+          "created_at": "2021-02-10T22:23:04.493Z",
+          "updated_at": "2021-02-10T22:23:06.415Z",
+          "display_at": "2021-02-10T22:23:04.493Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1359628988465881000
+        }
+      ],
+      "components": [
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "operational",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2021-02-09T04:00:40.296Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1hx8143ly544",
+          "name": "LON1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:47:29.563Z",
+          "updated_at": "2021-02-09T04:00:40.163Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-11T00:00:00.000Z",
+      "scheduled_until": "2021-02-11T04:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
