@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T00:05:15.258Z"
+    "updated_at": "2021-02-10T03:29:28.170Z"
   },
   "components": [
     {
@@ -577,7 +577,7 @@
       "name": "NYC2 Electrical Maintenance",
       "status": "in_progress",
       "created_at": "2021-02-09T19:30:04.405Z",
-      "updated_at": "2021-02-10T00:05:15.254Z",
+      "updated_at": "2021-02-10T03:29:28.163Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -585,6 +585,32 @@
       "started_at": "2021-02-09T19:30:04.396Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "jsyzwynp8rg6",
+          "status": "in_progress",
+          "body": "At this time, power issues have been resolved and the maintenance has been progressing as planned. At this time, the onsite team estimates we will exceed our predicted maintenance window, but does not have a firm ETA. \n\nWe will continue to post updates as needed but do not expect any further disruptions to power at this time. \n\nThank you for your continued patience.",
+          "incident_id": "9bmcsy9fj977",
+          "created_at": "2021-02-10T03:29:27.586Z",
+          "updated_at": "2021-02-10T03:29:28.161Z",
+          "display_at": "2021-02-10T03:29:27.586Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "6v0yhwt7977x",
+              "name": "Regions - NYC2",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1359343699541414000
+        },
         {
           "id": "9hysw7wkg6z0",
           "status": "in_progress",
