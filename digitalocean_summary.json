@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-10T22:23:41.119Z"
+    "updated_at": "2021-02-10T23:00:31.024Z"
   },
   "components": [
     {
@@ -577,7 +577,7 @@
       "name": "LON1 Network Maintenance",
       "status": "scheduled",
       "created_at": "2021-02-10T22:23:04.444Z",
-      "updated_at": "2021-02-10T22:23:06.514Z",
+      "updated_at": "2021-02-10T23:00:30.856Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -585,6 +585,19 @@
       "started_at": "2021-02-10T22:23:04.434Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "zybxd88l1d5z",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "1cqzyby0jcsz",
+          "created_at": "2021-02-10T23:00:30.456Z",
+          "updated_at": "2021-02-10T23:00:30.853Z",
+          "display_at": "2021-02-10T23:00:30.456Z",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1359638402753130500
+        },
         {
           "id": "ydxxpsndwr85",
           "status": "scheduled",
