@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-11T11:23:45.556Z"
+    "updated_at": "2021-02-11T11:40:58.013Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-02-11T10:51:04.561Z",
+      "updated_at": "2021-02-11T11:40:57.552Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -574,16 +574,68 @@
     {
       "id": "51vcqfrqhb8s",
       "name": "Issues with Spaces Availability in FRA1",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-02-11T10:51:04.523Z",
-      "updated_at": "2021-02-11T10:51:06.382Z",
-      "monitoring_at": null,
+      "updated_at": "2021-02-11T11:40:58.009Z",
+      "monitoring_at": "2021-02-11T11:40:57.579Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/8mgbc5vf0vf6",
       "started_at": "2021-02-11T10:51:04.511Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "xtx309kq1kmg",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with Spaces availability in our FRA1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "51vcqfrqhb8s",
+          "created_at": "2021-02-11T11:40:57.579Z",
+          "updated_at": "2021-02-11T11:40:58.007Z",
+          "display_at": "2021-02-11T11:40:57.579Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1359829776844812300
+        },
+        {
+          "id": "51svsmzjwxp4",
+          "status": "identified",
+          "body": "Our engineering team has identified the cause of the issue with Spaces Availability in our FRA1 region and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "incident_id": "51vcqfrqhb8s",
+          "created_at": "2021-02-11T11:32:41.103Z",
+          "updated_at": "2021-02-11T11:32:41.555Z",
+          "display_at": "2021-02-11T11:32:41.103Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1359827694515490800
+        },
         {
           "id": "hltdqtrp014r",
           "status": "investigating",
@@ -615,9 +667,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-02-11T10:51:04.561Z",
+          "updated_at": "2021-02-11T11:40:57.552Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -647,7 +699,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
