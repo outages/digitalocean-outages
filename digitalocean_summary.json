@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-17T03:01:56.667Z"
+    "updated_at": "2021-02-17T17:23:40.690Z"
   },
   "components": [
     {
@@ -571,7 +571,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "qypkydbft8nw",
+      "name": "SGP1 Network Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-02-17T17:13:39.367Z",
+      "updated_at": "2021-02-17T17:13:39.748Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/zbt2z6cwwbdf",
+      "started_at": "2021-02-17T17:13:39.358Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "1mgq4wz1bj7y",
+          "status": "scheduled",
+          "body": "During the above window, the networking team will be making changes to our core networking equipment to improve performance and support future functionality in our SGP1 region.\n\nExpected Impact:\n\nWe do not expect any impact to customer traffic during this maintenance but there will be a risk of increased latency and packet loss while upgrades are being performed. We will endeavor to keep this to a minimum for the duration of the change.\n\nIf you have any questions or concerns, please reach out to us by opening up a Support ticket on your account.",
+          "incident_id": "qypkydbft8nw",
+          "created_at": "2021-02-17T17:13:39.410Z",
+          "updated_at": "2021-02-17T17:13:39.745Z",
+          "display_at": "2021-02-17T17:13:39.410Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1362087829719801900
+        }
+      ],
+      "components": [
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "operational",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2021-02-16T18:49:14.235Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "nf94kg7630pr",
+          "name": "SGP1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:49:07.673Z",
+          "updated_at": "2021-02-16T18:49:14.222Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-02-17T18:00:00.000Z",
+      "scheduled_until": "2021-02-17T22:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
