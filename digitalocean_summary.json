@@ -4,39 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-17T20:10:17.473Z"
+    "updated_at": "2021-02-18T12:59:10.346Z"
   },
   "components": [
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2020-12-17T03:20:05.766Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-02-13T01:28:30.803Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -69,15 +39,30 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-01-28T14:19:58.320Z",
-      "position": 2,
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-02-13T01:28:30.803Z",
+      "position": 1,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2020-12-17T03:20:05.766Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -101,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -133,6 +118,21 @@
         "90kv6kp38str",
         "w7dvwpvd248r"
       ]
+    },
+    {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-01-28T14:19:58.320Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "3s5rmcxl95h0",
@@ -195,21 +195,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-01-14T12:21:48.575Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "0kys855yj2y1",
       "name": "FRA1",
       "status": "operational",
@@ -225,12 +210,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
       "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2020-09-18T04:04:32.252Z",
-      "position": 6,
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2021-01-14T12:21:48.575Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -250,6 +235,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2020-09-18T04:04:32.252Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -285,21 +285,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "operational",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2020-11-04T21:37:56.133Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -315,16 +300,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-02-16T06:27:01.792Z",
-      "position": 9,
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2020-11-04T21:37:56.133Z",
+      "position": 8,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -345,11 +330,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-02-16T06:27:01.792Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-02-17T03:01:05.970Z",
+      "updated_at": "2021-02-18T12:59:09.816Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -375,21 +375,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "m7nv9rsmrssk",
-      "name": "Event Processing",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2021-02-17T03:01:05.986Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
       "status": "operational",
@@ -405,16 +390,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
+      "id": "m7nv9rsmrssk",
+      "name": "Event Processing",
       "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2020-11-05T10:00:52.376Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:40:14.164Z",
+      "updated_at": "2021-02-17T03:01:05.986Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -435,12 +420,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-02-17T20:10:16.683Z",
-      "position": 13,
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2020-11-05T10:00:52.376Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -465,12 +450,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2020-07-14T04:01:24.844Z",
-      "position": 14,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-02-17T20:10:16.683Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -482,14 +467,29 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-01-06T00:04:59.083Z",
+      "updated_at": "2021-02-18T12:59:09.835Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2020-07-14T04:01:24.844Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -570,10 +570,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1scsqnbgjfnn",
+      "name": "Issues with Provisioning Droplets and Managed Databases Instances in SGP1 region",
+      "status": "identified",
+      "created_at": "2021-02-18T12:59:09.782Z",
+      "updated_at": "2021-02-18T12:59:10.339Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/47ls1tyryqyp",
+      "started_at": "2021-02-18T12:59:09.768Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "j5j431c45ft2",
+          "status": "identified",
+          "body": "Our Engineering team has identified the issue of creation Droplets and Managed Databases Instances in SGP1 region and we are actively working on it. We will post an update as soon as additional information is available.",
+          "incident_id": "1scsqnbgjfnn",
+          "created_at": "2021-02-18T12:59:09.869Z",
+          "updated_at": "2021-02-18T12:59:10.335Z",
+          "display_at": "2021-02-18T12:59:09.869Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1362386173021220900
+        }
+      ],
+      "components": [
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "degraded_performance",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2021-02-18T12:59:09.835Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "nf94kg7630pr",
+          "name": "SGP1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:49:07.673Z",
+          "updated_at": "2021-02-17T20:10:16.683Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-02-18T12:59:09.816Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
