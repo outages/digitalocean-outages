@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-18T20:44:37.754Z"
+    "updated_at": "2021-02-18T21:02:29.135Z"
   },
   "components": [
     {
@@ -576,7 +576,7 @@
       "name": "Issues with Provisioning Droplets and Managed Databases Instances in SGP1 region",
       "status": "identified",
       "created_at": "2021-02-18T12:59:09.782Z",
-      "updated_at": "2021-02-18T20:44:37.744Z",
+      "updated_at": "2021-02-18T21:02:29.128Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -587,11 +587,11 @@
         {
           "id": "d8h57mymdd1n",
           "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
+          "body": "Thank you for your ongoing patience while our engineers continue to work on a permanent fix for this issue. In the meantime, if you experience any issues with creating Basic (Shared CPU) Droplets or Managed Databases in SGP1 and require an urgent deployment, then we suggest selecting another region outside SGP1. Thanks again, and we'll share more information as soon as it's available.",
           "incident_id": "1scsqnbgjfnn",
           "created_at": "2021-02-18T20:44:37.282Z",
-          "updated_at": "2021-02-18T20:44:37.742Z",
-          "display_at": "2021-02-18T20:44:37.282Z",
+          "updated_at": "2021-02-18T21:02:29.125Z",
+          "display_at": "2021-02-18T20:44:37.000Z",
           "affected_components": [
             {
               "code": "xc1fvcqsqp80",
