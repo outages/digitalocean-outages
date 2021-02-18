@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-18T12:59:10.346Z"
+    "updated_at": "2021-02-18T13:23:35.066Z"
   },
   "components": [
     {
@@ -576,22 +576,22 @@
       "name": "Issues with Provisioning Droplets and Managed Databases Instances in SGP1 region",
       "status": "identified",
       "created_at": "2021-02-18T12:59:09.782Z",
-      "updated_at": "2021-02-18T12:59:10.339Z",
+      "updated_at": "2021-02-18T13:22:46.111Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/47ls1tyryqyp",
-      "started_at": "2021-02-18T12:59:09.768Z",
+      "started_at": "2021-02-18T12:59:09.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "j5j431c45ft2",
           "status": "identified",
-          "body": "Our Engineering team has identified the issue of creation Droplets and Managed Databases Instances in SGP1 region and we are actively working on it. We will post an update as soon as additional information is available.",
+          "body": "Our Engineering team has identified the issue with creation of Droplets and Managed Database Instances in our SGP1 region and we are actively working on it. We will post an update as soon as additional information is available.",
           "incident_id": "1scsqnbgjfnn",
           "created_at": "2021-02-18T12:59:09.869Z",
-          "updated_at": "2021-02-18T12:59:10.335Z",
-          "display_at": "2021-02-18T12:59:09.869Z",
+          "updated_at": "2021-02-18T13:22:46.033Z",
+          "display_at": "2021-02-18T12:59:09.000Z",
           "affected_components": [
             {
               "code": "xc1fvcqsqp80",
