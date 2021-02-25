@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-25T03:23:42.907Z"
+    "updated_at": "2021-02-25T09:13:36.320Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -285,21 +285,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2021-02-10T04:00:46.799Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
       "status": "operational",
@@ -315,12 +300,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-02-24T01:14:02.689Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2021-02-10T04:00:46.799Z",
+      "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -345,6 +330,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-02-24T01:14:02.689Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "mypfybvgyhrk",
       "name": "SFO1",
       "status": "operational",
@@ -362,9 +362,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-02-20T17:56:00.004Z",
+      "updated_at": "2021-02-25T09:13:35.617Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -405,21 +405,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-02-03T04:01:15.517Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
       "status": "operational",
@@ -430,6 +415,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-02-03T04:01:15.517Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -497,9 +497,9 @@
     {
       "id": "zqcx615n3ms4",
       "name": "Monitoring",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-04-06T17:49:31.944Z",
-      "updated_at": "2021-02-16T06:27:01.825Z",
+      "updated_at": "2021-02-25T09:13:35.671Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -576,14 +576,106 @@
       "name": "Droplet Metadata API Errors",
       "status": "investigating",
       "created_at": "2021-02-25T03:21:40.627Z",
-      "updated_at": "2021-02-25T03:21:41.266Z",
+      "updated_at": "2021-02-25T09:13:36.312Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/52dbt861wnc9",
       "started_at": "2021-02-25T03:21:40.604Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "5b1c3h3b6bqc",
+          "status": "investigating",
+          "body": "Our Engineering team continues to make progress on the issue with the Droplet Metadata API service. During this time, users may observe missing graph data in the control panel for recently migrated Droplets. Additionally, Droplet Metadata API requests will return a 404 response for recently migrated Droplets. Our Engineering team has taken steps to mitigate the impact, but, as of now, we have not resolved it completely. We will continue to provide relevant updates as information becomes available, and we appreciate your patience throughout this process.",
+          "incident_id": "qgrhx7l4pf9w",
+          "created_at": "2021-02-25T09:13:35.711Z",
+          "updated_at": "2021-02-25T09:13:36.307Z",
+          "display_at": "2021-02-25T09:13:35.711Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zqcx615n3ms4",
+              "name": "Services - Monitoring",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "cl06j64ltm9s",
+              "name": "Regions - NYC1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "mypfybvgyhrk",
+              "name": "Regions - SFO1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "99gtwvvfhtyz",
+              "name": "Regions - SFO3",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "c65109y4h6vk",
+              "name": "Regions - TOR1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1364866122164568000
+        },
         {
           "id": "3kdd4nmcqjq8",
           "status": "investigating",
@@ -681,9 +773,9 @@
         {
           "id": "zqcx615n3ms4",
           "name": "Monitoring",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2017-04-06T17:49:31.944Z",
-          "updated_at": "2021-02-16T06:27:01.825Z",
+          "updated_at": "2021-02-25T09:13:35.671Z",
           "position": 15,
           "description": null,
           "showcase": false,
@@ -741,9 +833,9 @@
         {
           "id": "xc1fvcqsqp80",
           "name": "Droplets",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2021-02-20T17:56:00.004Z",
+          "updated_at": "2021-02-25T09:13:35.617Z",
           "position": 10,
           "description": null,
           "showcase": false,
@@ -878,7 +970,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
