@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-01T23:00:45.579Z"
+    "updated_at": "2021-03-01T23:30:32.039Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -452,9 +452,9 @@
     {
       "id": "nf94kg7630pr",
       "name": "SGP1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-03-01T23:00:41.361Z",
+      "updated_at": "2021-03-01T23:30:31.177Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -527,9 +527,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-03-01T23:00:41.715Z",
+      "updated_at": "2021-03-01T23:30:31.199Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -571,124 +571,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "8zhyhmw8kwh1",
-      "name": "Spaces Maintenance in SGP1 Region",
-      "status": "in_progress",
-      "created_at": "2021-03-01T20:58:00.412Z",
-      "updated_at": "2021-03-01T23:00:45.572Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/22dbvr2nxpqp",
-      "started_at": "2021-03-01T20:58:00.398Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "1crrbb80ftvs",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "8zhyhmw8kwh1",
-          "created_at": "2021-03-01T23:00:41.995Z",
-          "updated_at": "2021-03-01T23:00:45.569Z",
-          "display_at": "2021-03-01T23:00:41.995Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1366523833943953400
-        },
-        {
-          "id": "v7fgyn1ghzz9",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "8zhyhmw8kwh1",
-          "created_at": "2021-03-01T22:00:29.939Z",
-          "updated_at": "2021-03-01T22:00:30.345Z",
-          "display_at": "2021-03-01T22:00:29.939Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1366508670519963600
-        },
-        {
-          "id": "z01tmb7s02q0",
-          "status": "scheduled",
-          "body": "During the above window, our Storage Engineering team will be performing maintenance in our SGP1 region for our Spaces service, in order to improve performance and reliability.\n\nExpected Impact:\n\nUsers may experience an increase in HTTP 503 errors, or periods of these errors, as well as increased latency in response times while working with objects in Spaces in AMS3, throughout the course of the maintenance. We will endeavor to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
-          "incident_id": "8zhyhmw8kwh1",
-          "created_at": "2021-03-01T20:58:00.475Z",
-          "updated_at": "2021-03-01T20:58:00.983Z",
-          "display_at": "2021-03-01T20:58:00.475Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1366492944585269200
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "under_maintenance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-03-01T23:00:41.715Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "nf94kg7630pr",
-          "name": "SGP1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2021-03-01T23:00:41.361Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-03-01T23:00:00.000Z",
-      "scheduled_until": "2021-03-01T23:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
