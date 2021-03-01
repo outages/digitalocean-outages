@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-28T02:56:47.951Z"
+    "updated_at": "2021-03-01T20:58:00.993Z"
   },
   "components": [
     {
@@ -571,7 +571,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "8zhyhmw8kwh1",
+      "name": "Spaces Maintenance in SGP1 Region",
+      "status": "scheduled",
+      "created_at": "2021-03-01T20:58:00.412Z",
+      "updated_at": "2021-03-01T20:58:00.986Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/22dbvr2nxpqp",
+      "started_at": "2021-03-01T20:58:00.398Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "z01tmb7s02q0",
+          "status": "scheduled",
+          "body": "During the above window, our Storage Engineering team will be performing maintenance in our SGP1 region for our Spaces service, in order to improve performance and reliability.\n\nExpected Impact:\n\nUsers may experience an increase in HTTP 503 errors, or periods of these errors, as well as increased latency in response times while working with objects in Spaces in AMS3, throughout the course of the maintenance. We will endeavor to keep these periods to a minimum.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
+          "incident_id": "8zhyhmw8kwh1",
+          "created_at": "2021-03-01T20:58:00.475Z",
+          "updated_at": "2021-03-01T20:58:00.983Z",
+          "display_at": "2021-03-01T20:58:00.475Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1366492944585269200
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "operational",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2021-02-24T01:14:02.704Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "nf94kg7630pr",
+          "name": "SGP1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:49:07.673Z",
+          "updated_at": "2021-02-18T23:24:34.429Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-03-01T23:00:00.000Z",
+      "scheduled_until": "2021-03-01T23:30:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
