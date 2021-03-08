@@ -4,24 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-04T03:25:41.005Z"
+    "updated_at": "2021-03-08T13:00:51.790Z"
   },
   "components": [
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2020-12-17T03:20:05.766Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -69,9 +54,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2020-12-17T03:20:05.766Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -242,10 +242,25 @@
     {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2020-09-18T04:04:32.252Z",
+      "updated_at": "2021-03-08T13:00:50.826Z",
       "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2020-09-11T06:59:53.798Z",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -265,21 +280,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2020-09-11T06:59:53.798Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -452,9 +452,9 @@
     {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-02-16T06:27:01.809Z",
+      "updated_at": "2021-03-08T13:00:50.845Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -467,9 +467,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-02-20T17:56:00.030Z",
+      "updated_at": "2021-03-08T13:00:50.865Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -570,10 +570,126 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6f4xh6b7q1q4",
+      "name": "Issues with Cloud Control Panel and API",
+      "status": "investigating",
+      "created_at": "2021-03-08T13:00:50.790Z",
+      "updated_at": "2021-03-08T13:00:51.781Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/shpmyh0xqkcn",
+      "started_at": "2021-03-08T13:00:50.774Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "q29tktdqrw9v",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with connection requests for multiple products. During this time, you may experience issues with changing, creating or destroying resources. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "6f4xh6b7q1q4",
+          "created_at": "2021-03-08T13:00:50.903Z",
+          "updated_at": "2021-03-08T13:00:51.775Z",
+          "display_at": "2021-03-08T13:00:50.903Z",
+          "affected_components": [
+            {
+              "code": "b0wv4d3y7sx1",
+              "name": "Services - Cloud Firewall",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1368909580072198100
+        }
+      ],
+      "components": [
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "degraded_performance",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2021-03-08T13:00:50.865Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "chj29s92gg0x",
+          "name": "Load Balancers",
+          "status": "degraded_performance",
+          "created_at": "2017-03-15T20:20:44.175Z",
+          "updated_at": "2021-03-08T13:00:50.845Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "b0wv4d3y7sx1",
+          "name": "Cloud Firewall",
+          "status": "degraded_performance",
+          "created_at": "2017-06-06T14:49:52.471Z",
+          "updated_at": "2021-03-08T13:00:50.826Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-02-13T01:28:30.803Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
