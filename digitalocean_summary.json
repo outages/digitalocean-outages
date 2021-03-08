@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-08T13:23:33.059Z"
+    "updated_at": "2021-03-08T15:47:23.611Z"
   },
   "components": [
     {
@@ -242,9 +242,9 @@
     {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-03-08T13:00:50.826Z",
+      "updated_at": "2021-03-08T15:47:22.822Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -435,6 +435,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2021-03-08T15:47:22.853Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -445,21 +460,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
-      "status": "degraded_performance",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-03-08T13:00:50.845Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -574,9 +574,9 @@
     {
       "id": "6f4xh6b7q1q4",
       "name": "Issues with Cloud Control Panel and API",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-03-08T13:00:50.790Z",
-      "updated_at": "2021-03-08T13:00:51.781Z",
+      "updated_at": "2021-03-08T15:47:23.605Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -584,6 +584,44 @@
       "started_at": "2021-03-08T13:00:50.774Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "pzzw6q9dkdz1",
+          "status": "identified",
+          "body": "Our Engineering team continues to work to mitigate the issue. As of 12:57 UTC, the issues with Cloud Firewalls and Load Balancers were resolved. Users with Managed Databases will still see degraded performance at this time. \n\nWe are not aware of any other user impact but are continuing to monitor for any possible issues as work is put in place to resolve the root issue. Thank you for your patience and we will share a further update as soon as possible.",
+          "incident_id": "6f4xh6b7q1q4",
+          "created_at": "2021-03-08T15:47:22.921Z",
+          "updated_at": "2021-03-08T15:47:23.599Z",
+          "display_at": "2021-03-08T15:47:22.921Z",
+          "affected_components": [
+            {
+              "code": "b0wv4d3y7sx1",
+              "name": "Services - Cloud Firewall",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1368951488634970000
+        },
         {
           "id": "q29tktdqrw9v",
           "status": "investigating",
@@ -642,9 +680,9 @@
         {
           "id": "chj29s92gg0x",
           "name": "Load Balancers",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-03-15T20:20:44.175Z",
-          "updated_at": "2021-03-08T13:00:50.845Z",
+          "updated_at": "2021-03-08T15:47:22.853Z",
           "position": 13,
           "description": null,
           "showcase": false,
@@ -657,9 +695,9 @@
         {
           "id": "b0wv4d3y7sx1",
           "name": "Cloud Firewall",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-06-06T14:49:52.471Z",
-          "updated_at": "2021-03-08T13:00:50.826Z",
+          "updated_at": "2021-03-08T15:47:22.822Z",
           "position": 6,
           "description": null,
           "showcase": false,
