@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-08T15:47:23.611Z"
+    "updated_at": "2021-03-08T18:23:41.538Z"
   },
   "components": [
     {
@@ -39,21 +39,6 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-02-13T01:28:30.803Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1082j139b5bg",
       "name": "API",
       "status": "operational",
@@ -69,9 +54,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-02-13T01:28:30.803Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -105,21 +105,6 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-03-04T03:25:40.415Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -135,16 +120,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2020-12-15T23:47:31.883Z",
-      "position": 3,
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-03-04T03:25:40.415Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -165,16 +150,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "19n6t4685zrn",
+      "name": "Billing",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-12-10T01:37:12.120Z",
-      "position": 4,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2020-12-15T23:47:31.883Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -195,16 +180,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-02-26T18:08:57.281Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-12-10T01:37:12.120Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -225,16 +210,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-02-11T02:48:07.995Z",
-      "position": 6,
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "partial_outage",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2021-03-08T18:08:37.512Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -255,16 +240,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2020-09-11T06:59:53.798Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-02-11T02:48:07.995Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -280,6 +265,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2020-09-11T06:59:53.798Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -315,21 +315,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2021-02-19T06:19:23.935Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -340,6 +325,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2021-02-19T06:19:23.935Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -375,21 +375,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-02-03T23:46:28.395Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -405,16 +390,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
       "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-02-03T04:01:15.517Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-02-03T23:46:28.395Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -430,6 +415,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-02-03T04:01:15.517Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -465,21 +465,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
-      "status": "degraded_performance",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-03-08T13:00:50.865Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c65109y4h6vk",
       "name": "TOR1",
       "status": "operational",
@@ -490,6 +475,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "degraded_performance",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-03-08T13:00:50.865Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -572,11 +572,84 @@
   ],
   "incidents": [
     {
+      "id": "11pbfqtj6z1t",
+      "name": "Issues with Managed Databases creations",
+      "status": "monitoring",
+      "created_at": "2021-03-08T18:16:55.000Z",
+      "updated_at": "2021-03-08T18:19:15.415Z",
+      "monitoring_at": "2021-03-08T18:16:55.000Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/s0l260l8tcsq",
+      "started_at": "2021-03-08T18:16:55.000Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "h7wxgn1ffhrm",
+          "status": "monitoring",
+          "body": "We are opening this incident for issues specifically with Managed Databases, as mentioned here: https://status.digitalocean.com/incidents/6f4xh6b7q1q4\n\nOur Engineering team identified a root cause for delays in Managed Database creation times and has now implemented a fix for that issue. At this time, we are seeing creation times return to expected values, but users may have experienced delays or timeouts over the past few hours while creating new Managed Database clusters.\n\nWe are monitoring the fix and will post an update once we confirm this incident is fully resolved.",
+          "incident_id": "11pbfqtj6z1t",
+          "created_at": "2021-03-08T18:16:55.570Z",
+          "updated_at": "2021-03-08T18:19:15.324Z",
+          "display_at": "2021-03-08T18:16:55.000Z",
+          "affected_components": [
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1368989121524338700
+        }
+      ],
+      "components": [
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "degraded_performance",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2021-03-08T13:00:50.865Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-02-13T01:28:30.803Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "6f4xh6b7q1q4",
       "name": "Issues with Cloud Control Panel and API",
       "status": "identified",
       "created_at": "2021-03-08T13:00:50.790Z",
-      "updated_at": "2021-03-08T15:47:23.605Z",
+      "updated_at": "2021-03-08T18:08:37.994Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -584,6 +657,32 @@
       "started_at": "2021-03-08T13:00:50.774Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "800ctttj40mv",
+          "status": "identified",
+          "body": "Our Engineering team has identified another issue related to this incident. At this time, users may be unable to load the DigitalOcean Control Panel and may see errors with multiple services and products, such as Cloud Firewalls, alerts for our Monitoring service, etc. Our team is working to determine the root cause and restore service as quickly as possible.\n\nAt this time, our Engineering team has also identified a separate cause for the issues with Managed Database. We will be opening a new status post for Managed Database issues specifically and users are encouraged to follow there for updates. \n\nThank you for your patience.",
+          "incident_id": "6f4xh6b7q1q4",
+          "created_at": "2021-03-08T18:08:37.551Z",
+          "updated_at": "2021-03-08T18:08:37.990Z",
+          "display_at": "2021-03-08T18:08:37.551Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1368987032853176300
+        },
         {
           "id": "pzzw6q9dkdz1",
           "status": "identified",
@@ -663,42 +762,12 @@
       ],
       "components": [
         {
-          "id": "lklbmflv3jcl",
-          "name": "Managed Databases",
-          "status": "degraded_performance",
-          "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-03-08T13:00:50.865Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "chj29s92gg0x",
-          "name": "Load Balancers",
-          "status": "operational",
-          "created_at": "2017-03-15T20:20:44.175Z",
-          "updated_at": "2021-03-08T15:47:22.853Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b0wv4d3y7sx1",
-          "name": "Cloud Firewall",
-          "status": "operational",
-          "created_at": "2017-06-06T14:49:52.471Z",
-          "updated_at": "2021-03-08T15:47:22.822Z",
-          "position": 6,
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2021-03-08T18:08:37.512Z",
+          "position": 5,
           "description": null,
           "showcase": false,
           "start_date": null,
@@ -728,6 +797,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
