@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-15T23:39:04.781Z"
+    "updated_at": "2021-03-16T00:20:28.032Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -452,9 +452,9 @@
     {
       "id": "nf94kg7630pr",
       "name": "SGP1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-03-15T23:39:04.157Z",
+      "updated_at": "2021-03-16T00:20:27.985Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -574,10 +574,10 @@
     {
       "id": "9kd4q07110mj",
       "name": "Loss of Connectivity in SGP1",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2021-03-15T23:16:01.451Z",
-      "updated_at": "2021-03-15T23:39:04.774Z",
-      "monitoring_at": "2021-03-15T23:39:04.184Z",
+      "updated_at": "2021-03-16T00:20:28.024Z",
+      "monitoring_at": "2021-03-15T23:39:04.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/bx5llldz0yj8",
@@ -585,13 +585,53 @@
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
+          "id": "5617rtvshcb5",
+          "status": "identified",
+          "body": "Our engineering team has identified additional connectivity issues with floating IP addresses in our SGP1 region. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "9kd4q07110mj",
+          "created_at": "2021-03-16T00:20:28.021Z",
+          "updated_at": "2021-03-16T00:20:28.021Z",
+          "display_at": "2021-03-16T00:20:28.021Z",
+          "affected_components": [
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xmf4gptbdn1z",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "9kd4q07110mj",
+          "created_at": "2021-03-16T00:19:57.871Z",
+          "updated_at": "2021-03-16T00:19:57.871Z",
+          "display_at": "2021-03-16T00:19:57.871Z",
+          "affected_components": [
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "pxxl7xmg82wd",
           "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with networking in our SGP1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "body": "Our engineering team has identified additional connectivity issues with floating IP addresses in our SGP1 region. We will post an update as soon as the issue is fully resolved.",
           "incident_id": "9kd4q07110mj",
           "created_at": "2021-03-15T23:39:04.184Z",
-          "updated_at": "2021-03-15T23:39:04.770Z",
-          "display_at": "2021-03-15T23:39:04.184Z",
+          "updated_at": "2021-03-16T00:19:40.253Z",
+          "display_at": "2021-03-15T23:39:04.000Z",
           "affected_components": [
             {
               "code": "nf94kg7630pr",
@@ -629,9 +669,9 @@
         {
           "id": "nf94kg7630pr",
           "name": "SGP1",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2021-03-15T23:39:04.157Z",
+          "updated_at": "2021-03-16T00:20:27.985Z",
           "position": 13,
           "description": null,
           "showcase": false,
@@ -646,7 +686,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
