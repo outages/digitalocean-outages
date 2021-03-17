@@ -4,15 +4,15 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-17T15:13:35.372Z"
+    "updated_at": "2021-03-17T15:43:41.764Z"
   },
   "components": [
     {
       "id": "1082j139b5bg",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-03-17T13:59:45.540Z",
+      "updated_at": "2021-03-17T15:43:41.236Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -586,110 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "0f4s4rkdql63",
-      "name": "Issues with API Service",
-      "status": "monitoring",
-      "created_at": "2021-03-17T13:59:45.513Z",
-      "updated_at": "2021-03-17T15:13:35.368Z",
-      "monitoring_at": "2021-03-17T15:13:34.916Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/g30nj27xqxkk",
-      "started_at": "2021-03-17T13:59:45.504Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "3p5twtyw8ttb",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issues with API service availability and is currently monitoring the situation. We will post an update as soon as the issue is completely resolved.",
-          "incident_id": "0f4s4rkdql63",
-          "created_at": "2021-03-17T15:13:34.916Z",
-          "updated_at": "2021-03-17T15:13:35.366Z",
-          "display_at": "2021-03-17T15:13:34.916Z",
-          "affected_components": [
-            {
-              "code": "1082j139b5bg",
-              "name": "Services - API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372204472512876500
-        },
-        {
-          "id": "m6qk1j7lc64s",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating a drop in availability for an internal API service. At this time, users may experience timeouts or errors when creating, reading, updating, or deleting (CRUD) services such as Cloud Firewalls, Load Balancers, Monitoring alerts, resource tagging, and others. We are working to identify user impact as well as resolve the issue and will post an update as soon as we have further information. Thank you for your patience.",
-          "incident_id": "0f4s4rkdql63",
-          "created_at": "2021-03-17T13:59:45.580Z",
-          "updated_at": "2021-03-17T13:59:46.034Z",
-          "display_at": "2021-03-17T13:59:45.580Z",
-          "affected_components": [
-            {
-              "code": "1082j139b5bg",
-              "name": "Services - API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372185894581510100
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-02-13T01:28:30.803Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1082j139b5bg",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2016-08-30T19:49:35.215Z",
-          "updated_at": "2021-03-17T13:59:45.540Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
