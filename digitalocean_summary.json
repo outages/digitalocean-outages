@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-17T08:49:37.800Z"
+    "updated_at": "2021-03-17T09:12:50.294Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -406,21 +406,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2021-02-19T06:19:23.952Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
       "status": "operational",
@@ -436,12 +421,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-03-16T03:23:04.109Z",
-      "position": 13,
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2021-02-19T06:19:23.952Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -466,16 +451,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-03-08T18:37:51.865Z",
-      "position": 14,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-03-16T03:23:04.109Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -491,6 +476,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-03-08T18:37:51.865Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -513,9 +513,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-03-17T07:58:33.660Z",
+      "updated_at": "2021-03-17T09:12:50.290Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -589,7 +589,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
