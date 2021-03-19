@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-19T18:41:28.653Z"
+    "updated_at": "2021-03-19T19:15:01.384Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -108,9 +108,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-03-19T17:44:51.994Z",
+      "updated_at": "2021-03-19T19:15:00.023Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -586,110 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "7bhhcydsgk8m",
-      "name": "Issues Impacting App Platform with Gitlab",
-      "status": "monitoring",
-      "created_at": "2021-03-19T17:44:51.947Z",
-      "updated_at": "2021-03-19T18:41:28.645Z",
-      "monitoring_at": "2021-03-19T18:41:28.063Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/834yqh2cg7fr",
-      "started_at": "2021-03-19T17:44:51.918Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "jb863ftvblnn",
-          "status": "monitoring",
-          "body": "Connectivity between App Platform and Gitlab has improved significantly, and while everything appears to be working as expected, our engineers will continue to monitor the situation for some time to ensure that there are no further issues. Thank you for your patience, and we will post another update once we're confident that this matter is fully resolved.",
-          "incident_id": "7bhhcydsgk8m",
-          "created_at": "2021-03-19T18:41:28.063Z",
-          "updated_at": "2021-03-19T18:41:28.643Z",
-          "display_at": "2021-03-19T18:41:28.063Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372981564900999200
-        },
-        {
-          "id": "m142t95kwfxv",
-          "status": "investigating",
-          "body": "Our engineers are currently investigating an issue impacting new App Platform deployments with Gitlab as the source. During this time, some users may experience intermittent errors when creating new App Platform apps with Gitlab as the source. Existing apps are not affected and should continue to function normally. We apologize for any inconvenience, and we'll share more information as it becomes available.",
-          "incident_id": "7bhhcydsgk8m",
-          "created_at": "2021-03-19T17:44:52.050Z",
-          "updated_at": "2021-03-19T17:44:52.660Z",
-          "display_at": "2021-03-19T17:44:52.050Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1372967321229164500
-        }
-      ],
-      "components": [
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-03-19T17:44:51.994Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-02-13T01:28:30.803Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
