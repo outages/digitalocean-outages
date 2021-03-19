@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-19T01:49:48.947Z"
+    "updated_at": "2021-03-19T17:44:52.669Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -108,9 +108,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-03-11T20:10:04.800Z",
+      "updated_at": "2021-03-19T17:44:51.994Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -136,21 +136,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
-      "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2020-12-15T23:47:31.883Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
       "status": "operational",
@@ -166,16 +151,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "19n6t4685zrn",
+      "name": "Billing",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2020-12-10T01:37:12.120Z",
-      "position": 4,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2020-12-15T23:47:31.883Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -191,6 +176,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2020-12-10T01:37:12.120Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -256,21 +256,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2020-09-11T06:59:53.798Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "cl06j64ltm9s",
       "name": "NYC1",
       "status": "operational",
@@ -281,6 +266,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2020-09-11T06:59:53.798Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -316,21 +316,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2021-02-19T06:19:23.935Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -341,6 +326,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2021-02-19T06:19:23.935Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -436,21 +436,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-03-16T03:23:04.109Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
       "status": "operational",
@@ -466,16 +451,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-03-08T18:37:51.865Z",
-      "position": 14,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-03-16T03:23:04.109Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -491,6 +476,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-03-08T18:37:51.865Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -586,10 +586,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "7bhhcydsgk8m",
+      "name": "Issues Impacting App Platform with Gitlab",
+      "status": "investigating",
+      "created_at": "2021-03-19T17:44:51.947Z",
+      "updated_at": "2021-03-19T17:44:52.663Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/834yqh2cg7fr",
+      "started_at": "2021-03-19T17:44:51.918Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "m142t95kwfxv",
+          "status": "investigating",
+          "body": "Our engineers are currently investigating an issue impacting new App Platform deployments with Gitlab as the source. During this time, some users may experience intermittent errors when creating new App Platform apps with Gitlab as the source. Existing apps are not affected and should continue to function normally. We apologize for any inconvenience, and we'll share more information as it becomes available.",
+          "incident_id": "7bhhcydsgk8m",
+          "created_at": "2021-03-19T17:44:52.050Z",
+          "updated_at": "2021-03-19T17:44:52.660Z",
+          "display_at": "2021-03-19T17:44:52.050Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1372967321229164500
+        }
+      ],
+      "components": [
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "degraded_performance",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2021-03-19T17:44:51.994Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-02-13T01:28:30.803Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
