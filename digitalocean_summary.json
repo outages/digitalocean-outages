@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-01T17:00:33.076Z"
+    "updated_at": "2021-04-01T18:00:50.032Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -453,9 +453,9 @@
     {
       "id": "nf94kg7630pr",
       "name": "SGP1",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-03-30T20:24:45.380Z",
+      "updated_at": "2021-04-01T18:00:49.113Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -513,9 +513,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-03-31T03:11:53.345Z",
+      "updated_at": "2021-04-01T18:00:49.135Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -591,9 +591,9 @@
     {
       "id": "kfctm7jrkg11",
       "name": "SGP1 Networking",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-04-01T16:02:52.580Z",
-      "updated_at": "2021-04-01T17:00:33.070Z",
+      "updated_at": "2021-04-01T18:00:50.023Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -601,6 +601,32 @@
       "started_at": "2021-04-01T16:02:52.569Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "72nypjj2gs8v",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "kfctm7jrkg11",
+          "created_at": "2021-04-01T18:00:49.167Z",
+          "updated_at": "2021-04-01T18:00:50.017Z",
+          "display_at": "2021-04-01T18:00:49.167Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1377682378487828500
+        },
         {
           "id": "k1kv0sp9z5xh",
           "status": "scheduled",
@@ -645,9 +671,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-03-31T03:11:53.345Z",
+          "updated_at": "2021-04-01T18:00:49.135Z",
           "position": 16,
           "description": null,
           "showcase": false,
@@ -660,9 +686,9 @@
         {
           "id": "nf94kg7630pr",
           "name": "SGP1",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2021-03-30T20:24:45.380Z",
+          "updated_at": "2021-04-01T18:00:49.113Z",
           "position": 13,
           "description": null,
           "showcase": false,
@@ -678,7 +704,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
