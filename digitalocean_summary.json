@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-08T09:23:43.604Z"
+    "updated_at": "2021-04-08T10:31:04.995Z"
   },
   "components": [
     {
@@ -590,9 +590,9 @@
     {
       "id": "v52gj0k6dsmp",
       "name": "Spaces availability issue in AMS3",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-04-08T08:41:55.904Z",
-      "updated_at": "2021-04-08T08:41:56.499Z",
+      "updated_at": "2021-04-08T10:31:04.984Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -600,6 +600,32 @@
       "started_at": "2021-04-08T08:41:55.893Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "fh7tr7xywms8",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with Spaces in our AMS3 region and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "incident_id": "v52gj0k6dsmp",
+          "created_at": "2021-04-08T10:31:03.624Z",
+          "updated_at": "2021-04-08T10:31:04.971Z",
+          "display_at": "2021-04-08T10:31:03.624Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1380105910261981200
+        },
         {
           "id": "z1tf5rwjc9bz",
           "status": "investigating",
