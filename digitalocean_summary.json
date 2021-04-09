@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-09T09:10:17.920Z"
+    "updated_at": "2021-04-09T09:51:01.224Z"
   },
   "components": [
     {
@@ -586,133 +586,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "klcywlx1xn36",
-      "name": "Availability issues with Spaces in NYC3",
-      "status": "monitoring",
-      "created_at": "2021-04-09T07:39:21.661Z",
-      "updated_at": "2021-04-09T09:10:17.912Z",
-      "monitoring_at": "2021-04-09T09:10:17.366Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5rk86z64blsf",
-      "started_at": "2021-04-09T07:39:21.649Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "6k4tspsph12w",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue with Spaces in our NYC3 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "klcywlx1xn36",
-          "created_at": "2021-04-09T09:10:17.366Z",
-          "updated_at": "2021-04-09T09:10:17.908Z",
-          "display_at": "2021-04-09T09:10:17.366Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1380447968227037200
-        },
-        {
-          "id": "lk2vd1htfs57",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with Spaces in our NYC3 region and is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "klcywlx1xn36",
-          "created_at": "2021-04-09T08:08:25.854Z",
-          "updated_at": "2021-04-09T08:08:26.279Z",
-          "display_at": "2021-04-09T08:08:25.854Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1380432400518275000
-        },
-        {
-          "id": "p3ldfn5dz2p2",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Spaces in our NYC3 region. During this time you may experience errors with accessing Spaces. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "klcywlx1xn36",
-          "created_at": "2021-04-09T07:39:21.744Z",
-          "updated_at": "2021-04-09T07:39:22.384Z",
-          "display_at": "2021-04-09T07:39:21.744Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1380425086205714400
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "operational",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-04-09T09:10:17.336Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-04-09T09:10:17.316Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
