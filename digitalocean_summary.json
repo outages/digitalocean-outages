@@ -4,28 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-09T07:39:22.393Z"
+    "updated_at": "2021-04-09T08:08:26.288Z"
   },
   "components": [
     {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-03-17T15:43:41.236Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -54,12 +39,42 @@
       ]
     },
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-03-17T15:43:41.236Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
       "status": "operational",
       "created_at": "2017-02-17T21:44:07.397Z",
       "updated_at": "2021-04-07T11:47:12.968Z",
       "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-03-04T03:25:40.415Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -104,21 +119,6 @@
         "w7dvwpvd248r",
         "6b20vy2cd6hz"
       ]
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-03-04T03:25:40.415Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "vtmbhmvd5dqv",
@@ -196,21 +196,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-03-08T18:41:22.381Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "0kys855yj2y1",
       "name": "FRA1",
       "status": "operational",
@@ -226,16 +211,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
       "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-02-11T02:48:07.995Z",
-      "position": 6,
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2021-03-08T18:41:22.381Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -256,12 +241,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2020-06-29T06:48:24.245Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-02-11T02:48:07.995Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -281,6 +266,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2020-06-29T06:48:24.245Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -318,9 +318,9 @@
     {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-03-31T03:11:53.325Z",
+      "updated_at": "2021-04-09T08:08:25.801Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -376,21 +376,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "m7nv9rsmrssk",
-      "name": "Event Processing",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2021-03-25T15:49:32.826Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
       "status": "operational",
@@ -406,16 +391,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
+      "id": "m7nv9rsmrssk",
+      "name": "Event Processing",
       "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2021-02-19T06:19:23.952Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:40:14.164Z",
+      "updated_at": "2021-03-25T15:49:32.826Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -431,6 +416,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
+      "status": "operational",
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2021-02-19T06:19:23.952Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -466,21 +466,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
-      "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-03-08T18:37:51.865Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c65109y4h6vk",
       "name": "TOR1",
       "status": "operational",
@@ -491,6 +476,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-03-08T18:37:51.865Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -590,9 +590,9 @@
     {
       "id": "klcywlx1xn36",
       "name": "Availability issues with Spaces in NYC3",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-04-09T07:39:21.661Z",
-      "updated_at": "2021-04-09T07:39:22.387Z",
+      "updated_at": "2021-04-09T08:08:26.282Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -600,6 +600,32 @@
       "started_at": "2021-04-09T07:39:21.649Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "lk2vd1htfs57",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with Spaces in our NYC3 region and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "incident_id": "klcywlx1xn36",
+          "created_at": "2021-04-09T08:08:25.854Z",
+          "updated_at": "2021-04-09T08:08:26.279Z",
+          "display_at": "2021-04-09T08:08:25.854Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1380432400518275000
+        },
         {
           "id": "p3ldfn5dz2p2",
           "status": "investigating",
@@ -646,9 +672,9 @@
         {
           "id": "3hq55lyvq3rl",
           "name": "NYC3",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-03-31T03:11:53.325Z",
+          "updated_at": "2021-04-09T08:08:25.801Z",
           "position": 9,
           "description": null,
           "showcase": false,
