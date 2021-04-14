@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-14T11:25:12.966Z"
+    "updated_at": "2021-04-14T11:48:33.978Z"
   },
   "components": [
     {
@@ -589,17 +589,43 @@
   "incidents": [
     {
       "id": "1fd5sv9dbd8g",
-      "name": "Issues with managed databases in control panel",
-      "status": "investigating",
+      "name": "Issues with Managed Databases in Control Panel",
+      "status": "monitoring",
       "created_at": "2021-04-14T11:25:12.319Z",
-      "updated_at": "2021-04-14T11:25:12.958Z",
-      "monitoring_at": null,
+      "updated_at": "2021-04-14T11:48:33.972Z",
+      "monitoring_at": "2021-04-14T11:48:33.521Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/fvc62tbxrz6r",
       "started_at": "2021-04-14T11:25:12.306Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "fcf8ydppb4my",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with Managed Databases and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "1fd5sv9dbd8g",
+          "created_at": "2021-04-14T11:48:33.521Z",
+          "updated_at": "2021-04-14T11:48:33.969Z",
+          "display_at": "2021-04-14T11:48:33.521Z",
+          "affected_components": [
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1382299736711909400
+        },
         {
           "id": "bbs793x4rg9q",
           "status": "investigating",
