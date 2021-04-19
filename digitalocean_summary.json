@@ -4,28 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-19T16:55:59.322Z"
+    "updated_at": "2021-04-19T18:35:02.356Z"
   },
   "components": [
     {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-04-10T20:09:52.270Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -69,9 +54,39 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-04-10T20:09:52.270Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-03-04T03:25:40.415Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -106,21 +121,6 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-03-04T03:25:40.415Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -136,6 +136,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2021-04-19T18:00:33.767Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "19n6t4685zrn",
       "name": "Billing",
       "status": "operational",
@@ -146,21 +161,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
-      "status": "under_maintenance",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2021-04-19T15:00:15.586Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -226,21 +226,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-04-06T13:30:30.023Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1hx8143ly544",
       "name": "LON1",
       "status": "operational",
@@ -251,6 +236,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2021-04-06T13:30:30.023Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -346,21 +346,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2021-04-09T22:44:07.685Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
       "status": "operational",
@@ -371,6 +356,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2021-04-09T22:44:07.685Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -406,21 +406,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-03-11T20:10:04.823Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
       "status": "operational",
@@ -436,12 +421,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
       "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-03-08T15:47:22.853Z",
-      "position": 13,
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-03-11T20:10:04.823Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -466,12 +451,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lklbmflv3jcl",
-      "name": "Managed Databases",
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
       "status": "operational",
-      "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-04-14T11:54:54.933Z",
-      "position": 14,
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2021-03-08T15:47:22.853Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -491,6 +476,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lklbmflv3jcl",
+      "name": "Managed Databases",
+      "status": "operational",
+      "created_at": "2019-02-14T16:21:36.279Z",
+      "updated_at": "2021-04-14T11:54:54.933Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-04-19T15:00:16.111Z",
+      "updated_at": "2021-04-19T18:00:33.813Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -587,170 +587,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "75thm9m39syg",
-      "name": "Spaces Maintenance in AMS3 and NYC3 Regions",
-      "status": "in_progress",
-      "created_at": "2021-04-19T14:27:39.909Z",
-      "updated_at": "2021-04-19T16:55:59.217Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/1g42pglflfqr",
-      "started_at": "2021-04-19T14:27:39.894Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "cjtx82wgbr2x",
-          "status": "in_progress",
-          "body": "The NYC3 portion of this maintenance is now complete, and all services in this region should be back to normal functionality at this time. Please stand by for additional updates, we will share more information once the maintenance in AMS3 is complete.",
-          "incident_id": "75thm9m39syg",
-          "created_at": "2021-04-19T16:55:57.663Z",
-          "updated_at": "2021-04-19T16:55:59.214Z",
-          "display_at": "2021-04-19T16:55:57.663Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "under_maintenance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1384189040597999600
-        },
-        {
-          "id": "901v2hhjfvph",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "75thm9m39syg",
-          "created_at": "2021-04-19T15:00:16.593Z",
-          "updated_at": "2021-04-19T15:00:20.430Z",
-          "display_at": "2021-04-19T15:00:16.593Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1384159937866072000
-        },
-        {
-          "id": "d6p2tcwlwpjx",
-          "status": "scheduled",
-          "body": "Start: 19/April/21 15:00 UTC\nEnd:   19/April/21 18:00 UTC\n---\nDuring the above window, our Storage Engineering team will be performing maintenance on the Spaces service in our AMS3 and NYC3 regions, in order to improve performance and reliability.\n\nExpected Impact:\n\nUsers may experience an increase in HTTP 503 errors or periods of these errors, as well as increased latency with response times while working with objects in AMS3 and NYC3 Spaces throughout the course of the maintenance. We will endeavor to keep these periods to a minimum.\n\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a support ticket on your account.",
-          "incident_id": "75thm9m39syg",
-          "created_at": "2021-04-19T14:27:39.986Z",
-          "updated_at": "2021-04-19T16:08:04.393Z",
-          "display_at": "2021-04-19T14:27:39.986Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1384151718049374200
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "under_maintenance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-04-19T15:00:16.111Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-04-19T16:55:57.630Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2021-04-19T15:00:15.586Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-04-19T15:00:00.000Z",
-      "scheduled_until": "2021-04-19T18:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
