@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-20T21:23:58.881Z"
+    "updated_at": "2021-04-20T23:14:15.382Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -378,9 +378,9 @@
     {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2021-04-20T21:01:11.655Z",
+      "updated_at": "2021-04-20T23:14:14.660Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -586,84 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "059xnyz8c79g",
-      "name": "Droplet Creation in NYC3",
-      "status": "investigating",
-      "created_at": "2021-04-20T21:01:11.599Z",
-      "updated_at": "2021-04-20T21:01:12.274Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fpk2lw8spghj",
-      "started_at": "2021-04-20T21:01:11.584Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "tg5w9t6cyg3d",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with processing Droplet creation events in our NYC3 region. During this time users may experience latencies or failed events when creating Droplets. or Droplet-backed services, such as Managed Databases, Managed Kubernetes, Load Balancer, etc. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "059xnyz8c79g",
-          "created_at": "2021-04-20T21:01:11.719Z",
-          "updated_at": "2021-04-20T21:01:12.271Z",
-          "display_at": "2021-04-20T21:01:11.719Z",
-          "affected_components": [
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1384613140114002000
-        }
-      ],
-      "components": [
-        {
-          "id": "m7nv9rsmrssk",
-          "name": "Event Processing",
-          "status": "partial_outage",
-          "created_at": "2017-02-17T21:40:14.164Z",
-          "updated_at": "2021-04-20T21:01:11.655Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-04-19T16:55:57.630Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
