@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-26T06:53:15.073Z"
+    "updated_at": "2021-04-26T07:20:36.833Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-04-26T06:47:23.708Z",
+      "updated_at": "2021-04-26T07:00:13.655Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -586,136 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "yz6h2xkn0mr2",
-      "name": "Spaces availability in AMS3",
-      "status": "identified",
-      "created_at": "2021-04-26T06:47:23.664Z",
-      "updated_at": "2021-04-26T06:53:15.067Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ltdcwy0j2bby",
-      "started_at": "2021-04-26T06:47:23.000Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "nwn7x8d6n6mm",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with Spaces in our AMS3 region and is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "yz6h2xkn0mr2",
-          "created_at": "2021-04-26T06:53:14.263Z",
-          "updated_at": "2021-04-26T06:53:15.064Z",
-          "display_at": "2021-04-26T06:53:14.263Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1386574072834760700
-        },
-        {
-          "id": "wbjn4cg1m556",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "yz6h2xkn0mr2",
-          "created_at": "2021-04-26T06:49:50.709Z",
-          "updated_at": "2021-04-26T06:49:51.067Z",
-          "display_at": "2021-04-26T06:49:50.709Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1386573217339297800
-        },
-        {
-          "id": "b922kvlf83qt",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Spaces availability in our AMS3 region. During this time you may experience an increased error rate when using the Spaces system. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "yz6h2xkn0mr2",
-          "created_at": "2021-04-26T06:47:23.766Z",
-          "updated_at": "2021-04-26T06:48:50.061Z",
-          "display_at": "2021-04-26T06:47:23.000Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": 1386572601800106000
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-04-26T06:47:23.708Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2021-04-19T19:01:55.844Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
