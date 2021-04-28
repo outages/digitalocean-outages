@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-28T05:23:33.539Z"
+    "updated_at": "2021-04-28T06:05:15.592Z"
   },
   "components": [
     {
@@ -590,9 +590,9 @@
     {
       "id": "jtx13cq22hlh",
       "name": "Spaces availability in SGP1",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-04-28T05:20:17.748Z",
-      "updated_at": "2021-04-28T05:20:18.658Z",
+      "updated_at": "2021-04-28T06:05:15.363Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -600,6 +600,32 @@
       "started_at": "2021-04-28T05:20:17.732Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "3kl16kryshj6",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with Spaces in our SGP1 region and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "incident_id": "jtx13cq22hlh",
+          "created_at": "2021-04-28T06:05:14.137Z",
+          "updated_at": "2021-04-28T06:05:15.360Z",
+          "display_at": "2021-04-28T06:05:14.137Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1387286770006380500
+        },
         {
           "id": "tgnskgdmvvcj",
           "status": "investigating",
