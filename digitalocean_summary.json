@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-05T04:42:19.561Z"
+    "updated_at": "2021-05-05T05:12:58.108Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-05-05T03:30:03.071Z",
+      "updated_at": "2021-05-05T05:12:57.517Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -590,16 +590,42 @@
     {
       "id": "2lc4vj1nfhcr",
       "name": "Spaces API Availability Drop in SGP1 Region",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-05-05T03:30:03.026Z",
-      "updated_at": "2021-05-05T04:42:19.554Z",
-      "monitoring_at": null,
+      "updated_at": "2021-05-05T05:12:58.101Z",
+      "monitoring_at": "2021-05-05T05:12:57.563Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lc4088fb02hl",
       "started_at": "2021-05-05T03:30:03.016Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "fgwfq9wyyvj0",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue with Spaces in our SGP1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "2lc4vj1nfhcr",
+          "created_at": "2021-05-05T05:12:57.563Z",
+          "updated_at": "2021-05-05T05:12:58.098Z",
+          "display_at": "2021-05-05T05:12:57.563Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1389810326640627700
+        },
         {
           "id": "26qlcvjghnmq",
           "status": "identified",
@@ -657,9 +683,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-05-05T03:30:03.071Z",
+          "updated_at": "2021-05-05T05:12:57.517Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -689,7 +715,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
