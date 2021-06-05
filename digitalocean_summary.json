@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-05T15:55:15.216Z"
+    "updated_at": "2021-06-05T17:21:55.393Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -108,9 +108,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-06-05T15:55:13.657Z",
+      "updated_at": "2021-06-05T17:21:54.891Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -590,16 +590,120 @@
     {
       "id": "nr5fdffkpn8n",
       "name": "app URLs not resolving correctly from some locations",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-06-05T15:55:13.625Z",
-      "updated_at": "2021-06-05T15:55:15.183Z",
-      "monitoring_at": null,
+      "updated_at": "2021-06-05T17:21:55.386Z",
+      "monitoring_at": "2021-06-05T17:21:54.915Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/wcwl0918tx0d",
       "started_at": "2021-06-05T15:55:13.615Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "j7n30f92ktq0",
+          "status": "monitoring",
+          "body": "Our engineering team has addressed the issue and apps are coming back online as DNS caches are cleared around the world.",
+          "incident_id": "nr5fdffkpn8n",
+          "created_at": "2021-06-05T17:21:54.915Z",
+          "updated_at": "2021-06-05T17:21:55.383Z",
+          "display_at": "2021-06-05T17:21:54.915Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1401227797931053000
+        },
+        {
+          "id": "1tbnr6nr8phg",
+          "status": "identified",
+          "body": "Our engineering team has identified the cause of the issue and is working on a way to resolve it.",
+          "incident_id": "nr5fdffkpn8n",
+          "created_at": "2021-06-05T16:57:59.451Z",
+          "updated_at": "2021-06-05T16:58:00.314Z",
+          "display_at": "2021-06-05T16:57:59.451Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1401221778941251600
+        },
+        {
+          "id": "c0b0s1zqzmfv",
+          "status": "investigating",
+          "body": "Our engineering team noticed an issue with app URLs not resolving correctly. You may experience app URLs accessible from some places in the world but not from others. Our engineering team is working on a solution to resolve this.",
+          "incident_id": "nr5fdffkpn8n",
+          "created_at": "2021-06-05T16:50:53.080Z",
+          "updated_at": "2021-06-05T16:52:34.149Z",
+          "display_at": "2021-06-05T16:50:53.000Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1401219988430626800
+        },
+        {
+          "id": "jv2bzzx5yd0p",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "nr5fdffkpn8n",
+          "created_at": "2021-06-05T16:49:39.275Z",
+          "updated_at": "2021-06-05T16:49:39.693Z",
+          "display_at": "2021-06-05T16:49:39.275Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1401219679197089800
+        },
         {
           "id": "d2g9lck371h4",
           "status": "investigating",
@@ -629,12 +733,12 @@
       ],
       "components": [
         {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
           "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-04-19T16:55:57.630Z",
-          "position": 9,
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-06-02T12:45:24.539Z",
+          "position": 1,
           "description": null,
           "showcase": false,
           "start_date": null,
@@ -646,9 +750,9 @@
         {
           "id": "vtmbhmvd5dqv",
           "name": "App Platform",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-06-05T15:55:13.657Z",
+          "updated_at": "2021-06-05T17:21:54.891Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -663,7 +767,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
