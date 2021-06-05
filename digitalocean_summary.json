@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-05T21:32:25.531Z"
+    "updated_at": "2021-06-05T21:59:39.435Z"
   },
   "components": [
     {
@@ -586,107 +586,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "dtjpykd9wtc1",
-      "name": "App URLs not correctly resolving globally.",
-      "status": "monitoring",
-      "created_at": "2021-06-05T19:43:44.523Z",
-      "updated_at": "2021-06-05T21:32:25.523Z",
-      "monitoring_at": "2021-06-05T19:43:44.600Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/qvy19qtzxfts",
-      "started_at": "2021-06-05T19:43:44.513Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "5k2wpbbgwybt",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with app URLs. The engineering team is monitoring the situation and we will post an update as soon as full resolution is confirmed.",
-          "incident_id": "dtjpykd9wtc1",
-          "created_at": "2021-06-05T21:32:25.088Z",
-          "updated_at": "2021-06-05T21:32:25.520Z",
-          "display_at": "2021-06-05T21:32:25.088Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1401290838928363500
-        },
-        {
-          "id": "58f5clpqynvp",
-          "status": "monitoring",
-          "body": "Our engineering team are still seeing issues with some of the app URLs and are being monitored as apps are coming back online with DNS caches getting cleared around the world.",
-          "incident_id": "dtjpykd9wtc1",
-          "created_at": "2021-06-05T19:43:44.600Z",
-          "updated_at": "2021-06-05T19:43:45.163Z",
-          "display_at": "2021-06-05T19:43:44.600Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1401263490665369600
-        }
-      ],
-      "components": [
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "operational",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-06-05T21:32:25.059Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-06-02T12:45:24.539Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
