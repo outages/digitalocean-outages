@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-09T17:25:39.673Z"
+    "updated_at": "2021-06-09T18:08:13.985Z"
   },
   "components": [
     {
@@ -592,7 +592,7 @@
       "name": "Subset of Unresponsive Droplets",
       "status": "identified",
       "created_at": "2021-06-09T01:46:42.060Z",
-      "updated_at": "2021-06-09T17:25:39.667Z",
+      "updated_at": "2021-06-09T18:08:13.978Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -603,11 +603,11 @@
         {
           "id": "8f8zpqn7xkdv",
           "status": "identified",
-          "body": "Our Engineering team continues to work towards a fix for the issue impacting a subset of Droplets across all regions. Much progress has been made towards mitigating the impact of this issue, but our Engineers are still working towards a permanent solution. During this time, affected Droplets might encounter issues responding to network requests, and Droplet actions such as resizes, rebuilds etc. might fail. Our Engineering team also identified that this could impact Droplet-backed products such as Managed Kubernetes and Managed Databases, as well. We understand that this has been a long process and your continued patience is greatly appreciated. We will share more information as it becomes available.",
+          "body": "Our Engineering team continues to work towards a fix for the issue impacting a subset of Droplets across all regions. Much progress has been made towards mitigating the impact of this issue, but our Engineers are still working towards a permanent solution. During this time, affected Droplets might encounter issues responding to network requests, and Droplet actions such as resizes, rebuilds, etc might fail. \n\nOur Engineering team also identified that this could impact Droplet-backed products such as Managed Kubernetes and Managed Databases, as well. In terms of impact to Managed Kubernetes, some nodes in some clusters will be affected by this issue, but not all nodes in all clusters. There should not be any impact to the management of Managed Kubernetes clusters (create/delete, scale, resize, etc).\n\nWe understand that this has been a long process and your continued patience is greatly appreciated. We will share more information as it becomes available.",
           "incident_id": "05f9vnj7jyxw",
           "created_at": "2021-06-09T17:25:38.935Z",
-          "updated_at": "2021-06-09T17:25:39.664Z",
-          "display_at": "2021-06-09T17:25:38.935Z",
+          "updated_at": "2021-06-09T18:08:13.976Z",
+          "display_at": "2021-06-09T17:25:38.000Z",
           "affected_components": [
             {
               "code": "xc1fvcqsqp80",
