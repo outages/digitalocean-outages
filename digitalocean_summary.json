@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-09T22:30:09.550Z"
+    "updated_at": "2021-06-10T00:08:21.709Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -348,9 +348,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-06-09T08:46:33.197Z",
+      "updated_at": "2021-06-10T00:08:20.345Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -393,9 +393,9 @@
     {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2021-06-09T08:46:33.241Z",
+      "updated_at": "2021-06-10T00:08:20.369Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -586,265 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "05f9vnj7jyxw",
-      "name": "Subset of Unresponsive Droplets",
-      "status": "monitoring",
-      "created_at": "2021-06-09T01:46:42.060Z",
-      "updated_at": "2021-06-09T22:30:09.543Z",
-      "monitoring_at": "2021-06-09T22:30:08.935Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/q33tm59wsvx1",
-      "started_at": "2021-06-09T01:46:42.048Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "hq0dlcs7vx68",
-          "status": "monitoring",
-          "body": "Our engineering team has applied a fix for the subset of Droplets that were experiencing issues across all regions. We're now monitoring the situation and will post an update as soon as the issue is fully resolved.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T22:30:08.935Z",
-          "updated_at": "2021-06-09T22:30:09.540Z",
-          "display_at": "2021-06-09T22:30:08.935Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402754919107530800
-        },
-        {
-          "id": "8f8zpqn7xkdv",
-          "status": "identified",
-          "body": "Our Engineering team continues to work towards a fix for the issue impacting a subset of Droplets across all regions. Much progress has been made towards mitigating the impact of this issue, but our Engineers are still working towards a permanent solution. During this time, affected Droplets might encounter issues responding to network requests, and Droplet actions such as resizes, rebuilds, etc might fail. \n\nOur Engineering team also identified that this could impact Droplet-backed products such as Managed Kubernetes and Managed Databases, as well. In terms of impact to Managed Kubernetes, some nodes in some clusters will be affected by this issue, but not all nodes in all clusters. There should not be any impact to the management of Managed Kubernetes clusters (create/delete, scale, resize, etc).\n\nWe understand that this has been a long process and your continued patience is greatly appreciated. We will share more information as it becomes available.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T17:25:38.935Z",
-          "updated_at": "2021-06-09T18:08:13.976Z",
-          "display_at": "2021-06-09T17:25:38.000Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402678289957675000
-        },
-        {
-          "id": "nkycxjqtqq6z",
-          "status": "identified",
-          "body": "Our Engineering team has identified a recurring issue affecting a subset of Droplets. During this time, affected Droplets might not be responding to network requests, and Droplet actions such as resizes, rebuilds etc. might fail. Our Engineering team also identified that it could affect Droplet-backed products such as Managed Kubernetes as well. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T11:11:38.364Z",
-          "updated_at": "2021-06-09T11:11:38.740Z",
-          "display_at": "2021-06-09T11:11:38.364Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402584165992714200
-        },
-        {
-          "id": "sknx3f1gnpw9",
-          "status": "identified",
-          "body": "Our Engineering team has identified a recurring issue affecting a subset of Droplets. During this time, affected Droplets might not be responding to network requests, and Droplet actions such as resizes, rebuilds etc. might fail. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T08:46:33.275Z",
-          "updated_at": "2021-06-09T08:46:33.846Z",
-          "display_at": "2021-06-09T08:46:33.275Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402547655067062300
-        },
-        {
-          "id": "qm0mty618hlg",
-          "status": "investigating",
-          "body": "Our Engineering team has implemented a fix regarding the issue impacting Subset of Droplets. Affected Droplets are now reachable and users are able to perform actions such resize, rebuilds etc. We're now monitoring the situation and will post an update as soon as the issue is fully resolved.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T07:03:37.569Z",
-          "updated_at": "2021-06-09T07:03:38.042Z",
-          "display_at": "2021-06-09T07:03:37.569Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402521751859261400
-        },
-        {
-          "id": "gkj0cpbqs9f3",
-          "status": "investigating",
-          "body": "Our Engineering team is currently investigating an issue globally impacting a subset of Droplets. At this time, users may experience being unable to reach their Droplet via network requests and see errors or stuck events when attempting Droplet actions such as resizes, rebuilds, etc. Our team is currently working to identify which regions are most impacted, as well as what specific Droplets are impacted. We realize how impacting this is and will provide an update as soon as possible. Thank you for your patience.",
-          "incident_id": "05f9vnj7jyxw",
-          "created_at": "2021-06-09T01:46:42.173Z",
-          "updated_at": "2021-06-09T01:46:42.784Z",
-          "display_at": "2021-06-09T01:46:42.173Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1402441996204052500
-        }
-      ],
-      "components": [
-        {
-          "id": "m7nv9rsmrssk",
-          "name": "Event Processing",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:14.164Z",
-          "updated_at": "2021-06-09T08:46:33.241Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xc1fvcqsqp80",
-          "name": "Droplets",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2021-06-09T08:46:33.197Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-06-02T12:45:24.539Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
