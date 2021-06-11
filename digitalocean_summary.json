@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-11T04:24:32.295Z"
+    "updated_at": "2021-06-11T06:17:57.647Z"
   },
   "components": [
     {
@@ -586,107 +586,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "gvtpm8fg6lgq",
-      "name": "Spaces availability in NYC3",
-      "status": "monitoring",
-      "created_at": "2021-06-11T03:08:05.403Z",
-      "updated_at": "2021-06-11T04:24:32.259Z",
-      "monitoring_at": "2021-06-11T04:24:30.539Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/38gmtqgkdbsv",
-      "started_at": "2021-06-11T03:08:05.391Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "9fxdr4835w4y",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix for the issue with Spaces availability in our NYC3 region. We're now monitoring the situation and will post an update as soon as the issue is fully resolved.",
-          "incident_id": "gvtpm8fg6lgq",
-          "created_at": "2021-06-11T04:24:30.539Z",
-          "updated_at": "2021-06-11T04:24:32.255Z",
-          "display_at": "2021-06-11T04:24:30.539Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1403206489683095600
-        },
-        {
-          "id": "c7ksw269dssk",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Spaces availability in our NYC3 region. During this time you may experience an increased error rate when using the Spaces system. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "gvtpm8fg6lgq",
-          "created_at": "2021-06-11T03:08:05.529Z",
-          "updated_at": "2021-06-11T03:08:06.069Z",
-          "display_at": "2021-06-11T03:08:05.529Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1403187253929668600
-        }
-      ],
-      "components": [
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "operational",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-06-03T00:32:53.381Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-06-11T04:24:30.509Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
