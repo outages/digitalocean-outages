@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-11T03:23:33.011Z"
+    "updated_at": "2021-06-11T04:24:32.295Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -318,9 +318,9 @@
     {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-06-11T03:08:05.447Z",
+      "updated_at": "2021-06-11T04:24:30.509Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -590,16 +590,42 @@
     {
       "id": "gvtpm8fg6lgq",
       "name": "Spaces availability in NYC3",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-06-11T03:08:05.403Z",
-      "updated_at": "2021-06-11T03:08:06.072Z",
-      "monitoring_at": null,
+      "updated_at": "2021-06-11T04:24:32.259Z",
+      "monitoring_at": "2021-06-11T04:24:30.539Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/38gmtqgkdbsv",
       "started_at": "2021-06-11T03:08:05.391Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "9fxdr4835w4y",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix for the issue with Spaces availability in our NYC3 region. We're now monitoring the situation and will post an update as soon as the issue is fully resolved.",
+          "incident_id": "gvtpm8fg6lgq",
+          "created_at": "2021-06-11T04:24:30.539Z",
+          "updated_at": "2021-06-11T04:24:32.255Z",
+          "display_at": "2021-06-11T04:24:30.539Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1403206489683095600
+        },
         {
           "id": "c7ksw269dssk",
           "status": "investigating",
@@ -646,9 +672,9 @@
         {
           "id": "3hq55lyvq3rl",
           "name": "NYC3",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-06-11T03:08:05.447Z",
+          "updated_at": "2021-06-11T04:24:30.509Z",
           "position": 9,
           "description": null,
           "showcase": false,
@@ -663,7 +689,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
