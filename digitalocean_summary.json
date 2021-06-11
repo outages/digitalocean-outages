@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-10T00:08:21.709Z"
+    "updated_at": "2021-06-11T03:08:06.077Z"
   },
   "components": [
     {
@@ -23,9 +23,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-04-28T19:19:14.345Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -54,16 +69,16 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-04-28T19:19:14.345Z",
-      "position": 1,
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-03-04T03:25:40.415Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -106,21 +121,6 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-03-04T03:25:40.415Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -130,6 +130,21 @@
       "description": null,
       "showcase": false,
       "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "19n6t4685zrn",
+      "name": "Billing",
+      "status": "operational",
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2021-05-12T09:29:09.477Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -151,16 +166,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-05-12T09:29:09.477Z",
-      "position": 3,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2021-04-13T03:55:46.989Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -176,21 +191,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2021-04-13T03:55:46.989Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -226,21 +226,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-04-06T13:30:30.023Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1hx8143ly544",
       "name": "LON1",
       "status": "operational",
@@ -251,6 +236,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2021-04-06T13:30:30.023Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -286,21 +286,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "operational",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2021-05-16T23:36:32.798Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -316,11 +301,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
+      "status": "operational",
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2021-05-16T23:36:32.798Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-04-19T16:55:57.630Z",
+      "updated_at": "2021-06-11T03:08:05.447Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -376,21 +376,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-05-10T20:00:35.037Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -401,6 +386,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-05-10T20:00:35.037Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -586,10 +586,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gvtpm8fg6lgq",
+      "name": "Spaces availability in NYC3",
+      "status": "investigating",
+      "created_at": "2021-06-11T03:08:05.403Z",
+      "updated_at": "2021-06-11T03:08:06.072Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/38gmtqgkdbsv",
+      "started_at": "2021-06-11T03:08:05.391Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "c7ksw269dssk",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with Spaces availability in our NYC3 region. During this time you may experience an increased error rate when using the Spaces system. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "gvtpm8fg6lgq",
+          "created_at": "2021-06-11T03:08:05.529Z",
+          "updated_at": "2021-06-11T03:08:06.069Z",
+          "display_at": "2021-06-11T03:08:05.529Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1403187253929668600
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "operational",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2021-06-03T00:32:53.381Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3hq55lyvq3rl",
+          "name": "NYC3",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:48:37.049Z",
+          "updated_at": "2021-06-11T03:08:05.447Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
