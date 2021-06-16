@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-16T13:23:52.340Z"
+    "updated_at": "2021-06-16T14:03:34.388Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -123,9 +123,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-06-16T12:54:22.738Z",
+      "updated_at": "2021-06-16T14:03:33.751Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -586,110 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "zbp7nq1ycd4z",
-      "name": "App Platform Deployments",
-      "status": "monitoring",
-      "created_at": "2021-06-16T12:54:22.709Z",
-      "updated_at": "2021-06-16T13:14:55.530Z",
-      "monitoring_at": "2021-06-16T13:14:55.029Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/h942bz5px1yr",
-      "started_at": "2021-06-16T12:54:22.700Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "7v5z56mwpss6",
-          "status": "monitoring",
-          "body": "The third-party provider has addressed and resolved the issues impacting App platform deployments, and we are currently monitoring the situation closely. We will post an update as soon as we confirm that the issue has been fully fixed. Thank you for your patience!",
-          "incident_id": "zbp7nq1ycd4z",
-          "created_at": "2021-06-16T13:14:55.029Z",
-          "updated_at": "2021-06-16T13:14:55.527Z",
-          "display_at": "2021-06-16T13:14:55.029Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1405151905475563500
-        },
-        {
-          "id": "rn96szqrt56k",
-          "status": "identified",
-          "body": "Our engineers have identified an issue with a third-party provider impacting App Platform deployments. During this time, App Platform users may experience delays when deploying new apps or when deploying updates to existing apps. Existing apps should continue to function normally in their current state. We apologize for the inconvenience, and we'll share an update once we have more information.",
-          "incident_id": "zbp7nq1ycd4z",
-          "created_at": "2021-06-16T12:54:22.774Z",
-          "updated_at": "2021-06-16T12:54:23.289Z",
-          "display_at": "2021-06-16T12:54:22.774Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1405146737166094300
-        }
-      ],
-      "components": [
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-06-16T12:54:22.738Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-06-02T12:45:24.539Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
