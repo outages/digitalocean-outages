@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-27T20:23:38.022Z"
+    "updated_at": "2021-06-27T21:45:12.923Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -393,9 +393,9 @@
     {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-06-27T19:54:26.297Z",
+      "updated_at": "2021-06-27T21:45:12.378Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-06-27T19:54:26.319Z",
+      "updated_at": "2021-06-27T21:45:12.391Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -590,16 +590,42 @@
     {
       "id": "j2hcd2bp6lf9",
       "name": "Spaces Availability Issues in SFO2",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-06-27T19:54:26.259Z",
-      "updated_at": "2021-06-27T19:54:27.375Z",
-      "monitoring_at": null,
+      "updated_at": "2021-06-27T21:45:12.915Z",
+      "monitoring_at": "2021-06-27T21:45:12.412Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/cj0fwygxj1nc",
       "started_at": "2021-06-27T19:54:26.248Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "0phwd7fc9z4s",
+          "status": "monitoring",
+          "body": "Our Engineering team has deployed a fix to resolve the availability issues with a subset of Spaces in our SFO2 region and is currently monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "j2hcd2bp6lf9",
+          "created_at": "2021-06-27T21:45:12.412Z",
+          "updated_at": "2021-06-27T21:45:12.911Z",
+          "display_at": "2021-06-27T21:45:12.412Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1409266590613340200
+        },
         {
           "id": "sgxnkwt1nr0r",
           "status": "investigating",
@@ -631,9 +657,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-06-27T19:54:26.319Z",
+          "updated_at": "2021-06-27T21:45:12.391Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -646,9 +672,9 @@
         {
           "id": "8kndbnbgddpr",
           "name": "SFO2",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2021-06-27T19:54:26.297Z",
+          "updated_at": "2021-06-27T21:45:12.378Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -663,7 +689,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
