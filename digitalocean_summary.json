@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-22T02:23:35.474Z"
+    "updated_at": "2021-07-22T04:08:58.653Z"
   },
   "components": [
     {
@@ -589,10 +589,10 @@
   "incidents": [
     {
       "id": "xgtfjx5kcxv7",
-      "name": "VPC Issues for a Subset of AMS2 Droplets",
+      "name": "VPC Connectivity for a subset of Droplets in AMS2",
       "status": "identified",
       "created_at": "2021-07-22T01:31:20.924Z",
-      "updated_at": "2021-07-22T01:31:21.688Z",
+      "updated_at": "2021-07-22T04:08:58.646Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -603,11 +603,11 @@
         {
           "id": "91b4cm1ltl43",
           "status": "identified",
-          "body": "Our Engineering team is currently investigating an issue impacting the VPC of a subset of Droplets in AMS2. At this time, users may experience issues communicating with Droplets across VPC networks. We will provide an update as soon as possible. Thank you for your patience.",
+          "body": "Our Engineering team Identified an issue impacting the VPC of a subset of Droplets in AMS2. At this time, users may experience issues communicating with Droplets across VPC networks. We will provide an update as soon as possible. Thank you for your patience.",
           "incident_id": "xgtfjx5kcxv7",
           "created_at": "2021-07-22T01:31:21.028Z",
-          "updated_at": "2021-07-22T01:31:21.685Z",
-          "display_at": "2021-07-22T01:31:21.028Z",
+          "updated_at": "2021-07-22T04:08:58.644Z",
+          "display_at": "2021-07-22T01:31:21.000Z",
           "affected_components": [
             {
               "code": "1f90pjx4y4jc",
