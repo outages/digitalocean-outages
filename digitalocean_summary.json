@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-26T21:30:54.404Z"
+    "updated_at": "2021-07-26T21:53:49.820Z"
   },
   "components": [
     {
@@ -18,21 +18,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-06-29T00:00:57.273Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -69,6 +54,21 @@
       ]
     },
     {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-06-29T00:00:57.273Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -84,9 +84,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-07-22T04:15:26.495Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -121,21 +136,6 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-07-22T04:15:26.495Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
       "status": "operational",
@@ -153,25 +153,10 @@
     {
       "id": "19n6t4685zrn",
       "name": "Billing",
-      "status": "degraded_performance",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-07-26T21:27:05.490Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "j9wj5sbm3jp3",
-      "name": "Block Storage",
       "status": "operational",
-      "created_at": "2016-08-30T22:37:40.813Z",
-      "updated_at": "2021-05-21T09:39:01.164Z",
-      "position": 4,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2021-07-26T21:53:49.201Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -191,6 +176,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j9wj5sbm3jp3",
+      "name": "Block Storage",
+      "status": "operational",
+      "created_at": "2016-08-30T22:37:40.813Z",
+      "updated_at": "2021-05-21T09:39:01.164Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -226,21 +226,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-02-11T02:48:07.995Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
       "status": "operational",
@@ -256,16 +241,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2020-09-11T06:59:53.798Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-02-11T02:48:07.995Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -281,6 +266,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2020-09-11T06:59:53.798Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -316,21 +316,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-06-11T04:24:30.509Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yzksrkss544p",
       "name": "DNS",
       "status": "operational",
@@ -346,12 +331,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2021-07-21T12:00:40.616Z",
-      "position": 10,
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-06-11T04:24:30.509Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -376,12 +361,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-07-15T22:14:08.951Z",
-      "position": 11,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2021-07-21T12:00:40.616Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -406,16 +391,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
       "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-07-09T23:55:50.139Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-07-15T22:14:08.951Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -436,12 +421,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
       "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-06-07T11:51:33.323Z",
-      "position": 13,
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-07-09T23:55:50.139Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -461,6 +446,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2021-06-07T11:51:33.323Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -590,16 +590,36 @@
     {
       "id": "62ktqz3f16t2",
       "name": "Adding Payment Methods.",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-07-26T21:27:05.444Z",
-      "updated_at": "2021-07-26T21:27:06.091Z",
-      "monitoring_at": null,
+      "updated_at": "2021-07-26T21:53:49.813Z",
+      "monitoring_at": "2021-07-26T21:53:49.240Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/fw4pfdw23h4p",
       "started_at": "2021-07-26T21:27:05.435Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "p1qzxz34btf8",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with setting up payment methods and is monitoring the situation. You should now be able to add a new payment method to your account without issue. We apologize for the inconvenience and will post an update as soon as this issue is fully resolved.",
+          "incident_id": "62ktqz3f16t2",
+          "created_at": "2021-07-26T21:53:49.240Z",
+          "updated_at": "2021-07-26T21:53:49.809Z",
+          "display_at": "2021-07-26T21:53:49.240Z",
+          "affected_components": [
+            {
+              "code": "19n6t4685zrn",
+              "name": "Services - Billing",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1419778006780833800
+        },
         {
           "id": "fdwxq9qz7zbr",
           "status": "investigating",
@@ -625,9 +645,9 @@
         {
           "id": "19n6t4685zrn",
           "name": "Billing",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-12-03T20:37:11.024Z",
-          "updated_at": "2021-07-26T21:27:05.490Z",
+          "updated_at": "2021-07-26T21:53:49.201Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -642,7 +662,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
