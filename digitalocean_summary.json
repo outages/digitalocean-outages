@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-26T16:23:38.033Z"
+    "updated_at": "2021-07-26T18:00:42.306Z"
   },
   "components": [
     {
@@ -590,16 +590,42 @@
     {
       "id": "cxtc1cz4h6q2",
       "name": "Spaces API Availability in NYC3",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-07-26T16:07:35.678Z",
-      "updated_at": "2021-07-26T16:07:37.072Z",
-      "monitoring_at": null,
+      "updated_at": "2021-07-26T18:00:42.298Z",
+      "monitoring_at": "2021-07-26T18:00:41.639Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/gdvzhj52mmq5",
       "started_at": "2021-07-26T16:07:35.667Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "ylgdp026z53l",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix for the issue affecting Spaces API availability in our NYC3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.",
+          "incident_id": "cxtc1cz4h6q2",
+          "created_at": "2021-07-26T18:00:41.639Z",
+          "updated_at": "2021-07-26T18:00:42.294Z",
+          "display_at": "2021-07-26T18:00:41.639Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1419719338873933800
+        },
         {
           "id": "1f2hbmflx568",
           "status": "investigating",
