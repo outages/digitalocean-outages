@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-26T22:23:39.656Z"
+    "updated_at": "2021-07-26T22:37:47.337Z"
   },
   "components": [
     {
@@ -586,80 +586,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "62ktqz3f16t2",
-      "name": "Adding Payment Methods.",
-      "status": "monitoring",
-      "created_at": "2021-07-26T21:27:05.444Z",
-      "updated_at": "2021-07-26T21:53:49.813Z",
-      "monitoring_at": "2021-07-26T21:53:49.240Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fw4pfdw23h4p",
-      "started_at": "2021-07-26T21:27:05.435Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "p1qzxz34btf8",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with setting up payment methods and is monitoring the situation. You should now be able to add a new payment method to your account without issue. We apologize for the inconvenience and will post an update as soon as this issue is fully resolved.",
-          "incident_id": "62ktqz3f16t2",
-          "created_at": "2021-07-26T21:53:49.240Z",
-          "updated_at": "2021-07-26T21:53:49.809Z",
-          "display_at": "2021-07-26T21:53:49.240Z",
-          "affected_components": [
-            {
-              "code": "19n6t4685zrn",
-              "name": "Services - Billing",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1419778006780833800
-        },
-        {
-          "id": "fdwxq9qz7zbr",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with setting up payment methods. At this time, users may experience errors when creating a new account or attempting to add a new payment method to an existing account. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "62ktqz3f16t2",
-          "created_at": "2021-07-26T21:27:05.544Z",
-          "updated_at": "2021-07-26T21:27:06.087Z",
-          "display_at": "2021-07-26T21:27:05.544Z",
-          "affected_components": [
-            {
-              "code": "19n6t4685zrn",
-              "name": "Services - Billing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1419771280325152800
-        }
-      ],
-      "components": [
-        {
-          "id": "19n6t4685zrn",
-          "name": "Billing",
-          "status": "operational",
-          "created_at": "2018-12-03T20:37:11.024Z",
-          "updated_at": "2021-07-26T21:53:49.201Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
