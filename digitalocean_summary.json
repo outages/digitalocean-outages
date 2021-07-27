@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-27T20:40:36.534Z"
+    "updated_at": "2021-07-27T21:23:35.924Z"
   },
   "components": [
     {
@@ -18,21 +18,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-06-29T00:00:57.273Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -69,16 +54,16 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-07-20T20:59:15.893Z",
-      "position": 2,
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-06-29T00:00:57.273Z",
+      "position": 1,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -136,16 +121,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2021-06-14T10:41:41.893Z",
-      "position": 3,
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-07-20T20:59:15.893Z",
+      "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -161,6 +146,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2021-06-14T10:41:41.893Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -196,21 +196,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2021-05-10T20:00:34.984Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
       "status": "operational",
@@ -226,12 +211,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
       "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-02-11T02:48:07.995Z",
-      "position": 6,
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2021-05-10T20:00:34.984Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -256,16 +241,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2020-09-11T06:59:53.798Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-02-11T02:48:07.995Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -281,6 +266,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2020-09-11T06:59:53.798Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -408,9 +408,9 @@
     {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-07-09T23:55:50.139Z",
+      "updated_at": "2021-07-27T21:11:37.986Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-07-27T18:56:24.560Z",
+      "updated_at": "2021-07-27T21:16:37.520Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -588,79 +588,53 @@
   ],
   "incidents": [
     {
-      "id": "8n0lvd566k34",
-      "name": "Spaces Availability in NYC3",
-      "status": "monitoring",
-      "created_at": "2021-07-27T18:56:24.516Z",
-      "updated_at": "2021-07-27T20:40:36.525Z",
-      "monitoring_at": "2021-07-27T20:40:35.984Z",
+      "id": "pmvdykrj5rn1",
+      "name": "403 Errors on Team Accounts when Creating Kubernetes Clusters",
+      "status": "identified",
+      "created_at": "2021-07-27T21:11:37.952Z",
+      "updated_at": "2021-07-27T21:11:38.584Z",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/s0gkk0k50mf1",
-      "started_at": "2021-07-27T18:56:24.504Z",
+      "shortlink": "https://stspg.io/qm341sbw7btp",
+      "started_at": "2021-07-27T21:11:37.942Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
-          "id": "ptyn1n4mbn6k",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix for the issue impacting Spaces availability in our NYC3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.",
-          "incident_id": "8n0lvd566k34",
-          "created_at": "2021-07-27T20:40:35.984Z",
-          "updated_at": "2021-07-27T20:40:36.521Z",
-          "display_at": "2021-07-27T20:40:35.984Z",
+          "id": "20tm4cr2s6f8",
+          "status": "identified",
+          "body": "Our Engineering team has identified an issue impacting the creation of Kubernetes Clusters on team accounts. Users may experience 403 errors when attempting this. We apologize for the inconvenience and will share another update once there is more information.",
+          "incident_id": "pmvdykrj5rn1",
+          "created_at": "2021-07-27T21:11:38.031Z",
+          "updated_at": "2021-07-27T21:11:38.581Z",
+          "display_at": "2021-07-27T21:11:38.031Z",
           "affected_components": [
             {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
               "new_status": "degraded_performance"
             },
             {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
               "old_status": "operational",
               "new_status": "operational"
             }
           ],
           "deliver_notifications": true,
           "custom_tweet": null,
-          "tweet_id": 1420121967584112600
-        },
-        {
-          "id": "8pxfcrhrdh6b",
-          "status": "investigating",
-          "body": "Our engineering team is currently investigating an issue impacting Spaces API availability in our NYC3 region. During this time, some users may experience errors when trying to access or manage their Spaces resources in NYC3. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "8n0lvd566k34",
-          "created_at": "2021-07-27T18:56:24.635Z",
-          "updated_at": "2021-07-27T18:56:25.201Z",
-          "display_at": "2021-07-27T18:56:24.635Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1420095747979047000
+          "tweet_id": 1420129777961169000
         }
       ],
       "components": [
         {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
           "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-07-27T18:56:24.560Z",
-          "position": 17,
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2021-07-27T21:11:37.986Z",
+          "position": 12,
           "description": null,
           "showcase": false,
           "start_date": null,
@@ -670,12 +644,12 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
           "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-06-11T04:24:30.509Z",
-          "position": 9,
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-06-29T00:00:57.273Z",
+          "position": 1,
           "description": null,
           "showcase": false,
           "start_date": null,
