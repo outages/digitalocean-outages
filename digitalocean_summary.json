@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-29T10:33:48.147Z"
+    "updated_at": "2021-07-29T10:54:30.327Z"
   },
   "components": [
     {
@@ -587,105 +587,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "97ykj3xvwqlr",
-      "name": "Managed Certificate in CDN endpoint",
-      "status": "monitoring",
-      "created_at": "2021-07-29T08:12:14.927Z",
-      "updated_at": "2021-07-29T10:33:48.140Z",
-      "monitoring_at": "2021-07-29T10:33:47.598Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9kh49g6720t5",
-      "started_at": "2021-07-29T08:12:14.915Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "szmxmn3h1xxx",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with Certificate in CDN endpoint and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "97ykj3xvwqlr",
-          "created_at": "2021-07-29T10:33:47.598Z",
-          "updated_at": "2021-07-29T10:33:48.136Z",
-          "display_at": "2021-07-29T10:33:47.598Z",
-          "affected_components": [
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1420694035467968500
-        },
-        {
-          "id": "9jrzj13dfv7v",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Certificate in CDN endpoint. During this time, users may experience issues when attempting to create SSL certificates for CDN endpoint. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "97ykj3xvwqlr",
-          "created_at": "2021-07-29T08:12:15.021Z",
-          "updated_at": "2021-07-29T08:12:15.785Z",
-          "display_at": "2021-07-29T08:12:15.021Z",
-          "affected_components": [
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1420658416230420500
-        }
-      ],
-      "components": [
-        {
-          "id": "w7dvwpvd248r",
-          "name": "Spaces CDN",
-          "status": "operational",
-          "created_at": "2020-04-27T17:53:14.657Z",
-          "updated_at": "2021-07-29T10:33:47.564Z",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-06-29T00:00:57.273Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "b7ztpglm7c9x",
       "name": "Spaces API Availability in NYC3",
