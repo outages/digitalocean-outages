@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-30T04:43:53.048Z"
+    "updated_at": "2021-07-31T14:31:18.667Z"
   },
   "components": [
     {
@@ -587,6 +587,79 @@
     }
   ],
   "incidents": [
+    {
+      "id": "3n7rlvzsjy1b",
+      "name": "Spaces Availability in NYC3",
+      "status": "investigating",
+      "created_at": "2021-07-31T14:31:17.402Z",
+      "updated_at": "2021-07-31T14:31:18.662Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/86lvm8w6kcvq",
+      "started_at": "2021-07-31T14:31:17.392Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "9k4wby2qq4yv",
+          "status": "investigating",
+          "body": "Our engineering team is currently investigating an issue impacting Spaces API availability in our NYC3 region. During this time, some users may experience errors when trying to access or manage their Spaces resources in NYC3. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "3n7rlvzsjy1b",
+          "created_at": "2021-07-31T14:31:17.451Z",
+          "updated_at": "2021-07-31T14:31:18.659Z",
+          "display_at": "2021-07-31T14:31:17.451Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1421478582082175000
+        }
+      ],
+      "components": [
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "degraded_performance",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2021-07-28T15:37:14.844Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3hq55lyvq3rl",
+          "name": "NYC3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:37.049Z",
+          "updated_at": "2021-07-28T21:23:12.084Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "b7ztpglm7c9x",
       "name": "Spaces API Availability in NYC3",
