@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-06T20:23:40.778Z"
+    "updated_at": "2021-08-06T20:34:33.770Z"
   },
   "components": [
     {
@@ -590,16 +590,42 @@
     {
       "id": "122d7d7jgk3x",
       "name": "Spaces Availability in SFO2",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-08-06T19:51:18.032Z",
-      "updated_at": "2021-08-06T19:51:18.578Z",
-      "monitoring_at": null,
+      "updated_at": "2021-08-06T20:34:33.762Z",
+      "monitoring_at": "2021-08-06T20:34:33.266Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/49cd2vb81ljg",
       "started_at": "2021-08-06T19:51:18.016Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "w9ykg83wmyhm",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue with API availability for Spaces in our SFO2 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "122d7d7jgk3x",
+          "created_at": "2021-08-06T20:34:33.266Z",
+          "updated_at": "2021-08-06T20:34:33.757Z",
+          "display_at": "2021-08-06T20:34:33.266Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1423744325012181000
+        },
         {
           "id": "wpf5nsxshynw",
           "status": "investigating",
