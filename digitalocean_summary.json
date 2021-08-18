@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-18T20:23:43.007Z"
+    "updated_at": "2021-08-18T20:47:42.914Z"
   },
   "components": [
     {
@@ -590,16 +590,42 @@
     {
       "id": "g79rrfzqz4v8",
       "name": "Block Storage Volumes in FRA1",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-08-18T19:38:24.973Z",
-      "updated_at": "2021-08-18T19:38:25.566Z",
-      "monitoring_at": null,
+      "updated_at": "2021-08-18T20:47:42.906Z",
+      "monitoring_at": "2021-08-18T20:47:42.053Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/xpd1c7981bnm",
       "started_at": "2021-08-18T19:38:24.963Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "x07pt6q5pml7",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue with Block Storage Volumes in our FRA1 region, and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "g79rrfzqz4v8",
+          "created_at": "2021-08-18T20:47:42.053Z",
+          "updated_at": "2021-08-18T20:47:42.903Z",
+          "display_at": "2021-08-18T20:47:42.053Z",
+          "affected_components": [
+            {
+              "code": "j9wj5sbm3jp3",
+              "name": "Services - Block Storage",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1428096289145692200
+        },
         {
           "id": "mhxpgrcklr2x",
           "status": "investigating",
