@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-25T21:40:33.779Z"
+    "updated_at": "2021-08-25T22:06:00.304Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -168,9 +168,9 @@
     {
       "id": "y7k7nwwgy36z",
       "name": "BLR1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2021-08-25T21:40:32.893Z",
+      "updated_at": "2021-08-25T21:50:29.822Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -483,9 +483,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-08-25T21:40:32.974Z",
+      "updated_at": "2021-08-25T21:50:29.872Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -589,52 +589,26 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "kg9zxx6tqqld",
-      "name": "BLR1 MongoDB Managed Database Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-08-25T21:39:46.686Z",
-      "updated_at": "2021-08-25T21:40:33.765Z",
+      "id": "n0lxpzsv4nrj",
+      "name": "SGP1 MongoDB Managed Database Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-08-25T22:05:59.497Z",
+      "updated_at": "2021-08-25T22:06:00.296Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
-      "shortlink": "https://stspg.io/rjqxc64p88wb",
-      "started_at": "2021-08-25T21:39:46.672Z",
+      "shortlink": "https://stspg.io/b7dp4wc35rqp",
+      "started_at": "2021-08-25T22:05:59.478Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
-          "id": "vv2w2q7p6jxy",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "kg9zxx6tqqld",
-          "created_at": "2021-08-25T21:40:33.010Z",
-          "updated_at": "2021-08-25T21:40:33.760Z",
-          "display_at": "2021-08-25T21:40:33.010Z",
-          "affected_components": [
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y7k7nwwgy36z",
-              "name": "Regions - BLR1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1430646303520804900
-        },
-        {
-          "id": "5yvpzczywcq5",
+          "id": "13rpr3nbg4zg",
           "status": "scheduled",
-          "body": "During the above window, our engineering team will be making changes to our MongoDB Managed Databases in BLR1 to improve performance.\n\nExpected Impact:\n\nAll create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our BLR1 region will be temporarily disabled during maintenance.\n\nWe do not anticipate any impact for existing MongoDB Managed Databases.\n\nDo not hesitate to contact support if you have any additional questions or concerns; you may do so by opening a ticket or replying to this email.",
-          "incident_id": "kg9zxx6tqqld",
-          "created_at": "2021-08-25T21:39:46.762Z",
-          "updated_at": "2021-08-25T21:39:47.312Z",
-          "display_at": "2021-08-25T21:39:46.762Z",
+          "body": "During the above window, our engineering team will be making changes to our MongoDB Managed Databases in SGP1 to improve performance.\n\nExpected Impact:\n\nAll create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our SGP1 region will be temporarily disabled during maintenance.\n\nWe do not anticipate any impact for existing MongoDB Managed Databases.\n\nDo not hesitate to contact support if you have any additional questions or concerns; you may do so by opening a ticket or replying to this email.",
+          "incident_id": "n0lxpzsv4nrj",
+          "created_at": "2021-08-25T22:05:59.595Z",
+          "updated_at": "2021-08-25T22:06:00.293Z",
+          "display_at": "2021-08-25T22:05:59.595Z",
           "affected_components": [
             {
               "code": "lklbmflv3jcl",
@@ -643,24 +617,24 @@
               "new_status": "operational"
             },
             {
-              "code": "y7k7nwwgy36z",
-              "name": "Regions - BLR1",
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
               "old_status": "operational",
               "new_status": "operational"
             }
           ],
           "deliver_notifications": true,
           "custom_tweet": null,
-          "tweet_id": 1430646109139923000
+          "tweet_id": 1430652706658480000
         }
       ],
       "components": [
         {
           "id": "lklbmflv3jcl",
           "name": "Managed Databases",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-08-25T21:40:32.974Z",
+          "updated_at": "2021-08-25T21:50:29.872Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -671,12 +645,12 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "y7k7nwwgy36z",
-          "name": "BLR1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:46:35.663Z",
-          "updated_at": "2021-08-25T21:40:32.893Z",
-          "position": 4,
+          "id": "nf94kg7630pr",
+          "name": "SGP1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:49:07.673Z",
+          "updated_at": "2021-05-10T20:00:35.153Z",
+          "position": 13,
           "description": null,
           "showcase": false,
           "start_date": null,
@@ -686,12 +660,12 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2021-08-25T21:40:00.000Z",
-      "scheduled_until": "2021-08-25T21:50:00.000Z"
+      "scheduled_for": "2021-08-25T22:10:00.000Z",
+      "scheduled_until": "2021-08-25T22:30:00.000Z"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
