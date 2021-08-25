@@ -4,13 +4,28 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-25T22:06:00.304Z"
+    "updated_at": "2021-08-25T22:23:42.151Z"
   },
   "components": [
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-07-28T21:23:12.008Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -54,21 +69,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-07-28T21:23:12.008Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -196,21 +196,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-07-28T21:23:12.036Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "0kys855yj2y1",
       "name": "FRA1",
       "status": "operational",
@@ -221,6 +206,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2021-07-28T21:23:12.036Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -256,6 +256,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2020-06-29T06:48:24.245Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -271,12 +286,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2020-06-29T06:48:24.245Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2021-02-10T04:00:46.799Z",
+      "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -296,21 +311,6 @@
       "showcase": false,
       "start_date": "2020-11-02",
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2021-02-10T04:00:46.799Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -376,21 +376,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-07-15T22:14:08.951Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -406,16 +391,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
       "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-07-28T21:23:12.128Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-07-15T22:14:08.951Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -436,16 +421,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-05-10T20:00:35.153Z",
-      "position": 13,
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-07-28T21:23:12.128Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -466,12 +451,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2020-07-14T04:01:24.844Z",
-      "position": 14,
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
+      "status": "under_maintenance",
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-08-25T22:10:36.558Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -483,14 +468,29 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-08-25T21:50:29.872Z",
+      "updated_at": "2021-08-25T22:10:36.670Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2020-07-14T04:01:24.844Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -591,9 +591,9 @@
     {
       "id": "n0lxpzsv4nrj",
       "name": "SGP1 MongoDB Managed Database Maintenance",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2021-08-25T22:05:59.497Z",
-      "updated_at": "2021-08-25T22:06:00.296Z",
+      "updated_at": "2021-08-25T22:10:37.708Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -601,6 +601,32 @@
       "started_at": "2021-08-25T22:05:59.478Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "1689kjycn7r6",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "n0lxpzsv4nrj",
+          "created_at": "2021-08-25T22:10:36.700Z",
+          "updated_at": "2021-08-25T22:10:37.698Z",
+          "display_at": "2021-08-25T22:10:36.700Z",
+          "affected_components": [
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1430653869839720400
+        },
         {
           "id": "13rpr3nbg4zg",
           "status": "scheduled",
@@ -632,9 +658,9 @@
         {
           "id": "lklbmflv3jcl",
           "name": "Managed Databases",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-08-25T21:50:29.872Z",
+          "updated_at": "2021-08-25T22:10:36.670Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -647,9 +673,9 @@
         {
           "id": "nf94kg7630pr",
           "name": "SGP1",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2021-05-10T20:00:35.153Z",
+          "updated_at": "2021-08-25T22:10:36.558Z",
           "position": 13,
           "description": null,
           "showcase": false,
@@ -665,7 +691,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
