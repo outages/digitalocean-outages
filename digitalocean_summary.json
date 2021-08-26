@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-26T21:23:37.039Z"
+    "updated_at": "2021-08-26T21:30:33.942Z"
   },
   "components": [
     {
@@ -69,24 +69,9 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-07-20T20:59:15.893Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -136,15 +121,15 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-07-26T21:53:49.201Z",
-      "position": 3,
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-07-20T20:59:15.893Z",
+      "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
+      "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -161,6 +146,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "19n6t4685zrn",
+      "name": "Billing",
+      "status": "operational",
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2021-07-26T21:53:49.201Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -273,9 +273,9 @@
     {
       "id": "cl06j64ltm9s",
       "name": "NYC1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2021-08-26T21:00:18.571Z",
+      "updated_at": "2021-08-26T21:30:33.103Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -483,9 +483,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-08-26T21:15:08.755Z",
+      "updated_at": "2021-08-26T21:30:33.126Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -658,9 +658,9 @@
         {
           "id": "lklbmflv3jcl",
           "name": "Managed Databases",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-08-26T21:15:08.755Z",
+          "updated_at": "2021-08-26T21:30:33.126Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -688,101 +688,6 @@
       ],
       "scheduled_for": "2021-08-26T21:15:00.000Z",
       "scheduled_until": "2021-08-26T21:45:00.000Z"
-    },
-    {
-      "id": "xg2kf427rzvg",
-      "name": "NYC1 MongoDB Managed Database Maintenance",
-      "status": "in_progress",
-      "created_at": "2021-08-26T20:57:01.121Z",
-      "updated_at": "2021-08-26T21:00:19.266Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/nx26hxr8r2xr",
-      "started_at": "2021-08-26T20:57:01.110Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "ljljk8csm2g0",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "xg2kf427rzvg",
-          "created_at": "2021-08-26T21:00:18.621Z",
-          "updated_at": "2021-08-26T21:00:19.261Z",
-          "display_at": "2021-08-26T21:00:18.621Z",
-          "affected_components": [
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1430998564662964200
-        },
-        {
-          "id": "r3kz52dwq23s",
-          "status": "scheduled",
-          "body": "During the window of 21:00 UTC to 21:30 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in NYC1 to improve performance.\n\nExpected Impact:\n\nAll create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our NYC1 region will be temporarily disabled during maintenance.\n\nWe do not anticipate any impact for existing MongoDB Managed Databases.\n\nDo not hesitate to contact support by opening a ticket if you have any additional questions or concerns.",
-          "incident_id": "xg2kf427rzvg",
-          "created_at": "2021-08-26T20:57:01.192Z",
-          "updated_at": "2021-08-26T20:57:01.661Z",
-          "display_at": "2021-08-26T20:57:01.192Z",
-          "affected_components": [
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1430997735881142300
-        }
-      ],
-      "components": [
-        {
-          "id": "lklbmflv3jcl",
-          "name": "Managed Databases",
-          "status": "under_maintenance",
-          "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-08-26T21:15:08.755Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "cl06j64ltm9s",
-          "name": "NYC1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:48:01.306Z",
-          "updated_at": "2021-08-26T21:00:18.571Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-08-26T21:00:00.000Z",
-      "scheduled_until": "2021-08-26T21:30:00.000Z"
     }
   ],
   "status": {
