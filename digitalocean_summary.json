@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-26T22:45:32.047Z"
+    "updated_at": "2021-08-27T20:05:17.737Z"
   },
   "components": [
     {
@@ -587,7 +587,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "77s975zvyw2w",
+      "name": "MongoDB Managed Databases Maintenance",
+      "status": "scheduled",
+      "created_at": "2021-08-27T20:05:17.198Z",
+      "updated_at": "2021-08-27T20:05:17.729Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/tqs9446k2d8z",
+      "started_at": "2021-08-27T20:05:17.187Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "pj9dt8tx3vh9",
+          "status": "scheduled",
+          "body": "During the above window, our engineering team will be making changes to our MongoDB Managed Databases in SFO3 to improve performance.\n\nExpected Impact:\n\nAll create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our SFO3 region will be temporarily disabled during maintenance.\n\nWe do not anticipate any impact for existing MongoDB Managed Databases.\n\nDo not hesitate to contact support if you have any additional questions or concerns; you may do so by opening a ticket or replying to this email.",
+          "incident_id": "77s975zvyw2w",
+          "created_at": "2021-08-27T20:05:17.256Z",
+          "updated_at": "2021-08-27T20:05:17.726Z",
+          "display_at": "2021-08-27T20:05:17.256Z",
+          "affected_components": [
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "99gtwvvfhtyz",
+              "name": "Regions - SFO3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1431347104899747800
+        }
+      ],
+      "components": [
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "operational",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2021-08-26T22:45:30.014Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "99gtwvvfhtyz",
+          "name": "SFO3",
+          "status": "operational",
+          "created_at": "2020-05-12T19:05:08.138Z",
+          "updated_at": "2021-08-26T22:45:29.922Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-08-27T20:10:00.000Z",
+      "scheduled_until": "2021-08-27T20:40:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
