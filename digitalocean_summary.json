@@ -4,24 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-01T20:29:40.918Z"
+    "updated_at": "2021-09-01T21:23:09.682Z"
   },
   "components": [
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-09-01T10:44:05.749Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -69,16 +54,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "degraded_performance",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-09-01T10:06:07.727Z",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-09-01T10:44:05.749Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-07-22T04:15:26.495Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -121,16 +121,16 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-07-22T04:15:26.495Z",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-09-01T21:23:08.874Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -166,21 +166,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2021-08-25T21:50:29.822Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -191,6 +176,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2021-08-25T21:50:29.822Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -586,214 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qsjpc491jpk7",
-      "name": "App Platform Deployments",
-      "status": "monitoring",
-      "created_at": "2021-09-01T10:06:07.000Z",
-      "updated_at": "2021-09-01T20:29:40.911Z",
-      "monitoring_at": "2021-09-01T13:04:27.679Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/55prb1yktgk5",
-      "started_at": "2021-09-01T10:06:07.000Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "xhzgxg9ws2p3",
-          "status": "monitoring",
-          "body": "Our engineering team was able to identify the cause of the issue with App Platform deployments and a fix has been put in place. We are monitoring the situation again and will post an update as soon as the issue is confirmed to be fully resolved.",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T20:29:40.527Z",
-          "updated_at": "2021-09-01T20:29:40.906Z",
-          "display_at": "2021-09-01T20:29:40.527Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1433165181224251400
-        },
-        {
-          "id": "5fb4l23xmyxr",
-          "status": "identified",
-          "body": "During the monitoring phase, our engineers observed recurring problems with App platform deployments. During this time, some users may experience delays when deploying new Apps or when deploying updates to existing Apps. We are actively working to find a quick resolution for these issues and we will post an update as soon as additional information is available.",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T18:12:35.868Z",
-          "updated_at": "2021-09-01T18:12:36.440Z",
-          "display_at": "2021-09-01T18:12:35.868Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1433130685108088800
-        },
-        {
-          "id": "l7wbf8fqrj37",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix for the issues impacting the App Platform deployments. We are now monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience!",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T13:04:27.679Z",
-          "updated_at": "2021-09-01T13:04:28.028Z",
-          "display_at": "2021-09-01T13:04:27.679Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1433053139280621600
-        },
-        {
-          "id": "4n75s781j2j7",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with App Platform Deployments and is actively working on a fix. We will post an update as soon as additional information is available.",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T11:26:36.385Z",
-          "updated_at": "2021-09-01T11:26:36.941Z",
-          "display_at": "2021-09-01T11:26:36.385Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1433028513796280300
-        },
-        {
-          "id": "t7gbsq39qdkj",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T10:44:05.782Z",
-          "updated_at": "2021-09-01T10:44:05.782Z",
-          "display_at": "2021-09-01T10:44:05.782Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2n8p1f105jm5",
-          "status": "investigating",
-          "body": "Our Engineering team identified issues with App Platform Deployments in all regions. During this time, App Platform users may experience delays when deploying new Apps or when deploying updates to existing Apps. Existing Apps should continue to function normally in their current state. We apologize for the inconvenience, and we'll share an update once we have more information.",
-          "incident_id": "qsjpc491jpk7",
-          "created_at": "2021-09-01T10:06:07.783Z",
-          "updated_at": "2021-09-01T10:35:38.276Z",
-          "display_at": "2021-09-01T10:06:07.000Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1433008262530494500
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-09-01T10:44:05.749Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-09-01T10:06:07.727Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
