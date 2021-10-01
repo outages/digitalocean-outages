@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-01T03:24:47.238Z"
+    "updated_at": "2021-10-01T04:23:42.556Z"
   },
   "components": [
     {
@@ -213,9 +213,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-10-01T03:24:46.204Z",
+      "updated_at": "2021-10-01T04:19:14.257Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -228,9 +228,9 @@
     {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-10-01T03:24:46.225Z",
+      "updated_at": "2021-10-01T04:19:14.278Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -438,9 +438,9 @@
     {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-10-01T03:24:46.247Z",
+      "updated_at": "2021-10-01T04:19:14.299Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -513,9 +513,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-10-01T00:31:47.788Z",
+      "updated_at": "2021-10-01T04:13:46.946Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-10-01T00:35:51.044Z",
+      "updated_at": "2021-10-01T04:13:46.968Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -587,294 +587,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "szf0zjxvsjbd",
-      "name": "Various Provisioning/Modification Failures",
-      "status": "monitoring",
-      "created_at": "2021-10-01T03:24:46.121Z",
-      "updated_at": "2021-10-01T03:24:47.228Z",
-      "monitoring_at": "2021-10-01T03:24:46.283Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/wlz2v6q6b2qf",
-      "started_at": "2021-10-01T03:24:46.107Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "w4dw1h1cxlxq",
-          "status": "monitoring",
-          "body": "Our engineering team has identified an issue impacting the provisioning and modification of tickets via the Cloud Support Portal, Cloud Firewalls, Load Balancers, and Floating IPs.\n\nA fix has now been implemented to resolve the issues, and we are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "szf0zjxvsjbd",
-          "created_at": "2021-10-01T03:24:46.283Z",
-          "updated_at": "2021-10-01T03:24:47.205Z",
-          "display_at": "2021-10-01T03:24:46.283Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b0wv4d3y7sx1",
-              "name": "Services - Cloud Firewall",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "chj29s92gg0x",
-              "name": "Services - Load Balancers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1443778893639422000
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-09-01T10:44:05.749Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2021-10-01T03:24:46.204Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b0wv4d3y7sx1",
-          "name": "Cloud Firewall",
-          "status": "degraded_performance",
-          "created_at": "2017-06-06T14:49:52.471Z",
-          "updated_at": "2021-10-01T03:24:46.225Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "chj29s92gg0x",
-          "name": "Load Balancers",
-          "status": "degraded_performance",
-          "created_at": "2017-03-15T20:20:44.175Z",
-          "updated_at": "2021-10-01T03:24:46.247Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-10-01T00:31:47.788Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "dmtnxcg9w7fs",
-      "name": "Network Degradation Across Various Regions",
-      "status": "monitoring",
-      "created_at": "2021-10-01T00:31:47.739Z",
-      "updated_at": "2021-10-01T02:04:48.735Z",
-      "monitoring_at": "2021-10-01T02:04:48.365Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/1v9dc05hgh1t",
-      "started_at": "2021-10-01T00:31:47.726Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "1m3x6ky1nsbz",
-          "status": "monitoring",
-          "body": "Our engineers has implemented a fix to resolve the issue with degraded networking and are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "dmtnxcg9w7fs",
-          "created_at": "2021-10-01T02:04:48.365Z",
-          "updated_at": "2021-10-01T02:04:48.730Z",
-          "display_at": "2021-10-01T02:04:48.365Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1443758767590371300
-        },
-        {
-          "id": "13kdtd2q1lsg",
-          "status": "identified",
-          "body": "Additionally, our engineering team has also found that Spaces CreateBucket & DeleteBucket operations may be impacted in all regions.",
-          "incident_id": "dmtnxcg9w7fs",
-          "created_at": "2021-10-01T00:35:51.078Z",
-          "updated_at": "2021-10-01T00:35:51.478Z",
-          "display_at": "2021-10-01T00:35:51.078Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1443736381562372000
-        },
-        {
-          "id": "x5ndfwkmwt41",
-          "status": "identified",
-          "body": "Our engineers has identified the cause of the degraded networking that is affecting multiple regions and are actively working on a fix.\n\nWe will post an update as soon as additional information is available.",
-          "incident_id": "dmtnxcg9w7fs",
-          "created_at": "2021-10-01T00:31:47.842Z",
-          "updated_at": "2021-10-01T00:31:49.618Z",
-          "display_at": "2021-10-01T00:31:47.842Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1443735366524027000
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-09-01T10:44:05.749Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-10-01T00:31:47.788Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-10-01T00:35:51.044Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
     {
       "id": "rbdc1p72mjmw",
       "name": "Managed Database Let's Encrypt SSL Certificate Connectivity",
