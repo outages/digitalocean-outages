@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-01T02:04:48.741Z"
+    "updated_at": "2021-10-01T03:24:47.238Z"
   },
   "components": [
     {
@@ -69,6 +69,21 @@
       ]
     },
     {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-07-22T04:15:26.495Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
       "status": "degraded_performance",
@@ -116,21 +131,6 @@
       "showcase": false,
       "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-07-22T04:15:26.495Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -213,9 +213,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-09-14T00:50:18.236Z",
+      "updated_at": "2021-10-01T03:24:46.204Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -228,9 +228,9 @@
     {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-04-06T13:30:30.023Z",
+      "updated_at": "2021-10-01T03:24:46.225Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -256,21 +256,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2021-07-28T21:23:12.060Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "cl06j64ltm9s",
       "name": "NYC1",
       "status": "operational",
@@ -281,6 +266,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2021-07-28T21:23:12.060Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -346,21 +346,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xc1fvcqsqp80",
-      "name": "Droplets",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-08-18T20:15:46.547Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "mypfybvgyhrk",
       "name": "SFO1",
       "status": "operational",
@@ -371,6 +356,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xc1fvcqsqp80",
+      "name": "Droplets",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:23.067Z",
+      "updated_at": "2021-08-18T20:15:46.547Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -436,6 +436,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "degraded_performance",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2021-10-01T03:24:46.247Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -446,21 +461,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
-      "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-06-07T11:51:33.323Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -587,6 +587,142 @@
     }
   ],
   "incidents": [
+    {
+      "id": "szf0zjxvsjbd",
+      "name": "Various Provisioning/Modification Failures",
+      "status": "monitoring",
+      "created_at": "2021-10-01T03:24:46.121Z",
+      "updated_at": "2021-10-01T03:24:47.228Z",
+      "monitoring_at": "2021-10-01T03:24:46.283Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/wlz2v6q6b2qf",
+      "started_at": "2021-10-01T03:24:46.107Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "w4dw1h1cxlxq",
+          "status": "monitoring",
+          "body": "Our engineering team has identified an issue impacting the provisioning and modification of tickets via the Cloud Support Portal, Cloud Firewalls, Load Balancers, and Floating IPs.\n\nA fix has now been implemented to resolve the issues, and we are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "szf0zjxvsjbd",
+          "created_at": "2021-10-01T03:24:46.283Z",
+          "updated_at": "2021-10-01T03:24:47.205Z",
+          "display_at": "2021-10-01T03:24:46.283Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b0wv4d3y7sx1",
+              "name": "Services - Cloud Firewall",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1443778893639422000
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-09-01T10:44:05.749Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2021-10-01T03:24:46.204Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "b0wv4d3y7sx1",
+          "name": "Cloud Firewall",
+          "status": "degraded_performance",
+          "created_at": "2017-06-06T14:49:52.471Z",
+          "updated_at": "2021-10-01T03:24:46.225Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "chj29s92gg0x",
+          "name": "Load Balancers",
+          "status": "degraded_performance",
+          "created_at": "2017-03-15T20:20:44.175Z",
+          "updated_at": "2021-10-01T03:24:46.247Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2021-10-01T00:31:47.788Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "dmtnxcg9w7fs",
       "name": "Network Degradation Across Various Regions",
