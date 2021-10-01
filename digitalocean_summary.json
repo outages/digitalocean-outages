@@ -4,24 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-01T04:23:42.556Z"
+    "updated_at": "2021-10-01T15:42:22.795Z"
   },
   "components": [
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-09-14T00:50:18.218Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -69,16 +54,31 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
+      "id": "1082j139b5bg",
+      "name": "API",
       "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-07-22T04:15:26.495Z",
-      "position": 2,
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-09-14T00:50:18.218Z",
+      "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-09-01T21:23:08.874Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -121,16 +121,16 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-09-01T21:23:08.874Z",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-07-22T04:15:26.495Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -256,21 +256,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2021-08-26T21:30:33.103Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -286,12 +271,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2021-02-10T04:00:46.799Z",
-      "position": 8,
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2021-08-26T21:30:33.103Z",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -316,12 +301,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-08-26T21:45:29.896Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2021-02-10T04:00:46.799Z",
+      "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -346,12 +331,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2021-07-21T12:00:40.616Z",
-      "position": 10,
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-08-26T21:45:29.896Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -371,6 +356,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2021-07-21T12:00:40.616Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -513,9 +513,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-10-01T04:13:46.946Z",
+      "updated_at": "2021-10-01T15:38:14.380Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -587,6 +587,79 @@
     }
   ],
   "incidents": [
+    {
+      "id": "xlwg23ctm5zv",
+      "name": "BLR Region Network Latency",
+      "status": "investigating",
+      "created_at": "2021-10-01T15:38:14.344Z",
+      "updated_at": "2021-10-01T15:42:22.790Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/kq3rx2cs9srr",
+      "started_at": "2021-10-01T15:38:14.000Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "wp1kchwn9y48",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with networking in our BLR1 region. During this time, users may experience timeouts or latency with network connections going in or out of the BLR1 region. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "xlwg23ctm5zv",
+          "created_at": "2021-10-01T15:38:14.431Z",
+          "updated_at": "2021-10-01T15:42:22.686Z",
+          "display_at": "2021-10-01T15:38:14.000Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1443963476322308000
+        }
+      ],
+      "components": [
+        {
+          "id": "y7k7nwwgy36z",
+          "name": "BLR1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:46:35.663Z",
+          "updated_at": "2021-08-25T21:50:29.822Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2021-10-01T15:38:14.380Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "rbdc1p72mjmw",
       "name": "Managed Database Let's Encrypt SSL Certificate Connectivity",
