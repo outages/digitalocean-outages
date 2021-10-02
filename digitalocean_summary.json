@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-01T22:08:09.422Z"
+    "updated_at": "2021-10-02T02:17:29.503Z"
   },
   "components": [
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-10-02T02:17:26.932Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -18,21 +33,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "degraded_performance",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-10-01T21:07:45.786Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -71,9 +71,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-10-01T21:07:45.812Z",
+      "updated_at": "2021-10-02T02:17:26.963Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -84,9 +84,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-07-22T04:15:26.495Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -121,21 +136,6 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-07-22T04:15:26.495Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
       "status": "operational",
@@ -153,10 +153,25 @@
     {
       "id": "19n6t4685zrn",
       "name": "Billing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-10-01T21:07:45.842Z",
+      "updated_at": "2021-10-02T02:17:26.991Z",
       "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j9wj5sbm3jp3",
+      "name": "Block Storage",
+      "status": "operational",
+      "created_at": "2016-08-30T22:37:40.813Z",
+      "updated_at": "2021-10-02T02:17:27.020Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -181,26 +196,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j9wj5sbm3jp3",
-      "name": "Block Storage",
-      "status": "degraded_performance",
-      "created_at": "2016-08-30T22:37:40.813Z",
-      "updated_at": "2021-10-01T21:07:45.866Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-10-01T21:07:45.888Z",
+      "updated_at": "2021-10-02T02:17:27.049Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -226,6 +226,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2021-10-02T02:17:27.076Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "1hx8143ly544",
       "name": "LON1",
       "status": "operational",
@@ -236,36 +251,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "degraded_performance",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2021-10-01T21:07:45.911Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "degraded_performance",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2021-10-01T21:07:45.934Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -286,11 +271,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2021-10-02T02:17:27.106Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2021-10-01T21:07:45.956Z",
+      "updated_at": "2021-10-02T02:17:27.132Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -316,6 +316,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2021-10-02T02:17:27.159Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -331,12 +346,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "degraded_performance",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2021-10-01T21:07:45.979Z",
-      "position": 9,
+      "id": "xc1fvcqsqp80",
+      "name": "Droplets",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:23.067Z",
+      "updated_at": "2021-10-02T02:17:27.189Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -361,26 +376,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xc1fvcqsqp80",
-      "name": "Droplets",
-      "status": "degraded_performance",
-      "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-10-01T21:07:46.003Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2021-10-01T21:07:46.028Z",
+      "updated_at": "2021-10-02T02:17:27.218Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -406,6 +406,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-10-02T02:17:27.246Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
       "status": "operational",
@@ -421,36 +436,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "degraded_performance",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-10-01T21:07:46.051Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
-      "status": "degraded_performance",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-10-01T21:07:46.074Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -461,6 +446,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2021-10-02T02:17:27.277Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -483,9 +483,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2021-09-30T22:39:10.533Z",
+      "updated_at": "2021-10-02T02:17:27.306Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -498,9 +498,9 @@
     {
       "id": "zqcx615n3ms4",
       "name": "Monitoring",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-04-06T17:49:31.944Z",
-      "updated_at": "2021-10-01T21:07:46.099Z",
+      "updated_at": "2021-10-02T02:17:27.334Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -513,9 +513,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-10-01T15:38:14.380Z",
+      "updated_at": "2021-10-02T02:17:18.364Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -528,9 +528,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-10-01T21:07:46.122Z",
+      "updated_at": "2021-10-02T02:17:27.364Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -543,9 +543,9 @@
     {
       "id": "90kv6kp38str",
       "name": "Support Center",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-07-18T19:26:32.158Z",
-      "updated_at": "2021-10-01T21:07:46.146Z",
+      "updated_at": "2021-10-02T02:17:27.432Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -558,9 +558,9 @@
     {
       "id": "w7dvwpvd248r",
       "name": "Spaces CDN",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-04-27T17:53:14.657Z",
-      "updated_at": "2021-10-01T21:07:46.170Z",
+      "updated_at": "2021-10-02T02:17:27.464Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -573,9 +573,9 @@
     {
       "id": "6b20vy2cd6hz",
       "name": "VPC",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-03-17T07:59:15.242Z",
-      "updated_at": "2021-10-01T21:07:46.193Z",
+      "updated_at": "2021-10-02T02:17:27.493Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -588,968 +588,44 @@
   ],
   "incidents": [
     {
-      "id": "n231nq3dhf57",
-      "name": "Network Degradation Across Various Regions",
-      "status": "monitoring",
-      "created_at": "2021-10-01T21:07:45.661Z",
-      "updated_at": "2021-10-01T22:08:09.412Z",
-      "monitoring_at": "2021-10-01T22:08:07.699Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/32y63x5dqksl",
-      "started_at": "2021-10-01T21:07:45.620Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "rkmxz1sp3h7s",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with degraded networking and are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "n231nq3dhf57",
-          "created_at": "2021-10-01T22:08:07.699Z",
-          "updated_at": "2021-10-01T22:08:09.402Z",
-          "display_at": "2021-10-01T22:08:07.699Z",
-          "affected_components": [
-            {
-              "code": "1082j139b5bg",
-              "name": "Services - API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "19n6t4685zrn",
-              "name": "Services - Billing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b0wv4d3y7sx1",
-              "name": "Services - Cloud Firewall",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "d5vft53jgv8n",
-              "name": "Services - Community",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yzksrkss544p",
-              "name": "Services - DNS",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y5mb12th36zh",
-              "name": "Services - Kubernetes",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "chj29s92gg0x",
-              "name": "Services - Load Balancers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6b20vy2cd6hz",
-              "name": "Services - VPC",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1hx8143ly544",
-              "name": "Regions - LON1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "6v0yhwt7977x",
-              "name": "Regions - NYC2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1444061599208075300
-        },
-        {
-          "id": "prqwrmfn7w5l",
-          "status": "identified",
-          "body": "Our engineering team has identified the cause of the degraded networking that is affecting multiple regions and is working with the network providers across different regions to minimize the impact and to restore stability. We will post an update as soon as additional information is available.",
-          "incident_id": "n231nq3dhf57",
-          "created_at": "2021-10-01T21:39:10.831Z",
-          "updated_at": "2021-10-01T21:39:11.229Z",
-          "display_at": "2021-10-01T21:39:10.831Z",
-          "affected_components": [
-            {
-              "code": "1082j139b5bg",
-              "name": "Services - API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "19n6t4685zrn",
-              "name": "Services - Billing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b0wv4d3y7sx1",
-              "name": "Services - Cloud Firewall",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "d5vft53jgv8n",
-              "name": "Services - Community",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yzksrkss544p",
-              "name": "Services - DNS",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y5mb12th36zh",
-              "name": "Services - Kubernetes",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "chj29s92gg0x",
-              "name": "Services - Load Balancers",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6b20vy2cd6hz",
-              "name": "Services - VPC",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1hx8143ly544",
-              "name": "Regions - LON1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "6v0yhwt7977x",
-              "name": "Regions - NYC2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1444054308786356200
-        },
-        {
-          "id": "vxmw3dl9ky6k",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with Network Degradation Across Various Regions. At this time, users may experience impact on different services.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "n231nq3dhf57",
-          "created_at": "2021-10-01T21:07:46.237Z",
-          "updated_at": "2021-10-01T21:07:48.112Z",
-          "display_at": "2021-10-01T21:07:46.237Z",
-          "affected_components": [
-            {
-              "code": "1082j139b5bg",
-              "name": "Services - API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "19n6t4685zrn",
-              "name": "Services - Billing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b0wv4d3y7sx1",
-              "name": "Services - Cloud Firewall",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "d5vft53jgv8n",
-              "name": "Services - Community",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yzksrkss544p",
-              "name": "Services - DNS",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "y5mb12th36zh",
-              "name": "Services - Kubernetes",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "chj29s92gg0x",
-              "name": "Services - Load Balancers",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "lklbmflv3jcl",
-              "name": "Services - Managed Databases",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "w7dvwpvd248r",
-              "name": "Services - Spaces CDN",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6b20vy2cd6hz",
-              "name": "Services - VPC",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1hx8143ly544",
-              "name": "Regions - LON1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "6v0yhwt7977x",
-              "name": "Regions - NYC2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1444046410110824400
-        }
-      ],
-      "components": [
-        {
-          "id": "1082j139b5bg",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2016-08-30T19:49:35.215Z",
-          "updated_at": "2021-10-01T21:07:45.786Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-10-01T21:07:45.812Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "19n6t4685zrn",
-          "name": "Billing",
-          "status": "degraded_performance",
-          "created_at": "2018-12-03T20:37:11.024Z",
-          "updated_at": "2021-10-01T21:07:45.842Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "j9wj5sbm3jp3",
-          "name": "Block Storage",
-          "status": "degraded_performance",
-          "created_at": "2016-08-30T22:37:40.813Z",
-          "updated_at": "2021-10-01T21:07:45.866Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2021-10-01T21:07:45.888Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b0wv4d3y7sx1",
-          "name": "Cloud Firewall",
-          "status": "degraded_performance",
-          "created_at": "2017-06-06T14:49:52.471Z",
-          "updated_at": "2021-10-01T21:07:45.911Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1hx8143ly544",
-          "name": "LON1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:47:29.563Z",
-          "updated_at": "2021-08-25T23:05:36.526Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "d5vft53jgv8n",
-          "name": "Community",
-          "status": "degraded_performance",
-          "created_at": "2016-08-30T19:50:59.338Z",
-          "updated_at": "2021-10-01T21:07:45.934Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "cl06j64ltm9s",
-          "name": "NYC1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:01.306Z",
-          "updated_at": "2021-08-26T21:30:33.103Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6v0yhwt7977x",
-          "name": "NYC2",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:21.250Z",
-          "updated_at": "2021-02-10T04:00:46.799Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bcwz10mdvf0r",
-          "name": "Container Registry",
-          "status": "degraded_performance",
-          "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2021-10-01T21:07:45.956Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-02",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2021-08-26T21:45:29.896Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yzksrkss544p",
-          "name": "DNS",
-          "status": "degraded_performance",
-          "created_at": "2017-04-26T16:27:19.801Z",
-          "updated_at": "2021-10-01T21:07:45.979Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "mypfybvgyhrk",
-          "name": "SFO1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:46.498Z",
-          "updated_at": "2021-07-21T12:00:40.616Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xc1fvcqsqp80",
-          "name": "Droplets",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2021-10-01T21:07:46.003Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8kndbnbgddpr",
-          "name": "SFO2",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2021-07-15T22:14:08.951Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "m7nv9rsmrssk",
-          "name": "Event Processing",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:14.164Z",
-          "updated_at": "2021-10-01T21:07:46.028Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y5mb12th36zh",
-          "name": "Kubernetes",
-          "status": "degraded_performance",
-          "created_at": "2019-02-21T18:10:26.468Z",
-          "updated_at": "2021-10-01T21:07:46.051Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "99gtwvvfhtyz",
-          "name": "SFO3",
-          "status": "operational",
-          "created_at": "2020-05-12T19:05:08.138Z",
-          "updated_at": "2021-08-27T20:40:30.405Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "chj29s92gg0x",
-          "name": "Load Balancers",
-          "status": "degraded_performance",
-          "created_at": "2017-03-15T20:20:44.175Z",
-          "updated_at": "2021-10-01T21:07:46.074Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lklbmflv3jcl",
-          "name": "Managed Databases",
-          "status": "degraded_performance",
-          "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-09-30T22:39:10.533Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "zqcx615n3ms4",
-          "name": "Monitoring",
-          "status": "degraded_performance",
-          "created_at": "2017-04-06T17:49:31.944Z",
-          "updated_at": "2021-10-01T21:07:46.099Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-10-01T15:38:14.380Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2021-10-01T21:07:46.122Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "90kv6kp38str",
-          "name": "Support Center",
-          "status": "degraded_performance",
-          "created_at": "2017-07-18T19:26:32.158Z",
-          "updated_at": "2021-10-01T21:07:46.146Z",
-          "position": 18,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "w7dvwpvd248r",
-          "name": "Spaces CDN",
-          "status": "degraded_performance",
-          "created_at": "2020-04-27T17:53:14.657Z",
-          "updated_at": "2021-10-01T21:07:46.170Z",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6b20vy2cd6hz",
-          "name": "VPC",
-          "status": "degraded_performance",
-          "created_at": "2021-03-17T07:59:15.242Z",
-          "updated_at": "2021-10-01T21:07:46.193Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2021-03-17",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "xlwg23ctm5zv",
       "name": "BLR Region Network Latency",
-      "status": "identified",
-      "created_at": "2021-10-01T15:38:14.344Z",
-      "updated_at": "2021-10-01T19:33:58.729Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2021-10-01T15:38:14.000Z",
+      "updated_at": "2021-10-02T02:17:18.981Z",
+      "monitoring_at": "2021-10-02T02:17:18.403Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/kq3rx2cs9srr",
       "started_at": "2021-10-01T15:38:14.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "kqvw0dx31jyz",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with networking in our BLR1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "xlwg23ctm5zv",
+          "created_at": "2021-10-02T02:17:18.403Z",
+          "updated_at": "2021-10-02T02:17:18.976Z",
+          "display_at": "2021-10-02T02:17:18.403Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1444124302253572000
+        },
         {
           "id": "gptmmr503dc1",
           "status": "identified",
@@ -1622,9 +698,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-10-01T15:38:14.380Z",
+          "updated_at": "2021-10-02T02:17:18.364Z",
           "position": 16,
           "description": null,
           "showcase": false,
@@ -1695,9 +771,9 @@
         {
           "id": "lklbmflv3jcl",
           "name": "Managed Databases",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2019-02-14T16:21:36.279Z",
-          "updated_at": "2021-09-30T22:39:10.533Z",
+          "updated_at": "2021-10-02T02:17:27.306Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -1712,7 +788,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
