@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-14T22:02:28.310Z"
+    "updated_at": "2021-10-14T23:36:22.245Z"
   },
   "components": [
     {
@@ -587,7 +587,146 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "tjkq3wkpkp9s",
+      "name": "AMS2 Scheduled Maintenance 2021-10-15 00:01 UTC",
+      "status": "scheduled",
+      "created_at": "2021-10-14T23:36:21.365Z",
+      "updated_at": "2021-10-14T23:36:22.160Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/rktdr9pnx2t0",
+      "started_at": "2021-10-14T23:36:21.347Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "6tgxbw84tq9z",
+          "status": "scheduled",
+          "body": "Start: 2021-10-15 00:01 UTC\nEnd: 2021-10-15 01:01 UTC\n\nDuring the above window, we will be performing maintenance in our AMS2 region for our Droplet service.\n\nExpected Impact:\n\nAll resource management events in AMS2 will be temporarily disabled during the maintenance. This includes, but is not limited to, events such as Droplet/snapshot/backup creates, Droplet resizes, and power actions. This will also include Droplet-dependent services, such as Managed Databases and Kubernetes. We will endeavor to re-enable events as quickly as possible.\n\nWe do not anticipate an impact to connectivity for existing Droplets, on either public or private networks.\n\nIf you have any questions or concerns, please reach out to us by emailing us or opening up a ticket on your account.",
+          "incident_id": "tjkq3wkpkp9s",
+          "created_at": "2021-10-14T23:36:21.467Z",
+          "updated_at": "2021-10-14T23:36:22.151Z",
+          "display_at": "2021-10-14T23:36:21.467Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1448794840863371300
+        }
+      ],
+      "components": [
+        {
+          "id": "t3ygwyk0bymr",
+          "name": "AMS2",
+          "status": "operational",
+          "created_at": "2017-02-17T21:45:55.031Z",
+          "updated_at": "2021-07-22T04:15:26.495Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "operational",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-10-13T20:57:36.938Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "m7nv9rsmrssk",
+          "name": "Event Processing",
+          "status": "operational",
+          "created_at": "2017-02-17T21:40:14.164Z",
+          "updated_at": "2021-10-02T02:17:27.218Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "operational",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2021-10-02T02:17:27.246Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "operational",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2021-10-02T02:17:27.306Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2021-10-15T00:01:00.000Z",
+      "scheduled_until": "2021-10-15T01:01:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
