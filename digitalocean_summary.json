@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-14T21:23:45.718Z"
+    "updated_at": "2021-10-14T22:02:28.310Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -198,9 +198,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-10-14T21:01:17.267Z",
+      "updated_at": "2021-10-14T22:02:27.474Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -586,110 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8tg6k3bkp07b",
-      "name": "Cloud Control Panel & API",
-      "status": "monitoring",
-      "created_at": "2021-10-14T21:01:17.208Z",
-      "updated_at": "2021-10-14T21:09:42.374Z",
-      "monitoring_at": "2021-10-14T21:09:41.929Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/mq7dmzfdx786",
-      "started_at": "2021-10-14T21:01:17.191Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "sslqhlpd8fd4",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix for the issues impacting the Cloud Control Panel and API. We are monitoring the situation closely and will share another update once the matter is fully resolved. Thank you for your patience throughout this process.",
-          "incident_id": "8tg6k3bkp07b",
-          "created_at": "2021-10-14T21:09:41.929Z",
-          "updated_at": "2021-10-14T21:09:42.348Z",
-          "display_at": "2021-10-14T21:09:41.929Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1448757931617374200
-        },
-        {
-          "id": "rl0m8fvtxg84",
-          "status": "investigating",
-          "body": "Our Engineering team is currently investigating an issue impacting the Cloud Control Panel and API. During this time, some users may experience an elevated rate of errors when interacting with Cloud Control Panel or API. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "8tg6k3bkp07b",
-          "created_at": "2021-10-14T21:01:17.334Z",
-          "updated_at": "2021-10-14T21:01:18.049Z",
-          "display_at": "2021-10-14T21:01:17.334Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1448755815918170000
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-09-01T10:44:05.749Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2021-10-14T21:01:17.267Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
