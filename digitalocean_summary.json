@@ -4,39 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-15T01:01:52.075Z"
+    "updated_at": "2021-10-15T15:26:34.275Z"
   },
   "components": [
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-10-02T02:17:26.932Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-09-01T10:44:05.749Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -69,6 +39,36 @@
       ]
     },
     {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-09-01T10:44:05.749Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-10-02T02:17:26.932Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -346,6 +346,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "xc1fvcqsqp80",
+      "name": "Droplets",
+      "status": "degraded_performance",
+      "created_at": "2017-02-17T21:40:23.067Z",
+      "updated_at": "2021-10-15T15:26:32.364Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "mypfybvgyhrk",
       "name": "SFO1",
       "status": "operational",
@@ -356,21 +371,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "xc1fvcqsqp80",
-      "name": "Droplets",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2021-10-15T01:01:40.913Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -586,10 +586,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "1qqhps6hy94c",
+      "name": "Droplet Creation In NYC1",
+      "status": "investigating",
+      "created_at": "2021-10-15T15:26:32.325Z",
+      "updated_at": "2021-10-15T15:26:34.171Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/1mklkdybt7sv",
+      "started_at": "2021-10-15T15:26:32.315Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "wfhlslypyp70",
+          "status": "investigating",
+          "body": "Our Engineering team is currently investigating an issue with Droplet creation. During this time, users may experience issues while deploying new droplets during this time period.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "1qqhps6hy94c",
+          "created_at": "2021-10-15T15:26:32.451Z",
+          "updated_at": "2021-10-15T15:26:34.162Z",
+          "display_at": "2021-10-15T15:26:32.451Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "cl06j64ltm9s",
+              "name": "Regions - NYC1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1449033966309101600
+        }
+      ],
+      "components": [
+        {
+          "id": "cl06j64ltm9s",
+          "name": "NYC1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:01.306Z",
+          "updated_at": "2021-08-26T21:30:33.103Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-10-15T15:26:32.364Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
