@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-18T14:23:36.066Z"
+    "updated_at": "2021-10-18T14:55:11.536Z"
   },
   "components": [
     {
@@ -590,16 +590,42 @@
     {
       "id": "qx2x3n6b0vfs",
       "name": "Spaces Availability in NYC3",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-10-18T13:28:24.659Z",
-      "updated_at": "2021-10-18T13:28:25.480Z",
-      "monitoring_at": null,
+      "updated_at": "2021-10-18T14:55:11.530Z",
+      "monitoring_at": "2021-10-18T14:55:11.004Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/spyvrlbwydtf",
       "started_at": "2021-10-18T13:28:24.642Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "spnmx7pchp7p",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix for the issues impacting Spaces availability for a subset of users in our NYC3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.",
+          "incident_id": "qx2x3n6b0vfs",
+          "created_at": "2021-10-18T14:55:11.004Z",
+          "updated_at": "2021-10-18T14:55:11.524Z",
+          "display_at": "2021-10-18T14:55:11.004Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1450113233604415500
+        },
         {
           "id": "v3r2kndy4f5d",
           "status": "investigating",
