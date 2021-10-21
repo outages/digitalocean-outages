@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-21T17:23:48.283Z"
+    "updated_at": "2021-10-21T18:18:36.505Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -168,9 +168,9 @@
     {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2016-08-30T22:37:40.813Z",
-      "updated_at": "2021-10-21T17:05:16.015Z",
+      "updated_at": "2021-10-21T18:18:35.928Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -586,110 +586,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "py9kb7zhs5kc",
-      "name": "Block Storage Volumes in FRA1",
-      "status": "monitoring",
-      "created_at": "2021-10-21T17:05:15.960Z",
-      "updated_at": "2021-10-21T17:18:19.331Z",
-      "monitoring_at": "2021-10-21T17:18:18.918Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/v8mf35pstsnj",
-      "started_at": "2021-10-21T17:05:15.947Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "ycdt4r2f8tfd",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue with Block Storage Volumes in the FRA1 region. Users will now be able to access their Block Storage Volumes and perform the operations successfully. We are monitoring the situation closely and will share an update once the issue is resolved completely.",
-          "incident_id": "py9kb7zhs5kc",
-          "created_at": "2021-10-21T17:18:18.918Z",
-          "updated_at": "2021-10-21T17:18:19.326Z",
-          "display_at": "2021-10-21T17:18:18.918Z",
-          "affected_components": [
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1451236417158336500
-        },
-        {
-          "id": "9fd9kd50cqtl",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Block storage Volumes in FRA1. During this time, some users may experience errors or degraded performance while working with Volumes. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "py9kb7zhs5kc",
-          "created_at": "2021-10-21T17:05:16.070Z",
-          "updated_at": "2021-10-21T17:05:16.597Z",
-          "display_at": "2021-10-21T17:05:16.070Z",
-          "affected_components": [
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1451233134209486800
-        }
-      ],
-      "components": [
-        {
-          "id": "j9wj5sbm3jp3",
-          "name": "Block Storage",
-          "status": "degraded_performance",
-          "created_at": "2016-08-30T22:37:40.813Z",
-          "updated_at": "2021-10-21T17:05:16.015Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0kys855yj2y1",
-          "name": "FRA1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2021-09-08T18:10:19.740Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
