@@ -4,24 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-25T14:23:51.044Z"
+    "updated_at": "2021-10-25T22:23:43.778Z"
   },
   "components": [
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-09-01T10:44:05.749Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "1082j139b5bg",
       "name": "API",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-09-01T10:44:05.749Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -69,16 +69,16 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-10-13T20:57:36.867Z",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-10-21T08:58:55.784Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -122,16 +122,16 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-10-21T08:58:55.784Z",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-10-13T20:57:36.867Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -437,6 +437,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "degraded_performance",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2021-10-25T22:11:49.642Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -447,21 +462,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2021-10-25T13:49:29.923Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -484,9 +484,9 @@
     {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-10-25T13:49:29.932Z",
+      "updated_at": "2021-10-25T22:11:49.661Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -602,10 +602,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kqzd4nd5prvy",
+      "name": "Load Balancers connectivity in AMS3",
+      "status": "investigating",
+      "created_at": "2021-10-25T22:11:49.606Z",
+      "updated_at": "2021-10-25T22:11:50.624Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/cckhy6nl0l95",
+      "started_at": "2021-10-25T22:11:49.595Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "r9hp6ddv3ysc",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue impacting connectivity to Load Balancers in AMS3. At this time, users may experience connectivity issues to services utilizing Load Balancers. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "kqzd4nd5prvy",
+          "created_at": "2021-10-25T22:11:49.702Z",
+          "updated_at": "2021-10-25T22:11:50.620Z",
+          "display_at": "2021-10-25T22:11:49.702Z",
+          "affected_components": [
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1452759835838087200
+        }
+      ],
+      "components": [
+        {
+          "id": "3s5rmcxl95h0",
+          "name": "AMS3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:46:05.294Z",
+          "updated_at": "2021-08-26T21:00:34.389Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "degraded_performance",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2021-10-25T22:11:49.642Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "chj29s92gg0x",
+          "name": "Load Balancers",
+          "status": "degraded_performance",
+          "created_at": "2017-03-15T20:20:44.175Z",
+          "updated_at": "2021-10-25T22:11:49.661Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
