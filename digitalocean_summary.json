@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-26T15:23:51.478Z"
+    "updated_at": "2021-10-26T15:37:27.498Z"
   },
   "components": [
     {
@@ -606,16 +606,42 @@
     {
       "id": "5chnb02pfn0n",
       "name": "Cloud Control Panel Team Creations",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-10-26T15:15:00.025Z",
-      "updated_at": "2021-10-26T15:15:00.698Z",
-      "monitoring_at": null,
+      "updated_at": "2021-10-26T15:37:27.493Z",
+      "monitoring_at": "2021-10-26T15:37:26.878Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/ljl2yt047lbh",
       "started_at": "2021-10-26T15:15:00.010Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "ptmhr6j2p7bt",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix for the issue impacting Team creations in the Cloud Control Panel. We're now monitoring the situation closely. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "5chnb02pfn0n",
+          "created_at": "2021-10-26T15:37:26.878Z",
+          "updated_at": "2021-10-26T15:37:27.488Z",
+          "display_at": "2021-10-26T15:37:26.878Z",
+          "affected_components": [
+            {
+              "code": "19n6t4685zrn",
+              "name": "Services - Billing",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1453022973242216400
+        },
         {
           "id": "b2wqk9gqybyq",
           "status": "investigating",
