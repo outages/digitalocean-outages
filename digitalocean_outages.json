@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "s2k7tnzlhrpw",
+    "name": "DigitalOcean",
+    "url": "http://status.digitalocean.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2021-10-27T16:10:35.719Z"
+  },
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
