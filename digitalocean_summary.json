@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-31T06:11:21.448Z"
+    "updated_at": "2021-10-31T06:34:26.763Z"
   },
   "components": [
     {
@@ -604,6 +604,105 @@
   ],
   "incidents": [
     {
+      "id": "83z9kzk7zd3n",
+      "name": "App Platform Metrics Missing",
+      "status": "identified",
+      "created_at": "2021-10-31T05:04:39.590Z",
+      "updated_at": "2021-10-31T06:34:26.758Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3w0269fmvh7q",
+      "started_at": "2021-10-31T05:04:39.579Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "tftckmwkfhmx",
+          "status": "identified",
+          "body": "Our engineering team has identified the cause of the issue related to App Platform metrics and is actively working on a fix.\n\nWe will post an update as soon as additional information is available.",
+          "incident_id": "83z9kzk7zd3n",
+          "created_at": "2021-10-31T06:34:26.338Z",
+          "updated_at": "2021-10-31T06:34:26.754Z",
+          "display_at": "2021-10-31T06:34:26.338Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1454698259067248600
+        },
+        {
+          "id": "v1pzyxwg8qdm",
+          "status": "investigating",
+          "body": "Our engineers have identified that certain metrics for our App Platform are missing. During this time, App Platform users may experience issues when accessing certain metrics for the existing apps. Existing apps should continue to function normally in their current state. We apologize for the inconvenience, and we'll share an update once we have more information.",
+          "incident_id": "83z9kzk7zd3n",
+          "created_at": "2021-10-31T05:04:39.670Z",
+          "updated_at": "2021-10-31T05:04:40.270Z",
+          "display_at": "2021-10-31T05:04:39.670Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1454675666230657000
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-09-01T10:44:05.749Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "degraded_performance",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2021-10-31T05:04:39.626Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "ctb37kk7gkyx",
       "name": "Kubernetes Cluster Creation",
       "status": "investigating",
@@ -669,79 +768,6 @@
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "83z9kzk7zd3n",
-      "name": "App Platform Metrics Missing",
-      "status": "investigating",
-      "created_at": "2021-10-31T05:04:39.590Z",
-      "updated_at": "2021-10-31T05:04:40.286Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/3w0269fmvh7q",
-      "started_at": "2021-10-31T05:04:39.579Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "v1pzyxwg8qdm",
-          "status": "investigating",
-          "body": "Our engineers have identified that certain metrics for our App Platform are missing. During this time, App Platform users may experience issues when accessing certain metrics for the existing apps. Existing apps should continue to function normally in their current state. We apologize for the inconvenience, and we'll share an update once we have more information.",
-          "incident_id": "83z9kzk7zd3n",
-          "created_at": "2021-10-31T05:04:39.670Z",
-          "updated_at": "2021-10-31T05:04:40.270Z",
-          "display_at": "2021-10-31T05:04:39.670Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1454675666230657000
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-09-01T10:44:05.749Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2021-10-31T05:04:39.626Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
           "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
