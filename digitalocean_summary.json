@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-19T00:23:43.583Z"
+    "updated_at": "2021-11-19T06:11:01.603Z"
   },
   "components": [
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2021-09-01T10:44:05.749Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -39,21 +54,6 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2021-09-01T10:44:05.749Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1082j139b5bg",
       "name": "API",
       "status": "operational",
@@ -63,6 +63,21 @@
       "description": null,
       "showcase": false,
       "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2021-10-31T06:56:40.943Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -122,15 +137,15 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "19n6t4685zrn",
+      "name": "Billing",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2021-10-31T06:56:40.943Z",
-      "position": 2,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2021-10-26T16:06:48.932Z",
+      "position": 3,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
+      "start_date": null,
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -152,16 +167,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-10-26T16:06:48.932Z",
-      "position": 3,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2021-08-25T21:50:29.822Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -182,16 +197,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2021-08-25T21:50:29.822Z",
-      "position": 4,
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2021-11-13T15:22:25.444Z",
+      "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -212,16 +227,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2021-11-13T15:22:25.444Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-11-18T23:55:22.364Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -242,16 +257,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
+      "id": "d5vft53jgv8n",
+      "name": "Community",
       "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-11-18T23:55:22.364Z",
-      "position": 6,
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2021-10-02T02:17:27.106Z",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -267,21 +282,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2021-10-02T02:17:27.106Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -317,21 +317,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2021-08-26T21:45:29.896Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yzksrkss544p",
       "name": "DNS",
       "status": "operational",
@@ -342,6 +327,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2021-08-26T21:45:29.896Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -407,21 +407,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2021-08-27T20:40:30.405Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dqgv0tjwhwsc",
       "name": "Floating IP",
       "status": "operational",
@@ -432,6 +417,21 @@
       "showcase": false,
       "start_date": "2021-10-25",
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
+      "status": "operational",
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2021-08-27T20:40:30.405Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -546,7 +546,7 @@
       "name": "Spaces",
       "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2021-10-25T13:49:29.967Z",
+      "updated_at": "2021-11-19T06:11:00.694Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -603,6 +603,105 @@
     }
   ],
   "incidents": [
+    {
+      "id": "0837lw76vfy9",
+      "name": "Spaces Availability in SFO3",
+      "status": "monitoring",
+      "created_at": "2021-11-19T05:59:09.529Z",
+      "updated_at": "2021-11-19T06:11:01.596Z",
+      "monitoring_at": "2021-11-19T06:11:00.726Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/xgnh25qcy6xx",
+      "started_at": "2021-11-19T05:59:09.518Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "144bykkn20gr",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix for the issues impacting Spaces in our SFO3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.",
+          "incident_id": "0837lw76vfy9",
+          "created_at": "2021-11-19T06:11:00.726Z",
+          "updated_at": "2021-11-19T06:11:01.589Z",
+          "display_at": "2021-11-19T06:11:00.726Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "99gtwvvfhtyz",
+              "name": "Regions - SFO3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1461577734853836800
+        },
+        {
+          "id": "lq5lfl33v6kk",
+          "status": "investigating",
+          "body": "Our engineering team is currently investigating an issue impacting Spaces in the SFO3 region. During this time, some users may experience 426 errors when trying to store files in their SFO3 Spaces Buckets. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "0837lw76vfy9",
+          "created_at": "2021-11-19T05:59:09.656Z",
+          "updated_at": "2021-11-19T05:59:11.827Z",
+          "display_at": "2021-11-19T05:59:09.656Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "99gtwvvfhtyz",
+              "name": "Regions - SFO3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1461574757837533200
+        }
+      ],
+      "components": [
+        {
+          "id": "99gtwvvfhtyz",
+          "name": "SFO3",
+          "status": "operational",
+          "created_at": "2020-05-12T19:05:08.138Z",
+          "updated_at": "2021-08-27T20:40:30.405Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "operational",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2021-11-19T06:11:00.694Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "4cx3qlh1cq10",
       "name": "Droplet Connectivity",
