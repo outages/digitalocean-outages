@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-19T13:05:11.904Z"
+    "updated_at": "2021-11-23T05:30:56.504Z"
   },
   "components": [
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2021-10-02T02:17:26.932Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -54,16 +69,16 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2021-10-02T02:17:26.932Z",
-      "position": 1,
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-10-21T08:58:55.784Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -79,21 +94,6 @@
       "showcase": false,
       "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-10-21T08:58:55.784Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -167,21 +167,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2021-08-25T21:50:29.822Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -192,6 +177,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2021-08-25T21:50:29.822Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -227,21 +227,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-11-18T23:55:22.364Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
       "status": "operational",
@@ -257,16 +242,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2021-10-02T02:17:27.106Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-11-18T23:55:22.364Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -282,6 +267,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2021-10-02T02:17:27.106Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -407,6 +407,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
+      "status": "operational",
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2021-08-27T20:40:30.405Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "dqgv0tjwhwsc",
       "name": "Floating IP",
       "status": "operational",
@@ -422,12 +437,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2021-08-27T20:40:30.405Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-08-25T22:30:32.978Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -447,21 +462,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-08-25T22:30:32.978Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
