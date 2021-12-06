@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-06T06:03:00.409Z"
+    "updated_at": "2021-12-06T06:27:48.539Z"
   },
   "components": [
     {
@@ -602,133 +602,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "3dh12c70mnvz",
-      "name": "FRA1 Block Storage.",
-      "status": "monitoring",
-      "created_at": "2021-12-06T04:35:01.264Z",
-      "updated_at": "2021-12-06T06:03:00.402Z",
-      "monitoring_at": "2021-12-06T06:02:59.809Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/lxp3x9b3w7x2",
-      "started_at": "2021-12-06T04:35:01.254Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "ylzttblwlj6n",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue with Block Storage Volumes in the FRA1 region. Users will now be able to access their Block Storage Volumes and perform the operations successfully. We are monitoring the situation closely and will share an update once the issue is resolved completely.",
-          "incident_id": "3dh12c70mnvz",
-          "created_at": "2021-12-06T06:02:59.809Z",
-          "updated_at": "2021-12-06T06:03:00.395Z",
-          "display_at": "2021-12-06T06:02:59.809Z",
-          "affected_components": [
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1467736310336999400
-        },
-        {
-          "id": "33vgxq5ddmpr",
-          "status": "identified",
-          "body": "Our engineering team has identified the cause of the  issue with block storage volumes in the FRA1 region and is actively working on a fix.\nWe will post an update as soon as additional information is available.",
-          "incident_id": "3dh12c70mnvz",
-          "created_at": "2021-12-06T04:48:36.235Z",
-          "updated_at": "2021-12-06T04:48:36.964Z",
-          "display_at": "2021-12-06T04:48:36.235Z",
-          "affected_components": [
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1467717589384056800
-        },
-        {
-          "id": "9tkgmg43vbt9",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with block storage volumes in the FRA1 region. At this time, users may experience issues accessing volumes in the region. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "3dh12c70mnvz",
-          "created_at": "2021-12-06T04:35:01.360Z",
-          "updated_at": "2021-12-06T04:35:01.993Z",
-          "display_at": "2021-12-06T04:35:01.360Z",
-          "affected_components": [
-            {
-              "code": "j9wj5sbm3jp3",
-              "name": "Services - Block Storage",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1467714171055706000
-        }
-      ],
-      "components": [
-        {
-          "id": "j9wj5sbm3jp3",
-          "name": "Block Storage",
-          "status": "operational",
-          "created_at": "2016-08-30T22:37:40.813Z",
-          "updated_at": "2021-12-06T06:02:59.747Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0kys855yj2y1",
-          "name": "FRA1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2021-12-06T06:02:59.771Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
