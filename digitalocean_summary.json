@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-14T09:23:48.959Z"
+    "updated_at": "2021-12-14T13:01:21.763Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -409,9 +409,9 @@
     {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2021-12-14T08:30:40.134Z",
+      "updated_at": "2021-12-14T13:01:21.023Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-12-14T08:30:40.161Z",
+      "updated_at": "2021-12-14T13:01:21.044Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -603,111 +603,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "jv2sm0zvbmnm",
-      "name": "Networking maintenance in SFO3",
-      "status": "in_progress",
-      "created_at": "2021-12-14T08:27:10.820Z",
-      "updated_at": "2021-12-14T08:30:46.639Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/gfcwhbrl8xk3",
-      "started_at": "2021-12-14T08:27:10.807Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "003qn5zkgkgp",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "jv2sm0zvbmnm",
-          "created_at": "2021-12-14T08:30:40.201Z",
-          "updated_at": "2021-12-14T08:30:46.623Z",
-          "display_at": "2021-12-14T08:30:40.201Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1470672600510582800
-        },
-        {
-          "id": "jn3j4vtms7py",
-          "status": "scheduled",
-          "body": "To mitigate the network problems in SFO3 we will be performing an emergency software upgrade of routers commencing at 08:00 UTC and concluding at 13:00 UTC on Tuesday 14th December 2021. During this time minimal impact is expected, but users may experience brief moments of packet loss or increased latency lasting no longer than 5 minutes.",
-          "incident_id": "jv2sm0zvbmnm",
-          "created_at": "2021-12-14T08:27:10.890Z",
-          "updated_at": "2021-12-14T08:27:11.822Z",
-          "display_at": "2021-12-14T08:27:10.890Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1470671700006092800
-        }
-      ],
-      "components": [
-        {
-          "id": "99gtwvvfhtyz",
-          "name": "SFO3",
-          "status": "under_maintenance",
-          "created_at": "2020-05-12T19:05:08.138Z",
-          "updated_at": "2021-12-14T08:30:40.134Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-12-14T08:30:40.161Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2021-12-14T08:30:00.000Z",
-      "scheduled_until": "2021-12-14T13:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
