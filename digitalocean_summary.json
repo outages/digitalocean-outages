@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-14T13:01:21.763Z"
+    "updated_at": "2021-12-15T16:36:56.274Z"
   },
   "components": [
     {
@@ -602,7 +602,80 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v1gqsdtb4ys4",
+      "name": "Reset Password and 2FA",
+      "status": "monitoring",
+      "created_at": "2021-12-15T16:32:34.446Z",
+      "updated_at": "2021-12-15T16:36:56.251Z",
+      "monitoring_at": "2021-12-15T16:36:55.550Z",
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/dcm66y37362q",
+      "started_at": "2021-12-15T16:32:34.433Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "h8f71gmbyn04",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix for the issues with the root password and Two-factor authentication and is monitoring the situation. At this time, all actions taken should be processing normally. We will post an update as soon as this has been fully resolved.",
+          "incident_id": "v1gqsdtb4ys4",
+          "created_at": "2021-12-15T16:36:55.550Z",
+          "updated_at": "2021-12-15T16:36:56.106Z",
+          "display_at": "2021-12-15T16:36:55.550Z",
+          "affected_components": [
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1471157334231511000
+        },
+        {
+          "id": "c5my0vdq30fp",
+          "status": "investigating",
+          "body": "Our Engineering team is currently investigating an issue with resetting the root password and Two-factor authentication.During this time, you may experience errors on the backend while trying to reset the password.We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "v1gqsdtb4ys4",
+          "created_at": "2021-12-15T16:32:34.522Z",
+          "updated_at": "2021-12-15T16:32:37.146Z",
+          "display_at": "2021-12-15T16:32:34.522Z",
+          "affected_components": [
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1471156248368214000
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2021-11-30T02:44:28.823Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
