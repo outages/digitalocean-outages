@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-15T19:42:46.034Z"
+    "updated_at": "2021-12-15T19:53:16.955Z"
   },
   "components": [
     {
@@ -608,12 +608,12 @@
       "name": "Droplet connectivity",
       "status": "identified",
       "created_at": "2021-12-15T18:21:25.818Z",
-      "updated_at": "2021-12-15T19:42:45.724Z",
+      "updated_at": "2021-12-15T19:53:16.951Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/r7rmrwjk0gzk",
-      "started_at": "2021-12-15T18:21:25.803Z",
+      "started_at": "2021-12-15T18:21:25.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
@@ -645,11 +645,11 @@
         {
           "id": "q8bwp3b9n9lh",
           "status": "investigating",
-          "body": "Our Engineering team is investigating an issue impacting connectivity and start/stop event to Droplets. At this time, users may experience connectivity issues to their droplet services. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team is investigating an issue impacting connectivity and event processing for Droplets across all regions. During this time, some users may experience connectivity issues with Droplets, as well as issues with processing events such as power off/on requests and. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "ttnvr0x5r8nt",
           "created_at": "2021-12-15T18:21:25.921Z",
-          "updated_at": "2021-12-15T18:21:26.482Z",
-          "display_at": "2021-12-15T18:21:25.921Z",
+          "updated_at": "2021-12-15T19:53:16.790Z",
+          "display_at": "2021-12-15T18:21:25.000Z",
           "affected_components": [
             {
               "code": "xc1fvcqsqp80",
