@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-25T14:00:57.212Z"
+    "updated_at": "2021-12-25T14:23:55.147Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2021-12-25T14:00:56.064Z",
+      "updated_at": "2021-12-25T14:22:13.912Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -606,16 +606,42 @@
     {
       "id": "rq0d5m8kgl7b",
       "name": "SGP1 Region Network Latency",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-12-25T14:00:56.024Z",
-      "updated_at": "2021-12-25T14:00:57.208Z",
-      "monitoring_at": null,
+      "updated_at": "2021-12-25T14:22:14.416Z",
+      "monitoring_at": "2021-12-25T14:22:13.947Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9tf3xlny8pm8",
       "started_at": "2021-12-25T14:00:56.013Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "hb7wdzcdj731",
+          "status": "monitoring",
+          "body": "Our Engineering team has detected an issue on an upstream provider's network in our SGP1 region. They have implemented a fix to resolve the issue with networking in our SGP1 region and is monitoring the situation closely. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "rq0d5m8kgl7b",
+          "created_at": "2021-12-25T14:22:13.947Z",
+          "updated_at": "2021-12-25T14:22:14.411Z",
+          "display_at": "2021-12-25T14:22:13.947Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1474747316099633200
+        },
         {
           "id": "w0f08fjn5lmd",
           "status": "investigating",
@@ -662,9 +688,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2021-12-25T14:00:56.064Z",
+          "updated_at": "2021-12-25T14:22:13.912Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -830,7 +856,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
