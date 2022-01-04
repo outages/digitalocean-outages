@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-04T01:34:42.008Z"
+    "updated_at": "2022-01-04T02:25:28.800Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,9 +86,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-01-04T01:34:41.063Z",
+      "updated_at": "2022-01-04T01:51:16.547Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -214,9 +214,9 @@
     {
       "id": "0kys855yj2y1",
       "name": "FRA1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-01-04T01:34:41.084Z",
+      "updated_at": "2022-01-04T01:51:16.563Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -289,9 +289,9 @@
     {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-01-04T01:34:41.104Z",
+      "updated_at": "2022-01-04T01:51:16.580Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -544,9 +544,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-01-04T01:34:41.125Z",
+      "updated_at": "2022-01-04T01:51:16.596Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -606,16 +606,54 @@
     {
       "id": "nypkvjl6j3fd",
       "name": "Spaces, App Platform and Container Registry.",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-01-04T01:34:41.015Z",
-      "updated_at": "2022-01-04T01:34:42.001Z",
-      "monitoring_at": null,
+      "updated_at": "2022-01-04T01:51:17.190Z",
+      "monitoring_at": "2022-01-04T01:51:16.624Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/zsqbxz2vxt48",
       "started_at": "2022-01-04T01:34:41.001Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "wnbshg24tv2v",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with the Spaces system and is monitoring the situation. The impact this has on App Platform and Container registry is also resolved. \n\n We will post an update as soon as resolution can fully be confirmed by the engineering team.",
+          "incident_id": "nypkvjl6j3fd",
+          "created_at": "2022-01-04T01:51:16.624Z",
+          "updated_at": "2022-01-04T01:51:17.185Z",
+          "display_at": "2022-01-04T01:51:16.624Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1478182211048251400
+        },
         {
           "id": "hwdnlghq4jjl",
           "status": "identified",
@@ -659,9 +697,9 @@
         {
           "id": "vtmbhmvd5dqv",
           "name": "App Platform",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-01-04T01:34:41.063Z",
+          "updated_at": "2022-01-04T01:51:16.547Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -674,9 +712,9 @@
         {
           "id": "0kys855yj2y1",
           "name": "FRA1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2022-01-04T01:34:41.084Z",
+          "updated_at": "2022-01-04T01:51:16.563Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -689,9 +727,9 @@
         {
           "id": "bcwz10mdvf0r",
           "name": "Container Registry",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-01-04T01:34:41.104Z",
+          "updated_at": "2022-01-04T01:51:16.580Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -704,9 +742,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2022-01-04T01:34:41.125Z",
+          "updated_at": "2022-01-04T01:51:16.596Z",
           "position": 18,
           "description": null,
           "showcase": false,
@@ -721,7 +759,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
