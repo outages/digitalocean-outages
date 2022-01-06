@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-06T07:34:29.704Z"
+    "updated_at": "2022-01-06T10:30:04.202Z"
   },
   "components": [
     {
@@ -608,7 +608,7 @@
       "name": "Spaces Availability impacting services in SFO2",
       "status": "identified",
       "created_at": "2022-01-06T06:42:32.378Z",
-      "updated_at": "2022-01-06T07:34:29.476Z",
+      "updated_at": "2022-01-06T10:30:04.195Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -616,6 +616,62 @@
       "started_at": "2022-01-06T06:42:32.369Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "d6fhbjbzh47k",
+          "status": "identified",
+          "body": "Our engineering team is actively working to fix the \"Spaces availability \" issue in our SF02 region. Thank you for your patience, and will share an update once we have more information.",
+          "incident_id": "2n7dtmlwd05s",
+          "created_at": "2022-01-06T10:30:03.482Z",
+          "updated_at": "2022-01-06T10:30:04.189Z",
+          "display_at": "2022-01-06T10:30:03.482Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1479037542896849000
+        },
         {
           "id": "jxwvs5ty1ckj",
           "status": "identified",
@@ -671,6 +727,21 @@
       ],
       "components": [
         {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "operational",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2021-12-15T23:09:51.192Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "8kndbnbgddpr",
           "name": "SFO2",
           "status": "operational",
@@ -681,6 +752,66 @@
           "showcase": false,
           "start_date": null,
           "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "m7nv9rsmrssk",
+          "name": "Event Processing",
+          "status": "operational",
+          "created_at": "2017-02-17T21:40:14.164Z",
+          "updated_at": "2021-10-15T01:01:41.333Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "operational",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2021-11-11T23:11:03.300Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "chj29s92gg0x",
+          "name": "Load Balancers",
+          "status": "operational",
+          "created_at": "2017-03-15T20:20:44.175Z",
+          "updated_at": "2021-11-18T17:45:07.405Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "operational",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2022-01-04T23:10:32.661Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
           "only_show_if_degraded": false
