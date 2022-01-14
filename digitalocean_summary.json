@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-14T07:23:49.837Z"
+    "updated_at": "2022-01-14T07:35:01.758Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-01-14T06:54:00.839Z",
+      "updated_at": "2022-01-14T07:35:00.968Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -606,16 +606,54 @@
     {
       "id": "5mnvvv09zznl",
       "name": "Network degradation impacting services in the NYC region",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-01-14T06:54:00.791Z",
-      "updated_at": "2022-01-14T07:23:49.716Z",
-      "monitoring_at": null,
+      "updated_at": "2022-01-14T07:35:01.751Z",
+      "monitoring_at": "2022-01-14T07:35:01.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/q522z2vlssz1",
       "started_at": "2022-01-14T06:54:00.777Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "bd92mm84kv8h",
+          "status": "monitoring",
+          "body": "Our Engineering team has mitigated the network issues and is monitoring the situation.\n\nAt this time users of services in the NYC region should not continue to experience network issues. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "5mnvvv09zznl",
+          "created_at": "2022-01-14T07:35:01.000Z",
+          "updated_at": "2022-01-14T07:35:01.745Z",
+          "display_at": "2022-01-14T07:35:01.000Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "cl06j64ltm9s",
+              "name": "Regions - NYC1",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "6v0yhwt7977x",
+              "name": "Regions - NYC2",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1481892595345232000
+        },
         {
           "id": "w4v4cv10r4ks",
           "status": "identified",
@@ -742,9 +780,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-01-14T06:54:00.839Z",
+          "updated_at": "2022-01-14T07:35:00.968Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -759,7 +797,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
