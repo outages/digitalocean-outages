@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-18T15:58:41.235Z"
+    "updated_at": "2022-01-18T18:10:44.279Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -214,9 +214,9 @@
     {
       "id": "0kys855yj2y1",
       "name": "FRA1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-01-18T12:36:19.554Z",
+      "updated_at": "2022-01-18T18:10:43.150Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -608,7 +608,7 @@
       "name": "Droplet creation failures in FRA1",
       "status": "identified",
       "created_at": "2022-01-18T12:36:19.511Z",
-      "updated_at": "2022-01-18T15:58:41.228Z",
+      "updated_at": "2022-01-18T18:10:44.274Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -616,6 +616,32 @@
       "started_at": "2022-01-18T12:36:19.497Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "9ydlcp84px9j",
+          "status": "identified",
+          "body": "Our Engineering team continues to work on a fix for the issue impacting Droplet creates in the FRA1 region. During this period, users may continue to experience errors when attempting to create or scale resources such as Droplets, Managed Databases, Load Balancers, and Managed Kubernetes in the FRA1 region. Thank you for your patience, we will share more information as soon as it's available.",
+          "incident_id": "n10hm09yvq6y",
+          "created_at": "2022-01-18T18:10:43.225Z",
+          "updated_at": "2022-01-18T18:10:44.269Z",
+          "display_at": "2022-01-18T18:10:43.225Z",
+          "affected_components": [
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1483502127888547800
+        },
         {
           "id": "5zrdbxy1vj1v",
           "status": "identified",
@@ -673,9 +699,9 @@
         {
           "id": "0kys855yj2y1",
           "name": "FRA1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2022-01-18T12:36:19.554Z",
+          "updated_at": "2022-01-18T18:10:43.150Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -705,7 +731,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
