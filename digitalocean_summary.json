@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-21T10:46:30.346Z"
+    "updated_at": "2022-01-21T12:08:43.294Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -364,9 +364,9 @@
     {
       "id": "mypfybvgyhrk",
       "name": "SFO1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2022-01-21T09:40:42.650Z",
+      "updated_at": "2022-01-21T12:08:42.768Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-01-21T09:40:42.671Z",
+      "updated_at": "2022-01-21T12:08:42.787Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -603,137 +603,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "txrlvj9yt02m",
-      "name": "Networking maintenance in SFO1",
-      "status": "in_progress",
-      "created_at": "2022-01-21T09:38:06.587Z",
-      "updated_at": "2022-01-21T10:46:30.338Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/yv03949q0p57",
-      "started_at": "2022-01-21T09:38:06.575Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "01c8lthcmxrk",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. While we are going forward with the maintenance, our Engineers have temporarily disabled external events processing in SFO1. Users may also face issues while applying Cloud Firewall rules.We will endeavor to re-enable events as quickly as possible.",
-          "incident_id": "txrlvj9yt02m",
-          "created_at": "2022-01-21T10:46:29.452Z",
-          "updated_at": "2022-01-21T10:46:30.331Z",
-          "display_at": "2022-01-21T10:46:29.452Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "under_maintenance",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1484477497018237000
-        },
-        {
-          "id": "14ksrsvxwg7g",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "txrlvj9yt02m",
-          "created_at": "2022-01-21T09:40:42.701Z",
-          "updated_at": "2022-01-21T09:40:43.440Z",
-          "display_at": "2022-01-21T09:40:42.701Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1484460942310006800
-        },
-        {
-          "id": "qht2y2dpsd9n",
-          "status": "scheduled",
-          "body": "To mitigate the network problems in SFO1 we will be performing a maintenance now. During this time minimal impact is expected, but users may experience brief moments of packet loss or increased latency lasting no longer than 5 minutes.",
-          "incident_id": "txrlvj9yt02m",
-          "created_at": "2022-01-21T09:38:06.658Z",
-          "updated_at": "2022-01-21T09:38:07.619Z",
-          "display_at": "2022-01-21T09:38:06.658Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "mypfybvgyhrk",
-              "name": "Regions - SFO1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1484460288585863200
-        }
-      ],
-      "components": [
-        {
-          "id": "mypfybvgyhrk",
-          "name": "SFO1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:48:46.498Z",
-          "updated_at": "2022-01-21T09:40:42.650Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-01-21T09:40:42.671Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-01-21T09:40:00.000Z",
-      "scheduled_until": "2022-01-21T12:40:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
