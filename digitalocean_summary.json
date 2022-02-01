@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-25T21:52:25.209Z"
+    "updated_at": "2022-02-01T19:16:08.744Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -454,9 +454,9 @@
     {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-01-22T14:20:30.009Z",
+      "updated_at": "2022-02-01T19:16:07.876Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -484,9 +484,9 @@
     {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2021-11-18T17:45:07.405Z",
+      "updated_at": "2022-02-01T19:16:07.902Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -499,9 +499,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2022-01-04T23:10:32.661Z",
+      "updated_at": "2022-02-01T19:16:07.928Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -602,10 +602,126 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "pg80cfmh10ny",
+      "name": "LBaaS, DOKS and DBaaS in TOR1",
+      "status": "investigating",
+      "created_at": "2022-02-01T19:16:07.822Z",
+      "updated_at": "2022-02-01T19:16:08.738Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/vtnlq4c2stzk",
+      "started_at": "2022-02-01T19:16:07.806Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "zm9fm2gcdx7c",
+          "status": "investigating",
+          "body": "Our Engineering team is currently investigating an issue impacting LBaaS, DOKS and DBaaS services in our TOR1 region. During this time, users may experience issues with LBaaS, DOKS and DBaaS services in TOR1 region. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "pg80cfmh10ny",
+          "created_at": "2022-02-01T19:16:07.986Z",
+          "updated_at": "2022-02-01T19:16:08.732Z",
+          "display_at": "2022-02-01T19:16:07.986Z",
+          "affected_components": [
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "chj29s92gg0x",
+              "name": "Services - Load Balancers",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "c65109y4h6vk",
+              "name": "Regions - TOR1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1488592018628436000
+        }
+      ],
+      "components": [
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "degraded_performance",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2022-02-01T19:16:07.876Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "c65109y4h6vk",
+          "name": "TOR1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:49:17.358Z",
+          "updated_at": "2020-07-14T04:01:24.844Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "chj29s92gg0x",
+          "name": "Load Balancers",
+          "status": "degraded_performance",
+          "created_at": "2017-03-15T20:20:44.175Z",
+          "updated_at": "2022-02-01T19:16:07.902Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "degraded_performance",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2022-02-01T19:16:07.928Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
