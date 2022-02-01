@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-01T19:23:45.897Z"
+    "updated_at": "2022-02-01T19:43:20.314Z"
   },
   "components": [
     {
@@ -605,25 +605,25 @@
   "incidents": [
     {
       "id": "pg80cfmh10ny",
-      "name": "LBaaS, DOKS and DBaaS in TOR1",
+      "name": "Load Balancer, Managed Kubernetes and Managed Database in TOR1",
       "status": "investigating",
       "created_at": "2022-02-01T19:16:07.822Z",
-      "updated_at": "2022-02-01T19:16:08.738Z",
+      "updated_at": "2022-02-01T19:43:20.310Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/vtnlq4c2stzk",
-      "started_at": "2022-02-01T19:16:07.806Z",
+      "started_at": "2022-02-01T19:16:07.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "zm9fm2gcdx7c",
           "status": "investigating",
-          "body": "Our Engineering team is currently investigating an issue impacting LBaaS, DOKS and DBaaS services in our TOR1 region. During this time, users may experience issues with LBaaS, DOKS and DBaaS services in TOR1 region. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team is currently investigating an issue impacting Load Balancers, Managed Kubernetes and Managed Database services in our TOR1 region. During this time, users may experience issues with Load Balancers, Managed Kubernetes and Managed Database services in TOR1 region. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "pg80cfmh10ny",
           "created_at": "2022-02-01T19:16:07.986Z",
-          "updated_at": "2022-02-01T19:16:08.732Z",
-          "display_at": "2022-02-01T19:16:07.986Z",
+          "updated_at": "2022-02-01T19:43:20.229Z",
+          "display_at": "2022-02-01T19:16:07.000Z",
           "affected_components": [
             {
               "code": "y5mb12th36zh",
