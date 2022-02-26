@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-26T18:23:38.192Z"
+    "updated_at": "2022-02-26T20:23:55.384Z"
   },
   "status": {
     "indicator": "minor",
