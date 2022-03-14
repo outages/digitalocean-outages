@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-14T22:54:00.779Z"
+    "updated_at": "2022-03-14T23:30:29.130Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -199,9 +199,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-03-14T22:20:12.582Z",
+      "updated_at": "2022-03-14T23:30:28.610Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -602,110 +602,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "l0zw8fm6hmy0",
-      "name": "Recovery Console using Cloud Panel",
-      "status": "monitoring",
-      "created_at": "2022-03-14T22:20:12.542Z",
-      "updated_at": "2022-03-14T22:54:00.773Z",
-      "monitoring_at": "2022-03-14T22:54:00.031Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/nm5v9k964xk3",
-      "started_at": "2022-03-14T22:20:12.529Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "56vzzv6vd0mh",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue with the Recovery Console using the Cloud Panel and is monitoring the situation. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "l0zw8fm6hmy0",
-          "created_at": "2022-03-14T22:54:00.031Z",
-          "updated_at": "2022-03-14T22:54:00.753Z",
-          "display_at": "2022-03-14T22:54:00.031Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1503504748858675200
-        },
-        {
-          "id": "2f6qn1h5f6dc",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with Recovery Console using Cloud Panel. At this time, users may experience issues while using Recovery Console. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "l0zw8fm6hmy0",
-          "created_at": "2022-03-14T22:20:12.630Z",
-          "updated_at": "2022-03-14T22:20:13.104Z",
-          "display_at": "2022-03-14T22:20:12.630Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1503496244617887700
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2021-12-20T19:53:39.747Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2022-03-14T22:20:12.582Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
