@@ -4,10 +4,10 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-21T23:58:38.806Z"
+    "updated_at": "2022-03-22T03:34:33.726Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
