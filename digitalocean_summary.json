@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-22T21:06:40.696Z"
+    "updated_at": "2022-03-22T21:34:37.071Z"
   },
   "components": [
     {
@@ -606,16 +606,42 @@
     {
       "id": "cdqm1pk522lq",
       "name": "Problems with App Platform Auto-Deploy",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-03-22T21:06:38.969Z",
-      "updated_at": "2022-03-22T21:06:40.672Z",
-      "monitoring_at": null,
+      "updated_at": "2022-03-22T21:34:36.938Z",
+      "monitoring_at": "2022-03-22T21:34:35.742Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/10dvcpwf75n4",
       "started_at": "2022-03-22T21:06:38.956Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "l555c0jvkrg7",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve an issue with App Platform Auto-Deploy and is currently monitoring the situation. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "cdqm1pk522lq",
+          "created_at": "2022-03-22T21:34:35.742Z",
+          "updated_at": "2022-03-22T21:34:36.931Z",
+          "display_at": "2022-03-22T21:34:35.742Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1506383870744166400
+        },
         {
           "id": "fzyd0xstwtzs",
           "status": "investigating",
