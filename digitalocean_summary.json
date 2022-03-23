@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-22T21:53:46.795Z"
+    "updated_at": "2022-03-23T04:36:28.424Z"
   },
   "components": [
     {
@@ -605,10 +605,10 @@
   "incidents": [
     {
       "id": "p4d6h1g01z60",
-      "name": "Problems with Account-Related Emails",
+      "name": "Account-Related Emails",
       "status": "monitoring",
       "created_at": "2022-03-22T03:18:08.939Z",
-      "updated_at": "2022-03-22T17:10:11.791Z",
+      "updated_at": "2022-03-23T04:36:28.419Z",
       "monitoring_at": "2022-03-22T17:10:11.293Z",
       "resolved_at": null,
       "impact": "minor",
