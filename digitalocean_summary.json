@@ -4,15 +4,15 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-27T14:57:17.844Z"
+    "updated_at": "2022-03-27T19:33:01.581Z"
   },
   "components": [
     {
       "id": "1082j139b5bg",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-03-27T14:57:17.318Z",
+      "updated_at": "2022-03-27T19:25:35.896Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -199,9 +199,9 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-03-27T14:57:17.339Z",
+      "updated_at": "2022-03-27T19:25:35.916Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -514,9 +514,9 @@
     {
       "id": "zqcx615n3ms4",
       "name": "Monitoring",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-04-06T17:49:31.944Z",
-      "updated_at": "2022-03-16T03:09:01.097Z",
+      "updated_at": "2022-03-27T19:25:35.935Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-03-11T08:35:33.552Z",
+      "updated_at": "2022-03-27T19:25:35.955Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -602,10 +602,147 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "vy8cfn9qmswk",
+      "name": "Multiple Products Down",
+      "status": "investigating",
+      "created_at": "2022-03-27T19:25:35.851Z",
+      "updated_at": "2022-03-27T19:25:36.973Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/trsl138s0gty",
+      "started_at": "2022-03-27T19:25:35.836Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "vsp04pqdrmms",
+          "status": "investigating",
+          "body": "Our Engineering team is currently investigating an issue impacting multiple products on our platform. During this time, users may experience errors when interacting with Cloud Control Panel, API, and some components on our Community platform. Users may see connectivity issues with their Droplets in the NYC1 region as well. Our engineers are investigating the impact and we will post further updates as we gather more information. We apologize for any inconvenience.",
+          "incident_id": "vy8cfn9qmswk",
+          "created_at": "2022-03-27T19:25:35.998Z",
+          "updated_at": "2022-03-27T19:25:36.968Z",
+          "display_at": "2022-03-27T19:25:35.998Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zqcx615n3ms4",
+              "name": "Services - Monitoring",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1508163346788323300
+        }
+      ],
+      "components": [
+        {
+          "id": "1082j139b5bg",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2016-08-30T19:49:35.215Z",
+          "updated_at": "2022-03-27T19:25:35.896Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-03-26T22:50:01.159Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2022-03-27T19:25:35.916Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zqcx615n3ms4",
+          "name": "Monitoring",
+          "status": "degraded_performance",
+          "created_at": "2017-04-06T17:49:31.944Z",
+          "updated_at": "2022-03-27T19:25:35.935Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-03-27T19:25:35.955Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
