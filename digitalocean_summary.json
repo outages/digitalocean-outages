@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-27T12:42:00.508Z"
+    "updated_at": "2022-03-27T13:33:08.568Z"
   },
   "components": [
     {
@@ -606,16 +606,48 @@
     {
       "id": "6vml6v0xylcy",
       "name": "Cloud Control Panel and API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-03-27T12:41:59.240Z",
-      "updated_at": "2022-03-27T12:42:00.503Z",
-      "monitoring_at": null,
+      "updated_at": "2022-03-27T13:19:29.878Z",
+      "monitoring_at": "2022-03-27T13:19:27.714Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/2t1z57wv9zds",
       "started_at": "2022-03-27T12:41:59.225Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "hnb38dbtxszr",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with the API and Cloud Control Panel and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "6vml6v0xylcy",
+          "created_at": "2022-03-27T13:19:27.714Z",
+          "updated_at": "2022-03-27T13:19:29.866Z",
+          "display_at": "2022-03-27T13:19:27.714Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1508071209904136200
+        },
         {
           "id": "2yynfm28nhh4",
           "status": "investigating",
