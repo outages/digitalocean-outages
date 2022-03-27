@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-27T19:38:34.863Z"
+    "updated_at": "2022-03-27T19:53:17.317Z"
   },
   "components": [
     {
@@ -606,16 +606,60 @@
     {
       "id": "vy8cfn9qmswk",
       "name": "Multiple Products Down",
-      "status": "investigating",
-      "created_at": "2022-03-27T19:25:35.851Z",
-      "updated_at": "2022-03-27T19:38:34.858Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2022-03-27T19:25:35.000Z",
+      "updated_at": "2022-03-27T19:53:17.311Z",
+      "monitoring_at": "2022-03-27T19:53:16.903Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/trsl138s0gty",
       "started_at": "2022-03-27T19:25:35.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "w086qt01482x",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix for the issues that caused an impact on multiple products. We are continuing to monitor the situation closely as the functionality of the services recovers. We apologize for the inconvenience and will share another update once the matter is fully resolved.",
+          "incident_id": "vy8cfn9qmswk",
+          "created_at": "2022-03-27T19:53:16.903Z",
+          "updated_at": "2022-03-27T19:53:17.307Z",
+          "display_at": "2022-03-27T19:53:16.903Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zqcx615n3ms4",
+              "name": "Services - Monitoring",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1508170310742204400
+        },
         {
           "id": "vsp04pqdrmms",
           "status": "investigating",
