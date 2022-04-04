@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-04T18:10:08.370Z"
+    "updated_at": "2022-04-04T18:31:08.976Z"
   },
   "components": [
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-03-30T12:06:24.785Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -49,21 +64,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-03-30T12:06:24.785Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -197,21 +197,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-03-28T03:31:27.416Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
       "status": "operational",
@@ -222,6 +207,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2022-03-28T03:31:27.416Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -257,21 +257,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2022-03-21T23:58:37.505Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -282,6 +267,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2022-03-21T23:58:37.505Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -379,9 +379,9 @@
     {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-03-21T16:20:02.019Z",
+      "updated_at": "2022-04-04T18:20:00.200Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -437,21 +437,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2021-08-25T22:30:32.978Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
       "status": "operational",
@@ -467,12 +452,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2020-07-14T04:01:24.844Z",
-      "position": 14,
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2021-08-25T22:30:32.978Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -492,6 +477,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2020-07-14T04:01:24.844Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -606,16 +606,42 @@
     {
       "id": "9ml8zkfbflsy",
       "name": "Creations in NYC1",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-04-04T17:44:38.949Z",
-      "updated_at": "2022-04-04T18:10:08.363Z",
-      "monitoring_at": null,
+      "updated_at": "2022-04-04T18:20:00.689Z",
+      "monitoring_at": "2022-04-04T18:20:00.240Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/735nlhydgz1d",
       "started_at": "2022-04-04T17:44:38.935Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "9gzr8p24p4fr",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue impacting the new Resource creations in our NYC1 region and are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "9ml8zkfbflsy",
+          "created_at": "2022-04-04T18:20:00.240Z",
+          "updated_at": "2022-04-04T18:20:00.684Z",
+          "display_at": "2022-04-04T18:20:00.240Z",
+          "affected_components": [
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "cl06j64ltm9s",
+              "name": "Regions - NYC1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1511045939695263700
+        },
         {
           "id": "wzgp0t0nk57w",
           "status": "investigating",
@@ -660,12 +686,12 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "xc1fvcqsqp80",
-          "name": "Droplets",
+          "id": "m7nv9rsmrssk",
+          "name": "Event Processing",
           "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2022-04-04T17:44:39.003Z",
-          "position": 10,
+          "created_at": "2017-02-17T21:40:14.164Z",
+          "updated_at": "2022-04-04T18:20:00.200Z",
+          "position": 11,
           "description": null,
           "showcase": false,
           "start_date": null,
