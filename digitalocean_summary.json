@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-04T17:44:40.025Z"
+    "updated_at": "2022-04-04T18:10:08.370Z"
   },
   "components": [
     {
@@ -605,10 +605,10 @@
   "incidents": [
     {
       "id": "9ml8zkfbflsy",
-      "name": "Droplet Creations in NYC1",
+      "name": "Creations in NYC1",
       "status": "investigating",
       "created_at": "2022-04-04T17:44:38.949Z",
-      "updated_at": "2022-04-04T17:44:40.015Z",
+      "updated_at": "2022-04-04T18:10:08.363Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -619,11 +619,11 @@
         {
           "id": "wzgp0t0nk57w",
           "status": "investigating",
-          "body": "Our engineering team is investigating an issue impacting Droplet creations in our NYC1 region. During this time, users may experience event failures while deploying new droplets in this region. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our engineering team is investigating an issue impacting Resource creations in our NYC1 region. During this time, users may experience event failures while deploying new resources in this region. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "9ml8zkfbflsy",
           "created_at": "2022-04-04T17:44:39.057Z",
-          "updated_at": "2022-04-04T17:44:40.010Z",
-          "display_at": "2022-04-04T17:44:39.057Z",
+          "updated_at": "2022-04-04T18:10:08.359Z",
+          "display_at": "2022-04-04T17:44:39.000Z",
           "affected_components": [
             {
               "code": "xc1fvcqsqp80",
