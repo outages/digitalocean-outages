@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-04T18:31:08.976Z"
+    "updated_at": "2022-04-04T18:54:26.359Z"
   },
   "components": [
     {
@@ -379,9 +379,9 @@
     {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-04-04T18:20:00.200Z",
+      "updated_at": "2022-04-04T18:54:25.854Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -602,107 +602,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "9ml8zkfbflsy",
-      "name": "Creations in NYC1",
-      "status": "monitoring",
-      "created_at": "2022-04-04T17:44:38.949Z",
-      "updated_at": "2022-04-04T18:20:00.689Z",
-      "monitoring_at": "2022-04-04T18:20:00.240Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/735nlhydgz1d",
-      "started_at": "2022-04-04T17:44:38.935Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "9gzr8p24p4fr",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue impacting the new Resource creations in our NYC1 region and are monitoring the situation. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "9ml8zkfbflsy",
-          "created_at": "2022-04-04T18:20:00.240Z",
-          "updated_at": "2022-04-04T18:20:00.684Z",
-          "display_at": "2022-04-04T18:20:00.240Z",
-          "affected_components": [
-            {
-              "code": "m7nv9rsmrssk",
-              "name": "Services - Event Processing",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1511045939695263700
-        },
-        {
-          "id": "wzgp0t0nk57w",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue impacting Resource creations in our NYC1 region. During this time, users may experience event failures while deploying new resources in this region. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "9ml8zkfbflsy",
-          "created_at": "2022-04-04T17:44:39.057Z",
-          "updated_at": "2022-04-04T18:10:08.359Z",
-          "display_at": "2022-04-04T17:44:39.000Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "cl06j64ltm9s",
-              "name": "Regions - NYC1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1511037044969025500
-        }
-      ],
-      "components": [
-        {
-          "id": "cl06j64ltm9s",
-          "name": "NYC1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:01.306Z",
-          "updated_at": "2022-03-21T23:58:37.505Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "m7nv9rsmrssk",
-          "name": "Event Processing",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:14.164Z",
-          "updated_at": "2022-04-04T18:20:00.200Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
