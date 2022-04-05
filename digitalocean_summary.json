@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-05T08:01:25.746Z"
+    "updated_at": "2022-04-05T08:31:17.947Z"
   },
   "components": [
     {
@@ -529,9 +529,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-04-05T07:41:13.498Z",
+      "updated_at": "2022-04-05T08:19:31.084Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -606,16 +606,42 @@
     {
       "id": "2r71vh386d9z",
       "name": "Network Connectivity in SFO1 Region",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-04-05T07:41:13.446Z",
-      "updated_at": "2022-04-05T08:01:25.738Z",
-      "monitoring_at": null,
+      "updated_at": "2022-04-05T08:19:32.293Z",
+      "monitoring_at": "2022-04-05T08:19:31.124Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/6cgzhvbrtcm4",
       "started_at": "2022-04-05T07:41:13.433Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "mzw4xqdmp2h7",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issue with networking in our SFO1 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "2r71vh386d9z",
+          "created_at": "2022-04-05T08:19:31.124Z",
+          "updated_at": "2022-04-05T08:19:32.287Z",
+          "display_at": "2022-04-05T08:19:31.124Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "mypfybvgyhrk",
+              "name": "Regions - SFO1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1511257213536399400
+        },
         {
           "id": "4v468flrjhnz",
           "status": "identified",
@@ -688,9 +714,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-04-05T07:41:13.498Z",
+          "updated_at": "2022-04-05T08:19:31.084Z",
           "position": 17,
           "description": null,
           "showcase": false,
