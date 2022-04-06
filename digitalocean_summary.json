@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-06T09:30:54.377Z"
+    "updated_at": "2022-04-06T09:41:40.402Z"
   },
   "components": [
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-03-30T12:06:24.785Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "7t9s4fqwl4pm",
       "name": "Global",
@@ -54,16 +69,16 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-03-30T12:06:24.785Z",
-      "position": 1,
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-10-21T08:58:55.784Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -120,21 +135,6 @@
         "w7dvwpvd248r",
         "6b20vy2cd6hz"
       ]
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-10-21T08:58:55.784Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "19n6t4685zrn",
@@ -227,21 +227,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2021-11-18T23:55:22.364Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
       "status": "operational",
@@ -257,16 +242,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2021-10-02T02:17:27.106Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2021-11-18T23:55:22.364Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -287,16 +272,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
+      "id": "d5vft53jgv8n",
+      "name": "Community",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2022-03-11T08:35:33.520Z",
-      "position": 8,
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2021-10-02T02:17:27.106Z",
+      "position": 7,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -312,6 +297,21 @@
       "showcase": false,
       "start_date": "2020-11-02",
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2022-03-11T08:35:33.520Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -377,21 +377,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2021-07-15T22:14:08.951Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -402,6 +387,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2021-07-15T22:14:08.951Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -605,25 +605,25 @@
   "incidents": [
     {
       "id": "wb1ttwtnhyq2",
-      "name": "Cloud Control Panel",
+      "name": "Cloud Control Panel and API",
       "status": "investigating",
       "created_at": "2022-04-06T09:01:36.112Z",
-      "updated_at": "2022-04-06T09:01:36.901Z",
+      "updated_at": "2022-04-06T09:41:40.398Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lf9lh9f89y3d",
-      "started_at": "2022-04-06T09:01:36.101Z",
+      "started_at": "2022-04-06T09:01:36.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "h7svpyf63b1z",
           "status": "investigating",
-          "body": "Our engineering team is investigating an issue with the Cloud Control Panel. During this time, some users may experience errors when interacting with Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our engineering team is investigating an issue with the Cloud Control Panel and API. During this time, some users may experience errors when interacting with Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "wb1ttwtnhyq2",
           "created_at": "2022-04-06T09:01:36.196Z",
-          "updated_at": "2022-04-06T09:01:36.892Z",
-          "display_at": "2022-04-06T09:01:36.196Z",
+          "updated_at": "2022-04-06T09:41:11.641Z",
+          "display_at": "2022-04-06T09:01:36.000Z",
           "affected_components": [
             {
               "code": "xymwmm4wsr4l",
