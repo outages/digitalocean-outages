@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-12T23:29:03.084Z"
+    "updated_at": "2022-04-13T01:00:24.307Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -484,9 +484,9 @@
     {
       "id": "c65109y4h6vk",
       "name": "TOR1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2022-04-12T23:19:32.206Z",
+      "updated_at": "2022-04-13T01:00:23.609Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -603,84 +603,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "4bbpm362b3gv",
-      "name": "Networking Maintenance TOR1",
-      "status": "in_progress",
-      "created_at": "2022-04-12T23:18:13.396Z",
-      "updated_at": "2022-04-12T23:19:33.128Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/fzyf90v58mx1",
-      "started_at": "2022-04-12T23:18:13.390Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "hcxv46xrc87j",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "4bbpm362b3gv",
-          "created_at": "2022-04-12T23:19:32.243Z",
-          "updated_at": "2022-04-12T23:19:33.119Z",
-          "display_at": "2022-04-12T23:19:32.243Z",
-          "affected_components": [
-            {
-              "code": "c65109y4h6vk",
-              "name": "Regions - TOR1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1514020424148914200
-        },
-        {
-          "id": "5znhjydcs91g",
-          "status": "scheduled",
-          "body": "To mitigate the network problems in TOR1 we will be performing a maintenance now. During this time minimal impact is expected, but users may experience brief moments where create or delete events fail. Please try again in a few minutes. If the issue persists, please open a support ticket so we can look into this.",
-          "incident_id": "4bbpm362b3gv",
-          "created_at": "2022-04-12T23:18:13.442Z",
-          "updated_at": "2022-04-12T23:18:14.917Z",
-          "display_at": "2022-04-12T23:18:13.442Z",
-          "affected_components": [
-            {
-              "code": "c65109y4h6vk",
-              "name": "Regions - TOR1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1514020096305365000
-        }
-      ],
-      "components": [
-        {
-          "id": "c65109y4h6vk",
-          "name": "TOR1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:49:17.358Z",
-          "updated_at": "2022-04-12T23:19:32.206Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-04-12T23:19:00.000Z",
-      "scheduled_until": "2022-04-13T01:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
