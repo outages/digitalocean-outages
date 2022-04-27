@@ -4,20 +4,20 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-04-18T18:38:04.454Z"
+    "updated_at": "2022-04-27T11:00:33.077Z"
   },
   "components": [
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-03-30T12:06:24.785Z",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-03-26T22:50:01.159Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -54,16 +54,16 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
+      "id": "1082j139b5bg",
+      "name": "API",
       "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-03-26T22:50:01.159Z",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-03-30T12:06:24.785Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -79,21 +79,6 @@
       "showcase": false,
       "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-10-21T08:58:55.784Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -133,8 +118,24 @@
         "fg0qx1dcq61b",
         "90kv6kp38str",
         "w7dvwpvd248r",
-        "6b20vy2cd6hz"
+        "6b20vy2cd6hz",
+        "4y60pc8xdj43"
       ]
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2021-10-21T08:58:55.784Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "3s5rmcxl95h0",
@@ -197,21 +198,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-04-06T10:50:50.676Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "0kys855yj2y1",
       "name": "FRA1",
       "status": "operational",
@@ -222,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2022-04-06T10:50:50.676Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -287,21 +288,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "operational",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-03-24T00:42:20.511Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -312,6 +298,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
+      "status": "operational",
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2022-03-24T00:42:20.511Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -407,21 +408,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2022-03-12T04:43:11.585Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dqgv0tjwhwsc",
       "name": "Floating IP",
       "status": "operational",
@@ -437,12 +423,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2022-04-08T22:04:25.865Z",
-      "position": 13,
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2022-03-12T04:43:11.585Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -462,6 +448,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2022-04-08T22:04:25.865Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -596,6 +597,21 @@
       "description": null,
       "showcase": false,
       "start_date": "2021-03-17",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "4y60pc8xdj43",
+      "name": "WWW",
+      "status": "operational",
+      "created_at": "2022-04-27T11:00:33.073Z",
+      "updated_at": "2022-04-27T11:00:33.073Z",
+      "position": 22,
+      "description": "Captures issues with Marketing site",
+      "showcase": false,
+      "start_date": "2022-04-27",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
