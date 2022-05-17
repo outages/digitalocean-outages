@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-17T19:16:47.709Z"
+    "updated_at": "2022-05-17T19:24:35.450Z"
   },
   "components": [
     {
@@ -532,7 +532,7 @@
       "name": "Networking",
       "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-05-17T19:10:38.450Z",
+      "updated_at": "2022-05-17T19:24:34.956Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -622,16 +622,48 @@
     {
       "id": "82xnb04903pf",
       "name": "SFO2 and SFO3 Network Connectivity",
-      "status": "investigating",
-      "created_at": "2022-05-17T19:10:38.409Z",
-      "updated_at": "2022-05-17T19:16:47.703Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2022-05-17T19:10:38.000Z",
+      "updated_at": "2022-05-17T19:24:35.444Z",
+      "monitoring_at": "2022-05-17T19:24:34.992Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/f66cwd3mn99w",
       "started_at": "2022-05-17T19:10:38.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "c6dg5kdllpr1",
+          "status": "monitoring",
+          "body": "Our Engineering team has implemented a fix to resolve the issue impacting networking and connectivity in our SFO2 and SFO3 regions and is monitoring the situation closely. We will post an update when we have additional information or once the issue is fully resolved.",
+          "incident_id": "82xnb04903pf",
+          "created_at": "2022-05-17T19:24:34.992Z",
+          "updated_at": "2022-05-17T19:24:35.437Z",
+          "display_at": "2022-05-17T19:24:34.992Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "99gtwvvfhtyz",
+              "name": "Regions - SFO3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1526644869816430600
+        },
         {
           "id": "ps2y7r4kf5z4",
           "status": "investigating",
@@ -701,7 +733,7 @@
           "name": "Networking",
           "status": "degraded_performance",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-05-17T19:10:38.450Z",
+          "updated_at": "2022-05-17T19:24:34.956Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -714,7 +746,83 @@
       ]
     }
   ],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "jnppyl0l3mxs",
+      "name": "Networking Maintenance in AMS2",
+      "status": "scheduled",
+      "created_at": "2022-05-17T19:22:45.888Z",
+      "updated_at": "2022-05-17T19:22:46.518Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/qdmbfdbsj62x",
+      "started_at": "2022-05-17T19:22:45.877Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "gd98wk34t8x9",
+          "status": "scheduled",
+          "body": "Start: 2022-05-17 20:00 UTC\nEnd:  2022-05-18 00:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking equipment to improve performance and support future functionality in the AMS2 region. \n\nExpected Impact:\n\nWe do not expect any impact to customer traffic during this maintenance, but there will be a risk of increased latency and packet loss while upgrades are performed. We will endeavor to keep this to a minimum for the duration of the maintenance.\n\nIf you have any questions or concerns regarding this maintenance, please send us a ticket from your cloud support page.",
+          "incident_id": "jnppyl0l3mxs",
+          "created_at": "2022-05-17T19:22:45.958Z",
+          "updated_at": "2022-05-17T19:22:46.513Z",
+          "display_at": "2022-05-17T19:22:45.958Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1526644412977074200
+        }
+      ],
+      "components": [
+        {
+          "id": "t3ygwyk0bymr",
+          "name": "AMS2",
+          "status": "operational",
+          "created_at": "2017-02-17T21:45:55.031Z",
+          "updated_at": "2021-10-21T08:58:55.784Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-05-17T19:24:34.956Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-05-17T20:00:00.000Z",
+      "scheduled_until": "2022-05-18T00:00:00.000Z"
+    }
+  ],
   "status": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
