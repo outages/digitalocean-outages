@@ -4,9 +4,40 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-17T19:24:35.450Z"
+    "updated_at": "2022-05-17T20:00:58.307Z"
   },
   "components": [
+    {
+      "id": "6ycn9yslydsq",
+      "name": "Regions",
+      "status": "under_maintenance",
+      "created_at": "2017-02-17T21:44:07.379Z",
+      "updated_at": "2017-02-17T21:49:27.923Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "s2k7tnzlhrpw",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "7t9s4fqwl4pm",
+        "t3ygwyk0bymr",
+        "3s5rmcxl95h0",
+        "y7k7nwwgy36z",
+        "0kys855yj2y1",
+        "1hx8143ly544",
+        "cl06j64ltm9s",
+        "6v0yhwt7977x",
+        "3hq55lyvq3rl",
+        "mypfybvgyhrk",
+        "8kndbnbgddpr",
+        "99gtwvvfhtyz",
+        "nf94kg7630pr",
+        "c65109y4h6vk"
+      ]
+    },
     {
       "id": "1082j139b5bg",
       "name": "API",
@@ -38,57 +69,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6ycn9yslydsq",
-      "name": "Regions",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.379Z",
-      "updated_at": "2017-02-17T21:49:27.923Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "s2k7tnzlhrpw",
-      "group": true,
-      "only_show_if_degraded": false,
-      "components": [
-        "7t9s4fqwl4pm",
-        "t3ygwyk0bymr",
-        "3s5rmcxl95h0",
-        "y7k7nwwgy36z",
-        "0kys855yj2y1",
-        "1hx8143ly544",
-        "cl06j64ltm9s",
-        "6v0yhwt7977x",
-        "3hq55lyvq3rl",
-        "mypfybvgyhrk",
-        "8kndbnbgddpr",
-        "99gtwvvfhtyz",
-        "nf94kg7630pr",
-        "c65109y4h6vk"
-      ]
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-04-18T18:38:03.971Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2021-10-21T08:58:55.784Z",
+      "updated_at": "2022-05-17T20:00:48.314Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -101,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -138,15 +123,15 @@
       ]
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2021-10-26T16:06:48.932Z",
-      "position": 3,
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-04-18T18:38:03.971Z",
+      "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
+      "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -163,6 +148,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "19n6t4685zrn",
+      "name": "Billing",
+      "status": "operational",
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2021-10-26T16:06:48.932Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -198,21 +198,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-05-03T19:00:23.211Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
       "status": "operational",
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2022-05-03T19:00:23.211Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -530,9 +530,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-05-17T19:24:34.956Z",
+      "updated_at": "2022-05-17T20:00:57.857Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -618,141 +618,14 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "82xnb04903pf",
-      "name": "SFO2 and SFO3 Network Connectivity",
-      "status": "monitoring",
-      "created_at": "2022-05-17T19:10:38.000Z",
-      "updated_at": "2022-05-17T19:24:35.444Z",
-      "monitoring_at": "2022-05-17T19:24:34.992Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/f66cwd3mn99w",
-      "started_at": "2022-05-17T19:10:38.000Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "c6dg5kdllpr1",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue impacting networking and connectivity in our SFO2 and SFO3 regions and is monitoring the situation closely. We will post an update when we have additional information or once the issue is fully resolved.",
-          "incident_id": "82xnb04903pf",
-          "created_at": "2022-05-17T19:24:34.992Z",
-          "updated_at": "2022-05-17T19:24:35.437Z",
-          "display_at": "2022-05-17T19:24:34.992Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1526644869816430600
-        },
-        {
-          "id": "ps2y7r4kf5z4",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with networking in our SFO2 and SFO3 regions. During this time, users may experience increased error rates while interacting with various services (including Droplets, Spaces, Load Balancers, Managed Databases, Kubernetes and App Platform deployments). We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "82xnb04903pf",
-          "created_at": "2022-05-17T19:10:38.492Z",
-          "updated_at": "2022-05-17T19:16:47.594Z",
-          "display_at": "2022-05-17T19:10:38.000Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "99gtwvvfhtyz",
-              "name": "Regions - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1526641361532776400
-        }
-      ],
-      "components": [
-        {
-          "id": "8kndbnbgddpr",
-          "name": "SFO2",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2021-07-15T22:14:08.951Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "99gtwvvfhtyz",
-          "name": "SFO3",
-          "status": "operational",
-          "created_at": "2020-05-12T19:05:08.138Z",
-          "updated_at": "2022-03-12T04:43:11.585Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-05-17T19:24:34.956Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "jnppyl0l3mxs",
       "name": "Networking Maintenance in AMS2",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2022-05-17T19:22:45.888Z",
-      "updated_at": "2022-05-17T19:22:46.518Z",
+      "updated_at": "2022-05-17T20:00:51.746Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -760,6 +633,32 @@
       "started_at": "2022-05-17T19:22:45.877Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "rvq8kdtdd92l",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "jnppyl0l3mxs",
+          "created_at": "2022-05-17T20:00:48.403Z",
+          "updated_at": "2022-05-17T20:00:51.738Z",
+          "display_at": "2022-05-17T20:00:48.403Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "t3ygwyk0bymr",
+              "name": "Regions - AMS2",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1526653997980844000
+        },
         {
           "id": "gd98wk34t8x9",
           "status": "scheduled",
@@ -791,9 +690,9 @@
         {
           "id": "t3ygwyk0bymr",
           "name": "AMS2",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2017-02-17T21:45:55.031Z",
-          "updated_at": "2021-10-21T08:58:55.784Z",
+          "updated_at": "2022-05-17T20:00:48.314Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -806,9 +705,9 @@
         {
           "id": "1f90pjx4y4jc",
           "name": "Networking",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-05-17T19:24:34.956Z",
+          "updated_at": "2022-05-17T20:00:57.857Z",
           "position": 17,
           "description": null,
           "showcase": false,
@@ -824,7 +723,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
