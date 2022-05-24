@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-05-24T18:23:44.139Z"
+    "updated_at": "2022-05-24T19:58:17.299Z"
   },
   "components": [
     {
@@ -622,16 +622,54 @@
     {
       "id": "k0bqks3dcfyn",
       "name": "Cloud Control Panel, Managed Databases, and API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-05-24T17:42:28.678Z",
-      "updated_at": "2022-05-24T17:42:32.099Z",
-      "monitoring_at": null,
+      "updated_at": "2022-05-24T19:58:17.294Z",
+      "monitoring_at": "2022-05-24T19:58:16.890Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/xp38g9mp5b18",
       "started_at": "2022-05-24T17:42:28.663Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "m5hd3g979t9d",
+          "status": "monitoring",
+          "body": "Our engineering team has deployed a fix for the issues that impacted Cloud Control Panel, Managed Databases, and API. We are monitoring the situation as the functionality of services recovers, and we will post an update as soon as the issue is fully resolved. Thank you for your patience.",
+          "incident_id": "k0bqks3dcfyn",
+          "created_at": "2022-05-24T19:58:16.890Z",
+          "updated_at": "2022-05-24T19:58:17.290Z",
+          "display_at": "2022-05-24T19:58:16.890Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "19n6t4685zrn",
+              "name": "Services - Billing",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1529190065141739500
+        },
         {
           "id": "sdr8kxy0y0ns",
           "status": "investigating",
