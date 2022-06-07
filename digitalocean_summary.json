@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-07T17:23:38.685Z"
+    "updated_at": "2022-06-07T17:58:35.309Z"
   },
   "components": [
     {
@@ -638,16 +638,60 @@
     {
       "id": "xd78lw5kx9b8",
       "name": "Cloud Control Panel and API",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-06-07T16:44:14.632Z",
-      "updated_at": "2022-06-07T17:15:56.167Z",
-      "monitoring_at": null,
+      "updated_at": "2022-06-07T17:58:35.304Z",
+      "monitoring_at": "2022-06-07T17:58:34.557Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/rmfbth7cmm89",
       "started_at": "2022-06-07T16:44:14.616Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "9jsn6jd2zmkl",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the intermittent connection issues to various web endpoints and is monitoring the situation closely. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "xd78lw5kx9b8",
+          "created_at": "2022-06-07T17:58:34.557Z",
+          "updated_at": "2022-06-07T17:58:35.299Z",
+          "display_at": "2022-06-07T17:58:34.557Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "d5vft53jgv8n",
+              "name": "Services - Community",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1534233371596927000
+        },
         {
           "id": "zls7yc25gkg8",
           "status": "identified",
