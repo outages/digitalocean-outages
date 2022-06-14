@@ -4,20 +4,20 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-08T14:36:34.379Z"
+    "updated_at": "2022-06-14T01:07:05.668Z"
   },
   "components": [
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-03-26T22:50:01.159Z",
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "major_outage",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-06-14T01:07:03.537Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -25,7 +25,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -54,16 +54,16 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-06-07T19:06:08.371Z",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "major_outage",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-06-14T00:00:08.677Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -71,9 +71,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-05-21T21:35:27.431Z",
+      "updated_at": "2022-06-14T01:07:03.551Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -84,24 +84,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2022-05-19T21:45:29.694Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -139,6 +124,21 @@
       ]
     },
     {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2022-05-19T21:45:29.694Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "19n6t4685zrn",
       "name": "Billing",
       "status": "operational",
@@ -169,21 +169,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2022-04-08T22:04:25.843Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -199,16 +184,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-06-07T19:06:08.393Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2022-04-08T22:04:25.843Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -224,6 +209,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "major_outage",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2022-06-14T01:07:03.568Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -289,21 +289,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "operational",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-05-06T02:25:12.613Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -319,15 +304,15 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
       "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2021-10-02T02:17:27.159Z",
-      "position": 9,
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2022-05-06T02:25:12.613Z",
+      "position": 8,
       "description": null,
       "showcase": false,
-      "start_date": null,
+      "start_date": "2020-11-02",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -344,6 +329,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "major_outage",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2022-06-14T01:07:03.581Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -366,9 +366,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2022-04-05T18:52:25.252Z",
+      "updated_at": "2022-06-14T01:07:03.597Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -396,13 +396,28 @@
     {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-05-03T19:00:23.251Z",
+      "updated_at": "2022-06-14T01:07:03.612Z",
       "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dqgv0tjwhwsc",
+      "name": "Floating IP",
+      "status": "operational",
+      "created_at": "2021-10-25T13:45:18.834Z",
+      "updated_at": "2022-05-06T09:11:41.916Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": "2021-10-25",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -424,26 +439,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dqgv0tjwhwsc",
-      "name": "Floating IP",
-      "status": "operational",
-      "created_at": "2021-10-25T13:45:18.834Z",
-      "updated_at": "2022-05-06T09:11:41.916Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": "2021-10-25",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-06-01T03:57:51.138Z",
+      "updated_at": "2022-06-14T01:07:03.625Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -501,9 +501,9 @@
     {
       "id": "lklbmflv3jcl",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-02-14T16:21:36.279Z",
-      "updated_at": "2022-05-12T17:51:06.785Z",
+      "updated_at": "2022-06-14T01:07:03.640Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-05-19T21:45:29.720Z",
+      "updated_at": "2022-06-14T01:07:03.656Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -606,9 +606,9 @@
     {
       "id": "4y60pc8xdj43",
       "name": "WWW",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-04-27T11:00:33.073Z",
-      "updated_at": "2022-06-07T19:06:08.434Z",
+      "updated_at": "2022-06-14T01:07:03.670Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -621,9 +621,9 @@
     {
       "id": "bdknd1yhkh5t",
       "name": "Functions",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2022-06-04T12:26:41.492Z",
-      "updated_at": "2022-06-04T12:26:41.492Z",
+      "updated_at": "2022-06-14T01:07:03.684Z",
       "position": 23,
       "description": null,
       "showcase": false,
@@ -634,10 +634,424 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xkpsn9hbnnlz",
+      "name": "Cloud Control Panel, API, Multiple Products",
+      "status": "identified",
+      "created_at": "2022-06-14T00:00:08.631Z",
+      "updated_at": "2022-06-14T01:07:05.570Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/fmlx6wbmpfl4",
+      "started_at": "2022-06-14T00:00:08.616Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "gmhrlxdt1wdw",
+          "status": "identified",
+          "body": "Our Engineering team is currently investigating a recurrence of this issue and users may once again see issues with multiple products and services as noted in our last updates. \n\nWe apologize and will provide another update as soon as we have more information.",
+          "incident_id": "xkpsn9hbnnlz",
+          "created_at": "2022-06-14T01:07:03.711Z",
+          "updated_at": "2022-06-14T01:07:05.405Z",
+          "display_at": "2022-06-14T01:07:03.711Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "yzksrkss544p",
+              "name": "Services - DNS",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "bdknd1yhkh5t",
+              "name": "Services - Functions",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1536515534593745000
+        },
+        {
+          "id": "yzdvbcnv8hkz",
+          "status": "identified",
+          "body": "Our Engineering team has identified the root cause of the multiple failures and a fix has been implemented. To add to our earlier update, we've confirmed this incident impacted Droplet networking as well and users may have experienced packet loss/latency and loss of connectivity with Droplets in NYC1, NYC2, FRA1, and TOR1, including Managed Kubernetes. \n\nAt this time, users should see error rates subsiding and normal connectivity returning. \n\nThank you for your patience.",
+          "incident_id": "xkpsn9hbnnlz",
+          "created_at": "2022-06-14T00:33:16.727Z",
+          "updated_at": "2022-06-14T00:33:17.451Z",
+          "display_at": "2022-06-14T00:33:16.727Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "yzksrkss544p",
+              "name": "Services - DNS",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lklbmflv3jcl",
+              "name": "Services - Managed Databases",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "major_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "bdknd1yhkh5t",
+              "name": "Services - Functions",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1536507028654289000
+        },
+        {
+          "id": "fyjdf03g8svh",
+          "status": "investigating",
+          "body": "As of approximately 23:40 UTC, our Engineering team is investigating multiple failures with DigitalOcean services, including our Cloud Control Panel, API, events such as creation of all resources, and WWW endpoints failing to resolve. We are starting to see recovery but are still investigating root cause and users may continue to experience elevated errors. \n\nWe will post another update as soon as further information is available.",
+          "incident_id": "xkpsn9hbnnlz",
+          "created_at": "2022-06-14T00:00:08.793Z",
+          "updated_at": "2022-06-14T00:00:09.579Z",
+          "display_at": "2022-06-14T00:00:08.793Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1536498691170701300
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "major_outage",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-06-14T00:00:08.677Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1082j139b5bg",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2016-08-30T19:49:35.215Z",
+          "updated_at": "2022-06-14T01:07:03.537Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "major_outage",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2022-06-14T01:07:03.551Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "major_outage",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2022-06-14T01:07:03.568Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yzksrkss544p",
+          "name": "DNS",
+          "status": "major_outage",
+          "created_at": "2017-04-26T16:27:19.801Z",
+          "updated_at": "2022-06-14T01:07:03.581Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "major_outage",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2022-06-14T01:07:03.597Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "m7nv9rsmrssk",
+          "name": "Event Processing",
+          "status": "major_outage",
+          "created_at": "2017-02-17T21:40:14.164Z",
+          "updated_at": "2022-06-14T01:07:03.612Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "major_outage",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2022-06-14T01:07:03.625Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lklbmflv3jcl",
+          "name": "Managed Databases",
+          "status": "major_outage",
+          "created_at": "2019-02-14T16:21:36.279Z",
+          "updated_at": "2022-06-14T01:07:03.640Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "major_outage",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-06-14T01:07:03.656Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "4y60pc8xdj43",
+          "name": "WWW",
+          "status": "major_outage",
+          "created_at": "2022-04-27T11:00:33.073Z",
+          "updated_at": "2022-06-14T01:07:03.670Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-04-27",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bdknd1yhkh5t",
+          "name": "Functions",
+          "status": "major_outage",
+          "created_at": "2022-06-04T12:26:41.492Z",
+          "updated_at": "2022-06-14T01:07:03.684Z",
+          "position": 23,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-06-04",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
