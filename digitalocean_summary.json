@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-15T13:46:08.569Z"
+    "updated_at": "2022-06-15T17:38:32.690Z"
   },
   "components": [
     {
@@ -638,16 +638,60 @@
     {
       "id": "1xtftrfdrc83",
       "name": "Cloud Control Panel Connectivity",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-06-15T11:56:25.045Z",
-      "updated_at": "2022-06-15T13:46:08.387Z",
-      "monitoring_at": null,
+      "updated_at": "2022-06-15T17:38:32.680Z",
+      "monitoring_at": "2022-06-15T17:38:32.104Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/b32d8dwr4gj1",
       "started_at": "2022-06-15T11:56:25.029Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "7l6y60gmwgv7",
+          "status": "monitoring",
+          "body": "Our engineering team has identified the root cause for the intermittent issues with the Cloud Control Panel, API, and WWW endpoints, and we have deployed a fix to resolve the issue completely. We are monitoring the situation currently and will post an update as soon as the issue is fully resolved.",
+          "incident_id": "1xtftrfdrc83",
+          "created_at": "2022-06-15T17:38:32.104Z",
+          "updated_at": "2022-06-15T17:38:32.669Z",
+          "display_at": "2022-06-15T17:38:32.104Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "19n6t4685zrn",
+              "name": "Services - Billing",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1537127430296506400
+        },
         {
           "id": "rtklw5d4jz6h",
           "status": "investigating",
