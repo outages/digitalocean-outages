@@ -4,39 +4,9 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-21T05:16:06.446Z"
+    "updated_at": "2022-06-20T13:31:31.745Z"
   },
   "components": [
-    {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-06-15T19:04:09.302Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-06-14T23:31:49.609Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -69,6 +39,36 @@
       ]
     },
     {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-06-15T19:04:09.302Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-06-14T23:31:49.609Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -128,26 +128,11 @@
       "name": "App Platform",
       "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-06-21T05:16:05.804Z",
+      "updated_at": "2022-06-14T04:02:42.156Z",
       "position": 2,
       "description": null,
       "showcase": false,
       "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
-      "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2022-06-15T19:04:09.337Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -169,16 +154,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "19n6t4685zrn",
+      "name": "Billing",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2022-06-15T06:05:10.360Z",
-      "position": 4,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2022-06-15T19:04:09.337Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -199,12 +184,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-06-15T06:05:25.580Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2022-06-15T06:05:10.360Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -224,6 +209,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2022-06-15T06:05:25.580Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -259,21 +259,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
-      "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2022-06-07T19:06:08.414Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "cl06j64ltm9s",
       "name": "NYC1",
       "status": "operational",
@@ -289,11 +274,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2022-06-07T19:06:08.414Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-06-21T05:16:05.824Z",
+      "updated_at": "2022-06-20T08:10:53.605Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -439,21 +439,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-06-14T04:02:42.287Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -464,6 +449,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2022-06-14T04:02:42.287Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -638,92 +638,16 @@
     {
       "id": "h35kx9q6sh10",
       "name": "Container Registry Deployments",
-      "status": "monitoring",
-      "created_at": "2022-06-20T08:10:53.000Z",
-      "updated_at": "2022-06-21T05:16:06.441Z",
-      "monitoring_at": "2022-06-21T05:16:05.853Z",
+      "status": "investigating",
+      "created_at": "2022-06-20T08:10:53.570Z",
+      "updated_at": "2022-06-20T13:31:31.739Z",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/j9ghqmrpc6bs",
       "started_at": "2022-06-20T08:10:53.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
-        {
-          "id": "zgmsmfx19kxd",
-          "status": "monitoring",
-          "body": "Our Engineering team has identified the root cause of the issue with DigitalOcean Container Registry in FRA1 and SGP1, and we have deployed a fix to resolve the issue completely. We are monitoring the situation currently and will post an update as soon as the issue is fully resolved.",
-          "incident_id": "h35kx9q6sh10",
-          "created_at": "2022-06-21T05:16:05.853Z",
-          "updated_at": "2022-06-21T05:16:06.437Z",
-          "display_at": "2022-06-21T05:16:05.853Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1539114917118230500
-        },
-        {
-          "id": "03dw30mhbt0p",
-          "status": "investigating",
-          "body": "We are still actively investigating this issue and hope to have more information soon. Thank you for your patience.",
-          "incident_id": "h35kx9q6sh10",
-          "created_at": "2022-06-21T02:56:48.368Z",
-          "updated_at": "2022-06-21T02:56:49.171Z",
-          "display_at": "2022-06-21T02:56:48.368Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1539079864291995600
-        },
         {
           "id": "wqx6y75qwhnk",
           "status": "investigating",
@@ -791,21 +715,6 @@
       ],
       "components": [
         {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "operational",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-06-21T05:16:05.804Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "0kys855yj2y1",
           "name": "FRA1",
           "status": "operational",
@@ -823,9 +732,9 @@
         {
           "id": "bcwz10mdvf0r",
           "name": "Container Registry",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-06-21T05:16:05.824Z",
+          "updated_at": "2022-06-20T08:10:53.605Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -855,7 +764,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
