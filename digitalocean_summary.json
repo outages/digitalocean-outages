@@ -4,35 +4,20 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-21T05:16:06.446Z"
+    "updated_at": "2022-06-21T07:00:46.652Z"
   },
   "components": [
     {
       "id": "1082j139b5bg",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-06-15T19:04:09.302Z",
+      "updated_at": "2022-06-21T07:00:45.606Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-06-14T23:31:49.609Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -69,6 +54,21 @@
       ]
     },
     {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-06-14T23:31:49.609Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
       "status": "operational",
@@ -84,9 +84,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-06-21T05:16:05.804Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -122,21 +137,6 @@
         "4y60pc8xdj43",
         "bdknd1yhkh5t"
       ]
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-06-21T05:16:05.804Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "19n6t4685zrn",
@@ -216,10 +216,25 @@
     {
       "id": "xymwmm4wsr4l",
       "name": "Cloud Control Panel",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-06-15T19:04:09.353Z",
+      "updated_at": "2022-06-21T07:00:45.633Z",
       "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "b0wv4d3y7sx1",
+      "name": "Cloud Firewall",
+      "status": "operational",
+      "created_at": "2017-06-06T14:49:52.471Z",
+      "updated_at": "2022-02-04T13:00:19.870Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -244,26 +259,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b0wv4d3y7sx1",
-      "name": "Cloud Firewall",
-      "status": "operational",
-      "created_at": "2017-06-06T14:49:52.471Z",
-      "updated_at": "2022-02-04T13:00:19.870Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2022-06-07T19:06:08.414Z",
+      "updated_at": "2022-06-21T07:00:45.660Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -289,6 +289,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2022-06-15T06:06:59.589Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
       "status": "operational",
@@ -304,12 +319,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2022-06-15T06:06:59.589Z",
-      "position": 8,
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2022-06-15T06:07:13.875Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -334,12 +349,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2022-06-15T06:07:13.875Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2022-06-15T06:06:48.246Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -364,16 +379,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
+      "id": "m7nv9rsmrssk",
+      "name": "Event Processing",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2022-06-15T06:06:48.246Z",
-      "position": 10,
+      "created_at": "2017-02-17T21:40:14.164Z",
+      "updated_at": "2022-06-14T23:51:22.157Z",
+      "position": 11,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -389,21 +404,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "m7nv9rsmrssk",
-      "name": "Event Processing",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-06-14T23:51:22.157Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -606,9 +606,9 @@
     {
       "id": "4y60pc8xdj43",
       "name": "WWW",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2022-04-27T11:00:33.073Z",
-      "updated_at": "2022-06-15T19:04:09.371Z",
+      "updated_at": "2022-06-21T07:00:45.686Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -635,6 +635,142 @@
     }
   ],
   "incidents": [
+    {
+      "id": "5zsnkkl53cgx",
+      "name": "Cloud Control Panel and WWW",
+      "status": "identified",
+      "created_at": "2022-06-21T07:00:45.523Z",
+      "updated_at": "2022-06-21T07:00:46.644Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/y5r62cynj0qj",
+      "started_at": "2022-06-21T07:00:45.504Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "hg2j5b4gkmn4",
+          "status": "identified",
+          "body": "Our Engineering team identified an issue impacting our DigitalOcean endpoints due to a third party outage. During this time, the Cloud Control Panel, API and other digitalocean.com endpoints are unaccessible. We will post an update as soon as additional information is available.",
+          "incident_id": "5zsnkkl53cgx",
+          "created_at": "2022-06-21T07:00:45.753Z",
+          "updated_at": "2022-06-21T07:00:46.636Z",
+          "display_at": "2022-06-21T07:00:45.753Z",
+          "affected_components": [
+            {
+              "code": "1082j139b5bg",
+              "name": "Services - API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "d5vft53jgv8n",
+              "name": "Services - Community",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "4y60pc8xdj43",
+              "name": "Services - WWW",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1539141258261647400
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-06-14T23:31:49.609Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1082j139b5bg",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2016-08-30T19:49:35.215Z",
+          "updated_at": "2022-06-21T07:00:45.606Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2022-06-21T07:00:45.633Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d5vft53jgv8n",
+          "name": "Community",
+          "status": "degraded_performance",
+          "created_at": "2016-08-30T19:50:59.338Z",
+          "updated_at": "2022-06-21T07:00:45.660Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "4y60pc8xdj43",
+          "name": "WWW",
+          "status": "degraded_performance",
+          "created_at": "2022-04-27T11:00:33.073Z",
+          "updated_at": "2022-06-21T07:00:45.686Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": "2022-04-27",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
     {
       "id": "h35kx9q6sh10",
       "name": "Container Registry Deployments",
@@ -855,7 +991,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
