@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-22T22:50:23.643Z"
+    "updated_at": "2022-06-22T23:23:36.051Z"
   },
   "components": [
     {
@@ -638,16 +638,48 @@
     {
       "id": "6n8wkzc4wx2m",
       "name": "Users unable to create functions",
-      "status": "investigating",
-      "created_at": "2022-06-22T22:47:15.723Z",
-      "updated_at": "2022-06-22T22:50:23.639Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2022-06-22T22:47:15.000Z",
+      "updated_at": "2022-06-22T23:18:02.118Z",
+      "monitoring_at": "2022-06-22T23:18:01.686Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lg7zbfzpvpwm",
       "started_at": "2022-06-22T22:47:15.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "mt6kvf99s3c9",
+          "status": "monitoring",
+          "body": "Our Engineering team has identified an issue with create actions on the Functions platform in the NYC1 region. A fix has been deployed and we are monitoring the situation. We will post another update once we confirm it is fully resolved.",
+          "incident_id": "6n8wkzc4wx2m",
+          "created_at": "2022-06-22T23:18:01.686Z",
+          "updated_at": "2022-06-22T23:18:02.111Z",
+          "display_at": "2022-06-22T23:18:01.686Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bdknd1yhkh5t",
+              "name": "Services - Functions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "cl06j64ltm9s",
+              "name": "Regions - NYC1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1539749580937408500
+        },
         {
           "id": "9ns9mn8xb881",
           "status": "investigating",
