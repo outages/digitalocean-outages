@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-22T22:47:16.484Z"
+    "updated_at": "2022-06-22T22:50:23.643Z"
   },
   "components": [
     {
@@ -640,22 +640,22 @@
       "name": "Users unable to create functions",
       "status": "investigating",
       "created_at": "2022-06-22T22:47:15.723Z",
-      "updated_at": "2022-06-22T22:47:16.478Z",
+      "updated_at": "2022-06-22T22:50:23.639Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/lg7zbfzpvpwm",
-      "started_at": "2022-06-22T22:47:15.710Z",
+      "started_at": "2022-06-22T22:47:15.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "9ns9mn8xb881",
           "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with create actions on the Functions platform. Users may see errors when attempting to create a new App or Functions. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team is investigating an issue with create actions on the Functions platform. Users may see errors when attempting to create a new App or Functions in the NYC1 region. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "6n8wkzc4wx2m",
           "created_at": "2022-06-22T22:47:15.815Z",
-          "updated_at": "2022-06-22T22:47:16.473Z",
-          "display_at": "2022-06-22T22:47:15.815Z",
+          "updated_at": "2022-06-22T22:50:23.564Z",
+          "display_at": "2022-06-22T22:47:15.000Z",
           "affected_components": [
             {
               "code": "vtmbhmvd5dqv",
