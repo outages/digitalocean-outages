@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-06-29T05:49:49.108Z"
+    "updated_at": "2022-06-29T06:03:24.429Z"
   },
   "components": [
     {
@@ -637,25 +637,25 @@
   "incidents": [
     {
       "id": "qf11vb3w09m5",
-      "name": "Google Integration for Cloud Panel Access",
+      "name": "Registration for Cloud Panel Access",
       "status": "investigating",
       "created_at": "2022-06-29T05:49:48.511Z",
-      "updated_at": "2022-06-29T05:49:49.104Z",
+      "updated_at": "2022-06-29T06:03:24.425Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/lg6cgv7h6jwr",
-      "started_at": "2022-06-29T05:49:48.502Z",
+      "started_at": "2022-06-29T05:49:48.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "42kfvgfcw9nf",
           "status": "investigating",
-          "body": "Our engineering team has identified an issue with Google single sign-on access to our Cloud Control Panel and is actively working on a fix. Affected users may be unable to access the Cloud Control Panel when utilizing Google sign-on integration. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "As of approximately 5:24 UTC, our Engineering team is investigating an issue with Registrations failing. During this time, users may be experiencing issues when trying to register through the Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "qf11vb3w09m5",
           "created_at": "2022-06-29T05:49:48.604Z",
-          "updated_at": "2022-06-29T05:49:49.099Z",
-          "display_at": "2022-06-29T05:49:48.604Z",
+          "updated_at": "2022-06-29T06:02:12.841Z",
+          "display_at": "2022-06-29T05:49:48.000Z",
           "affected_components": [
             {
               "code": "xymwmm4wsr4l",
