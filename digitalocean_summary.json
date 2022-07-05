@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-05T21:23:39.511Z"
+    "updated_at": "2022-07-05T21:49:40.956Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-07-05T20:28:23.350Z",
+      "updated_at": "2022-07-05T21:49:40.459Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -634,110 +634,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "sgthht2mdznf",
-      "name": "Network Connectivity in AMS3",
-      "status": "monitoring",
-      "created_at": "2022-07-05T20:28:23.313Z",
-      "updated_at": "2022-07-05T21:03:59.157Z",
-      "monitoring_at": "2022-07-05T21:03:57.543Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dwmthvtdngfx",
-      "started_at": "2022-07-05T20:28:23.303Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "900zzfs5yp5n",
-          "status": "monitoring",
-          "body": "Our Engineering team identified an issue related to ongoing datacenter maintenance and has taken action to resolve user impact. From 19:21 - 20:02 UTC, users may have experienced errors in listing Volumes via the Cloud Control Panel/API and packet loss/latency as well as errors in connectivity to some Droplets in AMS3. \n\nWe are monitoring the situation and will post an update once we confirm full resolution.",
-          "incident_id": "sgthht2mdznf",
-          "created_at": "2022-07-05T21:03:57.543Z",
-          "updated_at": "2022-07-05T21:03:59.147Z",
-          "display_at": "2022-07-05T21:03:57.543Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1544426887618781200
-        },
-        {
-          "id": "t4v155ll0jc6",
-          "status": "investigating",
-          "body": "As of 19:21 UTC, our Engineering team is investigating an issue related to network connectivity in our AMS3 region. At this time, we believe this is an effect from ongoing datacenter maintenance. We are working to confirm user impact and will share an update as soon as possible.",
-          "incident_id": "sgthht2mdznf",
-          "created_at": "2022-07-05T20:28:23.412Z",
-          "updated_at": "2022-07-05T20:28:24.605Z",
-          "display_at": "2022-07-05T20:28:23.412Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1544417935921332200
-        }
-      ],
-      "components": [
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2022-06-15T06:05:00.419Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-07-05T20:28:23.350Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
