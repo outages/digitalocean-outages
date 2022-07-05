@@ -4,20 +4,20 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-04T17:42:45.731Z"
+    "updated_at": "2022-07-05T20:28:24.615Z"
   },
   "components": [
     {
-      "id": "1082j139b5bg",
-      "name": "API",
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
       "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-06-23T04:11:08.993Z",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-06-14T23:31:49.609Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -54,45 +54,15 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
+      "id": "1082j139b5bg",
+      "name": "API",
       "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-06-14T23:31:49.609Z",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-06-23T04:11:08.993Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2022-06-15T06:04:18.041Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-07-04T17:42:43.362Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -101,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -139,6 +109,36 @@
       ]
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-07-04T17:42:43.362Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2022-06-15T06:04:18.041Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "3s5rmcxl95h0",
       "name": "AMS3",
       "status": "operational",
@@ -169,21 +169,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2022-06-15T06:05:10.360Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j9wj5sbm3jp3",
       "name": "Block Storage",
       "status": "operational",
@@ -199,16 +184,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-07-03T01:01:32.535Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2022-06-15T06:05:10.360Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -224,6 +209,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2022-07-03T01:01:32.535Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -259,21 +259,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2022-06-15T06:05:50.864Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -284,6 +269,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2022-06-15T06:05:50.864Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -379,21 +379,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2022-06-15T06:06:37.371Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -409,16 +394,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dqgv0tjwhwsc",
-      "name": "Floating IP",
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
       "status": "operational",
-      "created_at": "2021-10-25T13:45:18.834Z",
-      "updated_at": "2022-05-06T09:11:41.916Z",
-      "position": 12,
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2022-06-15T06:06:37.371Z",
+      "position": 11,
       "description": null,
       "showcase": false,
-      "start_date": "2021-10-25",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -434,6 +419,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dqgv0tjwhwsc",
+      "name": "Floating IP",
+      "status": "operational",
+      "created_at": "2021-10-25T13:45:18.834Z",
+      "updated_at": "2022-05-06T09:11:41.916Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": "2021-10-25",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -469,21 +469,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
-      "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2022-06-28T22:30:47.206Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c65109y4h6vk",
       "name": "TOR1",
       "status": "operational",
@@ -494,6 +479,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2022-06-28T22:30:47.206Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-06-14T04:02:42.336Z",
+      "updated_at": "2022-07-05T20:28:23.350Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -634,10 +634,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sgthht2mdznf",
+      "name": "Network Connectivity in AMS3",
+      "status": "investigating",
+      "created_at": "2022-07-05T20:28:23.313Z",
+      "updated_at": "2022-07-05T20:28:24.610Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dwmthvtdngfx",
+      "started_at": "2022-07-05T20:28:23.303Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "t4v155ll0jc6",
+          "status": "investigating",
+          "body": "As of 19:21 UTC, our Engineering team is investigating an issue related to network connectivity in our AMS3 region. At this time, we believe this is an effect from ongoing datacenter maintenance. We are working to confirm user impact and will share an update as soon as possible.",
+          "incident_id": "sgthht2mdznf",
+          "created_at": "2022-07-05T20:28:23.412Z",
+          "updated_at": "2022-07-05T20:28:24.605Z",
+          "display_at": "2022-07-05T20:28:23.412Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1544417935921332200
+        }
+      ],
+      "components": [
+        {
+          "id": "3s5rmcxl95h0",
+          "name": "AMS3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:46:05.294Z",
+          "updated_at": "2022-06-15T06:05:00.419Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-07-05T20:28:23.350Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
