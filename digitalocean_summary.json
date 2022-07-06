@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-05T21:49:40.956Z"
+    "updated_at": "2022-07-06T21:23:36.948Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -109,21 +109,6 @@
       ]
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-07-04T17:42:43.362Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
       "status": "operational",
@@ -139,16 +124,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2022-06-15T06:05:00.419Z",
-      "position": 3,
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-07-04T17:42:43.362Z",
+      "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -164,6 +149,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
+      "status": "partial_outage",
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2022-07-06T21:22:01.606Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -289,21 +289,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6v0yhwt7977x",
-      "name": "NYC2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:21.250Z",
-      "updated_at": "2022-06-15T06:06:59.589Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
       "status": "operational",
@@ -314,6 +299,21 @@
       "showcase": false,
       "start_date": "2020-11-02",
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6v0yhwt7977x",
+      "name": "NYC2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:21.250Z",
+      "updated_at": "2022-06-15T06:06:59.589Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -349,21 +349,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xc1fvcqsqp80",
-      "name": "Droplets",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2022-06-28T22:30:47.161Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "mypfybvgyhrk",
       "name": "SFO1",
       "status": "operational",
@@ -379,11 +364,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "xc1fvcqsqp80",
+      "name": "Droplets",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:23.067Z",
+      "updated_at": "2022-06-28T22:30:47.161Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-06-14T23:51:22.157Z",
+      "updated_at": "2022-07-06T21:22:01.627Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -634,10 +634,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "fqg2bg9kgttx",
+      "name": "Droplet Creation in AMS3",
+      "status": "investigating",
+      "created_at": "2022-07-06T21:22:01.567Z",
+      "updated_at": "2022-07-06T21:22:02.641Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/ywgv9mwkxn9g",
+      "started_at": "2022-07-06T21:22:01.556Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "trngsrmf3j2h",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with creation of Droplets and Droplet-based services in our AMS3 region. As of 20:30 UTC, users are unable to deploy Droplets, Load Balancers, Managed Databases, and Kubernetes Clusters in the AMS3 region. \n\nWe will provide an update as soon as possible.",
+          "incident_id": "fqg2bg9kgttx",
+          "created_at": "2022-07-06T21:22:01.674Z",
+          "updated_at": "2022-07-06T21:22:02.635Z",
+          "display_at": "2022-07-06T21:22:01.674Z",
+          "affected_components": [
+            {
+              "code": "m7nv9rsmrssk",
+              "name": "Services - Event Processing",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3s5rmcxl95h0",
+              "name": "Regions - AMS3",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1544793819752804400
+        }
+      ],
+      "components": [
+        {
+          "id": "3s5rmcxl95h0",
+          "name": "AMS3",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:46:05.294Z",
+          "updated_at": "2022-07-06T21:22:01.606Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "m7nv9rsmrssk",
+          "name": "Event Processing",
+          "status": "partial_outage",
+          "created_at": "2017-02-17T21:40:14.164Z",
+          "updated_at": "2022-07-06T21:22:01.627Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
