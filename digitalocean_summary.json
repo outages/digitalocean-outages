@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-13T08:51:47.900Z"
+    "updated_at": "2022-07-13T08:53:44.926Z"
   },
   "components": [
     {
@@ -637,10 +637,10 @@
   "incidents": [
     {
       "id": "ds6kj8w01b4y",
-      "name": "Droplet Metrics in BLR1",
+      "name": "Graphs and Monitoring Metrics in BLR1",
       "status": "investigating",
       "created_at": "2022-07-13T08:51:47.404Z",
-      "updated_at": "2022-07-13T08:51:47.895Z",
+      "updated_at": "2022-07-13T08:53:44.921Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
