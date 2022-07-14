@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-13T22:05:05.383Z"
+    "updated_at": "2022-07-14T04:16:11.154Z"
   },
   "components": [
     {
@@ -634,100 +634,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ds6kj8w01b4y",
-      "name": "Graphs and Monitoring Metrics in BLR1",
-      "status": "monitoring",
-      "created_at": "2022-07-13T08:51:47.404Z",
-      "updated_at": "2022-07-13T22:05:05.374Z",
-      "monitoring_at": "2022-07-13T22:05:03.702Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/18djlddz929b",
-      "started_at": "2022-07-13T08:51:47.398Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "j92gbhnqzzht",
-          "status": "monitoring",
-          "body": "Our engineering team has implemented a fix to resolve the issue. As of 20:51:38 UTC, users should no longer experience issues when accessing the metrics. We're monitoring the fix and will post an update once we confirm this incident is fully resolved.",
-          "incident_id": "ds6kj8w01b4y",
-          "created_at": "2022-07-13T22:05:03.702Z",
-          "updated_at": "2022-07-13T22:05:05.366Z",
-          "display_at": "2022-07-13T22:05:03.702Z",
-          "affected_components": [
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1547341368850141200
-        },
-        {
-          "id": "6kqvgcv5tq8f",
-          "status": "investigating",
-          "body": "We're still actively investigating this issue. We'll be back with another update soon. Thank you for your patience.",
-          "incident_id": "ds6kj8w01b4y",
-          "created_at": "2022-07-13T13:35:50.547Z",
-          "updated_at": "2022-07-13T13:35:51.032Z",
-          "display_at": "2022-07-13T13:35:50.547Z",
-          "affected_components": [
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1547213214689087500
-        },
-        {
-          "id": "4cbqklmkgcjm",
-          "status": "investigating",
-          "body": "Our Engineers are investigating issues with certain Droplet metrics that are missing for the BLR1 region. Beginning 05:59 UTC, users may experience issues when accessing certain metrics on Droplets as well as related products such as  Managed Databases, Kubernetes, and Load Balancers. We apologize for the inconvenience, and we'll share an update once we have more information.",
-          "incident_id": "ds6kj8w01b4y",
-          "created_at": "2022-07-13T08:51:47.455Z",
-          "updated_at": "2022-07-13T08:51:47.891Z",
-          "display_at": "2022-07-13T08:51:47.455Z",
-          "affected_components": [
-            {
-              "code": "zqcx615n3ms4",
-              "name": "Services - Monitoring",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1547141730763387000
-        }
-      ],
-      "components": [
-        {
-          "id": "zqcx615n3ms4",
-          "name": "Monitoring",
-          "status": "operational",
-          "created_at": "2017-04-06T17:49:31.944Z",
-          "updated_at": "2022-07-13T22:05:03.622Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
