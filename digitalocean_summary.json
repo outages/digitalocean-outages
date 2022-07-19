@@ -4,13 +4,13 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-19T00:23:34.388Z"
+    "updated_at": "2022-07-19T03:24:10.865Z"
   },
   "components": [
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -321,9 +321,9 @@
     {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2022-07-18T23:45:28.375Z",
+      "updated_at": "2022-07-19T03:24:10.339Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-07-18T23:45:28.406Z",
+      "updated_at": "2022-07-19T03:24:10.366Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -635,111 +635,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "7g6drnccnq0y",
-      "name": "Networking Maintenance in NYC3",
-      "status": "in_progress",
-      "created_at": "2022-07-18T23:43:44.032Z",
-      "updated_at": "2022-07-18T23:45:29.462Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/f641h181fvhh",
-      "started_at": "2022-07-18T23:43:44.022Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "t2pfchf7cz8j",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "7g6drnccnq0y",
-          "created_at": "2022-07-18T23:45:28.456Z",
-          "updated_at": "2022-07-18T23:45:29.455Z",
-          "display_at": "2022-07-18T23:45:28.456Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1549178575315619800
-        },
-        {
-          "id": "j5xlpfjjx6tt",
-          "status": "scheduled",
-          "body": "During the above window, our Networking team will be performing maintenance in our NYC3 region that impacts the network serving private network Droplet traffic.\n\nCustomer impact: \n\nWe do not expect an interruption to private networking for customer workloads, but there may be minimal performance impacts as traffic switches to the new network.",
-          "incident_id": "7g6drnccnq0y",
-          "created_at": "2022-07-18T23:43:44.094Z",
-          "updated_at": "2022-07-18T23:43:45.222Z",
-          "display_at": "2022-07-18T23:43:44.094Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1549178138000707600
-        }
-      ],
-      "components": [
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2022-07-18T23:45:28.375Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-07-18T23:45:28.406Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-07-18T23:45:00.000Z",
-      "scheduled_until": "2022-07-19T05:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
