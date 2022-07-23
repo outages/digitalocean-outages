@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-23T13:46:26.032Z"
+    "updated_at": "2022-07-23T19:24:39.447Z"
   },
   "components": [
     {
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-07-23T11:28:35.837Z",
+      "updated_at": "2022-07-23T19:24:38.780Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -634,136 +634,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vkq3v3ypn6s2",
-      "name": "Transit Network connectivity in AMS3 region",
-      "status": "monitoring",
-      "created_at": "2022-07-23T11:28:35.802Z",
-      "updated_at": "2022-07-23T13:46:25.956Z",
-      "monitoring_at": "2022-07-23T13:46:23.795Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/cdct5zl4hk14",
-      "started_at": "2022-07-23T11:28:35.792Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "d648b2xw7kp3",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the transit network connectivity issue in our AMS3 region and is monitoring the situation closely. We will post an update as soon as the issue is fully resolved.",
-          "incident_id": "vkq3v3ypn6s2",
-          "created_at": "2022-07-23T13:46:23.795Z",
-          "updated_at": "2022-07-23T13:46:25.847Z",
-          "display_at": "2022-07-23T13:46:23.795Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1550839755243266000
-        },
-        {
-          "id": "y28rnxb2x0gx",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with transit network connectivity in AMS3 and is actively working on a fix. During this time, you might face issues with network latency and intermittent connection loss on our Cloud services in the AMS3 region. We will post an update as soon as additional information is available.",
-          "incident_id": "vkq3v3ypn6s2",
-          "created_at": "2022-07-23T11:47:40.381Z",
-          "updated_at": "2022-07-23T11:47:40.876Z",
-          "display_at": "2022-07-23T11:47:40.381Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1550809871808733200
-        },
-        {
-          "id": "zw64n9yy504g",
-          "status": "investigating",
-          "body": "Beginning 11:00 UTC, our engineering team is investigating a transit network connectivity issue in AMS3 that is affecting our Cloud services. During this time, customers may experience network latency and intermittent connection loss on our Cloud services in the AMS3 region, We apologize for the inconvenience and we'll share an update once we have more information.",
-          "incident_id": "vkq3v3ypn6s2",
-          "created_at": "2022-07-23T11:28:35.876Z",
-          "updated_at": "2022-07-23T11:28:36.630Z",
-          "display_at": "2022-07-23T11:28:35.876Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1550805072493154300
-        }
-      ],
-      "components": [
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2022-07-20T17:59:32.361Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-07-23T11:28:35.837Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
