@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-27T13:38:49.410Z"
+    "updated_at": "2022-07-27T17:15:29.629Z"
   },
   "components": [
     {
@@ -640,22 +640,22 @@
       "name": "Spaces, App Platform and Container Registry",
       "status": "monitoring",
       "created_at": "2022-07-25T21:36:23.925Z",
-      "updated_at": "2022-07-27T13:38:49.405Z",
-      "monitoring_at": "2022-07-27T13:38:48.953Z",
+      "updated_at": "2022-07-27T17:15:29.626Z",
+      "monitoring_at": "2022-07-27T13:38:48.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/5t63t0lxt7pl",
-      "started_at": "2022-07-25T21:36:23.910Z",
+      "started_at": "2022-07-26T00:49:16.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "hcd1q3jc0qfc",
           "status": "monitoring",
-          "body": "Our engineering team continues to work on monitoring and completely mitigating the issue impacting Spaces, Container Registry, and App Platform in our FRA1 region. At this time, most of the customers in the region should face no issues with these services. If you face any problems though, please reach out to us by raising a Support ticket from your account.",
+          "body": "Our engineering team continues to work on monitoring and completely mitigating the issue impacting Spaces, Container Registry in our FRA1 region, and App Platform in all regions. At this time, most of the customers in the region should face no issues with these services. If you face any problems though, please reach out to us by raising a Support ticket from your account.",
           "incident_id": "1szp1h6crn90",
           "created_at": "2022-07-27T13:38:48.953Z",
-          "updated_at": "2022-07-27T13:38:49.401Z",
-          "display_at": "2022-07-27T13:38:48.953Z",
+          "updated_at": "2022-07-27T17:15:29.513Z",
+          "display_at": "2022-07-27T13:38:48.000Z",
           "affected_components": [
             {
               "code": "vtmbhmvd5dqv",
