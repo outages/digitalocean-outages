@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-07-28T08:10:41.360Z"
+    "updated_at": "2022-07-28T16:23:34.397Z"
   },
   "components": [
     {
@@ -69,9 +69,24 @@
       ]
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-07-28T16:23:33.580Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -119,21 +134,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "degraded_performance",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-07-26T00:49:16.412Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -289,21 +289,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "degraded_performance",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-07-25T21:36:23.976Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -314,6 +299,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
+      "status": "operational",
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2022-07-28T16:23:33.604Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -349,21 +349,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2022-06-15T06:06:48.246Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
       "status": "operational",
@@ -379,16 +364,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "m7nv9rsmrssk",
-      "name": "Event Processing",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-02-17T21:40:14.164Z",
-      "updated_at": "2022-07-14T06:29:39.566Z",
-      "position": 11,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2022-06-15T06:06:48.246Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -404,6 +389,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "m7nv9rsmrssk",
+      "name": "Event Processing",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:14.164Z",
+      "updated_at": "2022-07-14T06:29:39.566Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -439,21 +439,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-07-18T21:10:05.169Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -469,12 +454,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
       "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2022-06-28T22:30:47.206Z",
-      "position": 14,
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2022-07-18T21:10:05.169Z",
+      "position": 13,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -494,6 +479,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2022-06-28T22:30:47.206Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -546,9 +546,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-07-25T21:36:24.018Z",
+      "updated_at": "2022-07-28T16:23:33.627Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -634,266 +634,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "1szp1h6crn90",
-      "name": "Spaces, App Platform and Container Registry",
-      "status": "monitoring",
-      "created_at": "2022-07-25T21:36:23.925Z",
-      "updated_at": "2022-07-27T17:15:29.626Z",
-      "monitoring_at": "2022-07-27T13:38:48.000Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5t63t0lxt7pl",
-      "started_at": "2022-07-26T00:49:16.000Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "hcd1q3jc0qfc",
-          "status": "monitoring",
-          "body": "Our engineering team continues to work on monitoring and completely mitigating the issue impacting Spaces, Container Registry in our FRA1 region, and App Platform in all regions. At this time, most of the customers in the region should face no issues with these services. If you face any problems though, please reach out to us by raising a Support ticket from your account.",
-          "incident_id": "1szp1h6crn90",
-          "created_at": "2022-07-27T13:38:48.953Z",
-          "updated_at": "2022-07-27T17:15:29.513Z",
-          "display_at": "2022-07-27T13:38:48.000Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1552287393062916000
-        },
-        {
-          "id": "sbfmbf5yv36d",
-          "status": "identified",
-          "body": "Our engineering team has identified the cause of the issue with Spaces and Container Registry in our FRA1 region.  Our team is actively working on a fix, and as soon as we have further information, we will post an update. We appreciate your patience.",
-          "incident_id": "1szp1h6crn90",
-          "created_at": "2022-07-26T07:45:49.038Z",
-          "updated_at": "2022-07-26T07:45:49.454Z",
-          "display_at": "2022-07-26T07:45:49.038Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1551836170086076400
-        },
-        {
-          "id": "13tk4jn6qfr0",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue impacting Spaces in FRA1, as well as App platform and Container Registry in all regions. During this time, users may experience an increased error rate when accessing Spaces objects or Containers and may also see errors when building or deploying Apps. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "1szp1h6crn90",
-          "created_at": "2022-07-26T00:49:16.449Z",
-          "updated_at": "2022-07-26T00:49:33.911Z",
-          "display_at": "2022-07-26T00:49:16.000Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1551731343783915500
-        },
-        {
-          "id": "ydkbwgw1115p",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue impacting Spaces in FRA1, as well as App platform and Container Registry in all regions. During this time, users may experience an increased error rate when accessing Spaces objects or Containers and may also see errors when building or deploying Apps. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "1szp1h6crn90",
-          "created_at": "2022-07-26T00:49:02.512Z",
-          "updated_at": "2022-07-26T00:49:02.894Z",
-          "display_at": "2022-07-26T00:49:02.512Z",
-          "affected_components": [
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1551731284916859000
-        },
-        {
-          "id": "7rhf0z02vxjg",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Spaces and Container Registry in our FRA1 region. During this time, users may experience an increased error rate when accessing Spaces objects or Containers. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "1szp1h6crn90",
-          "created_at": "2022-07-25T21:36:24.073Z",
-          "updated_at": "2022-07-25T21:36:24.990Z",
-          "display_at": "2022-07-25T21:36:24.073Z",
-          "affected_components": [
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1551682807591686100
-        }
-      ],
-      "components": [
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-07-26T00:49:16.412Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0kys855yj2y1",
-          "name": "FRA1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2022-06-15T06:05:25.580Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bcwz10mdvf0r",
-          "name": "Container Registry",
-          "status": "degraded_performance",
-          "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-07-25T21:36:23.976Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-02",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "degraded_performance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2022-07-25T21:36:24.018Z",
-          "position": 18,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
