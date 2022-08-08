@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-08T21:24:58.630Z"
+    "updated_at": "2022-08-08T21:51:36.087Z"
   },
   "components": [
     {
@@ -680,79 +680,6 @@
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "85f88pc407kv",
-      "name": "Functions in AMS3",
-      "status": "monitoring",
-      "created_at": "2022-08-08T21:00:33.498Z",
-      "updated_at": "2022-08-08T21:00:33.964Z",
-      "monitoring_at": "2022-08-08T21:00:33.553Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/7qbcmyszvcy5",
-      "started_at": "2022-08-08T21:00:33.487Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "pqk852rnkqxq",
-          "status": "monitoring",
-          "body": "Beginning 20:00 UTC, our Engineering team identified an issue impacting deploying new Functions in our AMS3 region. Existing users and Functions were unaffected. A fix has been deployed and our team is now monitoring the situation. At this time, all users should be able to deploy new Functions without issue. \n\nWe will post an update once we confirm full resolution of this issue.",
-          "incident_id": "85f88pc407kv",
-          "created_at": "2022-08-08T21:00:33.553Z",
-          "updated_at": "2022-08-08T21:00:33.961Z",
-          "display_at": "2022-08-08T21:00:33.553Z",
-          "affected_components": [
-            {
-              "code": "bdknd1yhkh5t",
-              "name": "Services - Functions",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "3s5rmcxl95h0",
-              "name": "Regions - AMS3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1556747215657324500
-        }
-      ],
-      "components": [
-        {
-          "id": "3s5rmcxl95h0",
-          "name": "AMS3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:05.294Z",
-          "updated_at": "2022-07-20T17:59:32.361Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bdknd1yhkh5t",
-          "name": "Functions",
-          "status": "operational",
-          "created_at": "2022-06-04T12:26:41.492Z",
-          "updated_at": "2022-06-22T23:58:30.201Z",
-          "position": 23,
-          "description": null,
-          "showcase": false,
-          "start_date": "2022-06-04",
           "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
