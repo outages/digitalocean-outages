@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-08T21:00:33.968Z"
+    "updated_at": "2022-08-08T21:24:58.630Z"
   },
   "components": [
     {
@@ -636,6 +636,58 @@
   ],
   "incidents": [
     {
+      "id": "x0gvb39624ct",
+      "name": "Email Notifications",
+      "status": "investigating",
+      "created_at": "2022-08-08T20:53:02.857Z",
+      "updated_at": "2022-08-08T21:24:58.627Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/jlmbj6k11yhd",
+      "started_at": "2022-08-08T20:53:02.000Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "720231hg55gs",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue related to email notifications for DigitalOcean accounts not being sent. At this time, users will not be able to receive emails for account password resets, team invites, one-time verification codes, and other transactional email. \n\nUsers will also be unable to sign up for new cloud.digitalocean.com accounts using an email address at this time, but can sign up using Google or GitHub authentication. \n\nWe are working to determine what other email notices are impacted and will post an update with further information as soon as possible. \n\nIf you are unable to sign into your DigitalOcean account and need urgent access, please open a ticket with our Support team to assist you in doing so.",
+          "incident_id": "x0gvb39624ct",
+          "created_at": "2022-08-08T20:53:02.965Z",
+          "updated_at": "2022-08-08T21:24:58.557Z",
+          "display_at": "2022-08-08T20:53:02.000Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1556745327457120300
+        }
+      ],
+      "components": [
+        {
+          "id": "xymwmm4wsr4l",
+          "name": "Cloud Control Panel",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:34.099Z",
+          "updated_at": "2022-08-08T20:53:02.907Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "85f88pc407kv",
       "name": "Functions in AMS3",
       "status": "monitoring",
@@ -701,58 +753,6 @@
           "description": null,
           "showcase": false,
           "start_date": "2022-06-04",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "x0gvb39624ct",
-      "name": "Email Notifications",
-      "status": "investigating",
-      "created_at": "2022-08-08T20:53:02.857Z",
-      "updated_at": "2022-08-08T20:53:03.786Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/jlmbj6k11yhd",
-      "started_at": "2022-08-08T20:53:02.850Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "720231hg55gs",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue related to email notifications for DigitalOcean accounts not being sent. At this time, users will not be able to receive emails for account password resets, team invites, one-time verification codes, and other transactional email. \n\nWe are working to determine what other email notices are impacted and will post an update with further information as soon as possible. \n\nIf you are unable to sign into your DigitalOcean account and need urgent access, please open a ticket with our Support team to assist you in doing so.",
-          "incident_id": "x0gvb39624ct",
-          "created_at": "2022-08-08T20:53:02.965Z",
-          "updated_at": "2022-08-08T20:53:03.779Z",
-          "display_at": "2022-08-08T20:53:02.965Z",
-          "affected_components": [
-            {
-              "code": "xymwmm4wsr4l",
-              "name": "Services - Cloud Control Panel",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": 1556745327457120300
-        }
-      ],
-      "components": [
-        {
-          "id": "xymwmm4wsr4l",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2017-02-17T21:40:34.099Z",
-          "updated_at": "2022-08-08T20:53:02.907Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
           "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
