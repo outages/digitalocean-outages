@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-08-10T00:38:05.519Z"
+    "updated_at": "2022-08-10T02:38:09.773Z"
   },
   "components": [
     {
@@ -640,7 +640,7 @@
       "name": "Email Notifications",
       "status": "identified",
       "created_at": "2022-08-08T20:53:02.857Z",
-      "updated_at": "2022-08-10T00:38:05.515Z",
+      "updated_at": "2022-08-10T02:38:09.768Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -648,6 +648,46 @@
       "started_at": "2022-08-08T20:53:02.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "mlrfgts2l5j0",
+          "status": "identified",
+          "body": "Our Engineering team has deployed and verified the fix. Users are now able to receive the following in addition to our previous update: \n\n- Team member invitations\n- New team creation notifications\n\nOur team will continue work to restore full functionality of email notifications and we will provide an update before 16:00 UTC August 10.\n\nIf you submitted a support ticket to regain access to your account or help with inviting team members as a result of this incident and are now able to access your account/add team members, we ask that you utilize the \"Close Ticket\" functionality on https://cloudsupport.digitalocean.com/. Our Support team is working as quickly as possible to address all account access queries. Thank you.",
+          "incident_id": "x0gvb39624ct",
+          "created_at": "2022-08-10T02:38:09.396Z",
+          "updated_at": "2022-08-10T02:38:09.763Z",
+          "display_at": "2022-08-10T02:38:09.396Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1557194562484899800
+        },
+        {
+          "id": "0vph8rw0r7hy",
+          "status": "identified",
+          "body": "Our Engineering team has deployed and verified the fix. Users are now able to receive: \n\n- Account password resets\n- One-time device verification codes \n- New user verifications when signing up at cloud.digitalocean.com\n\nOur team is now working to deploy a fix for team-related emails such as team member invitations. We will post an update once that fix has been deployed and verified. \n\nIf you submitted a support ticket to regain access to your account as a result of this incident and are now able to access your account, we ask that you utilize the \"Close Ticket\" functionality on https://cloudsupport.digitalocean.com/. Our Support team is working as quickly as possible to address all account access queries.",
+          "incident_id": "x0gvb39624ct",
+          "created_at": "2022-08-10T02:11:22.599Z",
+          "updated_at": "2022-08-10T02:11:23.191Z",
+          "display_at": "2022-08-10T02:11:22.599Z",
+          "affected_components": [
+            {
+              "code": "xymwmm4wsr4l",
+              "name": "Services - Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1557187824033575000
+        },
         {
           "id": "fw1mjjf6gpl7",
           "status": "identified",
