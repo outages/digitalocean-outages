@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-14T08:09:23.778Z"
+    "updated_at": "2022-09-14T17:54:38.265Z"
   },
   "components": [
     {
@@ -18,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-09-07T16:52:15.509Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -54,54 +69,9 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-09-07T16:52:15.509Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-09-07T20:30:01.150Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2022-07-06T22:24:44.794Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -139,16 +109,31 @@
       ]
     },
     {
-      "id": "19n6t4685zrn",
-      "name": "Billing",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2018-12-03T20:37:11.024Z",
-      "updated_at": "2022-06-30T05:27:50.619Z",
-      "position": 3,
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-09-07T20:30:01.150Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2022-07-06T22:24:44.794Z",
+      "position": 2,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -169,16 +154,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y7k7nwwgy36z",
-      "name": "BLR1",
+      "id": "19n6t4685zrn",
+      "name": "Billing",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2022-06-15T06:05:10.360Z",
-      "position": 4,
+      "created_at": "2018-12-03T20:37:11.024Z",
+      "updated_at": "2022-06-30T05:27:50.619Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -199,12 +184,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "0kys855yj2y1",
-      "name": "FRA1",
+      "id": "y7k7nwwgy36z",
+      "name": "BLR1",
       "status": "operational",
-      "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-06-15T06:05:25.580Z",
-      "position": 5,
+      "created_at": "2017-02-17T21:46:35.663Z",
+      "updated_at": "2022-06-15T06:05:10.360Z",
+      "position": 4,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -224,6 +209,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "0kys855yj2y1",
+      "name": "FRA1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:46:52.999Z",
+      "updated_at": "2022-06-15T06:05:25.580Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -259,21 +259,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2022-06-15T06:05:50.864Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -284,6 +269,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2022-06-15T06:05:50.864Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -319,21 +319,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3hq55lyvq3rl",
-      "name": "NYC3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:37.049Z",
-      "updated_at": "2022-07-19T03:24:10.339Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yzksrkss544p",
       "name": "DNS",
       "status": "operational",
@@ -349,12 +334,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
+      "id": "3hq55lyvq3rl",
+      "name": "NYC3",
       "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2022-06-15T06:06:48.246Z",
-      "position": 10,
+      "created_at": "2017-02-17T21:48:37.049Z",
+      "updated_at": "2022-07-19T03:24:10.339Z",
+      "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -374,6 +359,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2022-06-15T06:06:48.246Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -409,21 +409,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2022-06-15T06:06:26.659Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dqgv0tjwhwsc",
       "name": "Floating IP",
       "status": "operational",
@@ -439,16 +424,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-08-19T14:28:27.584Z",
-      "position": 13,
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2022-06-15T06:06:26.659Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -464,6 +449,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2022-08-19T14:28:27.584Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-09-06T16:34:23.490Z",
+      "updated_at": "2022-09-14T17:54:38.208Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -634,10 +634,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "yhz9frgy4ngl",
+      "name": "Network Connectivity in LON1",
+      "status": "identified",
+      "created_at": "2022-09-14T17:54:38.152Z",
+      "updated_at": "2022-09-14T17:54:38.263Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/0c60n4mw7w5h",
+      "started_at": "2022-09-14T17:54:38.142Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "t8r5zlrn7gp8",
+          "status": "identified",
+          "body": "Our Engineering team has investigated reports of connectivity issues beginning around 15:40 UTC in our LON1 region and has taken action to mitigate the impact. \n\nUsers may have experienced packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters. \n\nWe are seeing some recovery after taking action and are continuing to investigate and monitor the situation.",
+          "incident_id": "yhz9frgy4ngl",
+          "created_at": "2022-09-14T17:54:38.260Z",
+          "updated_at": "2022-09-14T17:54:38.260Z",
+          "display_at": "2022-09-14T17:54:38.260Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "1hx8143ly544",
+          "name": "LON1",
+          "status": "operational",
+          "created_at": "2017-02-17T21:47:29.563Z",
+          "updated_at": "2022-06-15T06:05:38.881Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-09-14T17:54:38.208Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
