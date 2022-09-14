@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-14T18:23:35.237Z"
+    "updated_at": "2022-09-14T18:54:34.109Z"
   },
   "components": [
     {
@@ -638,16 +638,42 @@
     {
       "id": "yhz9frgy4ngl",
       "name": "Network Connectivity in LON1",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-09-14T17:54:38.152Z",
-      "updated_at": "2022-09-14T17:54:38.263Z",
-      "monitoring_at": null,
+      "updated_at": "2022-09-14T18:54:34.098Z",
+      "monitoring_at": "2022-09-14T18:54:33.713Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/0c60n4mw7w5h",
       "started_at": "2022-09-14T17:54:38.142Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "z11vxd9n6jcf",
+          "status": "monitoring",
+          "body": "Our Engineering team has deployed a fix to resolve the issues with network connectivity in our LON1 region. At this time, users should be seeing the restoration of network connectivity to and from the resources in LON1. We are monitoring the situation and will post an update as soon as we confirm the issue is fully resolved.",
+          "incident_id": "yhz9frgy4ngl",
+          "created_at": "2022-09-14T18:54:33.713Z",
+          "updated_at": "2022-09-14T18:54:34.091Z",
+          "display_at": "2022-09-14T18:54:33.713Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1hx8143ly544",
+              "name": "Regions - LON1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1570123858279272400
+        },
         {
           "id": "t8r5zlrn7gp8",
           "status": "identified",
