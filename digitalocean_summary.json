@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-09-27T19:46:54.706Z"
+    "updated_at": "2022-09-27T19:59:42.504Z"
   },
   "components": [
     {
@@ -640,8 +640,8 @@
       "name": "Droplet Creation in AMS3",
       "status": "monitoring",
       "created_at": "2022-09-27T19:31:13.386Z",
-      "updated_at": "2022-09-27T19:46:54.703Z",
-      "monitoring_at": "2022-09-27T19:46:54.686Z",
+      "updated_at": "2022-09-27T19:59:42.501Z",
+      "monitoring_at": "2022-09-27T19:46:54.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/853vjpb7z2lp",
@@ -651,11 +651,11 @@
         {
           "id": "ghtdkvdjz7js",
           "status": "monitoring",
-          "body": "Our engineering team identified the root cause and implemented a fix to resolve the issue with Droplet creation in our AMS3 region. Users should now be able to create Droplets and Droplet-backed services in the region. We are monitoring the situation closely and will post an update once the matter is completely resolved.",
+          "body": "Our Engineering team identified the root cause and implemented a fix to resolve the issue with Droplet creation in our AMS3 region. Users should now be able to create Droplets and Droplet-based services in the region. We are monitoring the situation closely and will post an update once the matter is completely resolved.",
           "incident_id": "089vkllnb4gw",
           "created_at": "2022-09-27T19:46:54.686Z",
-          "updated_at": "2022-09-27T19:46:54.686Z",
-          "display_at": "2022-09-27T19:46:54.686Z",
+          "updated_at": "2022-09-27T19:59:42.485Z",
+          "display_at": "2022-09-27T19:46:54.000Z",
           "affected_components": [
             {
               "code": "m7nv9rsmrssk",
