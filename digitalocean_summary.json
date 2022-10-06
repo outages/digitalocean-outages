@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-06T22:55:34.122Z"
+    "updated_at": "2022-10-06T23:02:56.578Z"
   },
   "components": [
     {
@@ -640,8 +640,8 @@
       "name": "Legacy API Keys",
       "status": "monitoring",
       "created_at": "2022-10-06T16:04:23.025Z",
-      "updated_at": "2022-10-06T22:55:34.115Z",
-      "monitoring_at": "2022-10-06T22:55:33.501Z",
+      "updated_at": "2022-10-06T23:02:56.575Z",
+      "monitoring_at": "2022-10-06T22:55:33.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/kjgq7r1y7ny3",
@@ -651,11 +651,11 @@
         {
           "id": "564071pch0m1",
           "status": "monitoring",
-          "body": "As of 22:53 UTC users should no longer experience issues with the Managed databases, Kubernetes, and API. We're monitoring the fix and will post an update once we confirm this incident is fully resolved.",
+          "body": "Our engineering team has deployed the fix. As of 22:53 UTC users should no longer experience issues with the Managed databases, Kubernetes, and API. We're monitoring the fix and will post an update once we confirm this incident is fully resolved.",
           "incident_id": "yfrwzxvmn1bk",
           "created_at": "2022-10-06T22:55:33.501Z",
-          "updated_at": "2022-10-06T22:55:34.106Z",
-          "display_at": "2022-10-06T22:55:33.501Z",
+          "updated_at": "2022-10-06T23:02:56.561Z",
+          "display_at": "2022-10-06T22:55:33.000Z",
           "affected_components": [
             {
               "code": "1082j139b5bg",
