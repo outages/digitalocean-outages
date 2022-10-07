@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-07T18:09:15.421Z"
+    "updated_at": "2022-10-07T19:19:31.970Z"
   },
   "components": [
     {
@@ -71,9 +71,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-10-07T15:18:17.656Z",
+      "updated_at": "2022-10-07T19:19:31.920Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -634,110 +634,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "9vv2dtb4msg9",
-      "name": "App Platform Deployments",
-      "status": "monitoring",
-      "created_at": "2022-10-07T15:18:17.623Z",
-      "updated_at": "2022-10-07T18:09:15.418Z",
-      "monitoring_at": "2022-10-07T18:09:15.400Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/jg93y6fb18wv",
-      "started_at": "2022-10-07T15:18:17.613Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "mdprxtj2xz00",
-          "status": "monitoring",
-          "body": "Our Engineering team identified the root cause of the issues impacting App Platform deployments on our platform. Users may have observed impact caused by this issue between 2022-10-06 02:00 UTC and 2022-10-07 17:35 UTC. \n\nWe have now implemented a fix to resolve the issue and are monitoring the situation closely. We will post another update as soon as the issue is fully resolved.",
-          "incident_id": "9vv2dtb4msg9",
-          "created_at": "2022-10-07T18:09:15.400Z",
-          "updated_at": "2022-10-07T18:09:15.400Z",
-          "display_at": "2022-10-07T18:09:15.400Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f8ysycws77r8",
-          "status": "investigating",
-          "body": "Our engineering team is investigating an issue with App platform. During this time, some users may experience issues while deploying and building new applications and adding components to existing applications using GitHub Repos on the App platform service. We apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "9vv2dtb4msg9",
-          "created_at": "2022-10-07T15:18:17.696Z",
-          "updated_at": "2022-10-07T15:18:17.696Z",
-          "display_at": "2022-10-07T15:18:17.696Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2022-09-27T01:39:12.906Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-10-07T15:18:17.656Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
