@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-19T20:43:49.092Z"
+    "updated_at": "2022-10-19T21:13:14.582Z"
   },
   "components": [
     {
@@ -634,102 +634,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "dt2jxxtjj1ss",
-      "name": "SFO2 and BLR1 Network Connectivity",
-      "status": "monitoring",
-      "created_at": "2022-10-19T20:43:49.019Z",
-      "updated_at": "2022-10-19T20:43:49.089Z",
-      "monitoring_at": "2022-10-19T20:43:49.080Z",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/bf5dj3fc10ws",
-      "started_at": "2022-10-19T20:43:49.006Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "mgpjhth9501y",
-          "status": "monitoring",
-          "body": "Our Engineering team has identified reports of network connectivity issues between the SFO2 and BLR1 region from 19:18 UTC to 19:52 UTC and has taken action to mitigate the impact. \n\nWe are monitoring the situation and will post an update as soon as we confirm the issue is fully resolved.",
-          "incident_id": "dt2jxxtjj1ss",
-          "created_at": "2022-10-19T20:43:49.080Z",
-          "updated_at": "2022-10-19T20:43:49.080Z",
-          "display_at": "2022-10-19T20:43:49.080Z",
-          "affected_components": [
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "y7k7nwwgy36z",
-              "name": "Regions - BLR1",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "y7k7nwwgy36z",
-          "name": "BLR1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:46:35.663Z",
-          "updated_at": "2022-06-15T06:05:10.360Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8kndbnbgddpr",
-          "name": "SFO2",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2022-06-15T06:06:37.371Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "operational",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-10-13T00:24:57.169Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
