@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-19T16:24:46.491Z"
+    "updated_at": "2022-10-19T18:00:50.810Z"
   },
   "components": [
     {
@@ -71,7 +71,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -126,9 +126,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-10-19T14:33:10.027Z",
+      "updated_at": "2022-10-19T18:00:50.662Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -306,9 +306,9 @@
     {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-10-19T14:33:10.051Z",
+      "updated_at": "2022-10-19T18:00:50.736Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -634,137 +634,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "w4vprbbpwhgw",
-      "name": "Transit Network connectivity in SGP1 region",
-      "status": "monitoring",
-      "created_at": "2022-10-19T14:33:09.976Z",
-      "updated_at": "2022-10-19T16:24:46.488Z",
-      "monitoring_at": "2022-10-19T16:24:46.471Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dfg824t7tksk",
-      "started_at": "2022-10-19T14:33:09.963Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "54lhbff4c6k2",
-          "status": "monitoring",
-          "body": "Our engineering team has routed around the issue caused by the upstream network connectivity issue from the EU region to USA and Asia. Users should no longer experience any network latency/packet loss from the EU region to USA and Asia. \n\nUsers shouldn't experience any issues while pushing their images to their container registries and App Platform users shouldn't experience any build failures in the SGP region.\n\nWe are currently monitoring the results and will post an update as soon as the issue is resolved completely.",
-          "incident_id": "w4vprbbpwhgw",
-          "created_at": "2022-10-19T16:24:46.471Z",
-          "updated_at": "2022-10-19T16:24:46.471Z",
-          "display_at": "2022-10-19T16:24:46.471Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jqxb28mn8vnf",
-          "status": "investigating",
-          "body": "Our Engineering team is aware of an upstream issue impacting network connectivity from the EU region to USA and Asia. During this time, users may experience network latency/packet loss from the EU region to USA and Asia. \n\nWe are also seeing users unable to push their images to their container registry and App Platform users might experience build failures in the SGP region.\n\nOur Engineering team is investigating any possible mitigations to work around this upstream issue. We will provide an update as soon as further information is available.",
-          "incident_id": "w4vprbbpwhgw",
-          "created_at": "2022-10-19T14:33:10.106Z",
-          "updated_at": "2022-10-19T14:33:10.106Z",
-          "display_at": "2022-10-19T14:33:10.106Z",
-          "affected_components": [
-            {
-              "code": "vtmbhmvd5dqv",
-              "name": "Services - App Platform",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "nf94kg7630pr",
-              "name": "Regions - SGP1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "vtmbhmvd5dqv",
-          "name": "App Platform",
-          "status": "degraded_performance",
-          "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-10-19T14:33:10.027Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-10-06",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "bcwz10mdvf0r",
-          "name": "Container Registry",
-          "status": "degraded_performance",
-          "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-10-19T14:33:10.051Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-02",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "nf94kg7630pr",
-          "name": "SGP1",
-          "status": "operational",
-          "created_at": "2017-02-17T21:49:07.673Z",
-          "updated_at": "2022-06-15T06:06:15.328Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
