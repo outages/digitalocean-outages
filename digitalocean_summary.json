@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-20T08:31:34.006Z"
+    "updated_at": "2022-10-20T09:20:11.497Z"
   },
   "components": [
     {
@@ -638,9 +638,9 @@
     {
       "id": "v0rnm5pqvcsr",
       "name": "App Platform and Function Deployments in FRA1",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-10-20T08:31:33.861Z",
-      "updated_at": "2022-10-20T08:31:34.003Z",
+      "updated_at": "2022-10-20T09:20:11.487Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -648,6 +648,38 @@
       "started_at": "2022-10-20T08:31:33.846Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "sbqc7qsl0624",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with App Platform deployments and creating Functions in FRA1 region and is actively working on a fix.\n\nWe will post an update as soon as additional information is available.",
+          "incident_id": "v0rnm5pqvcsr",
+          "created_at": "2022-10-20T09:20:11.485Z",
+          "updated_at": "2022-10-20T09:20:11.485Z",
+          "display_at": "2022-10-20T09:20:11.485Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bdknd1yhkh5t",
+              "name": "Services - Functions",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0kys855yj2y1",
+              "name": "Regions - FRA1",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nz0bp9q4lw0g",
           "status": "investigating",
