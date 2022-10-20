@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-20T17:00:44.383Z"
+    "updated_at": "2022-10-20T18:01:07.767Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -216,9 +216,9 @@
     {
       "id": "0kys855yj2y1",
       "name": "FRA1",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:46:52.999Z",
-      "updated_at": "2022-10-20T17:00:44.136Z",
+      "updated_at": "2022-10-20T18:01:07.656Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -351,9 +351,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2022-10-20T17:00:44.203Z",
+      "updated_at": "2022-10-20T18:01:07.678Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -441,9 +441,9 @@
     {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-10-20T17:00:44.241Z",
+      "updated_at": "2022-10-20T18:01:07.698Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-10-20T17:00:44.305Z",
+      "updated_at": "2022-10-20T18:01:07.717Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -635,165 +635,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "sn9zghb64gxp",
-      "name": "FRA1 Network Maintenance 2022-10-20 17:00 UTC",
-      "status": "in_progress",
-      "created_at": "2022-10-20T16:15:21.667Z",
-      "updated_at": "2022-10-20T17:00:44.367Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/6dn5dwfs6jl6",
-      "started_at": "2022-10-20T16:15:21.650Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "fv2jbzwbqzd3",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "sn9zghb64gxp",
-          "created_at": "2022-10-20T17:00:44.359Z",
-          "updated_at": "2022-10-20T17:00:44.359Z",
-          "display_at": "2022-10-20T17:00:44.359Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "y5mb12th36zh",
-              "name": "Services - Kubernetes",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "d0nkv9m5ssj7",
-          "status": "scheduled",
-          "body": "Start: 2022-10-20 17:00 UTC\nEnd: 2022-10-20 19:00 UTC\n\nImpacted Products: Droplet, Kubernetes, Networking\n\nDuring the above window, the networking team will be making changes to our core networking equipment to improve performance and support future functionality in the FRA1 region.\n\nExpected Impact:\n\nThese upgrades are designed and tested to be seamless, however there may be a few minutes of errors when creating Droplets while we shift traffic to redundant devices. We will endeavour to keep this to a minimum for the duration of the change.\n\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "incident_id": "sn9zghb64gxp",
-          "created_at": "2022-10-20T16:15:21.749Z",
-          "updated_at": "2022-10-20T16:15:21.749Z",
-          "display_at": "2022-10-20T16:15:21.749Z",
-          "affected_components": [
-            {
-              "code": "xc1fvcqsqp80",
-              "name": "Services - Droplets",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "y5mb12th36zh",
-              "name": "Services - Kubernetes",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "1f90pjx4y4jc",
-              "name": "Services - Networking",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "0kys855yj2y1",
-              "name": "Regions - FRA1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "0kys855yj2y1",
-          "name": "FRA1",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:46:52.999Z",
-          "updated_at": "2022-10-20T17:00:44.136Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xc1fvcqsqp80",
-          "name": "Droplets",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:40:23.067Z",
-          "updated_at": "2022-10-20T17:00:44.203Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y5mb12th36zh",
-          "name": "Kubernetes",
-          "status": "under_maintenance",
-          "created_at": "2019-02-21T18:10:26.468Z",
-          "updated_at": "2022-10-20T17:00:44.241Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1f90pjx4y4jc",
-          "name": "Networking",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-10-20T17:00:44.305Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-10-20T17:00:00.000Z",
-      "scheduled_until": "2022-10-20T19:00:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
