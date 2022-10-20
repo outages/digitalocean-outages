@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-20T14:23:36.008Z"
+    "updated_at": "2022-10-20T14:30:22.829Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -381,9 +381,9 @@
     {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2022-10-20T14:00:42.264Z",
+      "updated_at": "2022-10-20T14:30:22.723Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -546,9 +546,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-10-20T14:00:42.303Z",
+      "updated_at": "2022-10-20T14:30:22.749Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -635,111 +635,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "6qhzf7zv0j85",
-      "name": "Spaces Maintenance in SFO2",
-      "status": "in_progress",
-      "created_at": "2022-10-20T13:54:16.546Z",
-      "updated_at": "2022-10-20T14:00:42.363Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/3n033l3xyvn6",
-      "started_at": "2022-10-20T13:54:16.536Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "9gmv7fz6m8b5",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "6qhzf7zv0j85",
-          "created_at": "2022-10-20T14:00:42.360Z",
-          "updated_at": "2022-10-20T14:00:42.360Z",
-          "display_at": "2022-10-20T14:00:42.360Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8zgblsbxrg66",
-          "status": "scheduled",
-          "body": "Start: 2022-10-20 14:00 UTC\nEnd: 2022-10-20 14:30 UTC\n\nDuring the above window, our Network and Storage Engineering teams will be performing maintenance on multiple storage products in our SFO2 region in order to improve performance and reliability.\n\nThere might be a dip in Spaces availability in SFO2 for about 3-5 mins during the window, our team will work to keep it at the minimum. Users should be able to access the Spaces automatically after the maintenance is completed. No action is need on your end.\n\nIf you have any questions or concerns, please reach out to us by opening up a support ticket on your account.",
-          "incident_id": "6qhzf7zv0j85",
-          "created_at": "2022-10-20T13:54:16.592Z",
-          "updated_at": "2022-10-20T13:54:16.592Z",
-          "display_at": "2022-10-20T13:54:16.592Z",
-          "affected_components": [
-            {
-              "code": "fg0qx1dcq61b",
-              "name": "Services - Spaces",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "8kndbnbgddpr",
-              "name": "Regions - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "8kndbnbgddpr",
-          "name": "SFO2",
-          "status": "under_maintenance",
-          "created_at": "2017-02-17T21:48:57.020Z",
-          "updated_at": "2022-10-20T14:00:42.264Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fg0qx1dcq61b",
-          "name": "Spaces",
-          "status": "under_maintenance",
-          "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2022-10-20T14:00:42.303Z",
-          "position": 18,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2022-10-20T14:00:00.000Z",
-      "scheduled_until": "2022-10-20T14:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
