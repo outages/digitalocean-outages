@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-21T15:43:28.438Z"
+    "updated_at": "2022-10-21T16:23:34.291Z"
   },
   "components": [
     {
@@ -640,22 +640,22 @@
       "name": "App Platform Deployments / Container Registry / Spaces",
       "status": "identified",
       "created_at": "2022-10-21T15:43:28.261Z",
-      "updated_at": "2022-10-21T15:43:28.435Z",
+      "updated_at": "2022-10-21T16:17:17.514Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/dk7nbb6lmfk3",
-      "started_at": "2022-10-21T15:43:28.237Z",
+      "started_at": "2022-10-21T15:43:28.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
         {
           "id": "k16r12xgwpm2",
           "status": "identified",
-          "body": "Our engineering team has identified an issue with App platform, Container Registry and Spaces. During this time, users are unable to create and deploy new Apps and may see errors when updating, and deploying existing Apps on the App platform service. User’s may also experience image push failures to their container registry. A subset of users may also experienced issues while creating Spaces access keys\n\nWe have implemented a fix to resolve this issue and are monitoring the situation closely. We will post another update as soon as the issue is fully resolved.",
+          "body": "Our engineering team has identified an issue with App platform, Container Registry and Spaces. During this time, users are unable to create and deploy new Apps and may see errors when updating and deploying existing Apps on the App platform service. Users may also experience image push failures to their container registry. A subset of users may have also experienced issues while creating Spaces access keys.\n\nWe have implemented a fix to resolve the underlying issue for the symptoms above and are monitoring the situation closely. We will post another update as soon as we confirm the issue is fully resolved.",
           "incident_id": "7zwkwckjwkvj",
           "created_at": "2022-10-21T15:43:28.433Z",
-          "updated_at": "2022-10-21T15:43:28.433Z",
-          "display_at": "2022-10-21T15:43:28.433Z",
+          "updated_at": "2022-10-21T16:17:17.443Z",
+          "display_at": "2022-10-21T15:43:28.000Z",
           "affected_components": [
             {
               "code": "vtmbhmvd5dqv",
