@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-10-31T08:08:57.350Z"
+    "updated_at": "2022-11-01T03:09:02.276Z"
   },
   "components": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:44:07.379Z",
       "updated_at": "2017-02-17T21:49:27.923Z",
       "position": 1,
@@ -69,16 +69,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
       "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-10-27T18:42:40.691Z",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2022-07-06T22:24:44.794Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -124,16 +124,16 @@
       ]
     },
     {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
       "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2022-07-06T22:24:44.794Z",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-10-27T18:42:40.691Z",
       "position": 2,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -289,21 +289,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "bcwz10mdvf0r",
-      "name": "Container Registry",
-      "status": "operational",
-      "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-10-27T18:42:40.722Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-02",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "6v0yhwt7977x",
       "name": "NYC2",
       "status": "operational",
@@ -314,6 +299,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "bcwz10mdvf0r",
+      "name": "Container Registry",
+      "status": "operational",
+      "created_at": "2020-11-02T19:40:46.930Z",
+      "updated_at": "2022-10-27T18:42:40.722Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -381,9 +381,9 @@
     {
       "id": "8kndbnbgddpr",
       "name": "SFO2",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2022-10-20T14:30:22.723Z",
+      "updated_at": "2022-11-01T02:00:47.346Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -439,21 +439,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5mb12th36zh",
-      "name": "Kubernetes",
-      "status": "operational",
-      "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-10-20T18:01:07.698Z",
-      "position": 13,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "nf94kg7630pr",
       "name": "SGP1",
       "status": "operational",
@@ -464,6 +449,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y5mb12th36zh",
+      "name": "Kubernetes",
+      "status": "operational",
+      "created_at": "2019-02-21T18:10:26.468Z",
+      "updated_at": "2022-10-20T18:01:07.698Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -531,9 +531,9 @@
     {
       "id": "1f90pjx4y4jc",
       "name": "Networking",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-10-28T17:11:03.352Z",
+      "updated_at": "2022-11-01T02:00:47.382Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -546,9 +546,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-10-30T07:13:13.264Z",
+      "updated_at": "2022-11-01T02:00:26.088Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -634,10 +634,212 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
-  "scheduled_maintenances": [],
+  "incidents": [
+    {
+      "id": "z8v1hvt11hnp",
+      "name": "Spaces Creation in the Control panel.",
+      "status": "monitoring",
+      "created_at": "2022-11-01T02:00:26.046Z",
+      "updated_at": "2022-11-01T03:09:02.270Z",
+      "monitoring_at": "2022-11-01T03:09:01.892Z",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mvd7x464f96g",
+      "started_at": "2022-11-01T02:00:26.033Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "b9xvylpmrfk6",
+          "status": "monitoring",
+          "body": "Our Engineering team has observed that error rates have stabilized as of 2:40 UTC. Users should no longer be seeing issues impacting the Spaces page in the Cloud Control Panel and Spaces creation. We're now monitoring the situation closely. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "z8v1hvt11hnp",
+          "created_at": "2022-11-01T03:09:01.892Z",
+          "updated_at": "2022-11-01T03:09:02.265Z",
+          "display_at": "2022-11-01T03:09:01.892Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1587280525299187700
+        },
+        {
+          "id": "nl10792jjzbj",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with accessing the Spaces page in the Cloud Control Panel. Users may experience an error when visiting the Spaces tab from the menu, or when attempting to create a Space from the create menu. \n\nSome users have confirmed a refresh of the page allows the page to load correctly, so we encourage users to do so as a workaround until a fix is put in place. \n\nWe will share an update as soon as possible.",
+          "incident_id": "z8v1hvt11hnp",
+          "created_at": "2022-11-01T02:00:26.137Z",
+          "updated_at": "2022-11-01T02:00:26.819Z",
+          "display_at": "2022-11-01T02:00:26.137Z",
+          "affected_components": [
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1587263263888507000
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-10-24T22:27:45.902Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "degraded_performance",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2022-11-01T02:00:26.088Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
+  "scheduled_maintenances": [
+    {
+      "id": "m4rgw44syd5f",
+      "name": "SFO2 Network Maintenance",
+      "status": "in_progress",
+      "created_at": "2022-11-01T01:53:47.383Z",
+      "updated_at": "2022-11-01T02:00:47.967Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/z2mslhfjlc2z",
+      "started_at": "2022-11-01T01:53:47.373Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "v8lv48406lkl",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "m4rgw44syd5f",
+          "created_at": "2022-11-01T02:00:47.431Z",
+          "updated_at": "2022-11-01T02:00:47.957Z",
+          "display_at": "2022-11-01T02:00:47.431Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1587263352656785400
+        },
+        {
+          "id": "6tcdwg4gblmp",
+          "status": "scheduled",
+          "body": "During the above window, we will be performing maintenance on core switches in our SFO2 datacenter as part of network upgrades. These upgrades are part of remediation efforts in response to the following incident: \n\nhttps://status.digitalocean.com/incidents/kp648z6hmzjp \n\nExpected Impact:\n\nInbound and outbound traffic for Droplet-based services in SFO2 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "incident_id": "m4rgw44syd5f",
+          "created_at": "2022-11-01T01:53:47.436Z",
+          "updated_at": "2022-11-01T01:53:47.885Z",
+          "display_at": "2022-11-01T01:53:47.436Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "8kndbnbgddpr",
+              "name": "Regions - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1587261590646456300
+        }
+      ],
+      "components": [
+        {
+          "id": "8kndbnbgddpr",
+          "name": "SFO2",
+          "status": "under_maintenance",
+          "created_at": "2017-02-17T21:48:57.020Z",
+          "updated_at": "2022-11-01T02:00:47.346Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1f90pjx4y4jc",
+          "name": "Networking",
+          "status": "under_maintenance",
+          "created_at": "2017-02-17T21:42:08.667Z",
+          "updated_at": "2022-11-01T02:00:47.382Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2022-11-01T02:00:00.000Z",
+      "scheduled_until": "2022-11-01T06:00:00.000Z"
+    }
+  ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
