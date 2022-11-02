@@ -4,9 +4,39 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-02T10:37:40.530Z"
+    "updated_at": "2022-11-02T11:23:35.756Z"
   },
   "components": [
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-10-24T22:27:45.902Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1082j139b5bg",
+      "name": "API",
+      "status": "operational",
+      "created_at": "2016-08-30T19:49:35.215Z",
+      "updated_at": "2022-10-06T22:55:33.443Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -39,36 +69,6 @@
       ]
     },
     {
-      "id": "1082j139b5bg",
-      "name": "API",
-      "status": "operational",
-      "created_at": "2016-08-30T19:49:35.215Z",
-      "updated_at": "2022-10-06T22:55:33.443Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-10-24T22:27:45.902Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
       "status": "operational",
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -139,21 +139,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3s5rmcxl95h0",
-      "name": "AMS3",
-      "status": "operational",
-      "created_at": "2017-02-17T21:46:05.294Z",
-      "updated_at": "2022-10-11T20:00:42.021Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "19n6t4685zrn",
       "name": "Billing",
       "status": "operational",
@@ -169,16 +154,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j9wj5sbm3jp3",
-      "name": "Block Storage",
+      "id": "3s5rmcxl95h0",
+      "name": "AMS3",
       "status": "operational",
-      "created_at": "2016-08-30T22:37:40.813Z",
-      "updated_at": "2022-11-01T07:49:40.367Z",
-      "position": 4,
+      "created_at": "2017-02-17T21:46:05.294Z",
+      "updated_at": "2022-10-11T20:00:42.021Z",
+      "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -194,6 +179,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "j9wj5sbm3jp3",
+      "name": "Block Storage",
+      "status": "operational",
+      "created_at": "2016-08-30T22:37:40.813Z",
+      "updated_at": "2022-11-01T07:49:40.367Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -306,13 +306,28 @@
     {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-10-27T18:42:40.722Z",
+      "updated_at": "2022-11-02T11:21:57.187Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-02",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2022-06-14T04:02:42.238Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
       "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
@@ -334,16 +349,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
+      "id": "mypfybvgyhrk",
+      "name": "SFO1",
       "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2022-06-14T04:02:42.238Z",
-      "position": 9,
+      "created_at": "2017-02-17T21:48:46.498Z",
+      "updated_at": "2022-06-15T06:06:48.246Z",
+      "position": 10,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -359,21 +374,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "mypfybvgyhrk",
-      "name": "SFO1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:46.498Z",
-      "updated_at": "2022-06-15T06:06:48.246Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -409,21 +409,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dqgv0tjwhwsc",
-      "name": "Floating IP",
-      "status": "operational",
-      "created_at": "2021-10-25T13:45:18.834Z",
-      "updated_at": "2022-05-06T09:11:41.916Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": "2021-10-25",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "99gtwvvfhtyz",
       "name": "SFO3",
       "status": "operational",
@@ -439,11 +424,26 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "dqgv0tjwhwsc",
+      "name": "Floating IP",
+      "status": "operational",
+      "created_at": "2021-10-25T13:45:18.834Z",
+      "updated_at": "2022-05-06T09:11:41.916Z",
+      "position": 12,
+      "description": null,
+      "showcase": false,
+      "start_date": "2021-10-25",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-10-20T18:01:07.698Z",
+      "updated_at": "2022-11-02T11:21:57.206Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -469,21 +469,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c65109y4h6vk",
-      "name": "TOR1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:49:17.358Z",
-      "updated_at": "2022-10-13T00:24:57.146Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "chj29s92gg0x",
       "name": "Load Balancers",
       "status": "operational",
@@ -494,6 +479,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "c65109y4h6vk",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:17.358Z",
+      "updated_at": "2022-10-13T00:24:57.146Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -546,9 +546,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-11-01T04:00:46.974Z",
+      "updated_at": "2022-11-02T11:21:57.225Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -634,10 +634,126 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "bwt457lhw66l",
+      "name": "Spaces, App Platform and Container Registry",
+      "status": "investigating",
+      "created_at": "2022-11-02T11:21:57.146Z",
+      "updated_at": "2022-11-02T11:21:57.271Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/sghyhnwwsypy",
+      "started_at": "2022-11-02T11:21:57.132Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "v4nx7j2s0lgc",
+          "status": "investigating",
+          "body": "As of 07:15 UTC, our Engineering team is investigating an issue with DigitalOcean Spaces. Users may experience an error when visiting the Spaces tab from the menu, or when attempting to interact with Spaces.  \n\nAt this time, users may also experience errors while interacting and authenticating with the DigitalOcean Container Registry, creating new Container Registries, and pushing/deleting images to/from Registries.\n\nApp Platform users may also be experiencing build failures.\n\nWe will share an update as soon as possible.",
+          "incident_id": "bwt457lhw66l",
+          "created_at": "2022-11-02T11:21:57.268Z",
+          "updated_at": "2022-11-02T11:21:57.268Z",
+          "display_at": "2022-11-02T11:21:57.268Z",
+          "affected_components": [
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-10-24T22:27:45.902Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bcwz10mdvf0r",
+          "name": "Container Registry",
+          "status": "degraded_performance",
+          "created_at": "2020-11-02T19:40:46.930Z",
+          "updated_at": "2022-11-02T11:21:57.187Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-11-02",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "degraded_performance",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2022-11-02T11:21:57.206Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fg0qx1dcq61b",
+          "name": "Spaces",
+          "status": "degraded_performance",
+          "created_at": "2017-09-20T19:20:21.955Z",
+          "updated_at": "2022-11-02T11:21:57.225Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
