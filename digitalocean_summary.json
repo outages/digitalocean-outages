@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-03T08:10:15.229Z"
+    "updated_at": "2022-11-03T17:12:48.681Z"
   },
   "components": [
     {
@@ -640,7 +640,7 @@
       "name": "Spaces, App Platform, and Container Registry",
       "status": "monitoring",
       "created_at": "2022-11-02T15:31:37.272Z",
-      "updated_at": "2022-11-02T21:14:59.420Z",
+      "updated_at": "2022-11-03T17:12:48.672Z",
       "monitoring_at": "2022-11-02T16:59:34.579Z",
       "resolved_at": null,
       "impact": "minor",
@@ -648,6 +648,44 @@
       "started_at": "2022-11-02T15:31:37.260Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "tbzjgy8zgvdf",
+          "status": "monitoring",
+          "body": "Our Engineering team has observed a recurrence of this issue and is taking steps to remediate user impact now. \n\nDuring this time, users might experience errors while performing CRUD operations with the Container Registry. App Platform users may also experience build failures. Spaces users might experience errors while generating Spaces Access Keys. \n\nWe will provide an update as soon as further information is available.",
+          "incident_id": "6071phgf67f0",
+          "created_at": "2022-11-03T17:12:48.669Z",
+          "updated_at": "2022-11-03T17:12:48.669Z",
+          "display_at": "2022-11-03T17:12:48.669Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "660ztf766g6b",
           "status": "monitoring",
