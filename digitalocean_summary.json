@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-09T08:09:35.842Z"
+    "updated_at": "2022-11-09T17:08:25.408Z"
   },
   "components": [
     {
@@ -86,9 +86,9 @@
     {
       "id": "vtmbhmvd5dqv",
       "name": "App Platform",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-11-08T20:38:13.812Z",
+      "updated_at": "2022-11-09T17:08:25.322Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -101,7 +101,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -306,9 +306,9 @@
     {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-11-04T16:15:37.769Z",
+      "updated_at": "2022-11-09T17:08:25.338Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -456,9 +456,9 @@
     {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-11-02T12:02:34.833Z",
+      "updated_at": "2022-11-09T17:08:25.354Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -634,10 +634,105 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "qcwdqp587yrg",
+      "name": "Managed Kubernetes, App Platform & Container Registry",
+      "status": "identified",
+      "created_at": "2022-11-09T17:08:25.289Z",
+      "updated_at": "2022-11-09T17:08:25.406Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/p22p2h628th7",
+      "started_at": "2022-11-09T17:08:25.279Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "88rznrb1cbsq",
+          "status": "identified",
+          "body": "As of 16:19 UTC, Our Engineering team has identified an issue with our Managed Kubernetes, Container Registry, and App platform services in all regions and is working on a fix. Users may experience errors while deploying new Kubernetes clusters or building/deploying apps using App Platform. Users might notice API errors with Container Registry as well. We apologize for the inconvenience and will post an update as soon as we have further information.",
+          "incident_id": "qcwdqp587yrg",
+          "created_at": "2022-11-09T17:08:25.403Z",
+          "updated_at": "2022-11-09T17:08:25.403Z",
+          "display_at": "2022-11-09T17:08:25.403Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "degraded_performance",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2022-11-09T17:08:25.322Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bcwz10mdvf0r",
+          "name": "Container Registry",
+          "status": "degraded_performance",
+          "created_at": "2020-11-02T19:40:46.930Z",
+          "updated_at": "2022-11-09T17:08:25.338Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-11-02",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "degraded_performance",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2022-11-09T17:08:25.354Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
