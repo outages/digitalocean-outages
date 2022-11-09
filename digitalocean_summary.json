@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-09T17:08:25.408Z"
+    "updated_at": "2022-11-09T17:30:14.229Z"
   },
   "components": [
     {
@@ -84,21 +84,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "degraded_performance",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-11-09T17:08:25.322Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9xmhrchbp51t",
       "name": "Services",
       "status": "degraded_performance",
@@ -137,6 +122,21 @@
         "4y60pc8xdj43",
         "bdknd1yhkh5t"
       ]
+    },
+    {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "degraded_performance",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-11-09T17:08:25.322Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "3s5rmcxl95h0",
@@ -229,21 +229,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1hx8143ly544",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:47:29.563Z",
-      "updated_at": "2022-10-06T03:51:19.426Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "b0wv4d3y7sx1",
       "name": "Cloud Firewall",
       "status": "operational",
@@ -259,16 +244,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d5vft53jgv8n",
-      "name": "Community",
+      "id": "1hx8143ly544",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2016-08-30T19:50:59.338Z",
-      "updated_at": "2022-06-21T07:51:03.872Z",
-      "position": 7,
+      "created_at": "2017-02-17T21:47:29.563Z",
+      "updated_at": "2022-10-06T03:51:19.426Z",
+      "position": 6,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "9xmhrchbp51t",
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -284,6 +269,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d5vft53jgv8n",
+      "name": "Community",
+      "status": "operational",
+      "created_at": "2016-08-30T19:50:59.338Z",
+      "updated_at": "2022-06-21T07:51:03.872Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -366,9 +366,9 @@
     {
       "id": "xc1fvcqsqp80",
       "name": "Droplets",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:40:23.067Z",
-      "updated_at": "2022-11-01T07:49:40.386Z",
+      "updated_at": "2022-11-09T17:30:14.177Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -409,21 +409,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "99gtwvvfhtyz",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2020-05-12T19:05:08.138Z",
-      "updated_at": "2022-06-15T06:06:26.659Z",
-      "position": 12,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dqgv0tjwhwsc",
       "name": "Floating IP",
       "status": "operational",
@@ -439,12 +424,12 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nf94kg7630pr",
-      "name": "SGP1",
+      "id": "99gtwvvfhtyz",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2017-02-17T21:49:07.673Z",
-      "updated_at": "2022-06-15T06:06:15.328Z",
-      "position": 13,
+      "created_at": "2020-05-12T19:05:08.138Z",
+      "updated_at": "2022-06-15T06:06:26.659Z",
+      "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
@@ -464,6 +449,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "nf94kg7630pr",
+      "name": "SGP1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:49:07.673Z",
+      "updated_at": "2022-06-15T06:06:15.328Z",
+      "position": 13,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -638,16 +638,54 @@
     {
       "id": "qcwdqp587yrg",
       "name": "Managed Kubernetes, App Platform & Container Registry",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-11-09T17:08:25.289Z",
-      "updated_at": "2022-11-09T17:08:25.406Z",
-      "monitoring_at": null,
+      "updated_at": "2022-11-09T17:30:14.226Z",
+      "monitoring_at": "2022-11-09T17:30:14.213Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/p22p2h628th7",
       "started_at": "2022-11-09T17:08:25.279Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "wt5hpdsbxjsn",
+          "status": "monitoring",
+          "body": "Our Engineering team has deployed a fix for the issues impacting Managed Kubernetes, Container Registry, and App Platform services. We also observed additional impact to some Droplet creations and restoration events caused by this incident. As of 16:52 UTC, all impact has been mitigated and users should no longer experience any issues. We are monitoring the situation and will post an update once the incident is completely resolved.",
+          "incident_id": "qcwdqp587yrg",
+          "created_at": "2022-11-09T17:30:14.213Z",
+          "updated_at": "2022-11-09T17:30:14.213Z",
+          "display_at": "2022-11-09T17:30:14.213Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xc1fvcqsqp80",
+              "name": "Services - Droplets",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "88rznrb1cbsq",
           "status": "identified",
@@ -707,6 +745,21 @@
           "description": null,
           "showcase": false,
           "start_date": "2020-11-02",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "xc1fvcqsqp80",
+          "name": "Droplets",
+          "status": "degraded_performance",
+          "created_at": "2017-02-17T21:40:23.067Z",
+          "updated_at": "2022-11-09T17:30:14.177Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
           "group_id": "9xmhrchbp51t",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
