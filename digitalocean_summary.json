@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-10T15:40:48.480Z"
+    "updated_at": "2022-11-10T16:57:26.200Z"
   },
   "components": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "9xmhrchbp51t",
       "name": "Services",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-02-17T21:38:50.394Z",
       "updated_at": "2020-09-11T06:57:09.795Z",
       "position": 2,
@@ -441,9 +441,9 @@
     {
       "id": "y5mb12th36zh",
       "name": "Kubernetes",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-21T18:10:26.468Z",
-      "updated_at": "2022-11-09T19:28:20.883Z",
+      "updated_at": "2022-11-10T16:57:26.147Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -634,10 +634,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5f3dtt0b58qz",
+      "name": "Managed Kubernetes Service",
+      "status": "identified",
+      "created_at": "2022-11-10T16:57:26.104Z",
+      "updated_at": "2022-11-10T16:57:26.197Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/k1kdl1bf6lyc",
+      "started_at": "2022-11-10T16:57:26.092Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "3jsxfh28nft2",
+          "status": "identified",
+          "body": "As of 15:30 UTC, our Engineering team has identified an issue with our Managed Kubernetes service in all regions and is working on a fix. Users may experience errors while deploying new Kubernetes clusters, adding new nodes and node pools to existing clusters, and delays in autoscaling node pools. Users might also see errors while accessing the Managed Kubernetes dashboard from the Cloud Control Panel.\n\nWe apologize for the inconvenience and will post an update as soon as we have further information.",
+          "incident_id": "5f3dtt0b58qz",
+          "created_at": "2022-11-10T16:57:26.194Z",
+          "updated_at": "2022-11-10T16:57:26.194Z",
+          "display_at": "2022-11-10T16:57:26.194Z",
+          "affected_components": [
+            {
+              "code": "y5mb12th36zh",
+              "name": "Services - Kubernetes",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-10-24T22:27:45.902Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "y5mb12th36zh",
+          "name": "Kubernetes",
+          "status": "degraded_performance",
+          "created_at": "2019-02-21T18:10:26.468Z",
+          "updated_at": "2022-11-10T16:57:26.147Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
