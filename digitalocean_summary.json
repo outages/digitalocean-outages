@@ -4,9 +4,24 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-17T11:23:31.910Z"
+    "updated_at": "2022-11-17T12:10:03.432Z"
   },
   "components": [
+    {
+      "id": "7t9s4fqwl4pm",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2017-02-17T21:44:07.397Z",
+      "updated_at": "2022-10-24T22:27:45.902Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "6ycn9yslydsq",
       "name": "Regions",
@@ -40,21 +55,6 @@
       ]
     },
     {
-      "id": "7t9s4fqwl4pm",
-      "name": "Global",
-      "status": "operational",
-      "created_at": "2017-02-17T21:44:07.397Z",
-      "updated_at": "2022-10-24T22:27:45.902Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "1082j139b5bg",
       "name": "API",
       "status": "operational",
@@ -65,6 +65,36 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "degraded_performance",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-11-17T12:09:46.815Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "t3ygwyk0bymr",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:45:55.031Z",
+      "updated_at": "2022-07-06T22:24:44.794Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -108,36 +138,6 @@
         "4y60pc8xdj43",
         "bdknd1yhkh5t"
       ]
-    },
-    {
-      "id": "t3ygwyk0bymr",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:45:55.031Z",
-      "updated_at": "2022-07-06T22:24:44.794Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "operational",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-11-09T19:28:20.835Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "19n6t4685zrn",
@@ -200,21 +200,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xymwmm4wsr4l",
-      "name": "Cloud Control Panel",
-      "status": "operational",
-      "created_at": "2017-02-17T21:40:34.099Z",
-      "updated_at": "2022-09-02T08:42:23.780Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "0kys855yj2y1",
       "name": "FRA1",
       "status": "operational",
@@ -225,6 +210,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "xymwmm4wsr4l",
+      "name": "Cloud Control Panel",
+      "status": "operational",
+      "created_at": "2017-02-17T21:40:34.099Z",
+      "updated_at": "2022-09-02T08:42:23.780Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -260,21 +260,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "cl06j64ltm9s",
-      "name": "NYC1",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:01.306Z",
-      "updated_at": "2022-11-13T01:00:46.815Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d5vft53jgv8n",
       "name": "Community",
       "status": "operational",
@@ -285,6 +270,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "cl06j64ltm9s",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:01.306Z",
+      "updated_at": "2022-11-13T01:00:46.815Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -320,21 +320,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yzksrkss544p",
-      "name": "DNS",
-      "status": "operational",
-      "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2022-06-14T04:02:42.238Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hq55lyvq3rl",
       "name": "NYC3",
       "status": "operational",
@@ -345,6 +330,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yzksrkss544p",
+      "name": "DNS",
+      "status": "operational",
+      "created_at": "2017-04-26T16:27:19.801Z",
+      "updated_at": "2022-06-14T04:02:42.238Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -380,21 +380,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8kndbnbgddpr",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2017-02-17T21:48:57.020Z",
-      "updated_at": "2022-11-01T06:00:46.407Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "m7nv9rsmrssk",
       "name": "Event Processing",
       "status": "operational",
@@ -405,6 +390,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "8kndbnbgddpr",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2017-02-17T21:48:57.020Z",
+      "updated_at": "2022-11-01T06:00:46.407Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6ycn9yslydsq",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -470,21 +470,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "chj29s92gg0x",
-      "name": "Load Balancers",
-      "status": "operational",
-      "created_at": "2017-03-15T20:20:44.175Z",
-      "updated_at": "2022-11-15T18:46:33.761Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "9xmhrchbp51t",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c65109y4h6vk",
       "name": "TOR1",
       "status": "operational",
@@ -495,6 +480,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "chj29s92gg0x",
+      "name": "Load Balancers",
+      "status": "operational",
+      "created_at": "2017-03-15T20:20:44.175Z",
+      "updated_at": "2022-11-15T18:46:33.761Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -652,84 +652,11 @@
   ],
   "incidents": [
     {
-      "id": "lsx7lyh6jftg",
-      "name": "DigitalOcean Container Registry",
-      "status": "investigating",
-      "created_at": "2022-11-17T11:13:11.183Z",
-      "updated_at": "2022-11-17T11:13:11.287Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/3nx8bp8p4hbn",
-      "started_at": "2022-11-17T11:13:11.170Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "rldcbgydncll",
-          "status": "investigating",
-          "body": "As of 10:45 UTC, our Engineering team is investigating an issue with DigitalOcean Container Registry in the NYC3 region. At this time, users may experience slow responses or errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "lsx7lyh6jftg",
-          "created_at": "2022-11-17T11:13:11.283Z",
-          "updated_at": "2022-11-17T11:13:11.283Z",
-          "display_at": "2022-11-17T11:13:11.283Z",
-          "affected_components": [
-            {
-              "code": "bcwz10mdvf0r",
-              "name": "Services - Container Registry",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3hq55lyvq3rl",
-              "name": "Regions - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "bcwz10mdvf0r",
-          "name": "Container Registry",
-          "status": "degraded_performance",
-          "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-11-17T11:13:11.229Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-02",
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3hq55lyvq3rl",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2017-02-17T21:48:37.049Z",
-          "updated_at": "2022-11-13T01:00:46.882Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "gdvprb8bwhtp",
       "name": "Customer Support Ticket Portal",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-11-17T09:55:33.587Z",
-      "updated_at": "2022-11-17T09:55:33.680Z",
+      "updated_at": "2022-11-17T12:10:03.424Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -737,6 +664,32 @@
       "started_at": "2022-11-17T09:55:33.575Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "lx6pvycg5k7g",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with accessing the support portal and is actively working on a fix. During this time, users might face login issues to our support portal at https://cloudsupport.digitalocean.com. We will post an update as soon as additional information is available",
+          "incident_id": "gdvprb8bwhtp",
+          "created_at": "2022-11-17T12:10:03.422Z",
+          "updated_at": "2022-11-17T12:10:03.422Z",
+          "display_at": "2022-11-17T12:10:03.422Z",
+          "affected_components": [
+            {
+              "code": "90kv6kp38str",
+              "name": "Services - Support Center",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pnhgd9580w96",
           "status": "investigating",
@@ -791,6 +744,126 @@
           "showcase": false,
           "start_date": null,
           "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
+      "id": "lsx7lyh6jftg",
+      "name": "DigitalOcean Container Registry and App Platform",
+      "status": "investigating",
+      "created_at": "2022-11-17T11:13:11.183Z",
+      "updated_at": "2022-11-17T12:09:46.849Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/3nx8bp8p4hbn",
+      "started_at": "2022-11-17T11:13:11.170Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "l8gtfhw8g9vl",
+          "status": "investigating",
+          "body": "As of 11:50 UTC, on further investigation, our Engineering team found that this issue is impacting the App Platform users along with the DigitalOcean Container registry in the NYC3 region. At this time, users may experience errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\n\nApp Platform users may experience build failures.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "lsx7lyh6jftg",
+          "created_at": "2022-11-17T12:09:46.847Z",
+          "updated_at": "2022-11-17T12:09:46.847Z",
+          "display_at": "2022-11-17T12:09:46.847Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "rldcbgydncll",
+          "status": "investigating",
+          "body": "As of 10:45 UTC, our Engineering team is investigating an issue with DigitalOcean Container Registry in the NYC3 region. At this time, users may experience slow responses or errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "lsx7lyh6jftg",
+          "created_at": "2022-11-17T11:13:11.283Z",
+          "updated_at": "2022-11-17T11:13:11.283Z",
+          "display_at": "2022-11-17T11:13:11.283Z",
+          "affected_components": [
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "vtmbhmvd5dqv",
+          "name": "App Platform",
+          "status": "degraded_performance",
+          "created_at": "2020-10-06T12:31:55.370Z",
+          "updated_at": "2022-11-17T12:09:46.815Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-10-06",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "bcwz10mdvf0r",
+          "name": "Container Registry",
+          "status": "degraded_performance",
+          "created_at": "2020-11-02T19:40:46.930Z",
+          "updated_at": "2022-11-17T11:13:11.229Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-11-02",
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3hq55lyvq3rl",
+          "name": "NYC3",
+          "status": "operational",
+          "created_at": "2017-02-17T21:48:37.049Z",
+          "updated_at": "2022-11-13T01:00:46.882Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
           "page_id": "s2k7tnzlhrpw",
           "group": false,
           "only_show_if_degraded": false
