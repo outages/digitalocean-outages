@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-17T15:48:15.175Z"
+    "updated_at": "2022-11-17T16:45:05.106Z"
   },
   "components": [
     {
@@ -652,136 +652,11 @@
   ],
   "incidents": [
     {
-      "id": "gdvprb8bwhtp",
-      "name": "Customer Support Ticket Portal",
-      "status": "identified",
-      "created_at": "2022-11-17T09:55:33.587Z",
-      "updated_at": "2022-11-17T15:48:15.165Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/dhnkjzdc24sf",
-      "started_at": "2022-11-17T09:55:33.575Z",
-      "page_id": "s2k7tnzlhrpw",
-      "incident_updates": [
-        {
-          "id": "wz18d1lry7nm",
-          "status": "identified",
-          "body": "The cause of the intermittent issue with logging into our support portal at https://cloudsupport.digitalocean.com/ has been identified as a potential upstream issue with our vendor. Our Engineering team is actively working with our vendor to debug and put a fix in place. \n\nWe've confirmed this is a recurrence of the previous issue posted here: https://status.digitalocean.com/incidents/2y2f3ry5b7b6\n\nAt this time, users should be able to login normally. If we observe a recurrence or when we receive further information about a fix, we'll post an update here.",
-          "incident_id": "gdvprb8bwhtp",
-          "created_at": "2022-11-17T15:48:15.162Z",
-          "updated_at": "2022-11-17T15:48:15.162Z",
-          "display_at": "2022-11-17T15:48:15.162Z",
-          "affected_components": [
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lx6pvycg5k7g",
-          "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue with accessing the support portal and is actively working on a fix. During this time, users might face login issues to our support portal at https://cloudsupport.digitalocean.com. We will post an update as soon as additional information is available",
-          "incident_id": "gdvprb8bwhtp",
-          "created_at": "2022-11-17T12:10:03.422Z",
-          "updated_at": "2022-11-17T12:10:03.422Z",
-          "display_at": "2022-11-17T12:10:03.422Z",
-          "affected_components": [
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pnhgd9580w96",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with customers being unable to login to our support portal at https://cloudsupport.digitalocean.com. \n\nAt this time, users may observe an \"Oops, Something Went Wrong\" error on the page. As a temporary workaround, users may still contact us via the form here: https://www.digitalocean.com/company/contact/support\n\nWe apologize for the inconvenience and will post an update as soon as further information is available.",
-          "incident_id": "gdvprb8bwhtp",
-          "created_at": "2022-11-17T09:55:33.677Z",
-          "updated_at": "2022-11-17T09:55:33.677Z",
-          "display_at": "2022-11-17T09:55:33.677Z",
-          "affected_components": [
-            {
-              "code": "90kv6kp38str",
-              "name": "Services - Support Center",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "7t9s4fqwl4pm",
-              "name": "Regions - Global",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7t9s4fqwl4pm",
-          "name": "Global",
-          "status": "operational",
-          "created_at": "2017-02-17T21:44:07.397Z",
-          "updated_at": "2022-10-24T22:27:45.902Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6ycn9yslydsq",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "90kv6kp38str",
-          "name": "Support Center",
-          "status": "degraded_performance",
-          "created_at": "2017-07-18T19:26:32.158Z",
-          "updated_at": "2022-11-17T09:55:33.629Z",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "9xmhrchbp51t",
-          "page_id": "s2k7tnzlhrpw",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
       "id": "lsx7lyh6jftg",
       "name": "Spaces, App Platform and Container Registry",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-11-17T11:13:11.183Z",
-      "updated_at": "2022-11-17T12:44:39.881Z",
+      "updated_at": "2022-11-17T16:45:05.095Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -789,6 +664,44 @@
       "started_at": "2022-11-17T12:09:46.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "wt0ng3pvtyn5",
+          "status": "identified",
+          "body": "As of 16:25 UTC, our Engineering team has identified the issue impacting App Platform, Spaces, and Container Registry services in the NYC3 region. A temporary fix has been employed to mitigate customer impact. Users should no longer experience any issues from this incident, however we are closely monitoring performance as a permanent fix is being established. We will provide another update as soon as more details are available.\n\nThank you for your patience and we apologize for the inconvenience.",
+          "incident_id": "lsx7lyh6jftg",
+          "created_at": "2022-11-17T16:45:05.091Z",
+          "updated_at": "2022-11-17T16:45:05.091Z",
+          "display_at": "2022-11-17T16:45:05.091Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "hdhn928zf9zq",
           "status": "investigating",
@@ -977,6 +890,131 @@
           "created_at": "2017-09-20T19:20:21.955Z",
           "updated_at": "2022-11-17T12:43:45.357Z",
           "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "9xmhrchbp51t",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
+      "id": "gdvprb8bwhtp",
+      "name": "Customer Support Ticket Portal",
+      "status": "identified",
+      "created_at": "2022-11-17T09:55:33.587Z",
+      "updated_at": "2022-11-17T15:48:15.165Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/dhnkjzdc24sf",
+      "started_at": "2022-11-17T09:55:33.575Z",
+      "page_id": "s2k7tnzlhrpw",
+      "incident_updates": [
+        {
+          "id": "wz18d1lry7nm",
+          "status": "identified",
+          "body": "The cause of the intermittent issue with logging into our support portal at https://cloudsupport.digitalocean.com/ has been identified as a potential upstream issue with our vendor. Our Engineering team is actively working with our vendor to debug and put a fix in place. \n\nWe've confirmed this is a recurrence of the previous issue posted here: https://status.digitalocean.com/incidents/2y2f3ry5b7b6\n\nAt this time, users should be able to login normally. If we observe a recurrence or when we receive further information about a fix, we'll post an update here.",
+          "incident_id": "gdvprb8bwhtp",
+          "created_at": "2022-11-17T15:48:15.162Z",
+          "updated_at": "2022-11-17T15:48:15.162Z",
+          "display_at": "2022-11-17T15:48:15.162Z",
+          "affected_components": [
+            {
+              "code": "90kv6kp38str",
+              "name": "Services - Support Center",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "lx6pvycg5k7g",
+          "status": "identified",
+          "body": "Our Engineering team has identified the cause of the issue with accessing the support portal and is actively working on a fix. During this time, users might face login issues to our support portal at https://cloudsupport.digitalocean.com. We will post an update as soon as additional information is available",
+          "incident_id": "gdvprb8bwhtp",
+          "created_at": "2022-11-17T12:10:03.422Z",
+          "updated_at": "2022-11-17T12:10:03.422Z",
+          "display_at": "2022-11-17T12:10:03.422Z",
+          "affected_components": [
+            {
+              "code": "90kv6kp38str",
+              "name": "Services - Support Center",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "pnhgd9580w96",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue with customers being unable to login to our support portal at https://cloudsupport.digitalocean.com. \n\nAt this time, users may observe an \"Oops, Something Went Wrong\" error on the page. As a temporary workaround, users may still contact us via the form here: https://www.digitalocean.com/company/contact/support\n\nWe apologize for the inconvenience and will post an update as soon as further information is available.",
+          "incident_id": "gdvprb8bwhtp",
+          "created_at": "2022-11-17T09:55:33.677Z",
+          "updated_at": "2022-11-17T09:55:33.677Z",
+          "display_at": "2022-11-17T09:55:33.677Z",
+          "affected_components": [
+            {
+              "code": "90kv6kp38str",
+              "name": "Services - Support Center",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7t9s4fqwl4pm",
+              "name": "Regions - Global",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7t9s4fqwl4pm",
+          "name": "Global",
+          "status": "operational",
+          "created_at": "2017-02-17T21:44:07.397Z",
+          "updated_at": "2022-10-24T22:27:45.902Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6ycn9yslydsq",
+          "page_id": "s2k7tnzlhrpw",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "90kv6kp38str",
+          "name": "Support Center",
+          "status": "degraded_performance",
+          "created_at": "2017-07-18T19:26:32.158Z",
+          "updated_at": "2022-11-17T09:55:33.629Z",
+          "position": 19,
           "description": null,
           "showcase": false,
           "start_date": null,
