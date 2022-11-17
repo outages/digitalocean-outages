@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-17T16:45:05.106Z"
+    "updated_at": "2022-11-17T18:04:45.468Z"
   },
   "components": [
     {
@@ -110,6 +110,21 @@
       ]
     },
     {
+      "id": "vtmbhmvd5dqv",
+      "name": "App Platform",
+      "status": "operational",
+      "created_at": "2020-10-06T12:31:55.370Z",
+      "updated_at": "2022-11-17T18:04:45.382Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-10-06",
+      "group_id": "9xmhrchbp51t",
+      "page_id": "s2k7tnzlhrpw",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "t3ygwyk0bymr",
       "name": "AMS2",
       "status": "operational",
@@ -120,21 +135,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6ycn9yslydsq",
-      "page_id": "s2k7tnzlhrpw",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vtmbhmvd5dqv",
-      "name": "App Platform",
-      "status": "degraded_performance",
-      "created_at": "2020-10-06T12:31:55.370Z",
-      "updated_at": "2022-11-17T12:09:46.815Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-10-06",
-      "group_id": "9xmhrchbp51t",
       "page_id": "s2k7tnzlhrpw",
       "group": false,
       "only_show_if_degraded": false
@@ -292,9 +292,9 @@
     {
       "id": "bcwz10mdvf0r",
       "name": "Container Registry",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-02T19:40:46.930Z",
-      "updated_at": "2022-11-17T11:13:11.229Z",
+      "updated_at": "2022-11-17T18:04:45.403Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -562,9 +562,9 @@
     {
       "id": "fg0qx1dcq61b",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-09-20T19:20:21.955Z",
-      "updated_at": "2022-11-17T12:43:45.357Z",
+      "updated_at": "2022-11-17T18:04:45.421Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -654,16 +654,54 @@
     {
       "id": "lsx7lyh6jftg",
       "name": "Spaces, App Platform and Container Registry",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-11-17T11:13:11.183Z",
-      "updated_at": "2022-11-17T16:45:05.095Z",
-      "monitoring_at": null,
+      "updated_at": "2022-11-17T18:04:45.466Z",
+      "monitoring_at": "2022-11-17T18:04:45.451Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/3nx8bp8p4hbn",
       "started_at": "2022-11-17T12:09:46.000Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "zt6r2dmh1v3d",
+          "status": "monitoring",
+          "body": "At 17:30 UTC our Engineering team deployed a permanent fix to the issue impacting App Platform, Spaces, and Container Registry services in the NYC3 region. We have not seen any further reports of ongoing issues related to this incident, but we will continue to monitor the situation for a while longer to ensure stability. \n\nAs soon as we have confirmation that the incident has been fully resolved we will provide a final update. Thank you again for your patience.",
+          "incident_id": "lsx7lyh6jftg",
+          "created_at": "2022-11-17T18:04:45.451Z",
+          "updated_at": "2022-11-17T18:04:45.451Z",
+          "display_at": "2022-11-17T18:04:45.451Z",
+          "affected_components": [
+            {
+              "code": "vtmbhmvd5dqv",
+              "name": "Services - App Platform",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "bcwz10mdvf0r",
+              "name": "Services - Container Registry",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "fg0qx1dcq61b",
+              "name": "Services - Spaces",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "3hq55lyvq3rl",
+              "name": "Regions - NYC3",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wt0ng3pvtyn5",
           "status": "identified",
@@ -841,9 +879,9 @@
         {
           "id": "vtmbhmvd5dqv",
           "name": "App Platform",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-10-06T12:31:55.370Z",
-          "updated_at": "2022-11-17T12:09:46.815Z",
+          "updated_at": "2022-11-17T18:04:45.382Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -856,9 +894,9 @@
         {
           "id": "bcwz10mdvf0r",
           "name": "Container Registry",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-11-02T19:40:46.930Z",
-          "updated_at": "2022-11-17T11:13:11.229Z",
+          "updated_at": "2022-11-17T18:04:45.403Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -886,9 +924,9 @@
         {
           "id": "fg0qx1dcq61b",
           "name": "Spaces",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-09-20T19:20:21.955Z",
-          "updated_at": "2022-11-17T12:43:45.357Z",
+          "updated_at": "2022-11-17T18:04:45.421Z",
           "position": 18,
           "description": null,
           "showcase": false,
