@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-11-19T17:23:32.648Z"
+    "updated_at": "2022-11-19T18:28:49.243Z"
   },
   "components": [
     {
@@ -322,9 +322,9 @@
     {
       "id": "yzksrkss544p",
       "name": "DNS",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-04-26T16:27:19.801Z",
-      "updated_at": "2022-11-19T17:23:27.228Z",
+      "updated_at": "2022-11-19T18:28:48.695Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -654,16 +654,36 @@
     {
       "id": "mstrkv8kv12j",
       "name": "DNS Connectivity",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-11-19T17:23:27.188Z",
-      "updated_at": "2022-11-19T17:23:27.976Z",
-      "monitoring_at": null,
+      "updated_at": "2022-11-19T18:28:49.234Z",
+      "monitoring_at": "2022-11-19T18:28:48.725Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/b1fkw3776166",
       "started_at": "2022-11-19T17:23:27.180Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "j8y3wtdssp09",
+          "status": "monitoring",
+          "body": "At approximately 18:05 UTC, our Engineering team applied a fix for the DNS connectivity outage. At this time customers should no longer experience issues with domain resolution.\n\nWe are continuing to monitor for stability and will provide a final update once the situation is fully resolved. Thank you for your patience and we apologize for the inconvenience.",
+          "incident_id": "mstrkv8kv12j",
+          "created_at": "2022-11-19T18:28:48.725Z",
+          "updated_at": "2022-11-19T18:28:49.227Z",
+          "display_at": "2022-11-19T18:28:48.725Z",
+          "affected_components": [
+            {
+              "code": "yzksrkss544p",
+              "name": "Services - DNS",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": 1594034977813201000
+        },
         {
           "id": "w14cl1zpzsml",
           "status": "investigating",
@@ -689,9 +709,9 @@
         {
           "id": "yzksrkss544p",
           "name": "DNS",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-04-26T16:27:19.801Z",
-          "updated_at": "2022-11-19T17:23:27.228Z",
+          "updated_at": "2022-11-19T18:28:48.695Z",
           "position": 9,
           "description": null,
           "showcase": false,
