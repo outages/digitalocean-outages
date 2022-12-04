@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-12-04T00:47:38.218Z"
+    "updated_at": "2022-12-04T01:49:40.480Z"
   },
   "components": [
     {
@@ -174,7 +174,7 @@
       "name": "BLR1",
       "status": "degraded_performance",
       "created_at": "2017-02-17T21:46:35.663Z",
-      "updated_at": "2022-12-04T00:47:38.147Z",
+      "updated_at": "2022-12-04T01:46:36.150Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -549,7 +549,7 @@
       "name": "Networking",
       "status": "degraded_performance",
       "created_at": "2017-02-17T21:42:08.667Z",
-      "updated_at": "2022-12-04T00:47:38.169Z",
+      "updated_at": "2022-12-04T01:46:36.172Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -654,16 +654,94 @@
     {
       "id": "fmk878fdmp3k",
       "name": "Network Connectivity in BLR1",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2022-12-04T00:47:38.107Z",
-      "updated_at": "2022-12-04T00:47:38.215Z",
-      "monitoring_at": null,
+      "updated_at": "2022-12-04T01:49:40.473Z",
+      "monitoring_at": "2022-12-04T01:09:14.517Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/dnfzj2rmst1y",
       "started_at": "2022-12-04T00:47:38.096Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "cmwh2mtfkmy8",
+          "status": "identified",
+          "body": "Our Networking team has detected a recurrence of the networking issues in our BLR1 region. They have also confirmed the impact we're seeing is due to an upstream provider and are actively engaged with that provider to seek a resolution. During this time, users may experience intermittent issues connecting to Droplets and other services hosted in BLR1. \n\nWe'll share an additional update once we have more information.",
+          "incident_id": "fmk878fdmp3k",
+          "created_at": "2022-12-04T01:49:40.471Z",
+          "updated_at": "2022-12-04T01:49:40.471Z",
+          "display_at": "2022-12-04T01:49:40.471Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "knssdn2dh0w2",
+          "status": "monitoring",
+          "body": "Our networking team has detected a recurrence of the networking issues with our upstream provider impacting connectivity in the BLR1 region. At this time, users may experience issues connecting to Droplets and other services hosted in BLR1. We apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "fmk878fdmp3k",
+          "created_at": "2022-12-04T01:46:36.209Z",
+          "updated_at": "2022-12-04T01:46:36.209Z",
+          "display_at": "2022-12-04T01:46:36.209Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hyv2lsvm47tg",
+          "status": "monitoring",
+          "body": "Our engineering team has implemented a fix to resolve the issues with networking in BLR1 and is monitoring the situation. We will post an update as soon as the issue is fully resolved.",
+          "incident_id": "fmk878fdmp3k",
+          "created_at": "2022-12-04T01:09:14.517Z",
+          "updated_at": "2022-12-04T01:09:14.517Z",
+          "display_at": "2022-12-04T01:09:14.517Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "y7k7nwwgy36z",
+              "name": "Regions - BLR1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5hd8rs3bdy1q",
           "status": "investigating",
@@ -697,7 +775,7 @@
           "name": "BLR1",
           "status": "degraded_performance",
           "created_at": "2017-02-17T21:46:35.663Z",
-          "updated_at": "2022-12-04T00:47:38.147Z",
+          "updated_at": "2022-12-04T01:46:36.150Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -712,7 +790,7 @@
           "name": "Networking",
           "status": "degraded_performance",
           "created_at": "2017-02-17T21:42:08.667Z",
-          "updated_at": "2022-12-04T00:47:38.169Z",
+          "updated_at": "2022-12-04T01:46:36.172Z",
           "position": 17,
           "description": null,
           "showcase": false,
