@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-01-13T18:23:34.347Z"
+    "updated_at": "2023-01-13T20:10:02.622Z"
   },
   "components": [
     {
@@ -657,7 +657,7 @@
       "name": "Networking Maintenance in SGP1",
       "status": "in_progress",
       "created_at": "2023-01-13T17:39:26.193Z",
-      "updated_at": "2023-01-13T18:00:50.236Z",
+      "updated_at": "2023-01-13T20:10:02.618Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -665,6 +665,32 @@
       "started_at": "2023-01-13T17:39:26.183Z",
       "page_id": "s2k7tnzlhrpw",
       "incident_updates": [
+        {
+          "id": "zt8dsx13wz3h",
+          "status": "in_progress",
+          "body": "We have identified some unexpected issues so our Engineering team has extended the maintenance window for 30 minutes. We are now expecting maintenance to end at 20:30 UTC. During this time, all resource management events in SGP1 remain disabled.",
+          "incident_id": "nnxf74xx0q7m",
+          "created_at": "2023-01-13T20:09:53.928Z",
+          "updated_at": "2023-01-13T20:09:53.928Z",
+          "display_at": "2023-01-13T20:09:53.928Z",
+          "affected_components": [
+            {
+              "code": "1f90pjx4y4jc",
+              "name": "Services - Networking",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "nf94kg7630pr",
+              "name": "Regions - SGP1",
+              "old_status": "under_maintenance",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "l1899s11xq2h",
           "status": "in_progress",
@@ -751,7 +777,7 @@
         }
       ],
       "scheduled_for": "2023-01-13T18:00:00.000Z",
-      "scheduled_until": "2023-01-13T20:00:00.000Z"
+      "scheduled_until": "2023-01-13T20:30:00.000Z"
     }
   ],
   "status": {
