@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-05-31T02:25:35.674Z"
+    "updated_at": "2023-05-31T02:41:03.741Z"
   },
   "components": [
     {
@@ -2980,7 +2980,7 @@
       "name": "SFO2 Network Maintenance",
       "status": "in_progress",
       "created_at": "2023-05-31T01:26:14.709Z",
-      "updated_at": "2023-05-31T01:30:19.704Z",
+      "updated_at": "2023-05-31T02:41:03.701Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -3011,10 +3011,10 @@
         {
           "id": "mbpq4zmb6hv2",
           "status": "scheduled",
-          "body": "Start: 2023-05-31 01:00 UTC\nEnd: 2023-05-31 05:00 UTC\n\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO2 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \n\nExpected Impact:\n\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\n\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .\n\nThank you,\nTeam DigitalOcean",
+          "body": "Start: 2023-05-31 01:00 UTC\nEnd: 2023-05-31 05:00 UTC\n\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO2 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \n\nExpected Impact:\n\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\n\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "incident_id": "4rf2j2dmc382",
           "created_at": "2023-05-31T01:26:14.778Z",
-          "updated_at": "2023-05-31T01:26:14.778Z",
+          "updated_at": "2023-05-31T02:41:03.698Z",
           "display_at": "2023-05-31T01:26:14.778Z",
           "affected_components": [
             {
