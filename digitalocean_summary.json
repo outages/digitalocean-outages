@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-07-05T17:23:18.989Z"
+    "updated_at": "2023-07-05T17:27:56.969Z"
   },
   "components": [
     {
@@ -2979,7 +2979,7 @@
       "name": "Droplet Creation in NYC3",
       "status": "identified",
       "created_at": "2023-07-05T16:27:14.645Z",
-      "updated_at": "2023-07-05T17:23:18.981Z",
+      "updated_at": "2023-07-05T17:27:56.963Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -2990,11 +2990,11 @@
         {
           "id": "1ybwglxydjmj",
           "status": "identified",
-          "body": "Our Engineering team has identified the cause of the issue impacting droplet creation in the NYC3 region and is actively working on a fix.\n\nDuring this time, users may still experience latency and related issues while deploying droplets and Droplet-based services in the NYC3 region. We will post an update as soon as additional information is available.",
+          "body": "Our Engineering team has identified the cause of the issue impacting Droplet creation in the NYC3 region and is actively working on a fix.\n\nDuring this time, users may still experience latency and related issues while deploying Droplets and Droplet-based services in the NYC3 region. We will post an update as soon as additional information is available.",
           "incident_id": "m4nw5210sd5t",
           "created_at": "2023-07-05T17:23:17.210Z",
-          "updated_at": "2023-07-05T17:23:18.974Z",
-          "display_at": "2023-07-05T17:23:17.210Z",
+          "updated_at": "2023-07-05T17:27:56.960Z",
+          "display_at": "2023-07-05T17:23:17.000Z",
           "affected_components": [
             {
               "code": "ty601myjf6cj",
