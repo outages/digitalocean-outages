@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-08-12T02:09:08.637Z"
+    "updated_at": "2023-08-12T02:23:18.923Z"
   },
   "components": [
     {
@@ -2979,22 +2979,22 @@
       "name": "Container Registry in Multiple Regions",
       "status": "identified",
       "created_at": "2023-08-12T02:09:08.589Z",
-      "updated_at": "2023-08-12T02:09:08.635Z",
+      "updated_at": "2023-08-12T02:23:18.917Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/13lxk7t1mm7c",
-      "started_at": "2023-08-12T02:09:08.576Z",
+      "started_at": "2023-08-12T02:09:08.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "tbdtjhp0gtsn",
           "status": "identified",
-          "body": "Our Engineering team has identified an issue with DigitalOcean Container Registry. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.",
+          "body": "From 23:16 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and is actively working on a fix. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.",
           "incident_id": "45pv9lj0zj1v",
           "created_at": "2023-08-12T02:09:08.633Z",
-          "updated_at": "2023-08-12T02:09:08.633Z",
-          "display_at": "2023-08-12T02:09:08.633Z",
+          "updated_at": "2023-08-12T02:23:18.802Z",
+          "display_at": "2023-08-12T02:09:08.000Z",
           "affected_components": [
             {
               "code": "glhj9rkw3mp8",
