@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "w4cz49tckxhp",
+    "name": "DigitalOcean",
+    "url": "http://status.digitalocean.com",
+    "time_zone": "Etc/UTC",
+    "updated_at": "2023-09-08T08:09:12.324Z"
+  },
+  "status": {
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
+  }
+}
