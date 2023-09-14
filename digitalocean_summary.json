@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-14T00:53:08.363Z"
+    "updated_at": "2023-09-14T02:34:00.941Z"
   },
   "components": [
     {
@@ -1733,6 +1733,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "w4m98sdz3szn",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2023-09-14T02:34:00.938Z",
+      "updated_at": "2023-09-14T02:34:00.938Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-09-14",
+      "group_id": "fdg768pfw7v3",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "sz7nt917qrd8",
       "name": "Sydney",
       "status": "operational",
@@ -2899,7 +2914,8 @@
         "lf2rrgctn54t",
         "rf1h8gfz4ts6",
         "bpchszdrvvc5",
-        "b44h3yhj3jy5"
+        "b44h3yhj3jy5",
+        "w4m98sdz3szn"
       ]
     },
     {
