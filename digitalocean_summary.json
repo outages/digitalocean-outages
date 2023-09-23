@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-09-23T09:13:14.905Z"
+    "updated_at": "2023-09-23T09:22:59.348Z"
   },
   "components": [
     {
@@ -3008,10 +3008,10 @@
   "incidents": [
     {
       "id": "nf42p0nw61c4",
-      "name": "Issue With Some New Customer Signups.",
+      "name": "New customer signups",
       "status": "investigating",
       "created_at": "2023-09-23T09:13:14.808Z",
-      "updated_at": "2023-09-23T09:13:14.901Z",
+      "updated_at": "2023-09-23T09:22:59.344Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
