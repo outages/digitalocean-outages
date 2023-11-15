@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2023-11-15T00:42:50.112Z"
+    "updated_at": "2023-11-15T01:42:29.563Z"
   },
   "components": [
     {
@@ -3011,8 +3011,8 @@
       "name": "DOKS in Multiple Regions",
       "status": "monitoring",
       "created_at": "2023-11-14T21:59:16.000Z",
-      "updated_at": "2023-11-15T00:42:50.110Z",
-      "monitoring_at": "2023-11-15T00:42:50.090Z",
+      "updated_at": "2023-11-15T01:42:29.557Z",
+      "monitoring_at": "2023-11-15T00:42:50.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/70yzmyj35kfv",
@@ -3022,11 +3022,11 @@
         {
           "id": "h5hsk96p9613",
           "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to mitigate an issue on our upstream provider's end impacting DOKS across all regions. \n\nDuring this time, Users should no longer have any issue while creating new clusters or scale up additional nodes.\n\nWe will post another update once we confirm this issue is fully resolved.",
+          "body": "Our Engineering team has completed the rollout to pivot away from the affected upstream provider and we are no longer reliant on that provider for our DOKS product. \n\nAt this time, Users should no longer see any issues with nodes going into not ready states, creating new clusters, or scaling up additional nodes. \n\nWe're monitoring the fix and will post another update once we confirm this issue is fully resolved.",
           "incident_id": "wpz7gdly2p32",
           "created_at": "2023-11-15T00:42:50.090Z",
-          "updated_at": "2023-11-15T00:42:50.090Z",
-          "display_at": "2023-11-15T00:42:50.090Z",
+          "updated_at": "2023-11-15T01:42:29.553Z",
+          "display_at": "2023-11-15T00:42:50.000Z",
           "affected_components": [
             {
               "code": "xmrt3s9p9lw7",
