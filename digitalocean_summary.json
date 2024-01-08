@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-01-08T14:15:30.481Z"
+    "updated_at": "2024-01-08T14:27:54.987Z"
   },
   "components": [
     {
@@ -3008,25 +3008,25 @@
   "incidents": [
     {
       "id": "88sl0dldq6dh",
-      "name": "Container Registry and App Platform in AMS3",
+      "name": "Container Registry and App Platform in Multiple Regions",
       "status": "investigating",
       "created_at": "2024-01-08T14:15:30.401Z",
-      "updated_at": "2024-01-08T14:15:30.479Z",
+      "updated_at": "2024-01-08T14:27:54.982Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/4vk7sffgvdn4",
-      "started_at": "2024-01-08T14:15:30.392Z",
+      "started_at": "2024-01-08T14:15:30.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "v9gxb2pj5k1k",
           "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with DigitalOcean Container Registry service in our AMS3 region. \n\nDuring this time a subset of customers may experience latency while interacting with the Container Registries. This is also impacting App Platform builds and users may encounter delays in while building their Apps and could potentially experience timeout errors in builds as a result. \n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team is investigating an issue with DigitalOcean Container Registry service in our AMS3 and LON1 regions. \n\nDuring this time a subset of customers may experience latency while interacting with the Container Registries. This is also impacting App Platform builds and users may encounter delays in while building their Apps and could potentially experience timeout errors in builds as a result. \n\nWe apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "88sl0dldq6dh",
           "created_at": "2024-01-08T14:15:30.477Z",
-          "updated_at": "2024-01-08T14:15:30.477Z",
-          "display_at": "2024-01-08T14:15:30.477Z",
+          "updated_at": "2024-01-08T14:27:54.884Z",
+          "display_at": "2024-01-08T14:15:30.000Z",
           "affected_components": [
             {
               "code": "65brl8m428rn",
