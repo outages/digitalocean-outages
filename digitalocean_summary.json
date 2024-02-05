@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-05T05:10:23.397Z"
+    "updated_at": "2024-02-05T05:13:17.935Z"
   },
   "components": [
     {
@@ -3011,8 +3011,8 @@
       "name": "Spaces CDN in SGP1",
       "status": "monitoring",
       "created_at": "2024-02-05T04:52:22.000Z",
-      "updated_at": "2024-02-05T05:10:23.395Z",
-      "monitoring_at": "2024-02-05T05:10:23.379Z",
+      "updated_at": "2024-02-05T05:13:17.933Z",
+      "monitoring_at": "2024-02-05T05:10:23.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/py7zrwh790j6",
@@ -3022,11 +3022,11 @@
         {
           "id": "vbfr98sykkxn",
           "status": "monitoring",
-          "body": "Our Engineering team has applied a fix to mitigate the issue related to the Spaces CDN in the SGP1 region. Users should no longer experience errors for objects served over the CDN. \n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team has applied a fix to mitigate the issue related to the Spaces CDN in the SGP1 region. Users should no longer experience errors for objects served over the CDN. \n\nWe apologize for the inconvenience and will post another update once we're confident that the issue is fully resolved.",
           "incident_id": "1q1jhbr85zvv",
           "created_at": "2024-02-05T05:10:23.379Z",
-          "updated_at": "2024-02-05T05:10:23.379Z",
-          "display_at": "2024-02-05T05:10:23.379Z",
+          "updated_at": "2024-02-05T05:13:17.921Z",
+          "display_at": "2024-02-05T05:10:23.000Z",
           "affected_components": [
             {
               "code": "23yr3tv35ld7",
