@@ -4,10 +4,10 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-02-19T14:00:57.286Z"
+    "updated_at": "2024-02-19T17:00:56.296Z"
   },
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
