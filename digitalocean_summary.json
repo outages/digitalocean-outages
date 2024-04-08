@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-08T12:11:01.336Z"
+    "updated_at": "2024-04-08T12:22:04.198Z"
   },
   "components": [
     {
@@ -3011,22 +3011,22 @@
       "name": "Droplet Create Failures in SGP1",
       "status": "investigating",
       "created_at": "2024-04-08T12:11:01.245Z",
-      "updated_at": "2024-04-08T12:11:01.333Z",
+      "updated_at": "2024-04-08T12:22:04.193Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/pvfqsgyyx215",
-      "started_at": "2024-04-08T12:11:01.237Z",
+      "started_at": "2024-04-08T12:11:01.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "yj5n98bn8ws3",
           "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with Droplet creating failures in our SGP1 region. During this time, you may experience issues with creating Droplets. \n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team is investigating an issue with Droplet creation failures in our SGP1 region. During this time, you may experience issues while creating Droplets in the region. \n\nWe apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "z1sf9hg9tjbm",
           "created_at": "2024-04-08T12:11:01.330Z",
-          "updated_at": "2024-04-08T12:11:01.330Z",
-          "display_at": "2024-04-08T12:11:01.330Z",
+          "updated_at": "2024-04-08T12:22:04.070Z",
+          "display_at": "2024-04-08T12:11:01.000Z",
           "affected_components": [
             {
               "code": "kvrtqsmcph72",
