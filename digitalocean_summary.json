@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-04-16T09:04:08.760Z"
+    "updated_at": "2024-04-16T09:22:38.754Z"
   },
   "components": [
     {
@@ -85,9 +85,9 @@
     {
       "id": "p1x9rv4137gx",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-06T18:42:45.160Z",
-      "updated_at": "2024-04-16T09:04:08.485Z",
+      "updated_at": "2024-04-16T09:22:38.415Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -130,9 +130,9 @@
     {
       "id": "y8xkcw7m31k5",
       "name": "AMS2",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T21:01:00.028Z",
-      "updated_at": "2024-04-16T09:04:08.500Z",
+      "updated_at": "2024-04-16T09:22:38.432Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -175,9 +175,9 @@
     {
       "id": "txysr8r0gn1n",
       "name": "Global",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T21:01:12.838Z",
-      "updated_at": "2024-04-16T08:12:02.156Z",
+      "updated_at": "2024-04-16T09:22:38.448Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -190,9 +190,9 @@
     {
       "id": "558h1l1q0c2w",
       "name": "Global",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T21:01:23.977Z",
-      "updated_at": "2024-04-16T09:04:08.513Z",
+      "updated_at": "2024-04-16T09:22:38.464Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -265,9 +265,9 @@
     {
       "id": "9q2dq7jc5bk9",
       "name": "AMS3",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:28:20.576Z",
-      "updated_at": "2024-04-16T09:04:08.526Z",
+      "updated_at": "2024-04-16T09:22:38.480Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -490,9 +490,9 @@
     {
       "id": "5wjrpc0lf1qc",
       "name": "BLR1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T16:23:53.124Z",
-      "updated_at": "2024-04-16T09:04:08.541Z",
+      "updated_at": "2024-04-16T09:22:38.496Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -670,9 +670,9 @@
     {
       "id": "czck17wcspr5",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-06T18:42:46.098Z",
-      "updated_at": "2024-04-16T09:04:08.553Z",
+      "updated_at": "2024-04-16T09:22:38.509Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -715,9 +715,9 @@
     {
       "id": "kkg2cfkqkwj1",
       "name": "FRA1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:29:21.380Z",
-      "updated_at": "2024-04-16T09:04:08.565Z",
+      "updated_at": "2024-04-16T09:22:38.525Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -880,9 +880,9 @@
     {
       "id": "pg9zc33244c7",
       "name": "Cloud Firewall",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-06T18:42:45.109Z",
-      "updated_at": "2024-04-16T09:04:08.577Z",
+      "updated_at": "2024-04-16T09:22:38.538Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -940,9 +940,9 @@
     {
       "id": "btv040v4xbdn",
       "name": "LON1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T16:23:02.409Z",
-      "updated_at": "2024-04-16T09:04:08.590Z",
+      "updated_at": "2024-04-16T09:22:38.554Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -1150,9 +1150,9 @@
     {
       "id": "fb63qt9f69m0",
       "name": "NYC1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T16:23:53.127Z",
-      "updated_at": "2024-04-16T09:04:08.603Z",
+      "updated_at": "2024-04-16T09:22:38.569Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -1390,9 +1390,9 @@
     {
       "id": "9czvz44l7dp3",
       "name": "NYC2",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T16:24:05.118Z",
-      "updated_at": "2024-04-16T09:04:08.616Z",
+      "updated_at": "2024-04-16T09:22:38.585Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -1585,9 +1585,9 @@
     {
       "id": "mrdxgk8b9l9m",
       "name": "NYC3",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:29:21.855Z",
-      "updated_at": "2024-04-16T09:04:08.630Z",
+      "updated_at": "2024-04-16T09:22:38.601Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -1915,9 +1915,9 @@
     {
       "id": "86hpqb7crkzg",
       "name": "SFO1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T21:00:36.486Z",
-      "updated_at": "2024-04-16T09:04:08.643Z",
+      "updated_at": "2024-04-16T09:22:38.617Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -1945,7 +1945,7 @@
     {
       "id": "jjs48vwjlqjr",
       "name": "App Platform",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-18T01:32:32.291Z",
       "updated_at": "2023-03-06T19:28:57.644Z",
       "position": 10,
@@ -2017,9 +2017,9 @@
     {
       "id": "d28g0q5tjlnf",
       "name": "SFO2",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T20:58:25.795Z",
-      "updated_at": "2024-04-16T09:04:08.658Z",
+      "updated_at": "2024-04-16T09:22:38.632Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -2122,9 +2122,9 @@
     {
       "id": "2zv8zdysz98p",
       "name": "SFO3",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:28:20.574Z",
-      "updated_at": "2024-04-16T09:04:08.671Z",
+      "updated_at": "2024-04-16T09:22:38.648Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -2280,9 +2280,9 @@
     {
       "id": "kvrtqsmcph72",
       "name": "SGP1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:29:21.635Z",
-      "updated_at": "2024-04-16T09:04:08.684Z",
+      "updated_at": "2024-04-16T09:22:38.663Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -2310,7 +2310,7 @@
     {
       "id": "4rgs7bbljl8d",
       "name": "Droplets",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-22T17:27:05.451Z",
       "updated_at": "2023-04-21T16:02:43.603Z",
       "position": 12,
@@ -2431,9 +2431,9 @@
     {
       "id": "fp3yv6vdqkxt",
       "name": "SYD1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T17:29:21.568Z",
-      "updated_at": "2024-04-16T09:04:08.697Z",
+      "updated_at": "2024-04-16T09:22:38.679Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -2461,7 +2461,7 @@
     {
       "id": "b3tklvcyzvh0",
       "name": "Event Processing",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-22T17:31:23.459Z",
       "updated_at": "2023-04-21T16:02:43.614Z",
       "position": 13,
@@ -2568,9 +2568,9 @@
     {
       "id": "h4ktbyxsxssg",
       "name": "TOR1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T16:23:02.409Z",
-      "updated_at": "2024-04-16T09:04:08.711Z",
+      "updated_at": "2024-04-16T09:22:38.695Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -3009,16 +3009,144 @@
     {
       "id": "dwzxptsph123",
       "name": "Multiple services down and API availability",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-04-16T08:12:02.132Z",
-      "updated_at": "2024-04-16T09:04:08.751Z",
-      "monitoring_at": null,
+      "updated_at": "2024-04-16T09:22:38.752Z",
+      "monitoring_at": "2024-04-16T09:22:38.733Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/6j0pn030hxsz",
       "started_at": "2024-04-16T08:12:02.126Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
+        {
+          "id": "g60djp080swg",
+          "status": "monitoring",
+          "body": "Our Engineering team confirmed that the fix applied has mitigated the issue impacting multiple services.\n\nUsers should no longer experience issues with the App platform, Droplet creation from the Cloud Control Panel, and API. \n\nWe are monitoring the situation and will post an update once we confirm the issue is fully resolved.",
+          "incident_id": "dwzxptsph123",
+          "created_at": "2024-04-16T09:22:38.733Z",
+          "updated_at": "2024-04-16T09:22:38.733Z",
+          "display_at": "2024-04-16T09:22:38.733Z",
+          "affected_components": [
+            {
+              "code": "txysr8r0gn1n",
+              "name": "App Platform - Global",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "y8xkcw7m31k5",
+              "name": "Droplets - AMS2",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "9q2dq7jc5bk9",
+              "name": "Droplets - AMS3",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "5wjrpc0lf1qc",
+              "name": "Droplets - BLR1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "kkg2cfkqkwj1",
+              "name": "Droplets - FRA1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "btv040v4xbdn",
+              "name": "Droplets - LON1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "fb63qt9f69m0",
+              "name": "Droplets - NYC1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "9czvz44l7dp3",
+              "name": "Droplets - NYC2",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "mrdxgk8b9l9m",
+              "name": "Droplets - NYC3",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "86hpqb7crkzg",
+              "name": "Droplets - SFO1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "d28g0q5tjlnf",
+              "name": "Droplets - SFO2",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "2zv8zdysz98p",
+              "name": "Droplets - SFO3",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "kvrtqsmcph72",
+              "name": "Droplets - SGP1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "fp3yv6vdqkxt",
+              "name": "Droplets - SYD1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "h4ktbyxsxssg",
+              "name": "Droplets - TOR1",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "558h1l1q0c2w",
+              "name": "Event Processing - Global",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "pg9zc33244c7",
+              "name": "Cloud Firewall",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "p1x9rv4137gx",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "czck17wcspr5",
+              "name": "Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6hp8s2zw55xt",
           "status": "investigating",
@@ -3172,9 +3300,9 @@
         {
           "id": "p1x9rv4137gx",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-06T18:42:45.160Z",
-          "updated_at": "2024-04-16T09:04:08.485Z",
+          "updated_at": "2024-04-16T09:22:38.415Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3187,9 +3315,9 @@
         {
           "id": "y8xkcw7m31k5",
           "name": "AMS2",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-28T21:01:00.028Z",
-          "updated_at": "2024-04-16T09:04:08.500Z",
+          "updated_at": "2024-04-16T09:22:38.432Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3202,9 +3330,9 @@
         {
           "id": "txysr8r0gn1n",
           "name": "Global",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-28T21:01:12.838Z",
-          "updated_at": "2024-04-16T08:12:02.156Z",
+          "updated_at": "2024-04-16T09:22:38.448Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3217,9 +3345,9 @@
         {
           "id": "558h1l1q0c2w",
           "name": "Global",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-28T21:01:23.977Z",
-          "updated_at": "2024-04-16T09:04:08.513Z",
+          "updated_at": "2024-04-16T09:22:38.464Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3232,9 +3360,9 @@
         {
           "id": "9q2dq7jc5bk9",
           "name": "AMS3",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:28:20.576Z",
-          "updated_at": "2024-04-16T09:04:08.526Z",
+          "updated_at": "2024-04-16T09:22:38.480Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -3247,9 +3375,9 @@
         {
           "id": "5wjrpc0lf1qc",
           "name": "BLR1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T16:23:53.124Z",
-          "updated_at": "2024-04-16T09:04:08.541Z",
+          "updated_at": "2024-04-16T09:22:38.496Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -3262,9 +3390,9 @@
         {
           "id": "czck17wcspr5",
           "name": "Cloud Control Panel",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-06T18:42:46.098Z",
-          "updated_at": "2024-04-16T09:04:08.553Z",
+          "updated_at": "2024-04-16T09:22:38.509Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -3277,9 +3405,9 @@
         {
           "id": "kkg2cfkqkwj1",
           "name": "FRA1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:29:21.380Z",
-          "updated_at": "2024-04-16T09:04:08.565Z",
+          "updated_at": "2024-04-16T09:22:38.525Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -3292,9 +3420,9 @@
         {
           "id": "pg9zc33244c7",
           "name": "Cloud Firewall",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-06T18:42:45.109Z",
-          "updated_at": "2024-04-16T09:04:08.577Z",
+          "updated_at": "2024-04-16T09:22:38.538Z",
           "position": 4,
           "description": null,
           "showcase": false,
@@ -3307,9 +3435,9 @@
         {
           "id": "btv040v4xbdn",
           "name": "LON1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T16:23:02.409Z",
-          "updated_at": "2024-04-16T09:04:08.590Z",
+          "updated_at": "2024-04-16T09:22:38.554Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -3322,9 +3450,9 @@
         {
           "id": "fb63qt9f69m0",
           "name": "NYC1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T16:23:53.127Z",
-          "updated_at": "2024-04-16T09:04:08.603Z",
+          "updated_at": "2024-04-16T09:22:38.569Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -3337,9 +3465,9 @@
         {
           "id": "9czvz44l7dp3",
           "name": "NYC2",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T16:24:05.118Z",
-          "updated_at": "2024-04-16T09:04:08.616Z",
+          "updated_at": "2024-04-16T09:22:38.585Z",
           "position": 7,
           "description": null,
           "showcase": false,
@@ -3352,9 +3480,9 @@
         {
           "id": "mrdxgk8b9l9m",
           "name": "NYC3",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:29:21.855Z",
-          "updated_at": "2024-04-16T09:04:08.630Z",
+          "updated_at": "2024-04-16T09:22:38.601Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -3367,9 +3495,9 @@
         {
           "id": "86hpqb7crkzg",
           "name": "SFO1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-28T21:00:36.486Z",
-          "updated_at": "2024-04-16T09:04:08.643Z",
+          "updated_at": "2024-04-16T09:22:38.617Z",
           "position": 9,
           "description": null,
           "showcase": false,
@@ -3382,9 +3510,9 @@
         {
           "id": "d28g0q5tjlnf",
           "name": "SFO2",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-03-28T20:58:25.795Z",
-          "updated_at": "2024-04-16T09:04:08.658Z",
+          "updated_at": "2024-04-16T09:22:38.632Z",
           "position": 10,
           "description": null,
           "showcase": false,
@@ -3397,9 +3525,9 @@
         {
           "id": "2zv8zdysz98p",
           "name": "SFO3",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:28:20.574Z",
-          "updated_at": "2024-04-16T09:04:08.671Z",
+          "updated_at": "2024-04-16T09:22:38.648Z",
           "position": 11,
           "description": null,
           "showcase": false,
@@ -3412,9 +3540,9 @@
         {
           "id": "kvrtqsmcph72",
           "name": "SGP1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:29:21.635Z",
-          "updated_at": "2024-04-16T09:04:08.684Z",
+          "updated_at": "2024-04-16T09:22:38.663Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -3427,9 +3555,9 @@
         {
           "id": "fp3yv6vdqkxt",
           "name": "SYD1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T17:29:21.568Z",
-          "updated_at": "2024-04-16T09:04:08.697Z",
+          "updated_at": "2024-04-16T09:22:38.679Z",
           "position": 13,
           "description": null,
           "showcase": false,
@@ -3442,9 +3570,9 @@
         {
           "id": "h4ktbyxsxssg",
           "name": "TOR1",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-21T16:23:02.409Z",
-          "updated_at": "2024-04-16T09:04:08.711Z",
+          "updated_at": "2024-04-16T09:22:38.695Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -3557,7 +3685,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
