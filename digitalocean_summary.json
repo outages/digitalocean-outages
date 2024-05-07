@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-07T19:06:36.316Z"
+    "updated_at": "2024-05-07T19:14:08.578Z"
   },
   "components": [
     {
@@ -3011,8 +3011,8 @@
       "name": "Spaces Bucket Creates",
       "status": "monitoring",
       "created_at": "2024-05-07T14:07:43.130Z",
-      "updated_at": "2024-05-07T19:06:36.309Z",
-      "monitoring_at": "2024-05-07T19:06:35.958Z",
+      "updated_at": "2024-05-07T19:14:08.577Z",
+      "monitoring_at": "2024-05-07T19:06:35.000Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/kwm1xzyhz0pg",
@@ -3022,11 +3022,11 @@
         {
           "id": "rnq9gk6hlqc0",
           "status": "monitoring",
-          "body": "Our Engineering team has implemented a fix to resolve the issue affecting creation of spaces buckets in multiple regions and is monitoring the situation closely.\n\nThe impact has been subsided and users should no longer experience issues creating spaces bucket both through the cloud control panel and via API.\n\nWe will post an update as soon as the issue is fully resolved.",
+          "body": "Our Engineering team has implemented a fix to resolve the issue affecting creation of Spaces Buckets in multiple regions and is monitoring the situation closely.\n\nThe impact has subsided and users should no longer experience issues creating Spaces Bucket both through the cloud control panel and via API.\n\nWe will post an update as soon as the issue is fully resolved.",
           "incident_id": "91tj2rm59jgc",
           "created_at": "2024-05-07T19:06:35.958Z",
-          "updated_at": "2024-05-07T19:06:36.303Z",
-          "display_at": "2024-05-07T19:06:35.958Z",
+          "updated_at": "2024-05-07T19:14:08.565Z",
+          "display_at": "2024-05-07T19:06:35.000Z",
           "affected_components": [
             {
               "code": "z2cshz8pdgwj",
