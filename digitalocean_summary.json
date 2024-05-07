@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-07T04:13:49.300Z"
+    "updated_at": "2024-05-07T04:21:21.186Z"
   },
   "components": [
     {
@@ -3010,23 +3010,23 @@
       "id": "5s1c6nl5rf0j",
       "name": "Create Failures in NYC3",
       "status": "monitoring",
-      "created_at": "2024-05-07T04:11:23.411Z",
-      "updated_at": "2024-05-07T04:13:49.297Z",
-      "monitoring_at": "2024-05-07T04:11:23.473Z",
+      "created_at": "2024-05-07T04:11:23.000Z",
+      "updated_at": "2024-05-07T04:21:21.184Z",
+      "monitoring_at": "2024-05-07T04:11:23.000Z",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/3197l1drdtp1",
-      "started_at": "2024-05-07T04:11:23.390Z",
+      "started_at": "2024-05-07T04:11:23.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "9tx8830xlnmc",
           "status": "monitoring",
-          "body": "Our Engineering team has investigated and identified an issue with creating resources in the NYC3 region. Between approximately 03:18 UTC - 03:51 UTC, customers may have experienced errors when creating Droplets and Droplet-based services including Managed Kubernetes, Managed Databases, and Load Balancers.\n\nOur team has implemented a fix to restore the ability to create resources and is monitoring the region. We will post an update as soon as the issue is fully resolved.",
+          "body": "Our Engineering team has investigated and identified an issue with creating resources in the NYC3 region. Between approximately 03:18 UTC - 03:51 UTC, customers may have experienced errors when creating Droplets and Droplet-based services including Managed Kubernetes, Managed Databases, Load Balancers, and snapshots.\n\nOur team has implemented a fix to restore the ability to create resources and is monitoring the region. We will post an update as soon as the issue is fully resolved.",
           "incident_id": "5s1c6nl5rf0j",
           "created_at": "2024-05-07T04:11:23.473Z",
-          "updated_at": "2024-05-07T04:11:23.473Z",
-          "display_at": "2024-05-07T04:11:23.473Z",
+          "updated_at": "2024-05-07T04:21:21.100Z",
+          "display_at": "2024-05-07T04:11:23.000Z",
           "affected_components": [
             {
               "code": "mrdxgk8b9l9m",
