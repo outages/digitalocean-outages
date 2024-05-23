@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-23T23:26:18.624Z"
+    "updated_at": "2024-05-23T23:44:56.692Z"
   },
   "components": [
     {
@@ -3008,10 +3008,10 @@
   "incidents": [
     {
       "id": "kd1vbrxg968f",
-      "name": "Monitoring page on the Cloud Panel",
+      "name": "Uptime Check Creates on the Cloud Panel",
       "status": "investigating",
       "created_at": "2024-05-23T23:26:18.529Z",
-      "updated_at": "2024-05-23T23:26:18.621Z",
+      "updated_at": "2024-05-23T23:39:21.300Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
