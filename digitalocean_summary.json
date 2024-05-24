@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-05-23T23:44:56.692Z"
+    "updated_at": "2024-05-24T00:41:08.785Z"
   },
   "components": [
     {
@@ -415,9 +415,9 @@
     {
       "id": "6qd0crrqlstj",
       "name": "AMS2",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2023-03-28T21:00:58.536Z",
-      "updated_at": "2024-04-26T00:36:17.714Z",
+      "updated_at": "2024-05-24T00:00:02.244Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -625,9 +625,9 @@
     {
       "id": "4q7lkrddxdnn",
       "name": "AMS3",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2023-02-22T19:29:08.607Z",
-      "updated_at": "2024-04-26T00:36:17.727Z",
+      "updated_at": "2024-05-24T00:00:02.406Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -670,9 +670,9 @@
     {
       "id": "czck17wcspr5",
       "name": "Cloud Control Panel",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-06T18:42:46.098Z",
-      "updated_at": "2024-05-23T23:26:18.558Z",
+      "updated_at": "2024-05-24T00:41:08.738Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -1075,9 +1075,9 @@
     {
       "id": "7f592f0nhxhs",
       "name": "FRA1",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2023-02-22T19:27:02.667Z",
-      "updated_at": "2024-04-26T00:36:17.738Z",
+      "updated_at": "2024-05-24T00:00:02.525Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -1285,9 +1285,9 @@
     {
       "id": "rwfv6j4jpn2y",
       "name": "LON1",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2023-02-22T19:25:59.834Z",
-      "updated_at": "2024-04-26T00:36:17.749Z",
+      "updated_at": "2024-05-24T00:00:02.566Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -3005,34 +3005,35 @@
       ]
     }
   ],
-  "incidents": [
+  "incidents": [],
+  "scheduled_maintenances": [
     {
-      "id": "kd1vbrxg968f",
-      "name": "Uptime Check Creates on the Cloud Panel",
-      "status": "investigating",
-      "created_at": "2024-05-23T23:26:18.529Z",
-      "updated_at": "2024-05-23T23:39:21.300Z",
+      "id": "92tf7qm362vj",
+      "name": "NYC3 Network Maintenance",
+      "status": "scheduled",
+      "created_at": "2024-05-22T17:13:02.490Z",
+      "updated_at": "2024-05-22T17:13:02.542Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/s9tptdj8fknc",
-      "started_at": "2024-05-23T23:26:18.525Z",
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/0jy4jx9dwbq8",
+      "started_at": "2024-05-22T17:13:02.483Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
-          "id": "v2fm9vhvfw6h",
-          "status": "investigating",
-          "body": "Our Engineering team is investigating an issue with creating new Uptime checks in the Monitoring section of the Cloud Control Panel. From 15:00 UTC on the 21st, customers may experience errors while creating new Uptime checks on the Monitoring page.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "incident_id": "kd1vbrxg968f",
-          "created_at": "2024-05-23T23:26:18.619Z",
-          "updated_at": "2024-05-23T23:26:18.619Z",
-          "display_at": "2024-05-23T23:26:18.619Z",
+          "id": "2j2z5pxx7xp1",
+          "status": "scheduled",
+          "body": "Start: 2024-05-29 10:00 UTC\nEnd: 2024-05-29 14:00 UTC\n\nDuring the above window, we will be performing maintenance on core switches in our NYC3 datacenter as part of network upgrades. \n \nExpected Impact:\n \nInbound and outbound traffic for Droplet-based services in NYC3 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n \nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "incident_id": "92tf7qm362vj",
+          "created_at": "2024-05-22T17:13:02.539Z",
+          "updated_at": "2024-05-22T17:13:02.539Z",
+          "display_at": "2024-05-22T17:13:02.539Z",
           "affected_components": [
             {
-              "code": "czck17wcspr5",
-              "name": "Cloud Control Panel",
+              "code": "4lc0zwg56npx",
+              "name": "Networking - NYC3",
               "old_status": "operational",
-              "new_status": "degraded_performance"
+              "new_status": "operational"
             }
           ],
           "deliver_notifications": true,
@@ -3042,31 +3043,30 @@
       ],
       "components": [
         {
-          "id": "czck17wcspr5",
-          "name": "Cloud Control Panel",
-          "status": "degraded_performance",
-          "created_at": "2023-03-06T18:42:46.098Z",
-          "updated_at": "2024-05-23T23:26:18.558Z",
-          "position": 3,
+          "id": "4lc0zwg56npx",
+          "name": "NYC3",
+          "status": "operational",
+          "created_at": "2023-02-22T19:27:03.583Z",
+          "updated_at": "2024-04-16T13:00:03.687Z",
+          "position": 9,
           "description": null,
           "showcase": false,
-          "start_date": "2023-03-06",
-          "group_id": null,
+          "start_date": "2023-02-22",
+          "group_id": "sjlhrm4vf4pr",
           "page_id": "w4cz49tckxhp",
           "group": false,
           "only_show_if_degraded": false
         }
       ],
-      "reminder_intervals": null
-    }
-  ],
-  "scheduled_maintenances": [
+      "scheduled_for": "2024-05-29T10:00:00.000Z",
+      "scheduled_until": "2024-05-29T14:00:00.000Z"
+    },
     {
       "id": "fc1df1k3r0rd",
       "name": "EU region Network Maintenance 2024-05-24",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2024-05-16T13:53:15.469Z",
-      "updated_at": "2024-05-23T23:00:03.448Z",
+      "updated_at": "2024-05-24T00:00:02.727Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -3074,6 +3074,44 @@
       "started_at": "2024-05-16T13:53:15.457Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
+        {
+          "id": "64dqd7v887ps",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "fc1df1k3r0rd",
+          "created_at": "2024-05-24T00:00:02.722Z",
+          "updated_at": "2024-05-24T00:00:02.722Z",
+          "display_at": "2024-05-24T00:00:02.722Z",
+          "affected_components": [
+            {
+              "code": "6qd0crrqlstj",
+              "name": "Networking - AMS2",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "4q7lkrddxdnn",
+              "name": "Networking - AMS3",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "7f592f0nhxhs",
+              "name": "Networking - FRA1",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "rwfv6j4jpn2y",
+              "name": "Networking - LON1",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "5jdbrfnk5ys7",
           "status": "scheduled",
@@ -3130,9 +3168,9 @@
         {
           "id": "6qd0crrqlstj",
           "name": "AMS2",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2023-03-28T21:00:58.536Z",
-          "updated_at": "2024-04-26T00:36:17.714Z",
+          "updated_at": "2024-05-24T00:00:02.244Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -3145,9 +3183,9 @@
         {
           "id": "4q7lkrddxdnn",
           "name": "AMS3",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2023-02-22T19:29:08.607Z",
-          "updated_at": "2024-04-26T00:36:17.727Z",
+          "updated_at": "2024-05-24T00:00:02.406Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -3160,9 +3198,9 @@
         {
           "id": "7f592f0nhxhs",
           "name": "FRA1",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2023-02-22T19:27:02.667Z",
-          "updated_at": "2024-04-26T00:36:17.738Z",
+          "updated_at": "2024-05-24T00:00:02.525Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -3175,9 +3213,9 @@
         {
           "id": "rwfv6j4jpn2y",
           "name": "LON1",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2023-02-22T19:25:59.834Z",
-          "updated_at": "2024-04-26T00:36:17.749Z",
+          "updated_at": "2024-05-24T00:00:02.566Z",
           "position": 6,
           "description": null,
           "showcase": false,
@@ -3190,60 +3228,6 @@
       ],
       "scheduled_for": "2024-05-24T00:00:00.000Z",
       "scheduled_until": "2024-05-24T02:00:00.000Z"
-    },
-    {
-      "id": "92tf7qm362vj",
-      "name": "NYC3 Network Maintenance",
-      "status": "scheduled",
-      "created_at": "2024-05-22T17:13:02.490Z",
-      "updated_at": "2024-05-22T17:13:02.542Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/0jy4jx9dwbq8",
-      "started_at": "2024-05-22T17:13:02.483Z",
-      "page_id": "w4cz49tckxhp",
-      "incident_updates": [
-        {
-          "id": "2j2z5pxx7xp1",
-          "status": "scheduled",
-          "body": "Start: 2024-05-29 10:00 UTC\nEnd: 2024-05-29 14:00 UTC\n\nDuring the above window, we will be performing maintenance on core switches in our NYC3 datacenter as part of network upgrades. \n \nExpected Impact:\n \nInbound and outbound traffic for Droplet-based services in NYC3 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n \nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "incident_id": "92tf7qm362vj",
-          "created_at": "2024-05-22T17:13:02.539Z",
-          "updated_at": "2024-05-22T17:13:02.539Z",
-          "display_at": "2024-05-22T17:13:02.539Z",
-          "affected_components": [
-            {
-              "code": "4lc0zwg56npx",
-              "name": "Networking - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4lc0zwg56npx",
-          "name": "NYC3",
-          "status": "operational",
-          "created_at": "2023-02-22T19:27:03.583Z",
-          "updated_at": "2024-04-16T13:00:03.687Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-02-22",
-          "group_id": "sjlhrm4vf4pr",
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2024-05-29T10:00:00.000Z",
-      "scheduled_until": "2024-05-29T14:00:00.000Z"
     },
     {
       "id": "3pt52tjm5t1t",
@@ -3334,7 +3318,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
