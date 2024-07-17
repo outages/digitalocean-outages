@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-17T17:46:32.988Z"
+    "updated_at": "2024-07-17T18:06:17.906Z"
   },
   "components": [
     {
@@ -3008,10 +3008,10 @@
   "incidents": [
     {
       "id": "c1cpwgm27fwp",
-      "name": "Functions creation in TOR1",
+      "name": "Degraded Functions Service in TOR1",
       "status": "monitoring",
       "created_at": "2024-07-17T17:24:10.000Z",
-      "updated_at": "2024-07-17T17:46:32.986Z",
+      "updated_at": "2024-07-17T18:06:17.903Z",
       "monitoring_at": "2024-07-17T17:46:32.971Z",
       "resolved_at": null,
       "impact": "minor",
