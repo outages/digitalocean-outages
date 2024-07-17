@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-07-17T17:24:10.506Z"
+    "updated_at": "2024-07-17T17:26:34.789Z"
   },
   "components": [
     {
@@ -3011,22 +3011,22 @@
       "name": "Functions creation in TOR1",
       "status": "identified",
       "created_at": "2024-07-17T17:24:10.432Z",
-      "updated_at": "2024-07-17T17:24:10.503Z",
+      "updated_at": "2024-07-17T17:26:34.785Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/l069801rbs75",
-      "started_at": "2024-07-17T17:24:10.426Z",
+      "started_at": "2024-07-17T17:24:10.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "wjzmh7m2h74z",
           "status": "identified",
-          "body": "Our Engineering team has identified an issue with Functions in our TOR1 region and a fix is currently being deployed.\n\nDuring this time, users will experience errors while creating or editing Function namespaces and triggers via Cloud Control Panel and API.\n\nWe apologize for the disruption and will post an update once the fix has finished rolling out.",
+          "body": "Our Engineering team has identified an issue with Functions in our TOR1 region and a fix is currently being deployed.\n\nDuring this time, users may experience errors while creating or editing Functions, triggers, and related settings via the Cloud Control Panel and API.\n\nWe apologize for the disruption and will post an update once the fix has finished rolling out.",
           "incident_id": "c1cpwgm27fwp",
           "created_at": "2024-07-17T17:24:10.501Z",
-          "updated_at": "2024-07-17T17:24:10.501Z",
-          "display_at": "2024-07-17T17:24:10.501Z",
+          "updated_at": "2024-07-17T17:26:34.688Z",
+          "display_at": "2024-07-17T17:24:10.000Z",
           "affected_components": [
             {
               "code": "d3j48w1r55sx",
