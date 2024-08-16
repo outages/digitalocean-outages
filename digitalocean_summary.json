@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-08-16T11:33:57.349Z"
+    "updated_at": "2024-08-16T11:43:17.854Z"
   },
   "components": [
     {
@@ -63,21 +63,6 @@
       "showcase": false,
       "start_date": "2023-03-06",
       "group_id": null,
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "spjc09zjy5ms",
-      "name": "AMS2",
-      "status": "operational",
-      "created_at": "2023-03-28T21:00:59.049Z",
-      "updated_at": "2023-07-02T09:38:28.162Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-03-28",
-      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -233,6 +218,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "g8rttgsgxr37",
+      "name": "Global",
+      "status": "operational",
+      "created_at": "2024-08-16T11:34:49.886Z",
+      "updated_at": "2024-08-16T11:35:15.821Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": "2024-08-16",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "65brl8m428rn",
       "name": "Amsterdam",
       "status": "operational",
@@ -338,21 +338,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p2nsvdxf7vjp",
-      "name": "AMS3",
-      "status": "operational",
-      "created_at": "2023-03-28T21:00:37.131Z",
-      "updated_at": "2023-07-02T09:38:28.192Z",
-      "position": 2,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-03-28",
-      "group_id": "hjz5ry9b7nl6",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "dv1m7pg1ckqb",
       "name": "AMS2",
       "status": "operational",
@@ -393,6 +378,21 @@
       "showcase": false,
       "start_date": "2023-03-28",
       "group_id": "sjlhrm4vf4pr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "spjc09zjy5ms",
+      "name": "AMS2",
+      "status": "operational",
+      "created_at": "2023-03-28T21:00:59.049Z",
+      "updated_at": "2024-08-16T11:35:15.829Z",
+      "position": 2,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-03-28",
+      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -468,21 +468,6 @@
       "showcase": false,
       "start_date": "2023-02-18",
       "group_id": "jjs48vwjlqjr",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "6xz356g340vj",
-      "name": "BLR1",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:32.003Z",
-      "updated_at": "2023-07-02T09:38:28.212Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -683,6 +668,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "p2nsvdxf7vjp",
+      "name": "AMS3",
+      "status": "operational",
+      "created_at": "2023-03-28T21:00:37.131Z",
+      "updated_at": "2024-08-16T11:35:15.834Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-03-28",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "ttzvwy2wf0k3",
       "name": "Frankfurt",
       "status": "operational",
@@ -693,6 +693,21 @@
       "showcase": false,
       "start_date": "2023-02-18",
       "group_id": "jjs48vwjlqjr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6xz356g340vj",
+      "name": "BLR1",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:32.003Z",
+      "updated_at": "2024-08-16T11:35:15.840Z",
+      "position": 4,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -863,21 +878,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8zd85sg0nhnc",
-      "name": "FRA1",
-      "status": "operational",
-      "created_at": "2023-02-24T20:12:13.782Z",
-      "updated_at": "2023-07-02T09:38:28.221Z",
-      "position": 4,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-24",
-      "group_id": "hjz5ry9b7nl6",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "pg9zc33244c7",
       "name": "Cloud Firewall",
       "status": "operational",
@@ -903,21 +903,6 @@
       "showcase": false,
       "start_date": "2023-09-14",
       "group_id": "fdg768pfw7v3",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ffghd7w93zbw",
-      "name": "LON1",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.346Z",
-      "updated_at": "2023-07-02T09:38:28.231Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -1118,6 +1103,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "8zd85sg0nhnc",
+      "name": "FRA1",
+      "status": "operational",
+      "created_at": "2023-02-24T20:12:13.782Z",
+      "updated_at": "2024-08-16T11:35:15.845Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-24",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "2p17zg8kmsyc",
       "name": "Community",
       "status": "operational",
@@ -1133,11 +1133,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p4l05gv4bg18",
-      "name": "NYC1",
+      "id": "ffghd7w93zbw",
+      "name": "LON1",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.701Z",
-      "updated_at": "2023-07-02T09:38:28.241Z",
+      "created_at": "2023-02-18T01:32:31.346Z",
+      "updated_at": "2024-08-16T11:35:15.851Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -1358,6 +1358,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "p4l05gv4bg18",
+      "name": "NYC1",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.701Z",
+      "updated_at": "2024-08-16T11:35:15.856Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "dn73yck15rk9",
       "name": "San Francisco",
       "status": "operational",
@@ -1368,21 +1383,6 @@
       "showcase": false,
       "start_date": "2023-02-18",
       "group_id": "jjs48vwjlqjr",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "hlr2gdtmpmxs",
-      "name": "NYC2",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.841Z",
-      "updated_at": "2023-07-02T09:38:28.250Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -1568,11 +1568,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "fkzl92xwpwc9",
-      "name": "NYC3",
+      "id": "hlr2gdtmpmxs",
+      "name": "NYC2",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.709Z",
-      "updated_at": "2023-07-02T09:38:28.260Z",
+      "created_at": "2023-02-18T01:32:31.841Z",
+      "updated_at": "2024-08-16T11:35:15.862Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -1763,6 +1763,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "fkzl92xwpwc9",
+      "name": "NYC3",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.709Z",
+      "updated_at": "2024-08-16T11:35:15.867Z",
+      "position": 9,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "mrdxgk8b9l9m",
       "name": "NYC3",
       "status": "operational",
@@ -1913,21 +1928,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b9n6frtjqnzm",
-      "name": "SFO1",
-      "status": "operational",
-      "created_at": "2023-03-28T21:00:36.105Z",
-      "updated_at": "2023-07-02T09:38:28.269Z",
-      "position": 9,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-03-28",
-      "group_id": "hjz5ry9b7nl6",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "wzgnsrflzlr5",
       "name": "Toronto",
       "status": "operational",
@@ -2030,21 +2030,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j92cs7vmnhnc",
-      "name": "SFO2",
-      "status": "operational",
-      "created_at": "2023-03-28T20:58:27.501Z",
-      "updated_at": "2023-07-02T09:38:28.278Z",
-      "position": 10,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-03-28",
-      "group_id": "hjz5ry9b7nl6",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "btbzvrcdfjb3",
       "name": "SFO1",
       "status": "operational",
@@ -2090,6 +2075,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "b9n6frtjqnzm",
+      "name": "SFO1",
+      "status": "operational",
+      "created_at": "2023-03-28T21:00:36.105Z",
+      "updated_at": "2024-08-16T11:35:15.873Z",
+      "position": 10,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-03-28",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "86hpqb7crkzg",
       "name": "SFO1",
       "status": "operational",
@@ -2115,21 +2115,6 @@
       "showcase": false,
       "start_date": "2023-03-28",
       "group_id": "b3tklvcyzvh0",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "kzjfhwmlkw4b",
-      "name": "SFO3",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.357Z",
-      "updated_at": "2023-07-02T09:38:28.287Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "hjz5ry9b7nl6",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -2248,6 +2233,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "j92cs7vmnhnc",
+      "name": "SFO2",
+      "status": "operational",
+      "created_at": "2023-03-28T20:58:27.501Z",
+      "updated_at": "2024-08-16T11:35:15.878Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-03-28",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "dchd0yhfsf7p",
       "name": "SFO2",
       "status": "operational",
@@ -2278,11 +2278,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "q7b6ftmzs9m9",
-      "name": "SGP1",
+      "id": "kzjfhwmlkw4b",
+      "name": "SFO3",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.602Z",
-      "updated_at": "2023-07-02T09:38:28.297Z",
+      "created_at": "2023-02-18T01:32:31.357Z",
+      "updated_at": "2024-08-16T11:35:15.883Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -2445,11 +2445,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "4q7xqwryx8rd",
-      "name": "SYD1",
+      "id": "q7b6ftmzs9m9",
+      "name": "SGP1",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.832Z",
-      "updated_at": "2023-07-02T09:38:28.307Z",
+      "created_at": "2023-02-18T01:32:31.602Z",
+      "updated_at": "2024-08-16T11:35:15.889Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -2597,11 +2597,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1ftd3qnspsx6",
-      "name": "TOR1",
+      "id": "4q7xqwryx8rd",
+      "name": "SYD1",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.344Z",
-      "updated_at": "2023-07-02T09:38:28.316Z",
+      "created_at": "2023-02-18T01:32:31.832Z",
+      "updated_at": "2024-08-16T11:35:15.895Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -2727,6 +2727,21 @@
         "rm6mtm25jj2d",
         "d3j48w1r55sx"
       ]
+    },
+    {
+      "id": "1ftd3qnspsx6",
+      "name": "TOR1",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.344Z",
+      "updated_at": "2024-08-16T11:35:15.901Z",
+      "position": 15,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "h4ktbyxsxssg",
@@ -3068,6 +3083,7 @@
       "group": true,
       "only_show_if_degraded": false,
       "components": [
+        "g8rttgsgxr37",
         "spjc09zjy5ms",
         "p2nsvdxf7vjp",
         "6xz356g340vj",
