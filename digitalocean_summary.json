@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-18T18:36:05.470Z"
+    "updated_at": "2024-11-18T19:07:11.751Z"
   },
   "components": [
     {
@@ -3202,16 +3202,132 @@
     {
       "id": "q8kk6ly4tr0g",
       "name": "Spaces Object Storage, DigitalOcean Container Registry & App Platform",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-11-18T18:32:35.517Z",
-      "updated_at": "2024-11-18T18:36:05.465Z",
-      "monitoring_at": null,
+      "updated_at": "2024-11-18T19:07:11.748Z",
+      "monitoring_at": "2024-11-18T19:07:11.731Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/z9b5r95pnyk7",
       "started_at": "2024-11-18T18:32:35.489Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
+        {
+          "id": "3yb9fpmyp6bg",
+          "status": "monitoring",
+          "body": "Our Engineering team has completed the mitigation efforts and a fix is now deployed in all regions. \n\nAs of 18:41 UTC, error rates have returned to normal and users should no longer experience issues accessing, creating, or performing updates on their existing services with the impacted products. \n\nWe are monitoring the situation and will provide an update shortly.",
+          "incident_id": "q8kk6ly4tr0g",
+          "created_at": "2024-11-18T19:07:11.731Z",
+          "updated_at": "2024-11-18T19:07:11.731Z",
+          "display_at": "2024-11-18T19:07:11.731Z",
+          "affected_components": [
+            {
+              "code": "txysr8r0gn1n",
+              "name": "App Platform - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "glhj9rkw3mp8",
+              "name": "Container Registry - AMS3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ggjq7y0mqt4y",
+              "name": "Container Registry - BLR1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "sk01cyydqy7b",
+              "name": "Container Registry - FRA1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "hnqx47tg75cw",
+              "name": "Container Registry - NYC3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8pntc51v5prb",
+              "name": "Container Registry - SFO2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zfnbgvbvc6bd",
+              "name": "Container Registry - SFO3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k3xwyjfy34vw",
+              "name": "Container Registry - SGP1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "7z4k9k6wgbsq",
+              "name": "Container Registry - SYD1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "z2cshz8pdgwj",
+              "name": "Spaces - AMS3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "66wjtpd8ngvx",
+              "name": "Spaces - FRA1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tz43j53blsmy",
+              "name": "Spaces - NYC3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "w4m98sdz3szn",
+              "name": "Spaces - SFO2",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lf2rrgctn54t",
+              "name": "Spaces - SFO3",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rf1h8gfz4ts6",
+              "name": "Spaces - SGP1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bpchszdrvvc5",
+              "name": "Spaces - SYD1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b44h3yhj3jy5",
+              "name": "Spaces - BLR1",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mxwmpw7hby3g",
           "status": "investigating",
