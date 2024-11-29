@@ -4,10 +4,10 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-29T03:51:19.905Z"
+    "updated_at": "2024-11-29T04:24:55.223Z"
   },
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
