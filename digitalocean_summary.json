@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-29T00:34:33.596Z"
+    "updated_at": "2024-11-29T02:38:38.623Z"
   },
   "components": [
     {
@@ -115,9 +115,9 @@
     {
       "id": "mzkgffp35tq4",
       "name": "Global",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2024-08-16T11:21:56.097Z",
-      "updated_at": "2024-11-20T01:54:34.259Z",
+      "updated_at": "2024-11-29T02:38:38.550Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -205,9 +205,9 @@
     {
       "id": "nkx0nmdx9vrs",
       "name": "Global",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2024-11-18T19:18:34.401Z",
-      "updated_at": "2024-11-29T00:21:30.373Z",
+      "updated_at": "2024-11-29T02:38:38.563Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -235,9 +235,9 @@
     {
       "id": "8cp93lvtlh32",
       "name": "Global",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2024-11-18T19:19:12.798Z",
-      "updated_at": "2024-11-29T00:21:30.389Z",
+      "updated_at": "2024-11-29T02:38:38.574Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -2979,7 +2979,7 @@
     {
       "id": "kl8qv98c9brp",
       "name": "Managed Databases",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-22T19:29:09.360Z",
       "updated_at": "2024-10-01T15:38:18.846Z",
       "position": 16,
@@ -3134,7 +3134,7 @@
     {
       "id": "fdg768pfw7v3",
       "name": "Spaces",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2023-02-22T19:29:09.025Z",
       "updated_at": "2024-10-01T15:38:18.892Z",
       "position": 21,
@@ -3160,7 +3160,7 @@
     {
       "id": "0fycrqvyvqf3",
       "name": "Spaces CDN",
-      "status": "degraded_performance",
+      "status": "major_outage",
       "created_at": "2023-02-22T19:30:11.018Z",
       "updated_at": "2024-10-01T15:38:18.900Z",
       "position": 22,
@@ -3250,16 +3250,150 @@
     {
       "id": "jm44h02t22ck",
       "name": "Cloud Control Panel and Spaces",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-11-29T00:21:30.334Z",
-      "updated_at": "2024-11-29T00:34:33.590Z",
+      "updated_at": "2024-11-29T02:38:38.616Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/3dkfn29f6jgr",
       "started_at": "2024-11-29T00:21:30.322Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
+        {
+          "id": "6w04rxwsbfc9",
+          "status": "identified",
+          "body": "Spaces accessibility in all regions continues to be impacted and users will experience errors when attempting to interact with objects hosted under digitaloceanspaces.com. Backups for the Mongo Managed Databases product are also not successfully uploading, so users attempting to use those backups will see errors.\n\nWe have engaged with our upstream vendor to resolve this incident as quickly as possible and are awaiting a further update. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.\n\nWe understand these are critical issues for our customers and are working as quickly as possible to resolve this.",
+          "incident_id": "jm44h02t22ck",
+          "created_at": "2024-11-29T02:38:38.614Z",
+          "updated_at": "2024-11-29T02:38:38.614Z",
+          "display_at": "2024-11-29T02:38:38.614Z",
+          "affected_components": [
+            {
+              "code": "nkx0nmdx9vrs",
+              "name": "Spaces - Global",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "mzkgffp35tq4",
+              "name": "Managed Databases - Global",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cp93lvtlh32",
+              "name": "Spaces CDN - Global",
+              "old_status": "degraded_performance",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "czck17wcspr5",
+              "name": "Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "3y40m5njx1jk",
+          "status": "identified",
+          "body": "Our Engineering team has successfully deployed a solution to bring the Cloud Control Panel back online. Please refresh the page a few times to clear your cache.\n\nHowever, we are still experiencing issues with Spaces. We are engaging with our upstream vendor to resolve this incident as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved. We understand this is a critical issue for our customers and are working as quickly as possible to resolve this.",
+          "incident_id": "jm44h02t22ck",
+          "created_at": "2024-11-29T01:50:11.630Z",
+          "updated_at": "2024-11-29T01:50:11.934Z",
+          "display_at": "2024-11-29T01:50:11.630Z",
+          "affected_components": [
+            {
+              "code": "nkx0nmdx9vrs",
+              "name": "Spaces - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cp93lvtlh32",
+              "name": "Spaces CDN - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "czck17wcspr5",
+              "name": "Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1862313074797290000
+        },
+        {
+          "id": "0jghv798k6w4",
+          "status": "identified",
+          "body": "Our Engineering team has identified this as a domain registrar issue for the entire digitaloceanspaces.com domain. We are engaging with our upstream vendor to resolve this incident as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved. We understand this is a critical issue for our customers.\n\nOur Cloud Control Panel is dependent on our Spaces product and is also experiencing an outage due to this issue.\n\nDue to the Cloud Control Panel being down, if users need to submit a support ticket, they may do so here: https://www.digitalocean.com/company/contact/support",
+          "incident_id": "jm44h02t22ck",
+          "created_at": "2024-11-29T01:31:31.586Z",
+          "updated_at": "2024-11-29T01:31:31.926Z",
+          "display_at": "2024-11-29T01:31:31.586Z",
+          "affected_components": [
+            {
+              "code": "nkx0nmdx9vrs",
+              "name": "Spaces - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cp93lvtlh32",
+              "name": "Spaces CDN - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "czck17wcspr5",
+              "name": "Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1862308377092923600
+        },
+        {
+          "id": "bv02sjkbpzvr",
+          "status": "investigating",
+          "body": "Our Engineering team is continuing to investigate this issue and all possible paths to remediation, as well as confirm if this issue is related to an upstream provider outage. We understand this is a critical issue for our customers. \n\nDue to the Cloud Control Panel being down, if users need to submit a support ticket, they may do so here: https://www.digitalocean.com/company/contact/support",
+          "incident_id": "jm44h02t22ck",
+          "created_at": "2024-11-29T01:10:49.209Z",
+          "updated_at": "2024-11-29T01:10:50.757Z",
+          "display_at": "2024-11-29T01:10:49.209Z",
+          "affected_components": [
+            {
+              "code": "nkx0nmdx9vrs",
+              "name": "Spaces - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8cp93lvtlh32",
+              "name": "Spaces CDN - Global",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "czck17wcspr5",
+              "name": "Cloud Control Panel",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": 1862303170950832400
+        },
         {
           "id": "g0r3nht8mtsv",
           "status": "investigating",
@@ -3327,11 +3461,26 @@
       ],
       "components": [
         {
-          "id": "nkx0nmdx9vrs",
+          "id": "mzkgffp35tq4",
           "name": "Global",
           "status": "degraded_performance",
+          "created_at": "2024-08-16T11:21:56.097Z",
+          "updated_at": "2024-11-29T02:38:38.550Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2024-08-16",
+          "group_id": "kl8qv98c9brp",
+          "page_id": "w4cz49tckxhp",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "nkx0nmdx9vrs",
+          "name": "Global",
+          "status": "major_outage",
           "created_at": "2024-11-18T19:18:34.401Z",
-          "updated_at": "2024-11-29T00:21:30.373Z",
+          "updated_at": "2024-11-29T02:38:38.563Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3344,9 +3493,9 @@
         {
           "id": "8cp93lvtlh32",
           "name": "Global",
-          "status": "degraded_performance",
+          "status": "major_outage",
           "created_at": "2024-11-18T19:19:12.798Z",
-          "updated_at": "2024-11-29T00:21:30.389Z",
+          "updated_at": "2024-11-29T02:38:38.574Z",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -3377,7 +3526,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
