@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2024-11-29T03:47:23.009Z"
+    "updated_at": "2024-11-29T03:51:19.905Z"
   },
   "components": [
     {
@@ -3249,10 +3249,10 @@
   "incidents": [
     {
       "id": "jm44h02t22ck",
-      "name": "Cloud Control Panel Multiple Services",
+      "name": "Spaces, Spaces CDN, DOCR, LBaaS, App Platform, Functions and Mongo Backups.",
       "status": "identified",
       "created_at": "2024-11-29T00:21:30.334Z",
-      "updated_at": "2024-11-29T03:47:23.004Z",
+      "updated_at": "2024-11-29T03:51:19.902Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
