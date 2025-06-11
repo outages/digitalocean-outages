@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-11T14:35:09.150Z"
+    "updated_at": "2025-06-11T14:36:19.175Z"
   },
   "components": [
     {
@@ -488,21 +488,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1c2vrfy9qbvv",
-      "name": "Bangalore",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.358Z",
-      "updated_at": "2025-02-11T10:38:32.218Z",
-      "position": 3,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "jjs48vwjlqjr",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "9q2dq7jc5bk9",
       "name": "AMS3",
       "status": "operational",
@@ -728,11 +713,26 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ttzvwy2wf0k3",
-      "name": "Frankfurt",
+      "id": "vfhgr4fby7s3",
+      "name": "Atlanta",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.321Z",
-      "updated_at": "2024-07-24T21:00:02.535Z",
+      "created_at": "2025-06-11T14:34:16.933Z",
+      "updated_at": "2025-06-11T14:36:19.108Z",
+      "position": 3,
+      "description": null,
+      "showcase": false,
+      "start_date": "2025-06-11",
+      "group_id": "jjs48vwjlqjr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "1c2vrfy9qbvv",
+      "name": "Bangalore",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.358Z",
+      "updated_at": "2025-06-11T14:36:19.116Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -968,11 +968,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "56cjsvgf3vk4",
-      "name": "London",
+      "id": "ttzvwy2wf0k3",
+      "name": "Frankfurt",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.966Z",
-      "updated_at": "2024-09-20T03:35:14.389Z",
+      "created_at": "2023-02-18T01:32:31.321Z",
+      "updated_at": "2025-06-11T14:36:19.124Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -1193,6 +1193,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "56cjsvgf3vk4",
+      "name": "London",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.966Z",
+      "updated_at": "2025-06-11T14:36:19.132Z",
+      "position": 6,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "jjs48vwjlqjr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "kkg2cfkqkwj1",
       "name": "FRA1",
       "status": "operational",
@@ -1388,21 +1403,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "fkf61qj12vby",
-      "name": "New York",
-      "status": "operational",
-      "created_at": "2023-03-28T21:01:01.511Z",
-      "updated_at": "2024-10-15T21:00:02.468Z",
-      "position": 6,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-03-28",
-      "group_id": "jjs48vwjlqjr",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "8pntc51v5prb",
       "name": "SFO2",
       "status": "operational",
@@ -1428,21 +1428,6 @@
       "showcase": false,
       "start_date": "2023-02-18",
       "group_id": "hjz5ry9b7nl6",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "dn73yck15rk9",
-      "name": "San Francisco",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.705Z",
-      "updated_at": "2024-11-27T11:44:42.575Z",
-      "position": 7,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "jjs48vwjlqjr",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -1628,6 +1613,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "fkf61qj12vby",
+      "name": "New York",
+      "status": "operational",
+      "created_at": "2023-03-28T21:01:01.511Z",
+      "updated_at": "2025-06-11T14:36:19.139Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-03-28",
+      "group_id": "jjs48vwjlqjr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "w4m98sdz3szn",
       "name": "SFO2",
       "status": "operational",
@@ -1643,21 +1643,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "m9ky4d5d3q4g",
-      "name": "Singapore",
-      "status": "operational",
-      "created_at": "2023-02-18T01:32:31.324Z",
-      "updated_at": "2024-07-24T21:00:02.870Z",
-      "position": 8,
-      "description": null,
-      "showcase": false,
-      "start_date": "2023-02-18",
-      "group_id": "jjs48vwjlqjr",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "p4l05gv4bg18",
       "name": "NYC1",
       "status": "operational",
@@ -1668,6 +1653,21 @@
       "showcase": false,
       "start_date": "2023-02-18",
       "group_id": "hjz5ry9b7nl6",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dn73yck15rk9",
+      "name": "San Francisco",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.705Z",
+      "updated_at": "2025-06-11T14:36:19.147Z",
+      "position": 8,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "jjs48vwjlqjr",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
@@ -1868,11 +1868,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "sz7nt917qrd8",
-      "name": "Sydney",
+      "id": "m9ky4d5d3q4g",
+      "name": "Singapore",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.345Z",
-      "updated_at": "2024-07-24T21:00:02.947Z",
+      "created_at": "2023-02-18T01:32:31.324Z",
+      "updated_at": "2025-06-11T14:36:19.155Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -2078,11 +2078,11 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "wzgnsrflzlr5",
-      "name": "Toronto",
+      "id": "sz7nt917qrd8",
+      "name": "Sydney",
       "status": "operational",
-      "created_at": "2023-02-18T01:32:31.607Z",
-      "updated_at": "2024-09-20T03:35:43.646Z",
+      "created_at": "2023-02-18T01:32:31.345Z",
+      "updated_at": "2025-06-11T14:36:19.163Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -2273,6 +2273,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "wzgnsrflzlr5",
+      "name": "Toronto",
+      "status": "operational",
+      "created_at": "2023-02-18T01:32:31.607Z",
+      "updated_at": "2025-06-11T14:36:19.171Z",
+      "position": 11,
+      "description": null,
+      "showcase": false,
+      "start_date": "2023-02-18",
+      "group_id": "jjs48vwjlqjr",
+      "page_id": "w4cz49tckxhp",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "jjs48vwjlqjr",
       "name": "App Platform",
       "status": "operational",
@@ -2289,6 +2304,7 @@
       "components": [
         "txysr8r0gn1n",
         "65brl8m428rn",
+        "vfhgr4fby7s3",
         "1c2vrfy9qbvv",
         "ttzvwy2wf0k3",
         "56cjsvgf3vk4",
@@ -2296,8 +2312,7 @@
         "dn73yck15rk9",
         "m9ky4d5d3q4g",
         "sz7nt917qrd8",
-        "wzgnsrflzlr5",
-        "vfhgr4fby7s3"
+        "wzgnsrflzlr5"
       ]
     },
     {
@@ -2431,21 +2446,6 @@
       "showcase": false,
       "start_date": "2023-03-28",
       "group_id": "b3tklvcyzvh0",
-      "page_id": "w4cz49tckxhp",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "vfhgr4fby7s3",
-      "name": "ATL1",
-      "status": "operational",
-      "created_at": "2025-06-11T14:34:16.933Z",
-      "updated_at": "2025-06-11T14:34:16.933Z",
-      "position": 11,
-      "description": null,
-      "showcase": false,
-      "start_date": "2025-06-11",
-      "group_id": "jjs48vwjlqjr",
       "page_id": "w4cz49tckxhp",
       "group": false,
       "only_show_if_degraded": false
