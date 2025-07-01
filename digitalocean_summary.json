@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-06-30T21:30:28.868Z"
+    "updated_at": "2025-07-01T03:01:54.426Z"
   },
   "components": [
     {
@@ -117,7 +117,7 @@
       "name": "Global",
       "status": "operational",
       "created_at": "2024-08-16T11:21:56.097Z",
-      "updated_at": "2025-06-30T21:30:28.808Z",
+      "updated_at": "2025-07-01T02:32:36.990Z",
       "position": 1,
       "description": null,
       "showcase": false,
