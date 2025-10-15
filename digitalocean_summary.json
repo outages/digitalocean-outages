@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2025-10-15T11:29:39.660Z"
+    "updated_at": "2025-10-15T11:43:53.691Z"
   },
   "components": [
     {
@@ -3487,25 +3487,25 @@
   "incidents": [
     {
       "id": "yq1ct2d6dhxj",
-      "name": "Issues with provisioning GPU clusters",
+      "name": "GPU Node Creation on New Kubernetes Clusters",
       "status": "investigating",
       "created_at": "2025-10-15T11:29:39.547Z",
-      "updated_at": "2025-10-15T11:29:39.657Z",
+      "updated_at": "2025-10-15T11:43:53.685Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/ph17mx5nvjh4",
-      "started_at": "2025-10-15T11:29:39.535Z",
+      "started_at": "2025-10-15T11:29:39.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "b8w1501jnbj6",
           "status": "investigating",
-          "body": "Our Engineering team has identified an issue impacting creation of GPU nodes on new Kubernetes clusters.  During this time, you will not be able to launch a new Kubernetes cluster with GPU nodes. Existing workloads are not impacted. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "Our Engineering team has identified an issue impacting creation of GPU nodes on new Kubernetes clusters.  During this time, you will not be able to launch a new Kubernetes cluster with NVIDIA GPU nodes. Existing workloads are not impacted. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "yq1ct2d6dhxj",
           "created_at": "2025-10-15T11:29:39.654Z",
-          "updated_at": "2025-10-15T11:29:39.654Z",
-          "display_at": "2025-10-15T11:29:39.654Z",
+          "updated_at": "2025-10-15T11:39:42.181Z",
+          "display_at": "2025-10-15T11:29:39.000Z",
           "affected_components": [
             {
               "code": "ljktrzzffk6j",
