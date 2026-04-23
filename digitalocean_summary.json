@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-04-23T22:26:34.830Z"
+    "updated_at": "2026-04-23T23:20:46.528Z"
   },
   "components": [
     {
@@ -3567,25 +3567,25 @@
   "incidents": [
     {
       "id": "1y9gxbdcqb71",
-      "name": "Intermittent errors impacting Serverless Inference in ATL1",
+      "name": "Intermittent errors impacting some Serverless Inference models in ATL1",
       "status": "investigating",
       "created_at": "2026-04-23T22:26:34.753Z",
-      "updated_at": "2026-04-23T22:26:34.828Z",
+      "updated_at": "2026-04-23T23:06:23.480Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/z4pxt0jh8n97",
-      "started_at": "2026-04-23T22:26:34.749Z",
+      "started_at": "2026-04-23T22:26:34.000Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
           "id": "jyf13yqty9c4",
           "status": "investigating",
-          "body": "As of 21:53 UTC, our Engineering team is investigating reports of increased internal errors for hosted models in the ATL1 region, impacting Serverless Inference. At this point, users with models hosted in ATL1 may experience intermittent errors when using Serverless Inference. We apologize for the inconvenience and will share an update once we have more information.",
+          "body": "As of 21:53 UTC, our Engineering team is investigating reports of increased internal errors for models Llama 3.3 70B, GPT OSS 120B, GPT OSS 20B, Qwen3 32B and Deepseek R1 70B hosted in the ATL1 region, impacting Serverless Inference. At this point, users with models hosted in ATL1 may experience intermittent errors when using Serverless Inference. We apologize for the inconvenience and will share an update once we have more information.",
           "incident_id": "1y9gxbdcqb71",
           "created_at": "2026-04-23T22:26:34.826Z",
-          "updated_at": "2026-04-23T22:26:34.826Z",
-          "display_at": "2026-04-23T22:26:34.826Z",
+          "updated_at": "2026-04-23T23:06:23.350Z",
+          "display_at": "2026-04-23T22:26:34.000Z",
           "affected_components": [
             {
               "code": "br95fz33h6td",
