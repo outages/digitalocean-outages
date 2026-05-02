@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-02T09:22:37.571Z"
+    "updated_at": "2026-05-02T12:39:11.830Z"
   },
   "components": [
     {
@@ -3566,6 +3566,60 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
+    {
+      "id": "7rq8trdm1fsq",
+      "name": "SFO2 Network Maintenance",
+      "status": "scheduled",
+      "created_at": "2026-05-02T12:39:11.766Z",
+      "updated_at": "2026-05-02T12:39:11.827Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/sqc1z29b2md0",
+      "started_at": "2026-05-02T12:39:11.758Z",
+      "page_id": "w4cz49tckxhp",
+      "incident_updates": [
+        {
+          "id": "4shn1n2d41s5",
+          "status": "scheduled",
+          "body": "Start: 2026-05-04 13:00 UTC\nEnd: 2026-05-04 15:00 UTC\n\nDuring the above window, our Networking team will be making changes to the core networking infrastructure to improve performance and scalability in the SFO2 region.\n\nExpected impact:\n\nWe do not anticipate any downtime for Droplets or Droplet-related services, including Managed Databases, Load Balancers, App Platform, and Managed Kubernetes, as this maintenance has been carefully designed and tested to be seamless. In the unlikely event that an undetected misconfiguration occurs, a subset of customers could experience temporary network disruption. We will endeavor to keep this to a minimum for the duration of the change.\n\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "incident_id": "7rq8trdm1fsq",
+          "created_at": "2026-05-02T12:39:11.824Z",
+          "updated_at": "2026-05-02T12:39:11.824Z",
+          "display_at": "2026-05-02T12:39:11.824Z",
+          "affected_components": [
+            {
+              "code": "r59jnkcnpy5w",
+              "name": "Networking - SFO2",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "r59jnkcnpy5w",
+          "name": "SFO2",
+          "status": "operational",
+          "created_at": "2023-03-28T20:58:27.200Z",
+          "updated_at": "2025-10-17T03:56:55.152Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": "2023-03-28",
+          "group_id": "sjlhrm4vf4pr",
+          "page_id": "w4cz49tckxhp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2026-05-04T13:00:00.000Z",
+      "scheduled_until": "2026-05-04T15:00:00.000Z"
+    },
     {
       "id": "hjkhkdh7f8hv",
       "name": "Core Infrastructure Maintenance May 4, 2026, 13:00 UTC",
