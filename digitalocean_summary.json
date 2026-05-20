@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-20T02:19:45.473Z"
+    "updated_at": "2026-05-20T06:20:46.107Z"
   },
   "components": [
     {
@@ -1255,9 +1255,9 @@
     {
       "id": "pg9zc33244c7",
       "name": "Cloud Firewall",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-03-06T18:42:45.109Z",
-      "updated_at": "2026-05-04T21:01:07.188Z",
+      "updated_at": "2026-05-20T05:35:48.495Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -2215,9 +2215,9 @@
     {
       "id": "fkzl92xwpwc9",
       "name": "NYC3",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-18T01:32:31.709Z",
-      "updated_at": "2026-05-20T01:05:16.192Z",
+      "updated_at": "2026-05-20T05:13:50.751Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -3616,7 +3616,7 @@
     {
       "id": "hjz5ry9b7nl6",
       "name": "Volumes",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-28T21:01:39.123Z",
       "updated_at": "2025-10-29T16:20:13.674Z",
       "position": 27,
@@ -3664,50 +3664,30 @@
   ],
   "incidents": [
     {
-      "id": "spgd2scvttth",
-      "name": "Block Storage Volume Performance",
-      "status": "monitoring",
-      "created_at": "2026-05-20T01:05:16.154Z",
-      "updated_at": "2026-05-20T02:19:45.470Z",
-      "monitoring_at": "2026-05-20T02:19:45.454Z",
+      "id": "sv0tfb6jhqz8",
+      "name": "Cloud Firewall",
+      "status": "investigating",
+      "created_at": "2026-05-20T05:35:48.457Z",
+      "updated_at": "2026-05-20T05:35:48.551Z",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/1cr62wpw64kx",
-      "started_at": "2026-05-20T01:05:16.144Z",
+      "shortlink": "https://stspg.io/6y9xmwmgkyy4",
+      "started_at": "2026-05-20T05:35:48.449Z",
       "page_id": "w4cz49tckxhp",
       "incident_updates": [
         {
-          "id": "l907n1bhkbrg",
-          "status": "monitoring",
-          "body": "Our Engineering team has implemented mitigation measures for the infrastructure issue affecting Block Storage Volumes in the NYC3 region. The team is monitoring the situation, and we will share another update once the issue is fully resolved",
-          "incident_id": "spgd2scvttth",
-          "created_at": "2026-05-20T02:19:45.454Z",
-          "updated_at": "2026-05-20T02:19:45.454Z",
-          "display_at": "2026-05-20T02:19:45.454Z",
-          "affected_components": [
-            {
-              "code": "fkzl92xwpwc9",
-              "name": "Volumes - NYC3",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gcsmq0cm3p61",
+          "id": "zf4f93b1kz7s",
           "status": "investigating",
-          "body": "Our Engineering team is currently investigating an ongoing infrastructure issue in the NYC3 region affecting Block Storage Volumes at the storage layer. Users may experience degraded write performance and intermittent impact to services dependent on the affected storage infrastructure.\n\nWe apologize for the inconvenience and will continue to provide updates as more information becomes available.",
-          "incident_id": "spgd2scvttth",
-          "created_at": "2026-05-20T01:05:16.243Z",
-          "updated_at": "2026-05-20T01:05:16.243Z",
-          "display_at": "2026-05-20T01:05:16.243Z",
+          "body": "We are currently investigating an issue with incorrect Cloud Firewall rules appearing on the cloud panel. Our engineering team is aware of the situation and actively working to identify the root cause. Since this is a user interface issue, users should not experience any problems with other services or networking.\n\nWe apologize for the inconvenience and appreciate your patience. We will continue to provide updates as we learn more.",
+          "incident_id": "sv0tfb6jhqz8",
+          "created_at": "2026-05-20T05:35:48.548Z",
+          "updated_at": "2026-05-20T05:35:48.548Z",
+          "display_at": "2026-05-20T05:35:48.548Z",
           "affected_components": [
             {
-              "code": "fkzl92xwpwc9",
-              "name": "Volumes - NYC3",
+              "code": "pg9zc33244c7",
+              "name": "Cloud Firewall",
               "old_status": "operational",
               "new_status": "degraded_performance"
             }
@@ -3719,16 +3699,16 @@
       ],
       "components": [
         {
-          "id": "fkzl92xwpwc9",
-          "name": "NYC3",
+          "id": "pg9zc33244c7",
+          "name": "Cloud Firewall",
           "status": "degraded_performance",
-          "created_at": "2023-02-18T01:32:31.709Z",
-          "updated_at": "2026-05-20T01:05:16.192Z",
-          "position": 10,
+          "created_at": "2023-03-06T18:42:45.109Z",
+          "updated_at": "2026-05-20T05:35:48.495Z",
+          "position": 5,
           "description": null,
           "showcase": false,
-          "start_date": "2023-02-18",
-          "group_id": "hjz5ry9b7nl6",
+          "start_date": "2023-03-06",
+          "group_id": null,
           "page_id": "w4cz49tckxhp",
           "group": false,
           "only_show_if_degraded": false
