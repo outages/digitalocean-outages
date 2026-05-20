@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-20T06:20:46.107Z"
+    "updated_at": "2026-05-20T07:48:15.000Z"
   },
   "components": [
     {
@@ -1255,9 +1255,9 @@
     {
       "id": "pg9zc33244c7",
       "name": "Cloud Firewall",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-03-06T18:42:45.109Z",
-      "updated_at": "2026-05-20T05:35:48.495Z",
+      "updated_at": "2026-05-20T07:15:10.106Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -3662,64 +3662,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "sv0tfb6jhqz8",
-      "name": "Cloud Firewall",
-      "status": "investigating",
-      "created_at": "2026-05-20T05:35:48.457Z",
-      "updated_at": "2026-05-20T05:35:48.551Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/6y9xmwmgkyy4",
-      "started_at": "2026-05-20T05:35:48.449Z",
-      "page_id": "w4cz49tckxhp",
-      "incident_updates": [
-        {
-          "id": "zf4f93b1kz7s",
-          "status": "investigating",
-          "body": "We are currently investigating an issue with incorrect Cloud Firewall rules appearing on the cloud panel. Our engineering team is aware of the situation and actively working to identify the root cause. Since this is a user interface issue, users should not experience any problems with other services or networking.\n\nWe apologize for the inconvenience and appreciate your patience. We will continue to provide updates as we learn more.",
-          "incident_id": "sv0tfb6jhqz8",
-          "created_at": "2026-05-20T05:35:48.548Z",
-          "updated_at": "2026-05-20T05:35:48.548Z",
-          "display_at": "2026-05-20T05:35:48.548Z",
-          "affected_components": [
-            {
-              "code": "pg9zc33244c7",
-              "name": "Cloud Firewall",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pg9zc33244c7",
-          "name": "Cloud Firewall",
-          "status": "degraded_performance",
-          "created_at": "2023-03-06T18:42:45.109Z",
-          "updated_at": "2026-05-20T05:35:48.495Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-03-06",
-          "group_id": null,
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
