@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-01T18:04:34.715Z"
+    "updated_at": "2026-06-04T10:24:00.935Z"
   },
   "components": [
     {
@@ -1705,9 +1705,9 @@
     {
       "id": "qdnryq0lymfk",
       "name": "DNS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-03-06T18:42:44.851Z",
-      "updated_at": "2026-05-14T20:46:40.300Z",
+      "updated_at": "2026-06-04T10:12:10.161Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -3662,10 +3662,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "nnt4rfbgn1y6",
+      "name": "DNS API Service",
+      "status": "investigating",
+      "created_at": "2026-06-04T10:12:10.120Z",
+      "updated_at": "2026-06-04T10:12:10.236Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/c9tgc3txntpg",
+      "started_at": "2026-06-04T10:12:10.112Z",
+      "page_id": "w4cz49tckxhp",
+      "incident_updates": [
+        {
+          "id": "hfy9726w2pkh",
+          "status": "investigating",
+          "body": "Our Engineering team is investigating an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that rely on DNS API operations, such as Let's Encrypt certificate provisioning and MongoDB cluster creation, may also be impacted.\n\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "incident_id": "nnt4rfbgn1y6",
+          "created_at": "2026-06-04T10:12:10.233Z",
+          "updated_at": "2026-06-04T10:12:10.233Z",
+          "display_at": "2026-06-04T10:12:10.233Z",
+          "affected_components": [
+            {
+              "code": "qdnryq0lymfk",
+              "name": "DNS",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "qdnryq0lymfk",
+          "name": "DNS",
+          "status": "degraded_performance",
+          "created_at": "2023-03-06T18:42:44.851Z",
+          "updated_at": "2026-06-04T10:12:10.161Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": "2023-03-06",
+          "group_id": null,
+          "page_id": "w4cz49tckxhp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
