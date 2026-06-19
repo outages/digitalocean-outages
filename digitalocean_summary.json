@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-06-18T17:30:08.678Z"
+    "updated_at": "2026-06-19T14:23:40.248Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "yht2qc1zfp6x",
       "name": "Global",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-03-28T21:01:01.809Z",
-      "updated_at": "2025-10-02T14:21:33.378Z",
+      "updated_at": "2026-06-19T14:00:32.990Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -3382,7 +3382,7 @@
     {
       "id": "2d23wwyqgq6m",
       "name": "Monitoring",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-22T19:29:09.330Z",
       "updated_at": "2025-08-06T12:30:25.582Z",
       "position": 19,
@@ -3662,10 +3662,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "nqkv7bnzr4l3",
+      "name": "Monitoring Graphs in the Cloud Control Panel",
+      "status": "investigating",
+      "created_at": "2026-06-19T14:00:32.960Z",
+      "updated_at": "2026-06-19T14:00:33.034Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8jy6pdvsszwm",
+      "started_at": "2026-06-19T14:00:32.952Z",
+      "page_id": "w4cz49tckxhp",
+      "incident_updates": [
+        {
+          "id": "dl0nv8khtx1y",
+          "status": "investigating",
+          "body": "Our Engineering team is currently investigating an issue affecting the visibility of monitoring graphs within the Cloud Panel. During this period, users may notice missing or unavailable monitoring graphs for services such as Droplets(with DO agent installed), Load Balancers, Databases, etc.\n\nWe apologize for the inconvenience caused. We'll update once we have more information",
+          "incident_id": "nqkv7bnzr4l3",
+          "created_at": "2026-06-19T14:00:33.032Z",
+          "updated_at": "2026-06-19T14:00:33.032Z",
+          "display_at": "2026-06-19T14:00:33.032Z",
+          "affected_components": [
+            {
+              "code": "yht2qc1zfp6x",
+              "name": "Monitoring - Global",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "yht2qc1zfp6x",
+          "name": "Global",
+          "status": "degraded_performance",
+          "created_at": "2023-03-28T21:01:01.809Z",
+          "updated_at": "2026-06-19T14:00:32.990Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2023-03-28",
+          "group_id": "2d23wwyqgq6m",
+          "page_id": "w4cz49tckxhp",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
