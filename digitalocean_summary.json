@@ -4,7 +4,7 @@
     "name": "DigitalOcean",
     "url": "http://status.digitalocean.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-08-27T05:30:13.332Z"
+    "updated_at": "2026-08-27T17:40:22.571Z"
   },
   "components": [
     {
@@ -927,7 +927,7 @@
       "name": "BLR1",
       "status": "operational",
       "created_at": "2023-08-15T21:33:02.619Z",
-      "updated_at": "2026-08-26T16:28:13.160Z",
+      "updated_at": "2026-08-27T17:40:22.474Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -1690,9 +1690,9 @@
     {
       "id": "tz43j53blsmy",
       "name": "NYC3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2023-02-22T17:38:11.758Z",
-      "updated_at": "2026-08-27T05:30:13.119Z",
+      "updated_at": "2026-08-27T08:30:10.786Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -2230,9 +2230,9 @@
     {
       "id": "w4m98sdz3szn",
       "name": "SFO2",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2023-09-14T02:34:00.938Z",
-      "updated_at": "2026-08-27T05:30:13.163Z",
+      "updated_at": "2026-08-27T08:30:10.967Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -2350,9 +2350,9 @@
     {
       "id": "lf2rrgctn54t",
       "name": "SFO3",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2023-02-22T17:38:11.777Z",
-      "updated_at": "2026-08-27T05:30:13.219Z",
+      "updated_at": "2026-08-27T08:30:11.104Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -3969,7 +3969,7 @@
     {
       "id": "fdg768pfw7v3",
       "name": "Spaces",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2023-02-22T19:29:09.025Z",
       "updated_at": "2025-10-29T16:20:13.644Z",
       "position": 24,
@@ -4111,205 +4111,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "cnm4s0mdkh7l",
-      "name": "Rescheduled: Spaces Maintenance in BLR1",
-      "status": "scheduled",
-      "created_at": "2026-08-26T18:36:37.369Z",
-      "updated_at": "2026-08-26T18:36:37.459Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/c6wrsbv7wbkh",
-      "started_at": "2026-08-26T18:36:37.357Z",
-      "page_id": "w4cz49tckxhp",
-      "incident_updates": [
-        {
-          "id": "9gcczfmhgcbk",
-          "status": "scheduled",
-          "body": "Start: 2026-08-27 16:00 UTC\nEnd: 2026-08-27 18:00 UTC\n\nHello,\n\nDuring the above window, our Storage Engineering team will be performing maintenance on the Spaces service in the BLR1 region in order to improve performance and reliability. This is a rescheduled maintenance event previously scheduled for 2026-08-26.\n\nExpected Impact:\n\nThis maintenance is designed to be low-impact. As infrastructure components are updated, you may experience brief network interruptions or momentary delays accessing your spaces. Service will resume normal operation automatically, and no action is required on your part.\n\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "incident_id": "cnm4s0mdkh7l",
-          "created_at": "2026-08-26T18:36:37.455Z",
-          "updated_at": "2026-08-26T18:36:37.455Z",
-          "display_at": "2026-08-26T18:36:37.455Z",
-          "affected_components": [
-            {
-              "code": "b44h3yhj3jy5",
-              "name": "Spaces - BLR1",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "b44h3yhj3jy5",
-          "name": "BLR1",
-          "status": "operational",
-          "created_at": "2023-08-15T21:33:02.619Z",
-          "updated_at": "2026-08-26T16:28:13.160Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-08-15",
-          "group_id": "fdg768pfw7v3",
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2026-08-27T16:00:00.000Z",
-      "scheduled_until": "2026-08-27T18:00:00.000Z"
-    },
-    {
-      "id": "jtwb3n6wzky3",
-      "name": "Rescheduled: Spaces Maintenance in NYC3, SFO2 and SFO3",
-      "status": "in_progress",
-      "created_at": "2026-08-26T05:55:59.903Z",
-      "updated_at": "2026-08-27T05:30:13.310Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/yszv0d605nvl",
-      "started_at": "2026-08-26T05:55:59.853Z",
-      "page_id": "w4cz49tckxhp",
-      "incident_updates": [
-        {
-          "id": "fmyrkbrhpvj2",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "jtwb3n6wzky3",
-          "created_at": "2026-08-27T05:30:13.305Z",
-          "updated_at": "2026-08-27T05:30:13.305Z",
-          "display_at": "2026-08-27T05:30:13.305Z",
-          "affected_components": [
-            {
-              "code": "tz43j53blsmy",
-              "name": "Spaces - NYC3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "w4m98sdz3szn",
-              "name": "Spaces - SFO2",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lf2rrgctn54t",
-              "name": "Spaces - SFO3",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6rm3cw9kpnqw",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "jtwb3n6wzky3",
-          "created_at": "2026-08-27T04:31:00.424Z",
-          "updated_at": "2026-08-27T04:31:00.424Z",
-          "display_at": "2026-08-27T04:31:00.424Z",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "13h786nhr3rx",
-          "status": "scheduled",
-          "body": "Start: 2026-08-27 05:30 UTC\nEnd: 2026-08-27 08:30 UTC\n\nHello,\n\nDuring the above window, our Storage Engineering team will be performing maintenance on the Spaces service in the NYC3, SFO2, and SFO3 regions in order to improve performance and reliability. This is a rescheduled maintenance event previously scheduled for 2026-08-26. \n\nExpected Impact:\n\nThis maintenance is designed to be low-impact. As infrastructure components are updated, you may experience brief network interruptions or momentary delays accessing your spaces. Service will resume normal operation automatically, and no action is required on your part.\n\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\n\nThank you,\nTeam DigitalOcean",
-          "incident_id": "jtwb3n6wzky3",
-          "created_at": "2026-08-26T05:56:00.000Z",
-          "updated_at": "2026-08-26T05:56:00.000Z",
-          "display_at": "2026-08-26T05:56:00.000Z",
-          "affected_components": [
-            {
-              "code": "tz43j53blsmy",
-              "name": "Spaces - NYC3",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "w4m98sdz3szn",
-              "name": "Spaces - SFO2",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lf2rrgctn54t",
-              "name": "Spaces - SFO3",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tz43j53blsmy",
-          "name": "NYC3",
-          "status": "under_maintenance",
-          "created_at": "2023-02-22T17:38:11.758Z",
-          "updated_at": "2026-08-27T05:30:13.119Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-02-22",
-          "group_id": "fdg768pfw7v3",
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "w4m98sdz3szn",
-          "name": "SFO2",
-          "status": "under_maintenance",
-          "created_at": "2023-09-14T02:34:00.938Z",
-          "updated_at": "2026-08-27T05:30:13.163Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-09-14",
-          "group_id": "fdg768pfw7v3",
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lf2rrgctn54t",
-          "name": "SFO3",
-          "status": "under_maintenance",
-          "created_at": "2023-02-22T17:38:11.777Z",
-          "updated_at": "2026-08-27T05:30:13.219Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": "2023-02-22",
-          "group_id": "fdg768pfw7v3",
-          "page_id": "w4cz49tckxhp",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2026-08-27T05:30:00.000Z",
-      "scheduled_until": "2026-08-27T08:30:00.000Z"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
